@@ -44,19 +44,39 @@ header .s{font-size:15px;font-weight:600;letter-spacing:.14em;text-transform:upp
 table{width:100%;border-collapse:separate;border-spacing:0 6px;font-size:17px}
 th{font-size:12px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;text-align:center;padding:0 6px 2px;opacity:.95}
 th.l,td.l{text-align:left}
-td{background:var(--card);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:8px 6px;text-align:center;font-weight:600}
+td{white-space:nowrap;background:var(--card);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:8px 6px;text-align:center;font-weight:600}
 td:first-child{border-left:1px solid var(--line);border-radius:14px 0 0 14px;padding-left:10px}
 td:last-child{border-right:1px solid var(--line);border-radius:0 14px 14px 0;padding-right:10px}
 .pos{display:inline-flex;width:30px;height:26px;border-radius:8px;background:#fff;color:var(--ink);align-items:center;justify-content:center;font-weight:700;font-size:15px}
 .hl{display:inline-block;min-width:40px;background:#fff;color:var(--ink);border-radius:9px;padding:1px 8px;font-weight:700}
-.team{display:flex;align-items:center;gap:10px;font-weight:700}
+.team{display:flex;align-items:center;gap:10px;font-weight:700}.sm{display:none}td.nm,.tnm{white-space:normal}
 .club{display:block;font-size:12px;font-weight:500;opacity:.85}
 .tgrid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
 .tb h3{display:flex;align-items:center;gap:10px;background:#fff;color:var(--ink);border-radius:16px;padding:8px 12px;font-size:19px}
 .tb table{font-size:15px}
+  .leg{font-size:14px;font-weight:500;margin:-4px 0 12px;opacity:.95}
+.pinfo{font-size:15px;font-weight:600;margin:-4px 0 12px}
+.mh .vs{background:var(--ink);color:#fff;border-radius:999px;padding:6px 14px;font-size:16px;white-space:nowrap}
+.when{grid-column:1/-1;text-align:center;font-size:14px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;opacity:.85}
+.nolu{padding:12px;text-align:center;font-weight:600;opacity:.95}
+.m.up .rows{display:grid}
+.m.up .r{grid-template-columns:1fr 60px 1fr}
 footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px;margin-top:14px;font-size:13px;opacity:.95}
 footer a{color:#fff;font-weight:600}
 @media (max-width:760px){
+ .tabs{display:grid;grid-template-columns:1fr 1fr;gap:6px}.tabs button{padding:8px 6px}
+ .lg{display:none}.sm{display:inline}
+ table{font-size:13px;border-spacing:0 5px}
+ th{font-size:11px;padding:0 3px 2px;letter-spacing:.04em}
+ td{padding:7px 3px}
+ td:first-child{padding-left:6px;border-radius:12px 0 0 12px}td:last-child{padding-right:6px;border-radius:0 12px 12px 0}
+ .pos{width:24px;height:22px;font-size:12px;border-radius:6px}
+ .hl{min-width:30px;padding:1px 5px;border-radius:7px}
+ .team{gap:6px}.team .logo{--sz:24px!important}
+ .tb .pc{display:none}.tb td.nm{padding-left:10px;border-left:1px solid var(--line);border-radius:12px 0 0 12px}
+ .tb table{font-size:13px}.tb h3{font-size:17px}
+ .club{font-size:11px}
+
  .r{grid-template-columns:1fr 100px 1fr;font-size:13px;padding:6px 8px}.r .gs{font-size:11px}
  .edb{padding:18px 12px 14px;border-radius:20px}
  header img{height:40px} header h1{font-size:22px} header .s{font-size:12px}
@@ -77,11 +97,13 @@ footer a{color:#fff;font-weight:600}
  </header>
  <div class="tabs" role="tablist">
   <button role="tab" data-p="uitslagen" aria-selected="true">Uitslagen</button>
+  <button role="tab" data-p="programma" aria-selected="false">Programma</button>
   <button role="tab" data-p="stand" aria-selected="false">Stand</button>
   <button role="tab" data-p="top10" aria-selected="false">Top 10 spelers</button>
   <button role="tab" data-p="teams" aria-selected="false">Stats per team</button>
  </div>
  <section class="panel on" id="uitslagen"></section>
+ <section class="panel" id="programma"></section>
  <section class="panel" id="stand"></section>
  <section class="panel" id="top10"></section>
  <section class="panel" id="teams"></section>
@@ -1398,7 +1420,37 @@ const INLINE={
     }
    ]
   }
- ]
+ ],
+ "programma": {
+  "round": "Speelronde 4",
+  "date": "10 & 11 oktober 2026",
+  "matches": [
+   {
+    "home": "BC Drop Shot",
+    "away": "BC Duinwijck",
+    "when": "za 10 okt · 18:30",
+    "rows": []
+   },
+   {
+    "home": "Dunlop DKC",
+    "away": "PK Keukens Roosterse",
+    "when": "za 10 okt · 19:00",
+    "rows": []
+   },
+   {
+    "home": "2dA Smashing",
+    "away": "Decorette Amersfoort",
+    "when": "za 10 okt · 19:00",
+    "rows": []
+   },
+   {
+    "home": "FIT Almere",
+    "away": "Velo Badminton",
+    "when": "zo 11 okt · 14:00",
+    "rows": []
+   }
+  ]
+ }
 };
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const logo=(n,sz)=>LOGOS[n]?`<span class="logo" style="--sz:${sz||40}px"><img src="${LOGOS[n]}" alt=""></span>`:'';
@@ -1408,12 +1460,22 @@ function render(D){
  document.getElementById('uitslagen').innerHTML=D.matches.map((m,i)=>{
   const rows=m.rows.map(r=>`<div class="r"><div class="p hp ${r.winner==='home'?'w':''}">${r.home.map(esc).join('<br>')}</div><div class="mid"><span class="code">${esc(r.code)}</span><div class="gs">${esc(r.score||'')}</div></div><div class="p ${r.winner==='away'?'w':''}">${r.away.map(esc).join('<br>')}</div></div>`).join('');
   return `<div class="m${i===0?' open':''}"><button class="mh" aria-expanded="${i===0}"><span class="h">${esc(m.home)}${logo(m.home,36)}</span><span class="sc">${m.hs} – ${m.as}</span><span class="a">${logo(m.away,36)}${esc(m.away)}</span><span class="chev">details</span></button><div class="rows">${rows}</div></div>`;}).join('');
- document.getElementById('stand').innerHTML=`<table><thead><tr><th>#</th><th class="l">Team</th><th>Punten</th><th>Gesp.</th><th class="hide-m">W</th><th class="hide-m">G</th><th class="hide-m">V</th><th>Wedstr.</th><th class="hide-m">Games</th></tr></thead><tbody>${
-  D.stand.map(r=>`<tr><td><span class="pos">${r.pos}</span></td><td class="l"><span class="team">${logo(r.team,30)}${esc(r.team)}</span></td><td><span class="hl">${r.pts}</span></td><td>${r.gp}</td><td class="hide-m">${r.w}</td><td class="hide-m">${r.g}</td><td class="hide-m">${r.v}</td><td>${esc(r.wed)}</td><td class="hide-m">${esc(r.games)}</td></tr>`).join('')}</tbody></table>`;
- document.getElementById('top10').innerHTML=`<table><thead><tr><th>#</th><th class="l">Speler</th><th>Gewonnen</th><th>Gespeeld</th><th class="hide-m">Games</th><th class="hide-m">Punten</th></tr></thead><tbody>${
+
+ const P=D.programma;
+ const pe=document.getElementById('programma');
+ const tabP=document.querySelector('button[data-p=programma]');
+ if(!P||!P.matches||!P.matches.length){tabP.style.display='none';pe.innerHTML='';}
+ else{tabP.style.display='';
+  pe.innerHTML=`<p class="pinfo">${esc(P.round)} · ${esc(P.date)}</p>`+P.matches.map(m=>{
+   const has=m.rows&&m.rows.length&&m.rows.some(r=>r.home&&r.home.length);
+   const rows=has?m.rows.map(r=>`<div class="r"><div class="p hp w">${(r.home||[]).map(esc).join('<br>')}</div><div class="mid"><span class="code">${esc(r.code)}</span></div><div class="p w">${(r.away||[]).map(esc).join('<br>')}</div></div>`).join(''):`<div class="nolu">Opstelling volgt</div>`;
+   return `<div class="m up"><div class="mh" style="cursor:default"><span class="h">${esc(m.home)}${logo(m.home,36)}</span><span class="vs">VS</span><span class="a">${logo(m.away,36)}${esc(m.away)}</span><span class="when">${esc(m.when||'')}</span></div><div class="rows" style="${has?'':'grid-template-columns:1fr'}">${rows}</div></div>`;}).join('');}
+ document.getElementById('stand').innerHTML=`<table><thead><tr><th>#</th><th class="l">Team</th><th><span class="lg">Punten</span><span class="sm">Pnt</span></th><th><span class="lg">Gesp.</span><span class="sm">Gs</span></th><th class="hide-m">W</th><th class="hide-m">G</th><th class="hide-m">V</th><th><span class="lg">Wedstr.</span><span class="sm">Wed.</span></th><th class="hide-m">Games</th></tr></thead><tbody>${
+  D.stand.map(r=>`<tr><td><span class="pos">${r.pos}</span></td><td class="l"><span class="team">${logo(r.team,30)}<span class="tnm">${esc(r.team)}</span></span></td><td><span class="hl">${r.pts}</span></td><td>${r.gp}</td><td class="hide-m">${r.w}</td><td class="hide-m">${r.g}</td><td class="hide-m">${r.v}</td><td>${esc(r.wed)}</td><td class="hide-m">${esc(r.games)}</td></tr>`).join('')}</tbody></table>`;
+ document.getElementById('top10').innerHTML=`<table><thead><tr><th>#</th><th class="l">Speler</th><th><span class="lg">Gewonnen</span><span class="sm">Gew.</span></th><th><span class="lg">Gespeeld</span><span class="sm">Gesp.</span></th><th class="hide-m">Games</th><th class="hide-m">Punten</th></tr></thead><tbody>${
   D.top10.map(r=>`<tr><td><span class="pos">${r.pos}</span></td><td class="l">${esc(r.speler)}<span class="club">${esc(r.club)}</span></td><td><span class="hl">${r.w}</span></td><td>${r.gp}</td><td class="hide-m">${esc(r.games)}</td><td class="hide-m">${esc(r.punten)}</td></tr>`).join('')}</tbody></table>`;
- document.getElementById('teams').innerHTML=`<div class="tgrid">${D.teams.map(t=>`<div class="tb"><h3>${logo(t.team,32)}${esc(t.team)}</h3><table><thead><tr><th>#</th><th class="l">Speler</th><th>Enkel</th><th>Dubbel</th><th>Mix</th><th>Totaal</th></tr></thead><tbody>${
-  t.rows.map(r=>`<tr><td><span class="pos">${r.pos}</span></td><td class="l">${esc(r.speler)}</td><td>${esc(r.e)}</td><td>${esc(r.d)}</td><td>${esc(r.m)}</td><td><span class="hl">${esc(r.tot)}</span></td></tr>`).join('')}</tbody></table></div>`).join('')}</div>`;
+ document.getElementById('teams').innerHTML=`<p class="leg">Per speler gewonnen – verloren partijen. <span class="sm">E = enkel · D = dubbel · M = mix</span></p><div class="tgrid">${D.teams.map(t=>`<div class="tb"><h3>${logo(t.team,32)}${esc(t.team)}</h3><table><thead><tr><th class="pc">#</th><th class="l">Speler</th><th><span class="lg">Enkel</span><span class="sm">E</span></th><th><span class="lg">Dubbel</span><span class="sm">D</span></th><th><span class="lg">Mix</span><span class="sm">M</span></th><th><span class="lg">Totaal</span><span class="sm">Tot</span></th></tr></thead><tbody>${
+  t.rows.map(r=>`<tr><td class="pc"><span class="pos">${r.pos}</span></td><td class="l nm">${esc(r.speler)}</td><td>${esc(r.e)}</td><td>${esc(r.d)}</td><td>${esc(r.m)}</td><td><span class="hl">${esc(r.tot)}</span></td></tr>`).join('')}</tbody></table></div>`).join('')}</div>`;
  document.querySelectorAll('.mh').forEach(b=>b.onclick=()=>{const m=b.parentElement;m.classList.toggle('open');b.setAttribute('aria-expanded',m.classList.contains('open'));sendH();});
  sendH();
 }

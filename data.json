@@ -1307,5 +1307,35 @@
     }
    ]
   }
- ]
+ ],
+ "programma": {
+  "round": "Speelronde 4",
+  "date": "10 & 11 oktober 2026",
+  "matches": [
+   {
+    "home": "BC Drop Shot",
+    "away": "BC Duinwijck",
+    "when": "za 10 okt · 18:30",
+    "rows": []
+   },
+   {
+    "home": "Dunlop DKC",
+    "away": "PK Keukens Roosterse",
+    "when": "za 10 okt · 19:00",
+    "rows": []
+   },
+   {
+    "home": "2dA Smashing",
+    "away": "Decorette Amersfoort",
+    "when": "za 10 okt · 19:00",
+    "rows": []
+   },
+   {
+    "home": "FIT Almere",
+    "away": "Velo Badminton",
+    "when": "zo 11 okt · 14:00",
+    "rows": []
+   }
+  ]
+ }
 }
