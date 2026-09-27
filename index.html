@@ -106,6 +106,12 @@ td:last-child{border-right:1px solid var(--line);border-radius:0 14px 14px 0;pad
 .gi b{display:block;font-size:16px;color:var(--ink)}.gi small{display:block;font-size:12px;font-weight:500;opacity:.8}
 .gi .logo{box-shadow:inset 0 0 0 1px #f0d6c6}
 .gi.none{cursor:default;font-weight:500;opacity:.8}
+.av{flex:none;width:var(--sz);height:var(--sz);border-radius:50%;overflow:hidden;background:#fdeee4;box-shadow:0 0 0 3px #fff,0 4px 12px rgba(120,30,0,.25);display:inline-block;vertical-align:middle}
+.av img{width:100%;height:100%;object-fit:cover;display:block}
+.ch .av{box-shadow:0 0 0 4px #fff,0 0 0 7px var(--ink),0 8px 20px rgba(120,30,0,.3)}
+.cpn{display:flex;align-items:center;gap:8px;min-width:0}
+td .cpn .av{box-shadow:0 0 0 2px #fff}
+.cp .cpn .av{box-shadow:0 0 0 2px #f6e3d6}
 footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px;margin-top:14px;font-size:13px;opacity:.95}
 footer a{color:#fff;font-weight:600}
 @media (max-width:760px){
@@ -3600,9 +3606,23 @@ const INLINE={
   "Mees Janssen": 5077,
   "Mandy Duijndam": 5156,
   "Anouk van Wijk": 4752
+ },
+ "photos": {
+  "Adith Karthikeyan Priya": "fotos/adith-karthikeyan-priya.jpg",
+  "Alyssa Tirtosentono": "fotos/alyssa-tirtosentono.jpg",
+  "Aram Mahmoud": "fotos/aram-mahmoud.jpg",
+  "Brian Wassink": "fotos/brian-wassink.jpg",
+  "Chloë Mayer": "fotos/chloe-mayer.jpg",
+  "Debora Jille": "fotos/debora-jille.jpg",
+  "Meerte Loos": "fotos/meerte-loos.jpg",
+  "Mette Kool": "fotos/mette-kool.jpg",
+  "Novi Wieland": "fotos/novi-wieland.jpg",
+  "Ties van der Lecq": "fotos/ties-van-der-lecq.jpg",
+  "Timo Stoffelen": "fotos/timo-stoffelen.jpg"
  }
 };
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const av=(n,sz,club)=>{const p=DATA&&DATA.photos&&DATA.photos[n];return p?`<span class="av" style="--sz:${sz}px"><img src="${esc(p)}" alt="" loading="lazy"></span>`:(club!==undefined?logo(club,sz):'');};
 const pn=n=>`<span class="pl" role="button" tabindex="0" data-n="${esc(n)}">${esc(n)}</span>`;
 const logo=(n,sz)=>LOGOS[n]?`<span class="logo" style="--sz:${sz||40}px"><img src="${LOGOS[n]}" alt=""></span>`:'';
 function render(D){
@@ -3630,7 +3650,7 @@ function render(D){
  const drawP=()=>{const q=document.getElementById('pq').value.trim().toLowerCase(),c=document.getElementById('pc').value;
   const L=PL.filter(r=>(!c||r.club===c)&&(!q||r.speler.toLowerCase().includes(q)));
   document.getElementById('pn').textContent=`${L.length} van ${PL.length} spelers · gesorteerd op ranking`;
-  document.getElementById('pb').innerHTML=L.map(r=>`<tr><td><span class="pos">${r.pos}</span></td><td class="l nm">${pn(r.speler)}<span class="club">${esc(r.club)}</span></td><td><span class="hl">${r.w}</span></td><td>${r.gp}</td><td class="hide-m">${esc(r.games)}</td><td class="hide-m">${esc(r.punten)}</td></tr>`).join('')||'<tr><td colspan="6">Geen spelers gevonden</td></tr>';
+  document.getElementById('pb').innerHTML=L.map(r=>`<tr><td><span class="pos">${r.pos}</span></td><td class="l nm"><span class="cpn">${av(r.speler,30)}<span>${pn(r.speler)}<span class="club">${esc(r.club)}</span></span></span></td><td><span class="hl">${r.w}</span></td><td>${r.gp}</td><td class="hide-m">${esc(r.games)}</td><td class="hide-m">${esc(r.punten)}</td></tr>`).join('')||'<tr><td colspan="6">Geen spelers gevonden</td></tr>';
   sendH();};
  document.getElementById('pq').oninput=drawP;document.getElementById('pc').onchange=drawP;drawP();
  document.getElementById('teams').innerHTML=`<p class="leg">Per speler gewonnen – verloren partijen. <span class="sm">E = enkel · D = dubbel · M = mix</span></p><div class="tgrid">${D.teams.map(t=>`<div class="tb"><h3>${logo(t.team,32)}<span class="tm" role="button" tabindex="0" data-t="${esc(t.team)}">${esc(t.team)}</span></h3><table><thead><tr><th class="pc">#</th><th class="l">Speler</th><th><span class="lg">Enkel</span><span class="sm">E</span></th><th><span class="lg">Dubbel</span><span class="sm">D</span></th><th><span class="lg">Mix</span><span class="sm">M</span></th><th><span class="lg">Totaal</span><span class="sm">Tot</span></th></tr></thead><tbody>${
@@ -3658,7 +3678,7 @@ function card(n,el,back){
   if(games.length) blocks.push(`<div class="cl2">${esc(R.round)}${R.date?' · '+esc(R.date):''}</div>${games.join('')}`);});
  const pid=(D.ids||{})[n];
  const box=document.getElementById('pcard');
- box.innerHTML=`<button class="cx" aria-label="Sluiten">×</button>${back?`<button class="cback" data-t="${esc(back)}">← ${esc(back)}</button>`:''}<div class="ch">${logo(s.club||'',44)}<div><div class="cn">${esc(n)}</div><div class="cc">${esc(s.club||'')}${s.pos?` · #${s.pos} in de competitie`:''}</div></div></div>
+ box.innerHTML=`<button class="cx" aria-label="Sluiten">×</button>${back?`<button class="cback" data-t="${esc(back)}">← ${esc(back)}</button>`:''}<div class="ch">${av(n,96,s.club||'')}<div><div class="cn">${esc(n)}</div><div class="cc">${esc(s.club||'')}${s.pos?` · #${s.pos} in de competitie`:''}</div></div></div>
  <div class="cs"><div><b>${s.w??'–'}/${s.gp??'–'}</b><span>gewonnen</span></div><div><b>${esc(s.games||'–')}</b><span>games</span></div><div><b>${esc(s.punten||'–')}</b><span>punten</span></div></div>
  ${tr?`<div class="cs cs3"><div><b>${esc(tr.e)}</b><span>enkel</span></div><div><b>${esc(tr.d)}</b><span>dubbel</span></div><div><b>${esc(tr.m)}</b><span>mix</span></div></div>`:''}
  ${blocks.length?`<div class="csep">Alle wedstrijden dit seizoen</div>${blocks.join('')}`:'<div class="nolu" style="color:#3a1a0c">Nog geen wedstrijden gespeeld</div>'}
@@ -3687,7 +3707,7 @@ function clubCard(team,el){
  const st=(D.stand||[]).find(r=>r.team===team)||{};
  const T=(D.teams||[]).find(t=>t.team===team);
  const box=document.getElementById('pcard');
- const rows=T?T.rows.map(r=>`<div class="cp"><span class="pos">${r.pos}</span><span class="pl" role="button" tabindex="0" data-n="${esc(r.speler)}" data-back="${esc(team)}">${esc(r.speler)}</span><span class="cpe">${esc(r.e)}</span><span class="cpe">${esc(r.d)}</span><span class="cpe">${esc(r.m)}</span><b class="hl">${esc(r.tot)}</b></div>`).join(''):'<div class="nolu">Nog geen spelers</div>';
+ const rows=T?T.rows.map(r=>`<div class="cp"><span class="pos">${r.pos}</span><span class="cpn">${av(r.speler,28)}<span class="pl" role="button" tabindex="0" data-n="${esc(r.speler)}" data-back="${esc(team)}">${esc(r.speler)}</span></span><span class="cpe">${esc(r.e)}</span><span class="cpe">${esc(r.d)}</span><span class="cpe">${esc(r.m)}</span><b class="hl">${esc(r.tot)}</b></div>`).join(''):'<div class="nolu">Nog geen spelers</div>';
  box.innerHTML=`<button class="cx" aria-label="Sluiten">×</button><div class="ch">${logo(team,48)}<div><div class="cn">${esc(team)}</div><div class="cc">${st.pos?`#${st.pos} in de stand · ${st.pts} punten`:''}</div></div></div>
  <div class="cs"><div><b>${st.w??'–'}-${st.g??'–'}-${st.v??'–'}</b><span>W-G-V</span></div><div><b>${esc(st.wed||'–')}</b><span>partijen</span></div><div><b>${esc(st.games||'–')}</b><span>games</span></div></div>
  <div class="cl2">Spelers · tik op een naam</div><div class="cph"><span></span><span>Speler</span><span>E</span><span>D</span><span>M</span><span>Tot</span></div>${rows}`;
@@ -3703,7 +3723,7 @@ function initSearch(){
   const D=DATA; const pl=(D.spelers||D.top10||[]).filter(r=>norm(r.speler).includes(v)).slice(0,8);
   const cl=(D.stand||[]).filter(r=>norm(r.team).includes(v)).slice(0,3);
   gl.innerHTML=cl.map(r=>`<button class="gi" data-t="${esc(r.team)}">${logo(r.team,26)}<span><b>${esc(r.team)}</b><small>Club · #${r.pos} in de stand</small></span></button>`).join('')+
-   pl.map(r=>`<button class="gi" data-n="${esc(r.speler)}">${logo(r.club,26)}<span><b>${esc(r.speler)}</b><small>${esc(r.club)} · ${r.w}/${r.gp} gewonnen</small></span></button>`).join('')||'<div class="gi none">Geen speler of club gevonden</div>';
+   pl.map(r=>`<button class="gi" data-n="${esc(r.speler)}">${av(r.speler,34,r.club)}<span><b>${esc(r.speler)}</b><small>${esc(r.club)} · ${r.w}/${r.gp} gewonnen</small></span></button>`).join('')||'<div class="gi none">Geen speler of club gevonden</div>';
   gl.hidden=false; sendH();};
  q.addEventListener('input',show); q.addEventListener('focus',show);
  q.addEventListener('keydown',e=>{if(e.key==='Enter'){const f=gl.querySelector('.gi[data-n],.gi[data-t]'); if(f){e.preventDefault();f.click();}} if(e.key==='Escape'){gl.hidden=true;q.blur();}});
