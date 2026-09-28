@@ -245,13 +245,13 @@ window.OS_APP_ID='f401828b-e3c3-47cc-94ea-a37dfeab96e2';
    let body;
    if(ios&&!standalone) body=`<h2>Meldingen</h2><p>Op de iPhone werken meldingen alleen als de app op je beginscherm staat. Tik onderin Safari op <b>Deel</b> en kies <b>Zet op beginscherm</b>. Open daarna de app en tik weer op het belletje.</p><button class="go x">Sluiten</button>`;
    else if(!osReady()) body=`<h2>Meldingen</h2><p>Pushmeldingen komen er binnenkort aan. Je krijgt dan een melding bij elke uitslag, opstelling en de MVP's van de week.</p><button class="go x">Sluiten</button>`;
-   else{const t=tags();const perm=window.OneSignal&&OneSignal.Notifications&&OneSignal.Notifications.permission;
+   else{const t=tags();const perm=window.OneSignal&&OneSignal.User&&OneSignal.User.PushSubscription&&OneSignal.User.PushSubscription.optedIn;
     body=`<h2>Meldingen</h2><p>${perm?'Kies waarvoor je een melding wilt krijgen.':'Zet meldingen aan en mis geen uitslag meer.'}</p>
     ${T.map(([k,l,s])=>`<label class="opt"><span>${l}<small>${s}</small></span><input type="checkbox" class="sw" data-k="${k}" ${t[k]?'checked':''}></label>`).join('')}
     ${perm?'':'<button class="go on">Meldingen aanzetten</button>'}<button class="go x">Klaar</button>`;}
    sh.innerHTML='<div>'+body+'</div>';sh.hidden=false;
    sh.querySelectorAll('.sw').forEach(c=>c.onchange=()=>{const t=tags();t[c.dataset.k]=c.checked?1:0;saveTags(t);});
-   const on=sh.querySelector('.go.on');if(on)on.onclick=async()=>{try{await OneSignal.Notifications.requestPermission();saveTags(tags());bell.classList.toggle('on',!!OneSignal.Notifications.permission);}catch(e){}open();};
+   const on=sh.querySelector('.go.on');if(on)on.onclick=async()=>{try{await OneSignal.User.PushSubscription.optIn();saveTags(tags());bell.classList.toggle('on',!!OneSignal.Notifications.permission);}catch(e){}open();};
    sh.querySelector('.go.x').onclick=()=>sh.hidden=true;
   }
   bell.onclick=open;sh.addEventListener('click',e=>{if(e.target===sh)sh.hidden=true;});
@@ -269,7 +269,11 @@ window.OS_APP_ID='f401828b-e3c3-47cc-94ea-a37dfeab96e2';
   const s=document.createElement('script');s.src='https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js';s.defer=true;document.head.appendChild(s);
   window.OneSignalDeferred=window.OneSignalDeferred||[];
   OneSignalDeferred.push(async OS=>{await OS.init({appId:window.OS_APP_ID,serviceWorkerPath:'eredivisiebadminton-widget/sw.js',serviceWorkerParam:{scope:'/eredivisiebadminton-widget/'},allowLocalhostAsSecureOrigin:true});
-   window.OneSignal=OS;document.querySelector('.appbtn')&&document.querySelector('.appbtn').classList.toggle('on',!!OS.Notifications.permission);});
+   window.OneSignal=OS;
+   try{ if(OS.Notifications.permission && !OS.User.PushSubscription.optedIn) await OS.User.PushSubscription.optIn(); }catch(e){console.warn('optIn',e)}
+   try{ const t=JSON.parse(localStorage.getItem('edb_tags')||'{"uitslag":1,"opstelling":1,"mvp":1}'); OS.User.addTags(Object.fromEntries(Object.entries(t).map(([k,v])=>[k,v?'1':'0']))); }catch(e){}
+   const b=document.querySelector('.appbtn'); if(b) b.classList.toggle('on',!!OS.User.PushSubscription.optedIn);
+   window.__osReady=1;});
  }
 })();
 </script>
