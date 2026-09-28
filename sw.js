@@ -1,6 +1,6 @@
 // Service worker Eredivisie Badminton app: app werkt ook bij slecht bereik, data altijd zo vers mogelijk.
-// __ONESIGNAL__
-const C = 'edb-v1';
+importScripts("https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.sw.js");
+const C = 'edb-v2';
 const SHELL = ['app.html', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(C).then(c => c.addAll(SHELL))); self.skipWaiting(); });
 self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== C).map(k => caches.delete(k))))); self.clients.claim(); });
