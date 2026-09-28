@@ -79,7 +79,7 @@ td:last-child{border-right:1px solid var(--line);border-radius:0 14px 14px 0;pad
 .cs3 div{background:#fdeee4;color:var(--ink)}
 .cl2{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;margin:10px 0 6px;color:var(--ink)}
 .cg{display:flex;align-items:center;gap:10px;padding:7px 0;border-top:1px solid #f3dccd;font-size:14px;font-weight:500}
-.cg .code{background:var(--ink);color:#fff}
+.cg .code{background:var(--ink);color:#fff;border-radius:8px;padding:1px 7px;font-weight:700;font-size:13px}
 .cg .ct{flex:1;line-height:1.3}.cg .gs{font-size:12px;opacity:.75}
 .cg b{width:28px;height:28px;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#fff}
 .cw{background:#2e9e5b}.cl{background:#b8b0aa}
@@ -141,6 +141,18 @@ td .cpn .av{box-shadow:0 0 0 2px #fff}
 .mvcat .pl{text-decoration-color:rgba(255,255,255,.45)}
 .mvleg{font-size:13px;font-weight:500;opacity:.9;margin-top:12px}
 .mvvl{background:#fff;color:var(--ink);border-radius:999px;padding:3px 10px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+/* h2h */
+.h2hb{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;margin:4px 0 6px;border:0;border-radius:999px;padding:10px;background:#3a1a0c;color:#fff;font:inherit;font-weight:700;font-size:15px;letter-spacing:.06em;cursor:pointer}
+.h2hb:hover{background:#5a2a14}
+.h2hsel{display:grid;grid-template-columns:auto 1fr;gap:8px 10px;align-items:center;margin:8px 0 12px;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ink)}
+.h2hsel select{font:inherit;font-size:15px;font-weight:600;text-transform:none;letter-spacing:0;border:2px solid #f3dccd;border-radius:12px;padding:7px 10px;background:#fff;color:#3a1a0c;width:100%}
+.h2hvs{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:8px;background:linear-gradient(135deg,var(--o1),var(--o3));color:#fff;border-radius:18px;padding:14px 10px;text-align:center}
+.h2hvs .sd{display:flex;flex-direction:column;align-items:center;gap:6px;font-weight:700;font-size:14px;line-height:1.2}
+.h2hvs .avs{display:flex}.h2hvs .avs .av+.av{margin-left:-14px}
+.h2hvs .av{box-shadow:0 0 0 3px #fff}
+.h2hvs .big{font-size:34px;font-weight:700;line-height:1}.h2hvs .big small{display:block;font-size:11px;letter-spacing:.1em;opacity:.95;margin-top:4px}
+.h2hvs .pl{color:#fff;text-decoration-color:rgba(255,255,255,.5)}
+.h2hempty{padding:14px;text-align:center;font-weight:500;opacity:.8}
 footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px;margin-top:14px;font-size:13px;opacity:.95}
 footer a{color:#fff;font-weight:600}
 @media (max-width:760px){
@@ -5262,9 +5274,49 @@ function card(n,el,back){
  box.innerHTML=`<button class="cx" aria-label="Sluiten">×</button>${back?`<button class="cback" data-t="${esc(back)}">← ${esc(back)}</button>`:''}<div class="ch">${av(n,96,s.club||'')}<div><div class="cn">${esc(n)}</div><div class="cc">${esc(s.club||'')}${s.pos?` · #${s.pos} in de competitie`:''}</div></div></div>
  <div class="cs"><div><b>${s.w??'–'}/${s.gp??'–'}</b><span>gewonnen</span></div><div><b>${esc(s.games||'–')}</b><span>games</span></div><div><b>${esc(s.punten||'–')}</b><span>punten</span></div></div>
  ${tr?`<div class="cs cs3"><div><b>${esc(tr.e)}</b><span>enkel</span></div><div><b>${esc(tr.d)}</b><span>dubbel</span></div><div><b>${esc(tr.m)}</b><span>mix</span></div></div>`:''}
+ ${blocks.length?`<button class="h2hb" data-h2h="${esc(n)}">⚔ HEAD TO HEAD (H2H)</button>`:''}
  ${blocks.length?`<div class="csep">Alle wedstrijden dit seizoen</div>${blocks.join('')}`:'<div class="nolu" style="color:#3a1a0c">Nog geen wedstrijden gespeeld</div>'}
 `;
  placeCard(box,el);
+}
+
+function rubbersOf(n){
+ const out=[]; (DATA.seizoen||[]).forEach(R=>(R.matches||[]).forEach(m=>m.rows.forEach(r=>{
+  const side=(r.home||[]).includes(n)?'home':(r.away||[]).includes(n)?'away':null; if(!side||!r.winner) return;
+  const oth=side==='home'?'away':'home';
+  const g=[...(r.score||'').matchAll(/(\d+)-(\d+)/g)].map(x=>side==='home'?[+x[1],+x[2]]:[+x[2],+x[1]]);
+  out.push({R:R.round,date:R.date,code:r.code,partner:(r[side]||[]).find(x=>x!==n)||null,opp:r[oth]||[],won:r.winner===side,g,opg:/opgave/.test(r.score||''),
+   club:side==='home'?m.home:m.away,oclub:side==='home'?m.away:m.home});})));
+ return out;
+}
+function h2h(n,el,sel){
+ const all=rubbersOf(n); sel=sel||{met:'*',tegen:''};
+ const partners=[...new Set(all.filter(x=>x.partner).map(x=>x.partner))].sort();
+ const pool=all.filter(x=>sel.met==='*'||(sel.met==='-'?!x.partner:x.partner===sel.met));
+ const opps=[...new Set(pool.flatMap(x=>x.opp))].sort();
+ if(!opps.includes(sel.tegen)) sel.tegen=opps[0]||'';
+ const L=pool.filter(x=>x.opp.includes(sel.tegen));
+ let W=0,gw=0,gl=0,pw=0,pl=0; L.forEach(x=>{W+=x.won; if(!x.opg) x.g.forEach(([a,b])=>{pw+=a;pl+=b;gw+=a>b;gl+=b>a;});});
+ const club=(DATA.spelers||[]).find(r=>r.speler===n)?.club||'', oc=(DATA.spelers||[]).find(r=>r.speler===sel.tegen)?.club||'';
+ const opt=(v,t,cur)=>`<option value="${esc(v)}"${v===cur?' selected':''}>${esc(t)}</option>`;
+ const mine=[n].concat(sel.met!=='*'&&sel.met!=='-'?[sel.met]:[]);
+ const oppPartners=[...new Set(L.flatMap(x=>x.opp.filter(o=>o!==sel.tegen)))];
+ const box=document.getElementById('pcard');
+ box.innerHTML=`<button class="cx" aria-label="Sluiten">×</button><button class="cback" data-back-n="${esc(n)}">← ${esc(n)}</button>
+ <div class="cn" style="margin-bottom:2px">Head to head</div><div class="cc">Kies met wie en tegen wie</div>
+ <div class="h2hsel"><span>Met</span><select id="h2met">${opt('*','Alle partijen',sel.met)}${all.some(x=>!x.partner)?opt('-','Alleen (enkel)',sel.met):''}${partners.map(p=>opt(p,'met '+p,sel.met)).join('')}</select>
+ <span>Tegen</span><select id="h2teg">${opps.map(o=>opt(o,o,sel.tegen)).join('')||'<option>–</option>'}</select></div>
+ ${L.length?`<div class="h2hvs"><div class="sd"><span class="avs">${mine.map(x=>av(x,52,club)).join('')}</span><span>${mine.map(pn).join('<br>')}</span></div>
+  <div class="big">${W} – ${L.length-W}<small>PARTIJEN</small></div>
+  <div class="sd"><span class="avs">${av(sel.tegen,52,oc)}</span><span>${pn(sel.tegen)}${oppPartners.length?`<br><small style="font-weight:500;font-size:12px">met ${oppPartners.map(esc).join(' / ')}</small>`:''}</span></div></div>
+  <div class="cs cs3" style="margin-top:10px"><div><b>${W}/${L.length}</b><span>gewonnen</span></div><div><b>${gw} – ${gl}</b><span>games</span></div><div><b>${pw} – ${pl}</b><span>punten</span></div></div>
+  <div class="cl2">Onderlinge partijen</div>${L.map(x=>`<div class="cg"><span class="code">${esc(x.code)}</span><div class="ct">${x.partner?'met '+pn(x.partner)+' · ':''}tegen ${x.opp.map(pn).join(' / ')}<div class="gs">${esc(x.R)}${x.date?' · '+esc(x.date):''} · ${x.g.map(a=>a.join('-')).join(' ')}${x.opg?' (opgave)':''}</div></div><b class="${x.won?'cw':'cl'}">${x.won?'W':'V'}</b></div>`).join('')}`
+  :'<div class="h2hempty">Nog geen onderlinge partijen</div>'}`;
+ placeCard(box,el);
+ const upd=()=>h2h(n,box,{met:document.getElementById('h2met').value,tegen:document.getElementById('h2teg').value});
+ document.getElementById('h2met').onchange=()=>h2h(n,box,{met:document.getElementById('h2met').value,tegen:''});
+ document.getElementById('h2teg').onchange=upd;
+ box.querySelector('[data-back-n]').onclick=ev=>{ev.stopPropagation();card(n,box);};
 }
 function closeCard(){const b=document.getElementById('pcard');b.hidden=true;document.getElementById('edb').style.minHeight='';sendH();}
 function placeCard(box,el){
@@ -5294,7 +5346,7 @@ function clubCard(team,el){
  <div class="cl2">Spelers · tik op een naam</div><div class="cph"><span></span><span>Speler</span><span>E</span><span>D</span><span>M</span><span>Tot</span></div>${rows}`;
  placeCard(box,el);
 }
-document.addEventListener('click',ev=>{const tm=ev.target.closest('.tm'); if(tm){ev.stopPropagation();clubCard(tm.dataset.t,tm);return;} const p=ev.target.closest('.pl'); if(p){ev.stopPropagation();card(p.dataset.n,p,p.dataset.back||(p.closest('#pcard')?document.querySelector('#pcard .cback')?.dataset.t:undefined));return;} const b=document.getElementById('pcard'); if(!b.hidden&&!ev.target.closest('#pcard')) closeCard();});
+document.addEventListener('click',ev=>{const hb=ev.target.closest('.h2hb'); if(hb){ev.stopPropagation();h2h(hb.dataset.h2h,hb);return;} if(ev.target.closest('#pcard select')){ev.stopPropagation();return;} const tm=ev.target.closest('.tm'); if(tm){ev.stopPropagation();clubCard(tm.dataset.t,tm);return;} const p=ev.target.closest('.pl'); if(p){ev.stopPropagation();card(p.dataset.n,p,p.dataset.back||(p.closest('#pcard')?document.querySelector('#pcard .cback')?.dataset.t:undefined));return;} const b=document.getElementById('pcard'); if(!b.hidden&&!ev.target.closest('#pcard')) closeCard();});
 document.addEventListener('keydown',ev=>{if(ev.key==='Escape')closeCard(); if(ev.key==='Enter'&&ev.target.classList){if(ev.target.classList.contains('pl'))card(ev.target.dataset.n,ev.target,ev.target.dataset.back);else if(ev.target.classList.contains('tm'))clubCard(ev.target.dataset.t,ev.target);}});
 
 function initSearch(){
