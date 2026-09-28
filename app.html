@@ -245,13 +245,19 @@ window.OS_APP_ID='f401828b-e3c3-47cc-94ea-a37dfeab96e2';
    let body;
    if(ios&&!standalone) body=`<h2>Meldingen</h2><p>Op de iPhone werken meldingen alleen als de app op je beginscherm staat. Tik onderin Safari op <b>Deel</b> en kies <b>Zet op beginscherm</b>. Open daarna de app en tik weer op het belletje.</p><button class="go x">Sluiten</button>`;
    else if(!osReady()) body=`<h2>Meldingen</h2><p>Pushmeldingen komen er binnenkort aan. Je krijgt dan een melding bij elke uitslag, opstelling en de MVP's van de week.</p><button class="go x">Sluiten</button>`;
-   else{const t=tags();const perm=window.OneSignal&&OneSignal.User&&OneSignal.User.PushSubscription&&OneSignal.User.PushSubscription.optedIn;
-    body=`<h2>Meldingen</h2><p>${perm?'Kies waarvoor je een melding wilt krijgen.':'Zet meldingen aan en mis geen uitslag meer.'}</p>
+   else{const t=tags();const OS=window.__osReady?window.OneSignal:null;
+    const perm=typeof Notification!=='undefined'?Notification.permission:'?';
+    const opted=!!(OS&&OS.User.PushSubscription.optedIn);
+    const sid=OS&&OS.User.PushSubscription.id;
+    const st=!OS?'Verbinding met de meldingendienst nog niet gelukt':opted?'Aangemeld ✓':perm==='denied'?'Meldingen zijn geblokkeerd in je instellingen':'Nog niet aangemeld';
+    body=`<h2>Meldingen</h2><p>${opted?'Kies waarvoor je een melding wilt krijgen.':'Zet meldingen aan en mis geen uitslag meer.'}</p>
     ${T.map(([k,l,s])=>`<label class="opt"><span>${l}<small>${s}</small></span><input type="checkbox" class="sw" data-k="${k}" ${t[k]?'checked':''}></label>`).join('')}
-    ${perm?'':'<button class="go on">Meldingen aanzetten</button>'}<button class="go x">Klaar</button>`;}
+    ${!OS?'<button class="go rl">Opnieuw laden</button>':opted?'':'<button class="go on">Meldingen aanzetten</button>'}<button class="go x">Klaar</button>
+    <p style="font-size:12px;opacity:.6;margin:12px 0 0">Status: ${st} · toestemming: ${perm}${sid?' · id '+String(sid).slice(0,8):''}${window.__osErr?' · fout: '+window.__osErr:''} · app v4</p>`;}
    sh.innerHTML='<div>'+body+'</div>';sh.hidden=false;
    sh.querySelectorAll('.sw').forEach(c=>c.onchange=()=>{const t=tags();t[c.dataset.k]=c.checked?1:0;saveTags(t);});
-   const on=sh.querySelector('.go.on');if(on)on.onclick=async()=>{try{await OneSignal.User.PushSubscription.optIn();saveTags(tags());bell.classList.toggle('on',!!OneSignal.Notifications.permission);}catch(e){}open();};
+   const on=sh.querySelector('.go.on');if(on)on.onclick=async()=>{on.textContent='Bezig…';try{if(Notification.permission!=='granted')await OneSignal.Notifications.requestPermission();await OneSignal.User.PushSubscription.optIn();await new Promise(r=>setTimeout(r,1500));saveTags(tags());bell.classList.toggle('on',!!OneSignal.User.PushSubscription.optedIn);}catch(e){window.__osErr=String(e&&e.message||e);}open();};
+   const rl=sh.querySelector('.go.rl');if(rl)rl.onclick=()=>location.reload();
    sh.querySelector('.go.x').onclick=()=>sh.hidden=true;
   }
   bell.onclick=open;sh.addEventListener('click',e=>{if(e.target===sh)sh.hidden=true;});
