@@ -128,7 +128,7 @@ td .cpn .av{box-shadow:0 0 0 2px #fff}
 .mvr .pl{color:#3a1a0c;text-decoration-color:rgba(233,88,34,.35)}
 .mvalt{grid-column:1/-1;border-top:1px solid #f3dccd;padding-top:10px;font-size:13px;font-weight:500;display:flex;gap:14px;flex-wrap:wrap}
 .mvalt .pl{color:#3a1a0c;text-decoration-color:rgba(233,88,34,.35);font-weight:600}
-.mvgrid{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}.mvcat{grid-column:span 2}.mvcat.e{grid-column:span 3}
+.mvgrid{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}.mvcat{grid-column:span 2}.mvcat.e{grid-column:span 3}.mvcat .mvav .av{--sz:96px!important}
 .mvcat{background:var(--card);border:2px solid var(--line);border-radius:22px;padding:14px;text-align:center}
 .mvcat h4{display:inline-block;background:#fff;color:var(--ink);border-radius:999px;padding:3px 12px;font-size:14px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:12px}
 .mvav{display:flex;justify-content:center;margin-bottom:10px}
@@ -5241,14 +5241,11 @@ function drawMvp(D,i){
  const nm=ns=>ns.map(pn).join(' / ');
  const res=rs=>rs.map(x=>`<div><span class="code">${esc(x.code)}</span>${x.w?'won':'verloor'} van ${x.tegen.map(pn).join(' / ')} <b>${esc(x.score)}</b></div>`).join('');
  const sd=v=>(v>0?'+':'')+v;
- const h=R.speler[0];
- const hero=h?`<div class="mvhero">${av(h.names[0],120,h.club)}<div><span class="mvk">Speler van de week</span><div class="mvn">${pn(h.names[0])}</div><div class="mvc">${logo(h.club,24)}${esc(h.club)}</div>
-  <div class="mvs"><span><b>${h.w}/${h.p}</b> gewonnen</span><span><b>${esc(h.games)}</b> games</span><span><b>${sd(h.saldo)}</b> puntensaldo</span></div><div class="mvr">${res(h.res)}</div></div>
-  ${R.speler.length>1?`<div class="mvalt">Daarna: ${R.speler.slice(1).map((x,j)=>`<span>${j+2}. ${pn(x.names[0])} (${sd(x.saldo)})</span>`).join('')}</div>`:''}</div>`:'';
+ const hero='';
  const cats=R.cats.filter(c=>c.top.length).map(c=>{const t=c.top[0];
   return `<div class="mvcat${c.code.endsWith('E')?' e':''}"><h4>${esc(c.label)}</h4><div class="mvav">${t.names.map(n=>av(n,t.names.length>1?64:78,t.club)).join('')}</div><div class="mvnm">${t.names.map(pn).join('<br>')}</div><div class="mvcl">${esc(t.club)}</div><div class="mvsc">${t.res.map(x=>`${esc(x.code)} · ${esc(x.score)}<br>tegen ${x.tegen.map(pn).join(' / ')}`).join('<br>')}</div><span class="mvsd">${sd(t.saldo)} punten</span></div>`;}).join('');
  el.innerHTML=`<div class="mvtop"><p class="pinfo">${esc(R.round)}${R.date?' · '+esc(R.date):''} ${R.voorlopig?'<span class="mvvl">voorlopig</span>':''}</p>${L.length>1?`<div class="flt" style="margin:0"><select id="mvsel" aria-label="Kies speelronde">${L.map((x,j)=>`<option value="${j}"${j===i?' selected':''}>${esc(x.round)}</option>`).join('')}</select></div>`:''}</div>${hero}<div class="mvgrid">${cats}</div>
- <p class="mvleg">Zo bepalen we de MVP: eerst de meeste gewonnen partijen, dan het gamesaldo, dan het puntensaldo (gemaakte min tegenpunten). Staat het dan nog gelijk, dan telt de sterkte van de tegenstander. Opgaves tellen als winst, niet voor het saldo.</p>`;
+ <p class="mvleg">Per onderdeel kiezen we één MVP: eerst de meeste gewonnen partijen, dan het gamesaldo, dan het puntensaldo (gemaakte min tegenpunten). Staat het dan nog gelijk, dan telt de sterkte van de tegenstander. Opgaves tellen als winst, niet voor het saldo.</p>`;
  const sel=document.getElementById('mvsel'); if(sel) sel.onchange=()=>{drawMvp(D,+sel.value);sendH();};
 }
 document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>{
