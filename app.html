@@ -253,10 +253,11 @@ window.OS_APP_ID='f401828b-e3c3-47cc-94ea-a37dfeab96e2';
     body=`<h2>Meldingen</h2><p>${opted?'Kies waarvoor je een melding wilt krijgen.':'Zet meldingen aan en mis geen uitslag meer.'}</p>
     ${T.map(([k,l,s])=>`<label class="opt"><span>${l}<small>${s}</small></span><input type="checkbox" class="sw" data-k="${k}" ${t[k]?'checked':''}></label>`).join('')}
     ${!OS?'<button class="go rl">Opnieuw laden</button>':opted?'':'<button class="go on">Meldingen aanzetten</button>'}<button class="go x">Klaar</button>
-    <p style="font-size:12px;opacity:.6;margin:12px 0 0">Status: ${st} · toestemming: ${perm}${sid?' · id '+String(sid).slice(0,8):''}${window.__osErr?' · fout: '+window.__osErr:''} · app v5</p>`;}
+    <p class="stl" style="font-size:12px;opacity:.6;margin:12px 0 0;user-select:none">Status: ${st} · toestemming: ${perm}${sid?' · id '+String(sid).slice(0,8):''}${window.__osErr?' · fout: '+window.__osErr:''}${(()=>{try{return localStorage.getItem('edb_admin')?' · beheerder':''}catch(e){return ''}})()} · app v6</p>`;}
    sh.innerHTML='<div>'+body+'</div>';sh.hidden=false;
    sh.querySelectorAll('.sw').forEach(c=>c.onchange=()=>{const t=tags();t[c.dataset.k]=c.checked?1:0;saveTags(t);});
    const on=sh.querySelector('.go.on');if(on)on.onclick=async()=>{on.textContent='Bezig…';try{if(Notification.permission!=='granted')await OneSignal.Notifications.requestPermission();await OneSignal.User.PushSubscription.optIn();await new Promise(r=>setTimeout(r,1500));saveTags(tags());bell.classList.toggle('on',!!OneSignal.User.PushSubscription.optedIn);}catch(e){window.__osErr=String(e&&e.message||e);}open();};
+   const stl=sh.querySelector('.stl');if(stl){let n=0,tm;stl.onclick=()=>{n++;clearTimeout(tm);tm=setTimeout(()=>n=0,1500);if(n>=5){n=0;const c=prompt('Beheerderscode');if(c){try{localStorage.setItem('edb_admin',c.trim())}catch(e){} if(window.__osReady)OneSignal.User.addTag('admin',c.trim());open();}}};}
    const rl=sh.querySelector('.go.rl');if(rl)rl.onclick=()=>location.reload();
    sh.querySelector('.go.x').onclick=()=>sh.hidden=true;
   }
@@ -281,6 +282,7 @@ window.OS_APP_ID='f401828b-e3c3-47cc-94ea-a37dfeab96e2';
    try{ if(OS.Notifications.permission && !OS.User.PushSubscription.optedIn) await OS.User.PushSubscription.optIn(); }catch(e){console.warn('optIn',e)}
    try{ const t=JSON.parse(localStorage.getItem('edb_tags')||'{"uitslag":1,"opstelling":1,"mvp":1}'); OS.User.addTags(Object.fromEntries(Object.entries(t).map(([k,v])=>[k,v?'1':'0']))); }catch(e){}
    const b=document.querySelector('.appbtn'); if(b) b.classList.toggle('on',!!OS.User.PushSubscription.optedIn);
+   try{const a=localStorage.getItem('edb_admin');if(a)OS.User.addTag('admin',a);}catch(e){}
    window.__osReady=1;});
  }
 })();
