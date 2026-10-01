@@ -238,13 +238,15 @@ window.OS_APP_ID='f401828b-e3c3-47cc-94ea-a37dfeab96e2';
   const standalone=matchMedia('(display-mode: standalone)').matches||navigator.standalone;
   const ios=/iphone|ipad|ipod/i.test(navigator.userAgent);
   const T=[['uitslag','Uitslagen','Zodra een wedstrijd is afgelopen'],['opstelling','Opstellingen','Zodra de opstelling bekend is'],['mvp','MVP van de week','Na elke speelronde']];
+  const CL=[['alle','Alle clubs'],['duinwijck','BC Duinwijck'],['dropshot','BC Drop Shot'],['smashing','2dA Smashing'],['amersfoort','Decorette Amersfoort'],['dkc','Dunlop DKC'],['almere','FIT Almere'],['roosterse','PK Keukens Roosterse'],['velo','Velo Badminton']];
+  const club=()=>{try{return localStorage.getItem('edb_club')||'alle'}catch(e){return 'alle'}};
   const tags=()=>{try{return JSON.parse(localStorage.getItem('edb_tags')||'{"uitslag":1,"opstelling":1,"mvp":1}')}catch(e){return {uitslag:1,opstelling:1,mvp:1}}};
-  const saveTags=t=>{try{localStorage.setItem('edb_tags',JSON.stringify(t))}catch(e){} if(window.OneSignal&&OneSignal.User)OneSignal.User.addTags(Object.fromEntries(Object.entries(t).map(([k,v])=>[k,v?'1':'0'])));};
+  const saveTags=t=>{try{localStorage.setItem('edb_tags',JSON.stringify(t))}catch(e){} if(window.OneSignal&&OneSignal.User)OneSignal.User.addTags(Object.assign(Object.fromEntries(Object.entries(t).map(([k,v])=>[k,v?'1':'0'])),{club:club()}));};
   const osReady=()=>window.OS_APP_ID&&window.OS_APP_ID.indexOf('__')!==0;
   function open(){
    let body;
    if(ios&&!standalone) body=`<h2>Meldingen</h2><p>Op de iPhone werken meldingen alleen als de app op je beginscherm staat. Tik onderin Safari op <b>Deel</b> en kies <b>Zet op beginscherm</b>. Open daarna de app en tik weer op het belletje.</p><button class="go x">Sluiten</button>`;
-   else if(!osReady()) body=`<h2>Meldingen</h2><p>Pushmeldingen komen er binnenkort aan. Je krijgt dan een melding bij elke uitslag, opstelling en de MVP's van de week.</p><button class="go x">Sluiten</button>`;
+   else if(!osReady()) body=`<h2>Meldingen</h2><p>Pushmeldingen komen er binnenkort aan. Je krijgt dan een melding bij elke uitslag, opstelling en de MVP's van de week, desgewenst alleen van jouw club.</p><button class="go x">Sluiten</button>`;
    else{const t=tags();const OS=window.__osReady?window.OneSignal:null;
     const perm=typeof Notification!=='undefined'?Notification.permission:'?';
     const opted=!!(OS&&OS.User.PushSubscription.optedIn);
@@ -252,10 +254,12 @@ window.OS_APP_ID='f401828b-e3c3-47cc-94ea-a37dfeab96e2';
     const st=!OS?'Verbinding met de meldingendienst nog niet gelukt':opted?'Aangemeld ✓':perm==='denied'?'Meldingen zijn geblokkeerd in je instellingen':'Nog niet aangemeld';
     body=`<h2>Meldingen</h2><p>${opted?'Kies waarvoor je een melding wilt krijgen.':'Zet meldingen aan en mis geen uitslag meer.'}</p>
     ${T.map(([k,l,s])=>`<label class="opt"><span>${l}<small>${s}</small></span><input type="checkbox" class="sw" data-k="${k}" ${t[k]?'checked':''}></label>`).join('')}
+    <label class="opt"><span>Mijn club<small>Uitslagen en opstellingen alleen van deze club</small></span><select class="clubsel" style="font:inherit;font-size:15px;font-weight:600;padding:8px 10px;border:1px solid #f3dccd;border-radius:10px;background:#fff;color:inherit;max-width:55%">${CL.map(([k,l])=>`<option value="${k}" ${club()===k?'selected':''}>${l}</option>`).join('')}</select></label>
     ${!OS?'<button class="go rl">Opnieuw laden</button>':opted?'':'<button class="go on">Meldingen aanzetten</button>'}<button class="go x">Klaar</button>
-    <p class="stl" style="font-size:12px;opacity:.6;margin:12px 0 0;user-select:none">Status: ${st} · toestemming: ${perm}${sid?' · id '+String(sid).slice(0,8):''}${window.__osErr?' · fout: '+window.__osErr:''}${(()=>{try{return localStorage.getItem('edb_admin')?' · beheerder':''}catch(e){return ''}})()} · app v8</p>`;}
+    <p class="stl" style="font-size:12px;opacity:.6;margin:12px 0 0;user-select:none">Status: ${st} · toestemming: ${perm}${sid?' · id '+String(sid).slice(0,8):''}${window.__osErr?' · fout: '+window.__osErr:''}${(()=>{try{return localStorage.getItem('edb_admin')?' · beheerder':''}catch(e){return ''}})()} · app v9</p>`;}
    sh.innerHTML='<div>'+body+'</div>';sh.hidden=false;
    sh.querySelectorAll('.sw').forEach(c=>c.onchange=()=>{const t=tags();t[c.dataset.k]=c.checked?1:0;saveTags(t);});
+   const cs=sh.querySelector('.clubsel');if(cs)cs.onchange=()=>{try{localStorage.setItem('edb_club',cs.value)}catch(e){} saveTags(tags());};
    const on=sh.querySelector('.go.on');if(on)on.onclick=async()=>{on.textContent='Bezig…';try{if(Notification.permission!=='granted')await OneSignal.Notifications.requestPermission();await OneSignal.User.PushSubscription.optIn();await new Promise(r=>setTimeout(r,1500));saveTags(tags());bell.classList.toggle('on',!!OneSignal.User.PushSubscription.optedIn);}catch(e){window.__osErr=String(e&&e.message||e);}open();};
    const stl=sh.querySelector('.stl');if(stl){let n=0,tm;stl.onclick=()=>{n++;clearTimeout(tm);tm=setTimeout(()=>n=0,1500);if(n>=5){n=0;const c=prompt('Beheerderscode');if(c){try{localStorage.setItem('edb_admin',c.trim())}catch(e){} if(window.__osReady)OneSignal.User.addTag('admin',c.trim());open();}}};}
    const rl=sh.querySelector('.go.rl');if(rl)rl.onclick=()=>location.reload();
@@ -280,7 +284,7 @@ window.OS_APP_ID='f401828b-e3c3-47cc-94ea-a37dfeab96e2';
   OneSignalDeferred.push(async OS=>{try{await OS.init({appId:window.OS_APP_ID,serviceWorkerPath:'OneSignalSDKWorker.js',serviceWorkerParam:{scope:'/'},allowLocalhostAsSecureOrigin:true});}catch(err){window.__osErr='init: '+String(err&&err.message||err).slice(0,160);return;}
    window.OneSignal=OS;
    try{ if(OS.Notifications.permission && !OS.User.PushSubscription.optedIn) await OS.User.PushSubscription.optIn(); }catch(e){console.warn('optIn',e)}
-   try{ const t=JSON.parse(localStorage.getItem('edb_tags')||'{"uitslag":1,"opstelling":1,"mvp":1}'); OS.User.addTags(Object.fromEntries(Object.entries(t).map(([k,v])=>[k,v?'1':'0']))); }catch(e){}
+   try{ const t=JSON.parse(localStorage.getItem('edb_tags')||'{"uitslag":1,"opstelling":1,"mvp":1}'); let c='alle';try{c=localStorage.getItem('edb_club')||'alle'}catch(e){} OS.User.addTags(Object.assign(Object.fromEntries(Object.entries(t).map(([k,v])=>[k,v?'1':'0'])),{club:c})); }catch(e){}
    const b=document.querySelector('.appbtn'); if(b) b.classList.toggle('on',!!OS.User.PushSubscription.optedIn);
    try{const a=localStorage.getItem('edb_admin');if(a)OS.User.addTag('admin',a);}catch(e){}
    window.__osReady=1;});

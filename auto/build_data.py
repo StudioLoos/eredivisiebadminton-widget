@@ -121,14 +121,16 @@ def events(old, new):
             p = prev.get((R["round"], m["home"], m["away"]))
             if done(m) and not (p and done(p)) and old.get("seizoen"):
                 out.append({"type": "uitslag", "title": "Uitslag: %s – %s" % (m["home"], m["away"]),
-                            "body": "%s %s – %s %s · %s" % (m["home"], m["hs"], m["as"], m["away"], R["round"])})
+                            "body": "%s %s – %s %s · %s" % (m["home"], m["hs"], m["as"], m["away"], R["round"]),
+                            "clubs": [m["home"], m["away"]]})
     po = {(m["home"], m["away"]): m for m in (old.get("programma") or {}).get("matches", [])}
     for m in (new.get("programma") or {}).get("matches", []):
         has = any(r.get("home") for r in m.get("rows", []))
         p = po.get((m["home"], m["away"])); had = p and any(r.get("home") for r in p.get("rows", []))
         if has and not had and old.get("programma"):
             out.append({"type": "opstelling", "title": "Opstelling bekend: %s – %s" % (m["home"], m["away"]),
-                        "body": "Bekijk wie er vandaag op de baan staat · %s" % m.get("when", "")})
+                        "body": "Bekijk wie er vandaag op de baan staat · %s" % m.get("when", ""),
+                        "clubs": [m["home"], m["away"]]})
     om = {R["round"]: R for R in old.get("mvp", [])}
     for R in new.get("mvp", []):
         if not R.get("voorlopig") and (om.get(R["round"], {"voorlopig": True}).get("voorlopig", True)) and old.get("mvp") is not None:

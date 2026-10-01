@@ -6,6 +6,26 @@ import json, os, sys, urllib.request
 HERE = os.path.dirname(os.path.abspath(__file__))
 PE = os.path.join(HERE, "pending_events.json"); CFG = os.path.join(HERE, "onesignal.json")
 APP_URL = "https://app.eredivisiebadminton.nl/app.html"
+# Clubnaam -> waarde van het label "club" in de app (moet gelijk zijn aan CL in app.html)
+CLUB = {"BC Duinwijck": "duinwijck", "BC Drop Shot": "dropshot", "2dA Smashing": "smashing",
+        "Decorette Amersfoort": "amersfoort", "Dunlop DKC": "dkc", "FIT Almere": "almere",
+        "PK Keukens Roosterse": "roosterse", "Velo Badminton": "velo"}
+
+def filters(e):
+    """Soort melding aan (bijv. uitslag=1) EN club past: 'alle', nog geen club gekozen, of een van de betrokken clubs.
+    Meldingen zonder clubs (MVP) gaan naar iedereen die dat soort melding aan heeft."""
+    soort = {"field": "tag", "key": e["type"], "relation": "=", "value": "1"}
+    codes = [CLUB[c] for c in e.get("clubs", []) if c in CLUB]
+    if not codes:
+        return [soort]
+    groepen = [[{"field": "tag", "key": "club", "relation": "not_exists"}],
+               [{"field": "tag", "key": "club", "relation": "=", "value": "alle"}]]
+    groepen += [[{"field": "tag", "key": "club", "relation": "=", "value": c}] for c in codes]
+    out = []
+    for i, g in enumerate(groepen):
+        if i: out.append({"operator": "OR"})
+        out += [soort] + g
+    return out
 def main():
     try: ev = json.load(open(PE, encoding="utf-8"))
     except Exception: return
@@ -16,7 +36,7 @@ def main():
     c = json.load(open(CFG))
     for e in ev:
         body = {"app_id": c["app_id"], "target_channel": "push",
-                "filters": [{"field": "tag", "key": e["type"], "relation": "=", "value": "1"}],
+                "filters": filters(e),
                 "headings": {"en": e["title"], "nl": e["title"]}, "contents": {"en": e["body"], "nl": e["body"]},
                 "url": APP_URL, "web_push_topic": e["type"]}
         req = urllib.request.Request("https://api.onesignal.com/notifications", data=json.dumps(body).encode(),
