@@ -1,0 +1,67 @@
+name: Live bijwerken
+
+on:
+  schedule:
+    - cron: "*/5 11-22 * * 0,6"   # zaterdag en zondag, elke 5 minuten (UTC)
+    - cron: "17 5 * * *"          # elke ochtend: wedstrijdschema verversen
+  workflow_dispatch:              # handmatig starten via het tabblad Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: live-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      HAS_ONESIGNAL: ${{ secrets.ONESIGNAL_REST_KEY != '' }}
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Benodigdheden installeren
+        run: pip install requests beautifulsoup4 lxml
+
+      - name: Is er nu een wedstrijd?
+        id: gate
+        env:
+          FORCE: ${{ (github.event_name == 'workflow_dispatch' || github.event.schedule == '17 5 * * *') && '1' || '0' }}
+        run: |
+          if python3 auto/gate.py; then echo "run=1" >> "$GITHUB_OUTPUT"; else echo "run=0" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Ophalen en opbouwen
+        if: steps.gate.outputs.run == '1'
+        id: build
+        run: |
+          python3 auto/collect.py /tmp/raw.json
+          OUT="$(python3 auto/build_data.py /tmp/raw.json data.json /tmp/data.json)"
+          echo "$OUT"
+          case "$OUT" in CHANGED*) cp /tmp/data.json data.json; echo "changed=1" >> "$GITHUB_OUTPUT";; *) echo "changed=0" >> "$GITHUB_OUTPUT";; esac
+
+      - name: Versturen naar de site
+        if: steps.gate.outputs.run == '1'
+        run: |
+          git config user.name "StudioLoos"
+          git config user.email "contact@studioloos.nl"
+          git add data.json auto/schedule.json auto/done_times.json
+          if git diff --cached --quiet; then echo "Niets nieuws."; exit 0; fi
+          git commit -q -m "Automatische update $(TZ=Europe/Amsterdam date '+%d-%m %H:%M')"
+          git pull -q --rebase
+          git push -q
+
+      - name: Pushmeldingen
+        if: steps.build.outputs.changed == '1' && env.HAS_ONESIGNAL == 'true'
+        env:
+          ONESIGNAL_APP_ID: ${{ secrets.ONESIGNAL_APP_ID }}
+          ONESIGNAL_REST_KEY: ${{ secrets.ONESIGNAL_REST_KEY }}
+        run: |
+          printf '{"app_id":"%s","rest_key":"%s"}' "$ONESIGNAL_APP_ID" "$ONESIGNAL_REST_KEY" > auto/onesignal.json
+          python3 auto/notify.py
+          rm -f auto/onesignal.json
