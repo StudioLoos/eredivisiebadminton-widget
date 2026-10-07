@@ -89,7 +89,7 @@
       "Jaymie Laurens"
      ],
      "winner": "home",
-     "score": "1-2 (opgave)"
+     "score": "21-2 21-0 (opgave)"
     },
     {
      "code": "GD2",
@@ -719,7 +719,7 @@
         "Jaymie Laurens"
        ],
        "winner": "home",
-       "score": "1-2 (opgave)"
+       "score": "21-2 21-0 (opgave)"
       },
       {
        "code": "GD2",
@@ -1563,7 +1563,7 @@
         "Jaymie Laurens"
        ],
        "winner": "home",
-       "score": "(opgave)"
+       "score": "21-0 21-0 (opgave)"
       },
       {
        "code": "GD2",
@@ -1727,7 +1727,7 @@
    "g": 0,
    "v": 0,
    "wed": "19 – 5",
-   "games": "38 – 14"
+   "games": "40 – 13"
   },
   {
    "pos": 2,
@@ -1760,7 +1760,7 @@
    "g": 0,
    "v": 1,
    "wed": "13 – 11",
-   "games": "30 – 18"
+   "games": "29 – 22"
   },
   {
    "pos": 5,
@@ -1782,7 +1782,7 @@
    "g": 1,
    "v": 2,
    "wed": "9 – 15",
-   "games": "20 – 35"
+   "games": "22 – 35"
   },
   {
    "pos": 7,
@@ -1841,11 +1841,20 @@
    "club": "2dA Smashing",
    "w": 5,
    "gp": 6,
-   "games": "8 – 5",
-   "punten": "256 – 217"
+   "games": "10 – 5",
+   "punten": "298 – 217"
   },
   {
    "pos": 5,
+   "speler": "Meerte Loos",
+   "club": "BC Duinwijck",
+   "w": 4,
+   "gp": 4,
+   "games": "8 – 0",
+   "punten": "172 – 94"
+  },
+  {
+   "pos": 6,
    "speler": "Chloë Mayer",
    "club": "BC Duinwijck",
    "w": 4,
@@ -1854,31 +1863,22 @@
    "punten": "168 – 103"
   },
   {
-   "pos": 6,
+   "pos": 7,
+   "speler": "Brian Wassink",
+   "club": "BC Duinwijck",
+   "w": 4,
+   "gp": 4,
+   "games": "8 – 1",
+   "punten": "185 – 104"
+  },
+  {
+   "pos": 8,
    "speler": "Noah Jongen",
    "club": "PK Keukens Roosterse",
    "w": 4,
    "gp": 4,
    "games": "8 – 2",
    "punten": "201 – 169"
-  },
-  {
-   "pos": 7,
-   "speler": "Meerte Loos",
-   "club": "BC Duinwijck",
-   "w": 4,
-   "gp": 4,
-   "games": "6 – 1",
-   "punten": "131 – 94"
-  },
-  {
-   "pos": 8,
-   "speler": "Brian Wassink",
-   "club": "BC Duinwijck",
-   "w": 4,
-   "gp": 4,
-   "games": "6 – 2",
-   "punten": "144 – 104"
   },
   {
    "pos": 9,
@@ -1963,24 +1963,6 @@
   },
   {
    "pos": 18,
-   "speler": "Mark Caljouw",
-   "club": "Dunlop DKC",
-   "w": 3,
-   "gp": 6,
-   "games": "7 – 2",
-   "punten": "155 – 125"
-  },
-  {
-   "pos": 19,
-   "speler": "Jaymie Laurens",
-   "club": "Dunlop DKC",
-   "w": 3,
-   "gp": 6,
-   "games": "7 – 2",
-   "punten": "158 – 135"
-  },
-  {
-   "pos": 20,
    "speler": "Ruben Jille",
    "club": "Decorette Amersfoort",
    "w": 3,
@@ -1989,7 +1971,16 @@
    "punten": "284 – 293"
   },
   {
-   "pos": 21,
+   "pos": 19,
+   "speler": "Sterre Bang",
+   "club": "2dA Smashing",
+   "w": 3,
+   "gp": 6,
+   "games": "7 – 7",
+   "punten": "254 – 225"
+  },
+  {
+   "pos": 20,
    "speler": "Gijs Duijs",
    "club": "Dunlop DKC",
    "w": 3,
@@ -1998,7 +1989,25 @@
    "punten": "214 – 221"
   },
   {
+   "pos": 21,
+   "speler": "Mark Caljouw",
+   "club": "Dunlop DKC",
+   "w": 3,
+   "gp": 6,
+   "games": "6 – 6",
+   "punten": "155 – 208"
+  },
+  {
    "pos": 22,
+   "speler": "Jaymie Laurens",
+   "club": "Dunlop DKC",
+   "w": 3,
+   "gp": 6,
+   "games": "6 – 6",
+   "punten": "158 – 218"
+  },
+  {
+   "pos": 23,
    "speler": "Veda Diemel",
    "club": "Velo Badminton",
    "w": 3,
@@ -2007,22 +2016,13 @@
    "punten": "239 – 233"
   },
   {
-   "pos": 23,
+   "pos": 24,
    "speler": "Amy Tan",
    "club": "Velo Badminton",
    "w": 3,
    "gp": 6,
    "games": "6 – 8",
    "punten": "252 – 244"
-  },
-  {
-   "pos": 24,
-   "speler": "Sterre Bang",
-   "club": "2dA Smashing",
-   "w": 3,
-   "gp": 6,
-   "games": "5 – 7",
-   "punten": "212 – 225"
   },
   {
    "pos": 25,
@@ -2590,11 +2590,20 @@
    "club": "2dA Smashing",
    "w": 5,
    "gp": 6,
-   "games": "8 – 5",
-   "punten": "256 – 217"
+   "games": "10 – 5",
+   "punten": "298 – 217"
   },
   {
    "pos": 5,
+   "speler": "Meerte Loos",
+   "club": "BC Duinwijck",
+   "w": 4,
+   "gp": 4,
+   "games": "8 – 0",
+   "punten": "172 – 94"
+  },
+  {
+   "pos": 6,
    "speler": "Chloë Mayer",
    "club": "BC Duinwijck",
    "w": 4,
@@ -2603,31 +2612,22 @@
    "punten": "168 – 103"
   },
   {
-   "pos": 6,
+   "pos": 7,
+   "speler": "Brian Wassink",
+   "club": "BC Duinwijck",
+   "w": 4,
+   "gp": 4,
+   "games": "8 – 1",
+   "punten": "185 – 104"
+  },
+  {
+   "pos": 8,
    "speler": "Noah Jongen",
    "club": "PK Keukens Roosterse",
    "w": 4,
    "gp": 4,
    "games": "8 – 2",
    "punten": "201 – 169"
-  },
-  {
-   "pos": 7,
-   "speler": "Meerte Loos",
-   "club": "BC Duinwijck",
-   "w": 4,
-   "gp": 4,
-   "games": "6 – 1",
-   "punten": "131 – 94"
-  },
-  {
-   "pos": 8,
-   "speler": "Brian Wassink",
-   "club": "BC Duinwijck",
-   "w": 4,
-   "gp": 4,
-   "games": "6 – 2",
-   "punten": "144 – 104"
   },
   {
    "pos": 9,
@@ -2653,10 +2653,10 @@
   "Flora Wang": 5754,
   "Alyssa Tirtosentono": 3977,
   "Robin Tabeling": 5202,
-  "Chloë Mayer": 3978,
-  "Noah Jongen": 5344,
   "Meerte Loos": 3974,
+  "Chloë Mayer": 3978,
   "Brian Wassink": 3971,
+  "Noah Jongen": 5344,
   "Iris van Leijsen": 5341,
   "Diede Odijk": 4879,
   "Timo Stoffelen": 3970,
@@ -2666,13 +2666,13 @@
   "Jasper Koppen": 5336,
   "Kirsten de Wit": 4888,
   "Alida Chen": 4878,
+  "Ruben Jille": 4748,
+  "Sterre Bang": 5197,
+  "Gijs Duijs": 5758,
   "Mark Caljouw": 5756,
   "Jaymie Laurens": 5755,
-  "Ruben Jille": 4748,
-  "Gijs Duijs": 5758,
   "Veda Diemel": 5075,
   "Amy Tan": 5073,
-  "Sterre Bang": 5197,
   "Iben Bergstein": 5163,
   "Adith Karthikeyan Priya": 3972,
   "Joran Kweekel": 5757,
@@ -2828,18 +2828,18 @@
     },
     {
      "pos": 2,
-     "speler": "Chloë Mayer",
-     "e": "3 – 0",
-     "d": "1 – 0",
-     "m": "–",
-     "tot": "4/4"
-    },
-    {
-     "pos": 3,
      "speler": "Meerte Loos",
      "e": "–",
      "d": "2 – 0",
      "m": "2 – 0",
+     "tot": "4/4"
+    },
+    {
+     "pos": 3,
+     "speler": "Chloë Mayer",
+     "e": "3 – 0",
+     "d": "1 – 0",
+     "m": "–",
      "tot": "4/4"
     },
     {
@@ -3123,6 +3123,14 @@
     },
     {
      "pos": 2,
+     "speler": "Gijs Duijs",
+     "e": "–",
+     "d": "1 – 2",
+     "m": "2 – 1",
+     "tot": "3/6"
+    },
+    {
+     "pos": 3,
      "speler": "Jaymie Laurens",
      "e": "–",
      "d": "2 – 1",
@@ -3130,19 +3138,11 @@
      "tot": "3/6"
     },
     {
-     "pos": 3,
+     "pos": 4,
      "speler": "Mark Caljouw",
      "e": "2 – 1",
      "d": "–",
      "m": "1 – 2",
-     "tot": "3/6"
-    },
-    {
-     "pos": 4,
-     "speler": "Gijs Duijs",
-     "e": "–",
-     "d": "1 – 2",
-     "m": "2 – 1",
      "tot": "3/6"
     },
     {
@@ -4979,5 +4979,5 @@
  "check": {
   "afwijkingen": []
  },
- "updated": "27-09-2026 19:56"
+ "updated": "07-10-2026 05:31"
 }
