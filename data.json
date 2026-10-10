@@ -6,7 +6,7 @@
    "home": "BC Drop Shot",
    "away": "BC Duinwijck",
    "hs": 0,
-   "as": 4,
+   "as": 5,
    "rows": [
     {
      "code": "MD",
@@ -41,7 +41,9 @@
      ],
      "away": [
       "Adith Karthikeyan Priya"
-     ]
+     ],
+     "score": "10-21 18-21",
+     "winner": "away"
     },
     {
      "code": "VE1",
@@ -340,7 +342,7 @@
      "home": "BC Drop Shot",
      "away": "BC Duinwijck",
      "hs": 0,
-     "as": 4,
+     "as": 5,
      "rows": [
       {
        "code": "MD",
@@ -375,7 +377,9 @@
        ],
        "away": [
         "Adith Karthikeyan Priya"
-       ]
+       ],
+       "score": "10-21 18-21",
+       "winner": "away"
       },
       {
        "code": "VE1",
@@ -2176,6 +2180,15 @@
   },
   {
    "pos": 15,
+   "speler": "Adith Karthikeyan Priya",
+   "club": "BC Duinwijck",
+   "w": 3,
+   "gp": 3,
+   "games": "6 – 0",
+   "punten": "126 – 83"
+  },
+  {
+   "pos": 16,
    "speler": "Joran Kweekel",
    "club": "Dunlop DKC",
    "w": 3,
@@ -2184,7 +2197,7 @@
    "punten": "126 – 90"
   },
   {
-   "pos": 16,
+   "pos": 17,
    "speler": "Noah Haase",
    "club": "FIT Almere",
    "w": 3,
@@ -2193,7 +2206,7 @@
    "punten": "154 – 116"
   },
   {
-   "pos": 17,
+   "pos": 18,
    "speler": "Hristomira Popovska",
    "club": "FIT Almere",
    "w": 3,
@@ -2202,7 +2215,7 @@
    "punten": "178 – 149"
   },
   {
-   "pos": 18,
+   "pos": 19,
    "speler": "Aram Mahmoud",
    "club": "BC Duinwijck",
    "w": 3,
@@ -2211,7 +2224,7 @@
    "punten": "178 – 151"
   },
   {
-   "pos": 19,
+   "pos": 20,
    "speler": "Dennis Koppen",
    "club": "FIT Almere",
    "w": 3,
@@ -2220,7 +2233,7 @@
    "punten": "174 – 147"
   },
   {
-   "pos": 20,
+   "pos": 21,
    "speler": "Kirsten de Wit",
    "club": "FIT Almere",
    "w": 3,
@@ -2229,7 +2242,7 @@
    "punten": "260 – 235"
   },
   {
-   "pos": 21,
+   "pos": 22,
    "speler": "Alida Chen",
    "club": "FIT Almere",
    "w": 3,
@@ -2238,7 +2251,7 @@
    "punten": "206 – 198"
   },
   {
-   "pos": 22,
+   "pos": 23,
    "speler": "Ruben Jille",
    "club": "Decorette Amersfoort",
    "w": 3,
@@ -2247,7 +2260,7 @@
    "punten": "284 – 293"
   },
   {
-   "pos": 23,
+   "pos": 24,
    "speler": "Sterre Bang",
    "club": "2dA Smashing",
    "w": 3,
@@ -2256,7 +2269,7 @@
    "punten": "254 – 225"
   },
   {
-   "pos": 24,
+   "pos": 25,
    "speler": "Mark Caljouw",
    "club": "Dunlop DKC",
    "w": 3,
@@ -2265,7 +2278,7 @@
    "punten": "155 – 208"
   },
   {
-   "pos": 25,
+   "pos": 26,
    "speler": "Veda Diemel",
    "club": "Velo Badminton",
    "w": 3,
@@ -2274,7 +2287,7 @@
    "punten": "239 – 233"
   },
   {
-   "pos": 26,
+   "pos": 27,
    "speler": "Amy Tan",
    "club": "Velo Badminton",
    "w": 3,
@@ -2283,7 +2296,7 @@
    "punten": "252 – 244"
   },
   {
-   "pos": 27,
+   "pos": 28,
    "speler": "Lieke van Parys",
    "club": "Dunlop DKC",
    "w": 3,
@@ -2292,22 +2305,13 @@
    "punten": "288 – 292"
   },
   {
-   "pos": 28,
+   "pos": 29,
    "speler": "Iben Bergstein",
    "club": "BC Drop Shot",
    "w": 2,
    "gp": 2,
    "games": "4 – 0",
    "punten": "84 – 54"
-  },
-  {
-   "pos": 29,
-   "speler": "Adith Karthikeyan Priya",
-   "club": "BC Duinwijck",
-   "w": 2,
-   "gp": 2,
-   "games": "4 – 0",
-   "punten": "84 – 55"
   },
   {
    "pos": 30,
@@ -2581,15 +2585,6 @@
   },
   {
    "pos": 60,
-   "speler": "Lars Kros",
-   "club": "BC Drop Shot",
-   "w": 1,
-   "gp": 5,
-   "games": "4 – 9",
-   "punten": "238 – 256"
-  },
-  {
-   "pos": 61,
    "speler": "Rens Lagrouw",
    "club": "Velo Badminton",
    "w": 1,
@@ -2598,13 +2593,22 @@
    "punten": "196 – 241"
   },
   {
-   "pos": 62,
+   "pos": 61,
    "speler": "Joep Strooper",
    "club": "FIT Almere",
    "w": 1,
    "gp": 6,
    "games": "5 – 11",
    "punten": "288 – 328"
+  },
+  {
+   "pos": 62,
+   "speler": "Lars Kros",
+   "club": "BC Drop Shot",
+   "w": 1,
+   "gp": 6,
+   "games": "4 – 11",
+   "punten": "266 – 298"
   },
   {
    "pos": 63,
@@ -2939,6 +2943,7 @@
   "Gijs Duijs": 5758,
   "Jaymie Laurens": 5755,
   "Iris van Leijsen": 5341,
+  "Adith Karthikeyan Priya": 3972,
   "Joran Kweekel": 5757,
   "Noah Haase": 4884,
   "Hristomira Popovska": 4866,
@@ -2953,7 +2958,6 @@
   "Amy Tan": 5073,
   "Lieke van Parys": 5753,
   "Iben Bergstein": 5163,
-  "Adith Karthikeyan Priya": 3972,
   "Andy Buijk": 5154,
   "Freek Golinski": 5201,
   "Esmeralda van Drunen": 4757,
@@ -2984,9 +2988,9 @@
   "Thomas Sibbald": 5759,
   "Dyon van Wijlick": 4886,
   "Leonie Rovers": 5200,
-  "Lars Kros": 5151,
   "Rens Lagrouw": 5078,
   "Joep Strooper": 4885,
+  "Lars Kros": 5151,
   "Dion Rovers": 5076,
   "Myke Halkema": 5074,
   "Sander Prenen": 5346,
@@ -3140,19 +3144,19 @@
     },
     {
      "pos": 6,
+     "speler": "Adith Karthikeyan Priya",
+     "e": "3 – 0",
+     "d": "–",
+     "m": "–",
+     "tot": "3/3"
+    },
+    {
+     "pos": 7,
      "speler": "Aram Mahmoud",
      "e": "2 – 1",
      "d": "–",
      "m": "1 – 0",
      "tot": "3/4"
-    },
-    {
-     "pos": 7,
-     "speler": "Adith Karthikeyan Priya",
-     "e": "2 – 0",
-     "d": "–",
-     "m": "–",
-     "tot": "2/2"
     },
     {
      "pos": 8,
@@ -3561,10 +3565,10 @@
     {
      "pos": 11,
      "speler": "Lars Kros",
-     "e": "1 – 2",
+     "e": "1 – 3",
      "d": "0 – 2",
      "m": "–",
-     "tot": "1/5"
+     "tot": "1/6"
     },
     {
      "pos": 12,
@@ -3936,6 +3940,28 @@
       },
       {
        "names": [
+        "Adith Karthikeyan Priya"
+       ],
+       "club": "BC Duinwijck",
+       "w": 1,
+       "p": 1,
+       "games": "2-0",
+       "punten": "42-28",
+       "saldo": 14,
+       "res": [
+        {
+         "code": "ME1",
+         "tegen": [
+          "Lars Kros"
+         ],
+         "tclub": "BC Drop Shot",
+         "w": 1,
+         "score": "21-10 21-18"
+        }
+       ]
+      },
+      {
+       "names": [
         "Jasper Koppen"
        ],
        "club": "PK Keukens Roosterse",
@@ -3953,28 +3979,6 @@
          "tclub": "Dunlop DKC",
          "w": 1,
          "score": "21-12 21-17"
-        }
-       ]
-      },
-      {
-       "names": [
-        "Nagasharan Podala Vengatesh"
-       ],
-       "club": "Dunlop DKC",
-       "w": 0,
-       "p": 1,
-       "games": "0-2",
-       "punten": "29-42",
-       "saldo": -13,
-       "res": [
-        {
-         "code": "ME1",
-         "tegen": [
-          "Jasper Koppen"
-         ],
-         "tclub": "PK Keukens Roosterse",
-         "w": 0,
-         "score": "12-21 17-21"
         }
        ]
       }
@@ -5673,5 +5677,5 @@
  "check": {
   "afwijkingen": []
  },
- "updated": "10-10-2026 18:22"
+ "updated": "10-10-2026 18:40"
 }
