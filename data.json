@@ -1782,7 +1782,88 @@
     "home": "Dunlop DKC",
     "away": "PK Keukens Roosterse",
     "when": "za 10 okt · 19:00",
-    "rows": []
+    "rows": [
+     {
+      "code": "MD",
+      "home": [
+       "Gijs Duijs",
+       "Joran Kweekel"
+      ],
+      "away": [
+       "Noah Jongen",
+       "Rik Hermans"
+      ]
+     },
+     {
+      "code": "VD",
+      "home": [
+       "Lieke van Parys",
+       "Jaymie Laurens"
+      ],
+      "away": [
+       "Iris van Leijsen",
+       "Flore Vandenhoucke"
+      ]
+     },
+     {
+      "code": "ME1",
+      "home": [
+       "Nagasharan Podala Vengatesh"
+      ],
+      "away": [
+       "Jasper Koppen"
+      ]
+     },
+     {
+      "code": "VE1",
+      "home": [
+       "Flora Wang"
+      ],
+      "away": [
+       "Xenia Koelmel"
+      ]
+     },
+     {
+      "code": "ME2",
+      "home": [
+       "Jop de Keijzer"
+      ],
+      "away": [
+       "Thijs van den Berg"
+      ]
+     },
+     {
+      "code": "VE2",
+      "home": [
+       "Lieke van Parys"
+      ],
+      "away": [
+       "Flore Vandenhoucke"
+      ]
+     },
+     {
+      "code": "GD1",
+      "home": [
+       "Joran Kweekel",
+       "Jaymie Laurens"
+      ],
+      "away": [
+       "Noah Jongen",
+       "Iris van Leijsen"
+      ]
+     },
+     {
+      "code": "GD2",
+      "home": [
+       "Gijs Duijs",
+       "Flora Wang"
+      ],
+      "away": [
+       "Jasper Koppen",
+       "Stefanie Nijsse"
+      ]
+     }
+    ]
    },
    {
     "home": "2dA Smashing",
@@ -5060,5 +5141,5 @@
  "check": {
   "afwijkingen": []
  },
- "updated": "10-10-2026 16:28"
+ "updated": "10-10-2026 16:47"
 }

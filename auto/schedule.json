@@ -80,7 +80,7 @@
 "start": "2026-10-10T19:00:00",
 "home": "Dunlop DKC",
 "away": "PK Keukens Roosterse",
-"lineup": false,
+"lineup": true,
 "done_at": null
 },
 {
