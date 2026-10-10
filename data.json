@@ -1966,31 +1966,25 @@
   }
  ],
  "programma": {
-  "round": "Speelronde 5",
-  "date": "31 oktober 2026",
+  "round": "Speelronde 11",
+  "date": "17 oktober 2026",
   "matches": [
    {
-    "home": "Decorette Amersfoort",
-    "away": "BC Drop Shot",
-    "when": "za 31 okt · 19:00",
+    "home": "Velo Badminton",
+    "away": "FIT Almere",
+    "when": "za 17 okt · 19:00",
     "rows": []
    },
    {
     "home": "BC Duinwijck",
-    "away": "2dA Smashing",
-    "when": "za 31 okt · 19:00",
+    "away": "BC Drop Shot",
+    "when": "za 17 okt · 19:00",
     "rows": []
    },
    {
     "home": "PK Keukens Roosterse",
-    "away": "FIT Almere",
-    "when": "za 31 okt · 19:00",
-    "rows": []
-   },
-   {
-    "home": "Velo Badminton",
     "away": "Dunlop DKC",
-    "when": "za 31 okt · 19:00",
+    "when": "za 17 okt · 19:00",
     "rows": []
    }
   ]
@@ -5833,5 +5827,5 @@
  "check": {
   "afwijkingen": []
  },
- "updated": "10-10-2026 20:13"
+ "updated": "10-10-2026 22:27"
 }
