@@ -73,7 +73,7 @@
 "start": "2026-10-10T18:30:00",
 "home": "BC Drop Shot",
 "away": "BC Duinwijck",
-"lineup": false,
+"lineup": true,
 "done_at": null
 },
 {
