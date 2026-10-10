@@ -1695,7 +1695,88 @@
     "home": "BC Drop Shot",
     "away": "BC Duinwijck",
     "when": "za 10 okt · 18:30",
-    "rows": []
+    "rows": [
+     {
+      "code": "MD",
+      "home": [
+       "Lars Kros",
+       "Brandon Bessem"
+      ],
+      "away": [
+       "Ties van der Lecq",
+       "Brian Wassink"
+      ]
+     },
+     {
+      "code": "VD",
+      "home": [
+       "Imke van der Aar",
+       "Clara Lassaux"
+      ],
+      "away": [
+       "Meerte Loos",
+       "Debora Jille"
+      ]
+     },
+     {
+      "code": "ME1",
+      "home": [
+       "Lars Kros"
+      ],
+      "away": [
+       "Adith Karthikeyan Priya"
+      ]
+     },
+     {
+      "code": "VE1",
+      "home": [
+       "Clara Lassaux"
+      ],
+      "away": [
+       "Novi Wieland"
+      ]
+     },
+     {
+      "code": "ME2",
+      "home": [
+       "Sean Fanseda"
+      ],
+      "away": [
+       "Aram Mahmoud"
+      ]
+     },
+     {
+      "code": "VE2",
+      "home": [
+       "Tammi van Wonterghem"
+      ],
+      "away": [
+       "Chloë Mayer"
+      ]
+     },
+     {
+      "code": "GD1",
+      "home": [
+       "Wessel van der Aar",
+       "Imke van der Aar"
+      ],
+      "away": [
+       "Brian Wassink",
+       "Meerte Loos"
+      ]
+     },
+     {
+      "code": "GD2",
+      "home": [
+       "Brandon Bessem",
+       "Tammi van Wonterghem"
+      ],
+      "away": [
+       "Ties van der Lecq",
+       "Debora Jille"
+      ]
+     }
+    ]
    },
    {
     "home": "Dunlop DKC",
@@ -4979,5 +5060,5 @@
  "check": {
   "afwijkingen": []
  },
- "updated": "07-10-2026 05:31"
+ "updated": "10-10-2026 16:28"
 }
