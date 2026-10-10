@@ -43,7 +43,7 @@ jobs:
           python3 auto/collect.py /tmp/raw.json
           OUT="$(python3 auto/build_data.py /tmp/raw.json data.json /tmp/data.json)"
           echo "$OUT"
-          case "$OUT" in CHANGED*) cp /tmp/data.json data.json; echo "changed=1" >> "$GITHUB_OUTPUT";; *) echo "changed=0" >> "$GITHUB_OUTPUT";; esac
+          if printf '%s\n' "$OUT" | grep -q '^CHANGED'; then cp /tmp/data.json data.json; echo "changed=1" >> "$GITHUB_OUTPUT"; else echo "changed=0" >> "$GITHUB_OUTPUT"; fi
 
       - name: Versturen naar de site
         if: steps.gate.outputs.run == '1'
