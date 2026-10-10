@@ -6,7 +6,7 @@
    "home": "BC Drop Shot",
    "away": "BC Duinwijck",
    "hs": 0,
-   "as": 2,
+   "as": 3,
    "rows": [
     {
      "code": "MD",
@@ -68,7 +68,9 @@
      ],
      "away": [
       "Chloë Mayer"
-     ]
+     ],
+     "score": "14-21 8-21",
+     "winner": "away"
     },
     {
      "code": "GD1",
@@ -330,7 +332,7 @@
      "home": "BC Drop Shot",
      "away": "BC Duinwijck",
      "hs": 0,
-     "as": 2,
+     "as": 3,
      "rows": [
       {
        "code": "MD",
@@ -392,7 +394,9 @@
        ],
        "away": [
         "Chloë Mayer"
-       ]
+       ],
+       "score": "14-21 8-21",
+       "winner": "away"
       },
       {
        "code": "GD1",
@@ -2048,6 +2052,15 @@
   },
   {
    "pos": 3,
+   "speler": "Chloë Mayer",
+   "club": "BC Duinwijck",
+   "w": 5,
+   "gp": 5,
+   "games": "10 – 0",
+   "punten": "210 – 125"
+  },
+  {
+   "pos": 4,
    "speler": "Brian Wassink",
    "club": "BC Duinwijck",
    "w": 5,
@@ -2056,7 +2069,7 @@
    "punten": "227 – 140"
   },
   {
-   "pos": 4,
+   "pos": 5,
    "speler": "Flora Wang",
    "club": "Dunlop DKC",
    "w": 5,
@@ -2065,7 +2078,7 @@
    "punten": "250 – 181"
   },
   {
-   "pos": 5,
+   "pos": 6,
    "speler": "Alyssa Tirtosentono",
    "club": "BC Duinwijck",
    "w": 5,
@@ -2074,22 +2087,13 @@
    "punten": "266 – 220"
   },
   {
-   "pos": 6,
+   "pos": 7,
    "speler": "Robin Tabeling",
    "club": "2dA Smashing",
    "w": 5,
    "gp": 6,
    "games": "10 – 5",
    "punten": "298 – 217"
-  },
-  {
-   "pos": 7,
-   "speler": "Chloë Mayer",
-   "club": "BC Duinwijck",
-   "w": 4,
-   "gp": 4,
-   "games": "8 – 0",
-   "punten": "168 – 103"
   },
   {
    "pos": 8,
@@ -2345,15 +2349,6 @@
   },
   {
    "pos": 36,
-   "speler": "Tammi van Wonterghem",
-   "club": "BC Drop Shot",
-   "w": 2,
-   "gp": 5,
-   "games": "7 – 6",
-   "punten": "252 – 257"
-  },
-  {
-   "pos": 37,
    "speler": "Marijn Put",
    "club": "2dA Smashing",
    "w": 2,
@@ -2362,7 +2357,7 @@
    "punten": "211 – 222"
   },
   {
-   "pos": 38,
+   "pos": 37,
    "speler": "Brandon Bessem",
    "club": "BC Drop Shot",
    "w": 2,
@@ -2371,13 +2366,22 @@
    "punten": "239 – 244"
   },
   {
-   "pos": 39,
+   "pos": 38,
    "speler": "Ruben Wijnands",
    "club": "Decorette Amersfoort",
    "w": 2,
    "gp": 5,
    "games": "5 – 6",
    "punten": "189 – 212"
+  },
+  {
+   "pos": 39,
+   "speler": "Tammi van Wonterghem",
+   "club": "BC Drop Shot",
+   "w": 2,
+   "gp": 6,
+   "games": "7 – 8",
+   "punten": "274 – 299"
   },
   {
    "pos": 40,
@@ -2815,6 +2819,15 @@
   },
   {
    "pos": 3,
+   "speler": "Chloë Mayer",
+   "club": "BC Duinwijck",
+   "w": 5,
+   "gp": 5,
+   "games": "10 – 0",
+   "punten": "210 – 125"
+  },
+  {
+   "pos": 4,
    "speler": "Brian Wassink",
    "club": "BC Duinwijck",
    "w": 5,
@@ -2823,7 +2836,7 @@
    "punten": "227 – 140"
   },
   {
-   "pos": 4,
+   "pos": 5,
    "speler": "Flora Wang",
    "club": "Dunlop DKC",
    "w": 5,
@@ -2832,7 +2845,7 @@
    "punten": "250 – 181"
   },
   {
-   "pos": 5,
+   "pos": 6,
    "speler": "Alyssa Tirtosentono",
    "club": "BC Duinwijck",
    "w": 5,
@@ -2841,22 +2854,13 @@
    "punten": "266 – 220"
   },
   {
-   "pos": 6,
+   "pos": 7,
    "speler": "Robin Tabeling",
    "club": "2dA Smashing",
    "w": 5,
    "gp": 6,
    "games": "10 – 5",
    "punten": "298 – 217"
-  },
-  {
-   "pos": 7,
-   "speler": "Chloë Mayer",
-   "club": "BC Duinwijck",
-   "w": 4,
-   "gp": 4,
-   "games": "8 – 0",
-   "punten": "168 – 103"
   },
   {
    "pos": 8,
@@ -2889,11 +2893,11 @@
  "ids": {
   "Ade Resky Dwicahyo": 5335,
   "Meerte Loos": 3974,
+  "Chloë Mayer": 3978,
   "Brian Wassink": 3971,
   "Flora Wang": 5754,
   "Alyssa Tirtosentono": 3977,
   "Robin Tabeling": 5202,
-  "Chloë Mayer": 3978,
   "Noah Jongen": 5344,
   "Iris van Leijsen": 5341,
   "Diede Odijk": 4879,
@@ -2922,10 +2926,10 @@
   "Novi Wieland": 3976,
   "Flore Vandenhoucke": 5340,
   "Nick Fransman": 5152,
-  "Tammi van Wonterghem": 5157,
   "Marijn Put": 5204,
   "Brandon Bessem": 5155,
   "Ruben Wijnands": 4749,
+  "Tammi van Wonterghem": 5157,
   "Lieke van Parys": 5753,
   "Inger Pothuizen": 5196,
   "Kelly van Buiten": 4751,
@@ -3068,6 +3072,14 @@
     },
     {
      "pos": 2,
+     "speler": "Chloë Mayer",
+     "e": "4 – 0",
+     "d": "1 – 0",
+     "m": "–",
+     "tot": "5/5"
+    },
+    {
+     "pos": 3,
      "speler": "Brian Wassink",
      "e": "–",
      "d": "3 – 0",
@@ -3075,20 +3087,12 @@
      "tot": "5/5"
     },
     {
-     "pos": 3,
+     "pos": 4,
      "speler": "Alyssa Tirtosentono",
      "e": "–",
      "d": "3 – 0",
      "m": "2 – 1",
      "tot": "5/6"
-    },
-    {
-     "pos": 4,
-     "speler": "Chloë Mayer",
-     "e": "3 – 0",
-     "d": "1 – 0",
-     "m": "–",
-     "tot": "4/4"
     },
     {
      "pos": 5,
@@ -3456,19 +3460,19 @@
     },
     {
      "pos": 4,
-     "speler": "Tammi van Wonterghem",
-     "e": "1 – 0",
-     "d": "0 – 2",
-     "m": "1 – 1",
-     "tot": "2/5"
-    },
-    {
-     "pos": 5,
      "speler": "Brandon Bessem",
      "e": "–",
      "d": "1 – 2",
      "m": "1 – 1",
      "tot": "2/5"
+    },
+    {
+     "pos": 5,
+     "speler": "Tammi van Wonterghem",
+     "e": "1 – 1",
+     "d": "0 – 2",
+     "m": "1 – 1",
+     "tot": "2/6"
     },
     {
      "pos": 6,
@@ -3784,6 +3788,28 @@
    "speler": [
     {
      "names": [
+      "Chloë Mayer"
+     ],
+     "club": "BC Duinwijck",
+     "w": 1,
+     "p": 1,
+     "games": "2-0",
+     "punten": "42-22",
+     "saldo": 20,
+     "res": [
+      {
+       "code": "VE2",
+       "tegen": [
+        "Tammi van Wonterghem"
+       ],
+       "tclub": "BC Drop Shot",
+       "w": 1,
+       "score": "21-14 21-8"
+      }
+     ]
+    },
+    {
+     "names": [
       "Gijs Duijs"
      ],
      "club": "Dunlop DKC",
@@ -3827,29 +3853,6 @@
        "score": "21-11 21-14"
       }
      ]
-    },
-    {
-     "names": [
-      "Debora Jille"
-     ],
-     "club": "BC Duinwijck",
-     "w": 1,
-     "p": 1,
-     "games": "2-0",
-     "punten": "42-33",
-     "saldo": 9,
-     "res": [
-      {
-       "code": "VD",
-       "tegen": [
-        "Imke van der Aar",
-        "Clara Lassaux"
-       ],
-       "tclub": "BC Drop Shot",
-       "w": 1,
-       "score": "21-15 21-18"
-      }
-     ]
     }
    ],
    "cats": [
@@ -3861,7 +3864,52 @@
     {
      "code": "DE",
      "label": "Damesenkel",
-     "top": []
+     "top": [
+      {
+       "names": [
+        "Chloë Mayer"
+       ],
+       "club": "BC Duinwijck",
+       "w": 1,
+       "p": 1,
+       "games": "2-0",
+       "punten": "42-22",
+       "saldo": 20,
+       "res": [
+        {
+         "code": "VE2",
+         "tegen": [
+          "Tammi van Wonterghem"
+         ],
+         "tclub": "BC Drop Shot",
+         "w": 1,
+         "score": "21-14 21-8"
+        }
+       ]
+      },
+      {
+       "names": [
+        "Tammi van Wonterghem"
+       ],
+       "club": "BC Drop Shot",
+       "w": 0,
+       "p": 1,
+       "games": "0-2",
+       "punten": "22-42",
+       "saldo": -20,
+       "res": [
+        {
+         "code": "VE2",
+         "tegen": [
+          "Chloë Mayer"
+         ],
+         "tclub": "BC Duinwijck",
+         "w": 0,
+         "score": "14-21 8-21"
+        }
+       ]
+      }
+     ]
     },
     {
      "code": "HD",
@@ -5460,5 +5508,5 @@
  "check": {
   "afwijkingen": []
  },
- "updated": "10-10-2026 17:35"
+ "updated": "10-10-2026 17:47"
 }
