@@ -6,7 +6,7 @@
    "home": "BC Drop Shot",
    "away": "BC Duinwijck",
    "hs": 1,
-   "as": 5,
+   "as": 6,
    "rows": [
     {
      "code": "MD",
@@ -87,7 +87,9 @@
      "away": [
       "Brian Wassink",
       "Meerte Loos"
-     ]
+     ],
+     "score": "8-21 19-21",
+     "winner": "away"
     },
     {
      "code": "GD2",
@@ -106,7 +108,7 @@
    "home": "Dunlop DKC",
    "away": "PK Keukens Roosterse",
    "hs": 3,
-   "as": 1,
+   "as": 2,
    "rows": [
     {
      "code": "MD",
@@ -163,7 +165,9 @@
      ],
      "away": [
       "Thijs van den Berg"
-     ]
+     ],
+     "score": "19-21 21-17 18-21",
+     "winner": "away"
     },
     {
      "code": "VE2",
@@ -344,7 +348,7 @@
      "home": "BC Drop Shot",
      "away": "BC Duinwijck",
      "hs": 1,
-     "as": 5,
+     "as": 6,
      "rows": [
       {
        "code": "MD",
@@ -425,7 +429,9 @@
        "away": [
         "Brian Wassink",
         "Meerte Loos"
-       ]
+       ],
+       "score": "8-21 19-21",
+       "winner": "away"
       },
       {
        "code": "GD2",
@@ -444,7 +450,7 @@
      "home": "Dunlop DKC",
      "away": "PK Keukens Roosterse",
      "hs": 3,
-     "as": 1,
+     "as": 2,
      "rows": [
       {
        "code": "MD",
@@ -501,7 +507,9 @@
        ],
        "away": [
         "Thijs van den Berg"
-       ]
+       ],
+       "score": "19-21 21-17 18-21",
+       "winner": "away"
       },
       {
        "code": "VE2",
@@ -3111,23 +3119,23 @@
      "speler": "Meerte Loos",
      "e": "–",
      "d": "3 – 0",
-     "m": "2 – 0",
-     "tot": "5/5"
+     "m": "3 – 0",
+     "tot": "6/6"
     },
     {
      "pos": 2,
+     "speler": "Brian Wassink",
+     "e": "–",
+     "d": "3 – 0",
+     "m": "3 – 0",
+     "tot": "6/6"
+    },
+    {
+     "pos": 3,
      "speler": "Chloë Mayer",
      "e": "4 – 0",
      "d": "1 – 0",
      "m": "–",
-     "tot": "5/5"
-    },
-    {
-     "pos": 3,
-     "speler": "Brian Wassink",
-     "e": "–",
-     "d": "3 – 0",
-     "m": "2 – 0",
      "tot": "5/5"
     },
     {
@@ -3225,6 +3233,14 @@
     },
     {
      "pos": 5,
+     "speler": "Thijs van den Berg",
+     "e": "1 – 0",
+     "d": "1 – 0",
+     "m": "–",
+     "tot": "2/2"
+    },
+    {
+     "pos": 6,
      "speler": "Flore Vandenhoucke",
      "e": "0 – 1",
      "d": "1 – 2",
@@ -3232,19 +3248,11 @@
      "tot": "2/5"
     },
     {
-     "pos": 6,
+     "pos": 7,
      "speler": "Stefanie Nijsse",
      "e": "–",
      "d": "–",
      "m": "1 – 0",
-     "tot": "1/1"
-    },
-    {
-     "pos": 7,
-     "speler": "Thijs van den Berg",
-     "e": "–",
-     "d": "1 – 0",
-     "m": "–",
      "tot": "1/1"
     },
     {
@@ -3475,6 +3483,14 @@
     },
     {
      "pos": 8,
+     "speler": "Jop de Keijzer",
+     "e": "0 – 1",
+     "d": "–",
+     "m": "–",
+     "tot": "0/1"
+    },
+    {
+     "pos": 9,
      "speler": "Nagasharan Podala Vengatesh",
      "e": "0 – 1",
      "d": "–",
@@ -3536,7 +3552,7 @@
     },
     {
      "pos": 7,
-     "speler": "Wessel van der Aar",
+     "speler": "Yuanyuan Jiang",
      "e": "–",
      "d": "–",
      "m": "1 – 0",
@@ -3544,11 +3560,11 @@
     },
     {
      "pos": 8,
-     "speler": "Yuanyuan Jiang",
+     "speler": "Wessel van der Aar",
      "e": "–",
      "d": "–",
-     "m": "1 – 0",
-     "tot": "1/1"
+     "m": "1 – 1",
+     "tot": "1/2"
     },
     {
      "pos": 9,
@@ -3563,8 +3579,8 @@
      "speler": "Imke van der Aar",
      "e": "–",
      "d": "1 – 1",
-     "m": "0 – 1",
-     "tot": "1/3"
+     "m": "0 – 2",
+     "tot": "1/4"
     },
     {
      "pos": 11,
@@ -3848,6 +3864,72 @@
    "speler": [
     {
      "names": [
+      "Meerte Loos"
+     ],
+     "club": "BC Duinwijck",
+     "w": 2,
+     "p": 2,
+     "games": "4-0",
+     "punten": "84-60",
+     "saldo": 24,
+     "res": [
+      {
+       "code": "VD",
+       "tegen": [
+        "Imke van der Aar",
+        "Clara Lassaux"
+       ],
+       "tclub": "BC Drop Shot",
+       "w": 1,
+       "score": "21-15 21-18"
+      },
+      {
+       "code": "GD1",
+       "tegen": [
+        "Wessel van der Aar",
+        "Imke van der Aar"
+       ],
+       "tclub": "BC Drop Shot",
+       "w": 1,
+       "score": "21-8 21-19"
+      }
+     ]
+    },
+    {
+     "names": [
+      "Brian Wassink"
+     ],
+     "club": "BC Duinwijck",
+     "w": 2,
+     "p": 2,
+     "games": "4-0",
+     "punten": "84-63",
+     "saldo": 21,
+     "res": [
+      {
+       "code": "MD",
+       "tegen": [
+        "Lars Kros",
+        "Brandon Bessem"
+       ],
+       "tclub": "BC Drop Shot",
+       "w": 1,
+       "score": "21-17 21-19"
+      },
+      {
+       "code": "GD1",
+       "tegen": [
+        "Wessel van der Aar",
+        "Imke van der Aar"
+       ],
+       "tclub": "BC Drop Shot",
+       "w": 1,
+       "score": "21-8 21-19"
+      }
+     ]
+    },
+    {
+     "names": [
       "Chloë Mayer"
      ],
      "club": "BC Duinwijck",
@@ -3865,52 +3947,6 @@
        "tclub": "BC Drop Shot",
        "w": 1,
        "score": "21-14 21-8"
-      }
-     ]
-    },
-    {
-     "names": [
-      "Gijs Duijs"
-     ],
-     "club": "Dunlop DKC",
-     "w": 1,
-     "p": 1,
-     "games": "2-0",
-     "punten": "42-25",
-     "saldo": 17,
-     "res": [
-      {
-       "code": "MD",
-       "tegen": [
-        "Noah Jongen",
-        "Rik Hermans"
-       ],
-       "tclub": "PK Keukens Roosterse",
-       "w": 1,
-       "score": "21-11 21-14"
-      }
-     ]
-    },
-    {
-     "names": [
-      "Joran Kweekel"
-     ],
-     "club": "Dunlop DKC",
-     "w": 1,
-     "p": 1,
-     "games": "2-0",
-     "punten": "42-25",
-     "saldo": 17,
-     "res": [
-      {
-       "code": "MD",
-       "tegen": [
-        "Noah Jongen",
-        "Rik Hermans"
-       ],
-       "tclub": "PK Keukens Roosterse",
-       "w": 1,
-       "score": "21-11 21-14"
       }
      ]
     }
@@ -4219,7 +4255,56 @@
     {
      "code": "GD",
      "label": "Gemengd dubbel",
-     "top": []
+     "top": [
+      {
+       "names": [
+        "Brian Wassink",
+        "Meerte Loos"
+       ],
+       "club": "BC Duinwijck",
+       "w": 1,
+       "p": 1,
+       "games": "2-0",
+       "punten": "42-27",
+       "saldo": 15,
+       "res": [
+        {
+         "code": "GD1",
+         "tegen": [
+          "Wessel van der Aar",
+          "Imke van der Aar"
+         ],
+         "tclub": "BC Drop Shot",
+         "w": 1,
+         "score": "21-8 21-19"
+        }
+       ]
+      },
+      {
+       "names": [
+        "Wessel van der Aar",
+        "Imke van der Aar"
+       ],
+       "club": "BC Drop Shot",
+       "w": 0,
+       "p": 1,
+       "games": "0-2",
+       "punten": "27-42",
+       "saldo": -15,
+       "res": [
+        {
+         "code": "GD1",
+         "tegen": [
+          "Brian Wassink",
+          "Meerte Loos"
+         ],
+         "tclub": "BC Duinwijck",
+         "w": 0,
+         "score": "8-21 19-21"
+        }
+       ]
+      }
+     ]
     }
    ]
   },
@@ -5679,7 +5764,13 @@
   }
  ],
  "check": {
-  "afwijkingen": []
+  "afwijkingen": [
+   "Meerte Loos",
+   "Brian Wassink",
+   "Thijs van den Berg",
+   "Wessel van der Aar",
+   "Imke van der Aar"
+  ]
  },
- "updated": "10-10-2026 18:54"
+ "updated": "10-10-2026 19:04"
 }
