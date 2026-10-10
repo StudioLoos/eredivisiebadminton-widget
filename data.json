@@ -5,7 +5,7 @@
   {
    "home": "BC Drop Shot",
    "away": "BC Duinwijck",
-   "hs": 0,
+   "hs": 1,
    "as": 5,
    "rows": [
     {
@@ -52,7 +52,9 @@
      ],
      "away": [
       "Novi Wieland"
-     ]
+     ],
+     "score": "13-21 21-12 21-13",
+     "winner": "home"
     },
     {
      "code": "ME2",
@@ -341,7 +343,7 @@
     {
      "home": "BC Drop Shot",
      "away": "BC Duinwijck",
-     "hs": 0,
+     "hs": 1,
      "as": 5,
      "rows": [
       {
@@ -388,7 +390,9 @@
        ],
        "away": [
         "Novi Wieland"
-       ]
+       ],
+       "score": "13-21 21-12 21-13",
+       "winner": "home"
       },
       {
        "code": "ME2",
@@ -2351,12 +2355,12 @@
   },
   {
    "pos": 34,
-   "speler": "Novi Wieland",
-   "club": "BC Duinwijck",
+   "speler": "Clara Lassaux",
+   "club": "BC Drop Shot",
    "w": 2,
    "gp": 4,
-   "games": "5 – 4",
-   "punten": "162 – 157"
+   "games": "5 – 5",
+   "punten": "179 – 173"
   },
   {
    "pos": 35,
@@ -2369,6 +2373,15 @@
   },
   {
    "pos": 36,
+   "speler": "Novi Wieland",
+   "club": "BC Duinwijck",
+   "w": 2,
+   "gp": 5,
+   "games": "6 – 6",
+   "punten": "208 – 212"
+  },
+  {
+   "pos": 37,
    "speler": "Marijn Put",
    "club": "2dA Smashing",
    "w": 2,
@@ -2377,7 +2390,7 @@
    "punten": "211 – 222"
   },
   {
-   "pos": 37,
+   "pos": 38,
    "speler": "Brandon Bessem",
    "club": "BC Drop Shot",
    "w": 2,
@@ -2386,7 +2399,7 @@
    "punten": "239 – 244"
   },
   {
-   "pos": 38,
+   "pos": 39,
    "speler": "Ruben Wijnands",
    "club": "Decorette Amersfoort",
    "w": 2,
@@ -2395,7 +2408,7 @@
    "punten": "189 – 212"
   },
   {
-   "pos": 39,
+   "pos": 40,
    "speler": "Flore Vandenhoucke",
    "club": "PK Keukens Roosterse",
    "w": 2,
@@ -2404,7 +2417,7 @@
    "punten": "212 – 228"
   },
   {
-   "pos": 40,
+   "pos": 41,
    "speler": "Tammi van Wonterghem",
    "club": "BC Drop Shot",
    "w": 2,
@@ -2413,7 +2426,7 @@
    "punten": "274 – 299"
   },
   {
-   "pos": 41,
+   "pos": 42,
    "speler": "Inger Pothuizen",
    "club": "2dA Smashing",
    "w": 2,
@@ -2422,7 +2435,7 @@
    "punten": "272 – 285"
   },
   {
-   "pos": 42,
+   "pos": 43,
    "speler": "Kelly van Buiten",
    "club": "Decorette Amersfoort",
    "w": 2,
@@ -2431,7 +2444,7 @@
    "punten": "273 – 309"
   },
   {
-   "pos": 43,
+   "pos": 44,
    "speler": "Florentine Schoffski",
    "club": "PK Keukens Roosterse",
    "w": 1,
@@ -2440,7 +2453,7 @@
    "punten": "42 – 16"
   },
   {
-   "pos": 44,
+   "pos": 45,
    "speler": "Stefanie Nijsse",
    "club": "PK Keukens Roosterse",
    "w": 1,
@@ -2449,7 +2462,7 @@
    "punten": "42 – 30"
   },
   {
-   "pos": 45,
+   "pos": 46,
    "speler": "Debora Jille",
    "club": "BC Duinwijck",
    "w": 1,
@@ -2458,7 +2471,7 @@
    "punten": "42 – 33"
   },
   {
-   "pos": 46,
+   "pos": 47,
    "speler": "Thijs van den Berg",
    "club": "PK Keukens Roosterse",
    "w": 1,
@@ -2467,7 +2480,7 @@
    "punten": "42 – 33"
   },
   {
-   "pos": 47,
+   "pos": 48,
    "speler": "Yuanyuan Jiang",
    "club": "BC Drop Shot",
    "w": 1,
@@ -2476,7 +2489,7 @@
    "punten": "42 – 35"
   },
   {
-   "pos": 48,
+   "pos": 49,
    "speler": "Wessel van der Aar",
    "club": "BC Drop Shot",
    "w": 1,
@@ -2485,7 +2498,7 @@
    "punten": "42 – 35"
   },
   {
-   "pos": 49,
+   "pos": 50,
    "speler": "Marcello Kausemann",
    "club": "PK Keukens Roosterse",
    "w": 1,
@@ -2494,7 +2507,7 @@
    "punten": "60 – 44"
   },
   {
-   "pos": 50,
+   "pos": 51,
    "speler": "Vihaan Shah",
    "club": "PK Keukens Roosterse",
    "w": 1,
@@ -2503,7 +2516,7 @@
    "punten": "58 – 48"
   },
   {
-   "pos": 51,
+   "pos": 52,
    "speler": "William Villeger",
    "club": "BC Drop Shot",
    "w": 1,
@@ -2512,22 +2525,13 @@
    "punten": "104 – 85"
   },
   {
-   "pos": 52,
+   "pos": 53,
    "speler": "Xenia Koelmel",
    "club": "PK Keukens Roosterse",
    "w": 1,
    "gp": 2,
    "games": "3 – 2",
    "punten": "82 – 86"
-  },
-  {
-   "pos": 53,
-   "speler": "Clara Lassaux",
-   "club": "BC Drop Shot",
-   "w": 1,
-   "gp": 3,
-   "games": "3 – 4",
-   "punten": "124 – 127"
   },
   {
    "pos": 54,
@@ -2962,8 +2966,9 @@
   "Freek Golinski": 5201,
   "Esmeralda van Drunen": 4757,
   "Ties van der Lecq": 3966,
-  "Novi Wieland": 3976,
+  "Clara Lassaux": 5158,
   "Nick Fransman": 5152,
+  "Novi Wieland": 3976,
   "Marijn Put": 5204,
   "Brandon Bessem": 5155,
   "Ruben Wijnands": 4749,
@@ -2981,7 +2986,6 @@
   "Vihaan Shah": 5345,
   "William Villeger": 5162,
   "Xenia Koelmel": 5348,
-  "Clara Lassaux": 5158,
   "Renske Kwakkenbos": 4777,
   "Imke van der Aar": 5159,
   "Berend van Brenk": 4750,
@@ -3169,10 +3173,10 @@
     {
      "pos": 9,
      "speler": "Novi Wieland",
-     "e": "2 – 1",
+     "e": "2 – 2",
      "d": "–",
      "m": "0 – 1",
-     "tot": "2/4"
+     "tot": "2/5"
     },
     {
      "pos": 10,
@@ -3500,6 +3504,14 @@
     },
     {
      "pos": 3,
+     "speler": "Clara Lassaux",
+     "e": "2 – 0",
+     "d": "0 – 2",
+     "m": "–",
+     "tot": "2/4"
+    },
+    {
+     "pos": 4,
      "speler": "Nick Fransman",
      "e": "1 – 2",
      "d": "1 – 0",
@@ -3507,7 +3519,7 @@
      "tot": "2/4"
     },
     {
-     "pos": 4,
+     "pos": 5,
      "speler": "Brandon Bessem",
      "e": "–",
      "d": "1 – 2",
@@ -3515,7 +3527,7 @@
      "tot": "2/5"
     },
     {
-     "pos": 5,
+     "pos": 6,
      "speler": "Tammi van Wonterghem",
      "e": "1 – 1",
      "d": "0 – 2",
@@ -3523,7 +3535,7 @@
      "tot": "2/6"
     },
     {
-     "pos": 6,
+     "pos": 7,
      "speler": "Wessel van der Aar",
      "e": "–",
      "d": "–",
@@ -3531,7 +3543,7 @@
      "tot": "1/1"
     },
     {
-     "pos": 7,
+     "pos": 8,
      "speler": "Yuanyuan Jiang",
      "e": "–",
      "d": "–",
@@ -3539,20 +3551,12 @@
      "tot": "1/1"
     },
     {
-     "pos": 8,
+     "pos": 9,
      "speler": "William Villeger",
      "e": "–",
      "d": "1 – 0",
      "m": "0 – 1",
      "tot": "1/2"
-    },
-    {
-     "pos": 9,
-     "speler": "Clara Lassaux",
-     "e": "1 – 0",
-     "d": "0 – 2",
-     "m": "–",
-     "tot": "1/3"
     },
     {
      "pos": 10,
@@ -4034,23 +4038,23 @@
       },
       {
        "names": [
-        "Xenia Koelmel"
+        "Clara Lassaux"
        ],
-       "club": "PK Keukens Roosterse",
-       "w": 0,
+       "club": "BC Drop Shot",
+       "w": 1,
        "p": 1,
-       "games": "1-2",
-       "punten": "40-60",
-       "saldo": -20,
+       "games": "2-1",
+       "punten": "55-46",
+       "saldo": 9,
        "res": [
         {
          "code": "VE1",
          "tegen": [
-          "Flora Wang"
+          "Novi Wieland"
          ],
-         "tclub": "Dunlop DKC",
-         "w": 0,
-         "score": "4-21 21-18 15-21"
+         "tclub": "BC Duinwijck",
+         "w": 1,
+         "score": "13-21 21-12 21-13"
         }
        ]
       }
@@ -5677,5 +5681,5 @@
  "check": {
   "afwijkingen": []
  },
- "updated": "10-10-2026 18:40"
+ "updated": "10-10-2026 18:54"
 }
