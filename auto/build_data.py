@@ -172,10 +172,12 @@ def main(raw_p, old_p, out_p):
         sched.append({"start": m["start"], "home": m["home"], "away": m["away"], "lineup": lineup, "done_at": done_times.get(key)})
     json.dump(sorted(sched, key=lambda x: x["start"]), open(sched_p, "w"), ensure_ascii=False, indent=0)
     json.dump(done_times, open(dt_p, "w"), ensure_ascii=False)
-    played = sorted(r for r, ms in rm.items() if any(m["played"] for m in ms))
+    # rondes op datum ordenen (niet op nummer): een ronde kan vervroegd zijn, bijv. ronde 11 voor ronde 5
+    def rdate(r): return min((m["date"] for m in rm[r] if m["date"]), default=datetime.date.max)
+    played = sorted((r for r, ms in rm.items() if any(m["played"] for m in ms)), key=lambda r: (rdate(r), r))
     if not played: raise SystemExit("geen gespeelde speelronde gevonden")
     N = played[-1]
-    later = sorted(r for r in rm if r > N)
+    later = sorted((r for r in rm if r != N and not any(m["played"] for m in rm[r]) and rdate(r) >= rdate(N)), key=lambda r: (rdate(r), r))
     nxt = later[0] if later else None
     cur = sorted(rm[N], key=lambda m: (m["date"] or datetime.date.min, m["when"]))
     matches = [{"home": m["home"], "away": m["away"], "hs": m["hs"], "as": m["as"], "rows": m["rows"]} for m in cur]
