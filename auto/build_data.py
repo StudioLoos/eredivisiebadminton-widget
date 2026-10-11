@@ -2,6 +2,7 @@
 """Bouwt data.json voor de widget uit de ruwe gegevens van collect.js (Python 3.9+).
 Gebruik: build_data.py raw.json bestaande_data.json uit_data.json"""
 import json, re, sys, datetime
+from zoneinfo import ZoneInfo
 
 TEAMS = {"DUINWIJCK BC 1": "BC Duinwijck", "DUNLOP DKC 1": "Dunlop DKC", "ROOSTERSE BC 1": "PK Keukens Roosterse",
          "DROP SHOT BC 1": "BC Drop Shot", "ALMERE BV 1": "FIT Almere", "VELO BADMINTON 1": "Velo Badminton",
@@ -58,6 +59,23 @@ def round_date(ds):
     if len(ds) == 1: return "%d %s %d" % (ds[0].day, MAAND[ds[0].month], ds[0].year)
     if ds[0].month == ds[-1].month: return "%s & %d %s %d" % (" & ".join(str(x.day) for x in ds[:-1]), ds[-1].day, MAAND[ds[-1].month], ds[-1].year)
     return " & ".join("%d %s" % (x.day, MAAND[x.month]) for x in ds) + " %d" % ds[-1].year
+
+YT = {"BC Duinwijck": ["UCbJ7-700I4qHyHANrKW8rmA"], "PK Keukens Roosterse": ["UC47QyItfuQpLg_gXzEtGZww"], "FIT Almere": ["UCYXoYfIw-fJouTjk-k50Hbg"],
+      "Dunlop DKC": ["UC0dOOXcg_UYheWVmlbuxVQA", "UCwc733wDiD7_qj-zuPZZBDA"], "BC Drop Shot": ["UCJrIEpns09YAvFJeStd5fYw"],
+      "2dA Smashing": ["UCcDB0JbsiAcHK99ViY_16mg"], "Velo Badminton": ["UCP2k23akVFbh5LU-FWb1ZPA"], "Decorette Amersfoort": ["UCEOSyfNHS_smyspnijXBLuQ"]}
+
+def yt_live_id(ch):
+    """Video-ID van de livestream (of geplande stream) op een YouTube-kanaal, anders None."""
+    try:
+        import requests
+        r = requests.get("https://www.youtube.com/channel/%s/live" % ch, timeout=15,
+                         headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36", "Accept-Language": "en"},
+                         cookies={"CONSENT": "YES+1", "SOCS": "CAI"})
+        m = re.search(r'"likeEndpoint":\{"status":"LIKE","target":\{"videoId":"([\w-]{11})"', r.text)
+        if m and ('"isLive":true' in r.text or '"isUpcoming":true' in r.text): return m.group(1)
+    except Exception as e:
+        print("YouTube niet bereikbaar voor", ch, e)
+    return None
 
 CATS = [("HE", "Herenenkel", ("ME1", "ME2")), ("DE", "Damesenkel", ("VE1", "VE2")), ("HD", "Herendubbel", ("MD",)),
         ("DD", "Damesdubbel", ("VD",)), ("GD", "Gemengd dubbel", ("GD1", "GD2"))]
@@ -170,6 +188,20 @@ def main(raw_p, old_p, out_p):
             done_times[key] = (st + datetime.timedelta(hours=4)).isoformat(timespec="seconds") if datetime.datetime.now() - st > datetime.timedelta(hours=7) else now_iso
         lineup = any(r.get("home") and r.get("away") for r in m["rows"])
         sched.append({"start": m["start"], "home": m["home"], "away": m["away"], "lineup": lineup, "done_at": done_times.get(key)})
+    # livestreams: video-ID van de lopende stream op het YouTube-kanaal van de thuisclub (voor de speler in app en widget)
+    try: prev_yt = {(x["start"], x["home"], x["away"]): x.get("yt") for x in json.load(open(sched_p)) if isinstance(x, dict)}
+    except Exception: prev_yt = {}
+    nu = datetime.datetime.now(ZoneInfo("Europe/Amsterdam")).replace(tzinfo=None)
+    for x in sched:
+        st = datetime.datetime.fromisoformat(x["start"])
+        eind = datetime.datetime.fromisoformat(x["done_at"]) + datetime.timedelta(minutes=10) if x.get("done_at") else st + datetime.timedelta(hours=5)
+        if not (st - datetime.timedelta(minutes=60) <= nu <= eind): continue
+        oud = prev_yt.get((x["start"], x["home"], x["away"])) or []
+        ids = []
+        for i, ch in enumerate(YT.get(x["home"], [])):
+            v = yt_live_id(ch)
+            ids.append(v or (oud[i] if i < len(oud) else None))
+        if any(ids): x["yt"] = ids
     json.dump(sorted(sched, key=lambda x: x["start"]), open(sched_p, "w"), ensure_ascii=False, indent=0)
     json.dump(done_times, open(dt_p, "w"), ensure_ascii=False)
     # rondes op datum ordenen (niet op nummer): een ronde kan vervroegd zijn, bijv. ronde 11 voor ronde 5
