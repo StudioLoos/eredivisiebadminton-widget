@@ -1965,6 +1965,308 @@
    ]
   }
  ],
+ "schema": [
+  {
+   "round": "Speelronde 11",
+   "date": "17 oktober & 9 januari 2027",
+   "matches": [
+    {
+     "home": "Velo Badminton",
+     "away": "FIT Almere",
+     "when": "za 17 okt · 19:00",
+     "rows": []
+    },
+    {
+     "home": "BC Duinwijck",
+     "away": "BC Drop Shot",
+     "when": "za 17 okt · 19:00",
+     "rows": []
+    },
+    {
+     "home": "PK Keukens Roosterse",
+     "away": "Dunlop DKC",
+     "when": "za 17 okt · 19:00",
+     "rows": []
+    },
+    {
+     "home": "Decorette Amersfoort",
+     "away": "2dA Smashing",
+     "when": "za 9 jan · 19:00",
+     "rows": []
+    }
+   ]
+  },
+  {
+   "round": "Speelronde 5",
+   "date": "31 oktober 2026",
+   "matches": [
+    {
+     "home": "Decorette Amersfoort",
+     "away": "BC Drop Shot",
+     "when": "za 31 okt · 19:00",
+     "rows": []
+    },
+    {
+     "home": "BC Duinwijck",
+     "away": "2dA Smashing",
+     "when": "za 31 okt · 19:00",
+     "rows": []
+    },
+    {
+     "home": "PK Keukens Roosterse",
+     "away": "FIT Almere",
+     "when": "za 31 okt · 19:00",
+     "rows": []
+    },
+    {
+     "home": "Velo Badminton",
+     "away": "Dunlop DKC",
+     "when": "za 31 okt · 19:00",
+     "rows": []
+    }
+   ]
+  },
+  {
+   "round": "Speelronde 6",
+   "date": "7 november 2026",
+   "matches": [
+    {
+     "home": "BC Duinwijck",
+     "away": "Decorette Amersfoort",
+     "when": "za 7 nov · 19:00",
+     "rows": []
+    },
+    {
+     "home": "Velo Badminton",
+     "away": "2dA Smashing",
+     "when": "za 7 nov · 19:00",
+     "rows": []
+    },
+    {
+     "home": "Dunlop DKC",
+     "away": "FIT Almere",
+     "when": "za 7 nov · 19:00",
+     "rows": []
+    },
+    {
+     "home": "PK Keukens Roosterse",
+     "away": "BC Drop Shot",
+     "when": "za 7 nov · 19:00",
+     "rows": []
+    }
+   ]
+  },
+  {
+   "round": "Speelronde 7",
+   "date": "14 & 15 november 2026",
+   "matches": [
+    {
+     "home": "BC Drop Shot",
+     "away": "Dunlop DKC",
+     "when": "za 14 nov · 18:30",
+     "rows": []
+    },
+    {
+     "home": "2dA Smashing",
+     "away": "PK Keukens Roosterse",
+     "when": "za 14 nov · 19:00",
+     "rows": []
+    },
+    {
+     "home": "Decorette Amersfoort",
+     "away": "Velo Badminton",
+     "when": "za 14 nov · 19:00",
+     "rows": []
+    },
+    {
+     "home": "FIT Almere",
+     "away": "BC Duinwijck",
+     "when": "zo 15 nov · 14:00",
+     "rows": []
+    }
+   ]
+  },
+  {
+   "round": "Speelronde 8",
+   "date": "28 november 2026",
+   "matches": [
+    {
+     "home": "BC Drop Shot",
+     "away": "FIT Almere",
+     "when": "za 28 nov · 18:30",
+     "rows": []
+    },
+    {
+     "home": "Dunlop DKC",
+     "away": "2dA Smashing",
+     "when": "za 28 nov · 19:00",
+     "rows": []
+    },
+    {
+     "home": "PK Keukens Roosterse",
+     "away": "Decorette Amersfoort",
+     "when": "za 28 nov · 19:00",
+     "rows": []
+    },
+    {
+     "home": "BC Duinwijck",
+     "away": "Velo Badminton",
+     "when": "za 28 nov · 19:00",
+     "rows": []
+    }
+   ]
+  },
+  {
+   "round": "Speelronde 9",
+   "date": "12 december 2026",
+   "matches": [
+    {
+     "home": "BC Duinwijck",
+     "away": "PK Keukens Roosterse",
+     "when": "za 12 dec · 19:00",
+     "rows": []
+    },
+    {
+     "home": "Decorette Amersfoort",
+     "away": "Dunlop DKC",
+     "when": "za 12 dec · 19:00",
+     "rows": []
+    },
+    {
+     "home": "2dA Smashing",
+     "away": "FIT Almere",
+     "when": "za 12 dec · 19:00",
+     "rows": []
+    },
+    {
+     "home": "Velo Badminton",
+     "away": "BC Drop Shot",
+     "when": "za 12 dec · 19:00",
+     "rows": []
+    }
+   ]
+  },
+  {
+   "round": "Speelronde 10",
+   "date": "19 & 20 december 2026",
+   "matches": [
+    {
+     "home": "BC Drop Shot",
+     "away": "2dA Smashing",
+     "when": "za 19 dec · 18:30",
+     "rows": []
+    },
+    {
+     "home": "Dunlop DKC",
+     "away": "BC Duinwijck",
+     "when": "za 19 dec · 19:00",
+     "rows": []
+    },
+    {
+     "home": "PK Keukens Roosterse",
+     "away": "Velo Badminton",
+     "when": "za 19 dec · 19:00",
+     "rows": []
+    },
+    {
+     "home": "FIT Almere",
+     "away": "Decorette Amersfoort",
+     "when": "zo 20 dec · 14:00",
+     "rows": []
+    }
+   ]
+  },
+  {
+   "round": "Speelronde 12",
+   "date": "16 & 17 januari 2027",
+   "matches": [
+    {
+     "home": "BC Drop Shot",
+     "away": "PK Keukens Roosterse",
+     "when": "za 16 jan · 18:30",
+     "rows": []
+    },
+    {
+     "home": "Decorette Amersfoort",
+     "away": "BC Duinwijck",
+     "when": "za 16 jan · 19:00",
+     "rows": []
+    },
+    {
+     "home": "2dA Smashing",
+     "away": "Velo Badminton",
+     "when": "za 16 jan · 19:00",
+     "rows": []
+    },
+    {
+     "home": "FIT Almere",
+     "away": "Dunlop DKC",
+     "when": "zo 17 jan · 14:00",
+     "rows": []
+    }
+   ]
+  },
+  {
+   "round": "Speelronde 13",
+   "date": "23 januari 2027",
+   "matches": [
+    {
+     "home": "Velo Badminton",
+     "away": "Decorette Amersfoort",
+     "when": "za 23 jan · 19:00",
+     "rows": []
+    },
+    {
+     "home": "Dunlop DKC",
+     "away": "BC Drop Shot",
+     "when": "za 23 jan · 19:00",
+     "rows": []
+    },
+    {
+     "home": "BC Duinwijck",
+     "away": "FIT Almere",
+     "when": "za 23 jan · 19:00",
+     "rows": []
+    },
+    {
+     "home": "PK Keukens Roosterse",
+     "away": "2dA Smashing",
+     "when": "za 23 jan · 19:00",
+     "rows": []
+    }
+   ]
+  },
+  {
+   "round": "Speelronde 14",
+   "date": "30 januari 2027",
+   "matches": [
+    {
+     "home": "Dunlop DKC",
+     "away": "Velo Badminton",
+     "when": "za 30 jan · 19:00",
+     "rows": []
+    },
+    {
+     "home": "2dA Smashing",
+     "away": "BC Duinwijck",
+     "when": "za 30 jan · 19:00",
+     "rows": []
+    },
+    {
+     "home": "FIT Almere",
+     "away": "PK Keukens Roosterse",
+     "when": "za 30 jan · 19:00",
+     "rows": []
+    },
+    {
+     "home": "BC Drop Shot",
+     "away": "Decorette Amersfoort",
+     "when": "za 30 jan · 19:00",
+     "rows": []
+    }
+   ]
+  }
+ ],
  "programma": {
   "round": "Speelronde 11",
   "date": "17 oktober 2026",
@@ -3054,87 +3356,6 @@
   "Mees Janssen": 5077,
   "Mandy Duijndam": 5156,
   "Anouk van Wijk": 4752
- },
- "photos": {
-  "Alyssa Tirtosentono": "fotos/alyssa-tirtosentono.jpg",
-  "Brian Wassink": "fotos/brian-wassink.jpg",
-  "Chloë Mayer": "fotos/chloe-mayer.jpg",
-  "Debora Jille": "fotos/debora-jille.jpg",
-  "Meerte Loos": "fotos/meerte-loos.jpg",
-  "Mette Kool": "fotos/mette-kool.jpg",
-  "Novi Wieland": "fotos/novi-wieland.jpg",
-  "Ties van der Lecq": "fotos/ties-van-der-lecq.jpg",
-  "Timo Stoffelen": "fotos/timo-stoffelen.jpg",
-  "Adith Karthikeyan Priya": "fotos/adith-karthikeyan-priya.jpg",
-  "Aram Mahmoud": "fotos/aram-mahmoud.jpg",
-  "Alida Chen": "fotos/alida-chen.jpg",
-  "Dennis Koppen": "fotos/dennis-koppen.jpg",
-  "Diede Odijk": "fotos/diede-odijk.jpg",
-  "Dyon van Wijlick": "fotos/dyon-van-wijlick.jpg",
-  "Joep Strooper": "fotos/joep-strooper.jpg",
-  "Kirsten de Wit": "fotos/kirsten-de-wit.jpg",
-  "Noah Haase": "fotos/noah-haase.jpg",
-  "Casper Spaans": "fotos/casper-spaans.jpg",
-  "Freek Golinski": "fotos/freek-golinski.jpg",
-  "Inger Pothuizen": "fotos/inger-pothuizen.jpg",
-  "Jonah Quintens": "fotos/jonah-quintens.jpg",
-  "Leonie Rovers": "fotos/leonie-rovers.jpg",
-  "Lieke Maes": "fotos/lieke-maes.jpg",
-  "Marijn Put": "fotos/marijn-put.jpg",
-  "Maureen Zewald": "fotos/maureen-zewald.jpg",
-  "Natalia Perminova": "fotos/natalia-perminova.jpg",
-  "Robin Tabeling": "fotos/robin-tabeling.jpg",
-  "Sterre Bang": "fotos/sterre-bang.jpg",
-  "Vincent de Vries": "fotos/vincent-de-vries.jpg",
-  "Flora Wang": "fotos/flora-wang.jpg",
-  "Gijs Duijs": "fotos/gijs-duijs.jpg",
-  "Jaymie Laurens": "fotos/jaymie-laurens.jpg",
-  "Joran Kweekel": "fotos/joran-kweekel.jpg",
-  "Lieke van Parys": "fotos/lieke-van-parys.jpg",
-  "Mark Caljouw": "fotos/mark-caljouw.jpg",
-  "Thomas Sibbald": "fotos/thomas-sibbald.jpg",
-  "Amy Tan": "fotos/amy-tan.jpg",
-  "Angus Meldrum": "fotos/angus-meldrum.jpg",
-  "Dion Rovers": "fotos/dion-rovers.jpg",
-  "Luca Wiechmann": "fotos/luca-wiechmann.jpg",
-  "Mees Janssen": "fotos/mees-janssen.jpg",
-  "Myke Halkema": "fotos/myke-halkema.jpg",
-  "Rens Lagrouw": "fotos/rens-lagrouw.jpg",
-  "Veda Diemel": "fotos/veda-diemel.jpg",
-  "Andy Buijk": "fotos/andy-buijk.jpg",
-  "Brandon Bessem": "fotos/brandon-bessem.jpg",
-  "Clara Lassaux": "fotos/clara-lassaux.jpg",
-  "Iben Bergstein": "fotos/iben-bergstein.jpg",
-  "Imke van der Aar": "fotos/imke-van-der-aar.jpg",
-  "Kathell Desmots Chacun": "fotos/kathell-desmots-chacun.jpg",
-  "Lars Kros": "fotos/lars-kros.jpg",
-  "Mandy Duijndam": "fotos/mandy-duijndam.jpg",
-  "Nick Fransman": "fotos/nick-fransman.jpg",
-  "Tammi van Wonterghem": "fotos/tammi-van-wonterghem.jpg",
-  "Wessel van der Aar": "fotos/wessel-van-der-aar.jpg",
-  "William Villeger": "fotos/william-villeger.jpg",
-  "Anouk van Wijk": "fotos/anouk-van-wijk.jpg",
-  "Berend van Brenk": "fotos/berend-van-brenk.jpg",
-  "Dion Hoegen": "fotos/dion-hoegen.jpg",
-  "Esmeralda van Drunen": "fotos/esmeralda-van-drunen.jpg",
-  "Imka Putrama Arlin": "fotos/imka-putrama-arlin.jpg",
-  "Kelly van Buiten": "fotos/kelly-van-buiten.jpg",
-  "Ruben Jille": "fotos/ruben-jille.jpg",
-  "Ruben Wijnands": "fotos/ruben-wijnands.jpg",
-  "Shreya Hochscheid": "fotos/shreya-hochscheid.jpg",
-  "Ade Resky Dwicahyo": "fotos/ade-resky-dwicahyo.jpg",
-  "Alexander Roovers": "fotos/alexander-roovers.jpg",
-  "Flore Vandenhoucke": "fotos/flore-vandenhoucke.jpg",
-  "Florentine Schoffski": "fotos/florentine-schoffski.jpg",
-  "Iris van Leijsen": "fotos/iris-van-leijsen.jpg",
-  "Jasper Koppen": "fotos/jasper-koppen.jpg",
-  "Lien Lammertyn": "fotos/lien-lammertyn.jpg",
-  "Marcello Kausemann": "fotos/marcello-kausemann.jpg",
-  "Noah Jongen": "fotos/noah-jongen.jpg",
-  "Rik Hermans": "fotos/rik-hermans.jpg",
-  "Stefanie Nijsse": "fotos/stefanie-nijsse.jpg",
-  "Vihaan Shah": "fotos/vihaan-shah.jpg",
-  "Xenia Koelmel": "fotos/xenia-koelmel.jpg"
  },
  "teams": [
   {
@@ -5827,5 +6048,5 @@
  "check": {
   "afwijkingen": []
  },
- "updated": "10-10-2026 22:27"
+ "updated": "11-10-2026 12:47"
 }

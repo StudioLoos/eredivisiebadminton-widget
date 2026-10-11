@@ -64,6 +64,18 @@ def main(out):
     for m in lst:
         d = get("/sport/teammatch.aspx?id=%s&match=%s" % (P, m["id"]))
         matches[m["id"]] = [c for c in (cells(tr, "\n") for tr in d.find_all("tr")) if c and CODE.match(c[0])]
+    # volledig speelschema (alleen de lijst, zonder wedstrijdpagina's): voor het tabblad Programma
+    alle = []
+    try:
+        dm = get("/sport/drawmatches.aspx?id=%s&draw=1" % P)
+        for tr in dm.find_all("tr"):
+            a = tr.find("a", href=re.compile("teammatch"))
+            m = re.search(r"match=(\d+)", a["href"]) if a else None
+            if m and m.group(1) not in seen:
+                seen.add(m.group(1))
+                alle.append({"id": m.group(1), "c": cells(tr)})
+    except Exception as e:
+        print("speelschema niet opgehaald:", e)
     ps = get("/sport/playerstats.aspx?id=%s&draw=1" % P)
     players = []
     for tr in ps.find_all("tr"):
@@ -72,9 +84,9 @@ def main(out):
             players.append({"pid": int(a["href"].split("player=")[1].split("&")[0]), "c": cells(tr)})
     if not stand or not players:
         raise SystemExit("FOUT bij ophalen: geen gegevens (cookiemelding of site niet bereikbaar)")
-    json.dump({"stand": stand, "list": lst, "matches": matches, "players": players},
+    json.dump({"stand": stand, "list": lst, "matches": matches, "players": players, "alle": alle},
               open(out, "w", encoding="utf-8"), ensure_ascii=False)
-    print("opgehaald: %d wedstrijden, %d spelers" % (len(lst), len(players)))
+    print("opgehaald: %d wedstrijden (+%d in speelschema), %d spelers" % (len(lst), len(alle), len(players)))
 
 
 if __name__ == "__main__":

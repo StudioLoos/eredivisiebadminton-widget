@@ -196,6 +196,25 @@ def main(raw_p, old_p, out_p):
         seizoen[key] = {"round": key, "date": prev.get("date") or re.sub(r" \d{4}$", "", round_date([m["date"] for m in ms])),
                         "matches": [merged[k] for k in order]}
     data["seizoen"] = sorted(seizoen.values(), key=lambda R: -int(R["round"].split()[-1]))
+    # speelschema: alle komende speelrondes (op datum), de eerste is gelijk aan programma
+    def prog(src, r):
+        ms = sorted(src, key=lambda m: (m["date"] or datetime.date.min, m["when"]))
+        return {"round": "Speelronde %d" % r, "date": round_date([m["date"] for m in ms]),
+                "matches": [{"home": m["home"], "away": m["away"], "when": m["when"],
+                             "rows": [{"code": x["code"], "home": x["home"], "away": x["away"]} for x in m["rows"] if x["home"] and x["away"]]} for m in ms]}
+    # rondes die alleen in het volledige speelschema staan (nog niet in het venster van de poulepagina)
+    known = {m["id"] for m in lst}
+    rs = {r: list(ms) for r, ms in rm.items()}  # kopie: programma en meldingen blijven ongewijzigd
+    for x in raw.get("alle", []):
+        if x["id"] in known: continue
+        try: m = parse_list(x)
+        except Exception: continue
+        if not m["round"] or not m["home"]: continue
+        m["rows"] = []; m["played"] = False
+        rs.setdefault(m["round"], []).append(m)
+    def rdate2(r): return min((m["date"] for m in rs[r] if m["date"]), default=datetime.date.max)
+    alle_later = sorted((r for r in rs if r != N and not any(m["played"] for m in rs[r]) and rdate2(r) >= rdate(N)), key=lambda r: (rdate2(r), r))
+    data["schema"] = [prog(rs[r], r) for r in alle_later]
     # programma
     if nxt:
         ms = sorted(rm[nxt], key=lambda m: (m["date"] or datetime.date.min, m["when"]))
