@@ -198,28 +198,6 @@ footer a{color:#fff;font-weight:600}
 .prnav button:disabled{opacity:.35;cursor:default}
 .prnav select{font:inherit;font-weight:600;font-size:15px;border:2px solid #fff;border-radius:999px;padding:7px 14px;background:rgba(255,255,255,.95);color:#E95822;outline:none}
 .poleg{display:inline-flex;align-items:center;gap:4px}
-.live{margin:0 0 12px}
-.live[hidden]{display:none}
-.lvbar{display:flex;align-items:center;gap:10px;width:100%;box-sizing:border-box;padding:10px 12px 10px 14px;border:0;border-radius:16px;background:#fff;color:#3a1a0c;font:inherit;text-align:left;cursor:pointer;box-shadow:0 4px 14px rgba(120,40,0,.18)}
-.lvbar.nx{cursor:default;background:rgba(255,255,255,.18);color:#fff;box-shadow:none;padding:8px 14px}
-.lvpill{flex:0 0 auto;display:inline-flex;align-items:center;gap:6px;background:#D92B2B;color:#fff;font-weight:800;font-size:12px;letter-spacing:.08em;border-radius:999px;padding:4px 10px}
-.lvpill i{width:8px;height:8px;border-radius:50%;background:#fff;animation:lvp 1.4s infinite}
-@keyframes lvp{0%,100%{opacity:1}50%{opacity:.25}}
-.lvtx{flex:1;min-width:0;font-weight:700;font-size:15px;line-height:1.25}
-.lvtx small{display:block;font-weight:500;font-size:12.5px;opacity:.75;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.lvbar.nx .lvtx{font-weight:600;font-size:14px}
-.lvgo{flex:0 0 auto;background:#E95822;color:#fff;font-weight:700;font-size:14px;border-radius:999px;padding:8px 14px}
-.lvpanel{margin-top:8px;background:#fff;border-radius:16px;padding:10px;color:#3a1a0c;box-shadow:0 4px 14px rgba(120,40,0,.18)}
-.lvch{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}
-.lvch button{font:inherit;font-size:13px;font-weight:700;border:2px solid #f3d3c2;background:#fff;color:#E95822;border-radius:999px;padding:5px 12px;cursor:pointer}
-.lvch button[aria-pressed=true]{background:#E95822;border-color:#E95822;color:#fff}
-.lvvid{position:relative;width:100%;padding-top:56.25%;border-radius:10px;overflow:hidden;background:#000}
-.lvvid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
-.lvsc{display:flex;align-items:center;justify-content:center;gap:10px;margin:10px 0 4px;font-weight:700;font-size:15px;text-align:center}
-.lvsc b{font-size:20px;color:#E95822;white-space:nowrap}
-.lvsc span{flex:1}
-.lvft{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;font-size:12.5px;opacity:.85;margin-top:4px}
-.lvft a{color:#E95822;font-weight:700;text-decoration:none}
 </style>
 </head>
 <body>
@@ -229,7 +207,6 @@ footer a{color:#fff;font-weight:600}
   <div class="t"><h1>EREDIVISIE BADMINTON</h1><div class="s" id="sub"></div></div>
  </header>
  <div class="gs-wrap"><input id="gq" type="search" autocomplete="off" placeholder="Zoek een speler of club…" aria-label="Zoek een speler of club"><div id="gl" class="gl" hidden></div></div>
- <div id="live" class="live" hidden></div>
  <div class="tabs" role="tablist">
   <button role="tab" data-p="uitslagen" aria-selected="true">Uitslagen</button>
   <button role="tab" data-p="programma" aria-selected="false">Programma</button>
@@ -5417,67 +5394,6 @@ function initSearch(){
 function sendH(){try{parent.postMessage({edbHeight:document.getElementById('edb').offsetHeight+4},'*')}catch(e){}}
 window.addEventListener('resize',sendH);
 fetch('data.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(render).catch(()=>render(INLINE));
-/* ---- Livestreams: LIVE-balk + ingebouwde YouTube-speler (kanaal van de thuisclub) ---- */
-const YT={'BC Duinwijck':['UCbJ7-700I4qHyHANrKW8rmA'],'PK Keukens Roosterse':['UC47QyItfuQpLg_gXzEtGZww'],'FIT Almere':['UCYXoYfIw-fJouTjk-k50Hbg'],
- 'Dunlop DKC':['UC0dOOXcg_UYheWVmlbuxVQA','UCwc733wDiD7_qj-zuPZZBDA'],'BC Drop Shot':['UCJrIEpns09YAvFJeStd5fYw'],'2dA Smashing':['UCcDB0JbsiAcHK99ViY_16mg'],
- 'Velo Badminton':['UCP2k23akVFbh5LU-FWb1ZPA'],'Decorette Amersfoort':['UCEOSyfNHS_smyspnijXBLuQ']};
-const LV={sched:[],open:false,m:0,lane:0,data:null,timer:null};
-const lvWhen=iso=>{const d=new Date(iso);const D=['zo','ma','di','wo','do','vr','za'],M=['jan','feb','mrt','apr','mei','jun','jul','aug','sep','okt','nov','dec'];
- return `${D[d.getDay()]} ${d.getDate()} ${M[d.getMonth()]} · ${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}`;};
-function lvState(){
- const t=new URLSearchParams(location.search).get('livetest');
- if(t) return {live:[{home:'Testwedstrijd',away:'livestream',start:new Date().toISOString(),ch:[t]}],next:null};
- const now=Date.now(), live=[], up=[];
- LV.sched.forEach(m=>{const st=new Date(m.start).getTime(); if(isNaN(st)) return;
-  const end=m.done_at?new Date(m.done_at).getTime()+10*60e3:st+4.5*36e5;
-  if(now>=st-15*60e3&&now<=end) live.push({...m,ch:YT[m.home]||[]}); else if(st>now) up.push(m);});
- up.sort((a,b)=>a.start<b.start?-1:1);
- return {live,next:up[0]?{start:up[0].start,n:up.filter(x=>x.start===up[0].start).length}:null};
-}
-function lvScore(m){const D=LV.data||DATA; if(!D) return null; let f=null;
- [{matches:D.matches||[]},...(D.seizoen||[])].forEach(R=>(R.matches||[]).forEach(x=>{if(!f&&x.home===m.home&&x.away===m.away) f=x;}));
- return f&&f.hs!==''&&f.hs!=null?[f.hs,f.as]:null;}
-function drawLive(){
- const el=document.getElementById('live'); if(!el) return;
- const S=lvState();
- if(!S.live.length){
-  LV.open=false;
-  if(S.next&&new Date(S.next.start).getTime()-Date.now()<7*864e5){el.hidden=false;
-   el.innerHTML=`<div class="lvbar nx"><span class="lvtx">Volgende livestream: ${esc(lvWhen(S.next.start))}${S.next.n>1?` · ${S.next.n} wedstrijden`:''}</span></div>`;}
-  else{el.hidden=true;el.innerHTML='';}
-  sendH(); return;}
- el.hidden=false; if(LV.m>=S.live.length){LV.m=0;LV.lane=0;}
- const m=S.live[LV.m];
- const bar=`<button type="button" class="lvbar" id="lvt" aria-expanded="${LV.open}"><span class="lvpill"><i></i>LIVE</span><span class="lvtx">${esc(m.home)} – ${esc(m.away)}${S.live.length>1?`<small>+ ${S.live.length-1} andere wedstrijd${S.live.length>2?'en':''} live</small>`:'<small>Kijk de livestream hier in de app</small>'}</span><span class="lvgo">${LV.open?'Sluiten':'Kijk live'}</span></button>`;
- if(!LV.open){el.innerHTML=bar;}
- else{
-  const ch=m.ch[Math.min(LV.lane,m.ch.length-1)]||'';
-  const chips=S.live.length>1?`<div class="lvch">${S.live.map((x,j)=>`<button type="button" data-lm="${j}" aria-pressed="${j===LV.m}">${esc(x.home)} – ${esc(x.away)}</button>`).join('')}</div>`:'';
-  const lanes=m.ch.length>1?`<div class="lvch">${m.ch.map((x,j)=>`<button type="button" data-ll="${j}" aria-pressed="${j===LV.lane}">Baan ${j+1}</button>`).join('')}</div>`:'';
-  const sc=lvScore(m);
-  const cur=el.querySelector('iframe'); const src=ch?`https://www.youtube.com/embed/live_stream?channel=${ch}&autoplay=1&mute=1&playsinline=1&rel=0`:'';
-  const keep=cur&&cur.dataset.src===src;
-  const vid=keep?null:(ch?`<iframe data-src="${src}" src="${src}" title="Livestream ${esc(m.home)} – ${esc(m.away)}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>`:`<div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:600;padding:16px;text-align:center">Geen livestream-kanaal bekend voor ${esc(m.home)}</div>`);
-  const info=`<div class="lvsc"><span>${esc(m.home)}</span><b>${sc?`${sc[0]} – ${sc[1]}`:'– –'}</b><span>${esc(m.away)}</span></div>
-   <div class="lvft"><span>Zie je geen beeld? De stream is mogelijk nog niet gestart.</span>${ch?`<a href="https://www.youtube.com/channel/${ch}/live" target="_blank" rel="noopener">Kijk op YouTube ↗</a>`:''}</div>`;
-  if(keep){el.querySelector('#lvt').outerHTML=bar; el.querySelector('#lvinfo').innerHTML=info;}
-  else el.innerHTML=bar+`<div class="lvpanel">${chips}${lanes}<div class="lvvid">${vid}</div><div id="lvinfo">${info}</div></div>`;
-  if(keep){const c=el.querySelector('.lvpanel'); c.querySelectorAll('.lvch').forEach(x=>x.remove()); c.insertAdjacentHTML('afterbegin',chips+lanes);}
- }
- sendH();
-}
-document.addEventListener('click',ev=>{
- if(ev.target.closest('#lvt')){LV.open=!LV.open; if(!LV.open){const el=document.getElementById('live');el.innerHTML='';} drawLive(); return;}
- const lm=ev.target.closest('[data-lm]'); if(lm){LV.m=+lm.dataset.lm;LV.lane=0;drawLive();return;}
- const ll=ev.target.closest('[data-ll]'); if(ll){LV.lane=+ll.dataset.ll;drawLive();}
-});
-function lvLoad(){
- fetch('auto/schedule.json',{cache:'no-store'}).then(r=>r.ok?r.json():[]).then(s=>{LV.sched=Array.isArray(s)?s:[];drawLive();}).catch(()=>drawLive());
- if(lvState().live.length) fetch('data.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(d=>{if(d){LV.data=d;drawLive();}}).catch(()=>{});
-}
-lvLoad(); setInterval(lvLoad,60e3);
-document.addEventListener('visibilitychange',()=>{if(!document.hidden) lvLoad();});
-
 </script>
 </body>
 </html>
