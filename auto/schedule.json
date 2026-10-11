@@ -80,7 +80,7 @@
 "start": "2026-10-11T14:00:00",
 "home": "FIT Almere",
 "away": "Velo Badminton",
-"lineup": false,
+"lineup": true,
 "done_at": null
 },
 {

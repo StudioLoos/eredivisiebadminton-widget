@@ -310,43 +310,83 @@
    "rows": [
     {
      "code": "MD",
-     "home": [],
-     "away": []
+     "home": [
+      "Dyon van Wijlick",
+      "Joep Strooper"
+     ],
+     "away": [
+      "Mees Janssen",
+      "Rens Lagrouw"
+     ]
     },
     {
      "code": "VD",
-     "home": [],
-     "away": []
+     "home": [
+      "Diede Odijk",
+      "Kirsten de Wit"
+     ],
+     "away": [
+      "Myke Halkema",
+      "Veda Diemel"
+     ]
     },
     {
      "code": "ME1",
-     "home": [],
-     "away": []
+     "home": [
+      "Dennis Koppen"
+     ],
+     "away": [
+      "Dion Rovers"
+     ]
     },
     {
      "code": "VE1",
-     "home": [],
-     "away": []
+     "home": [
+      "Diede Odijk"
+     ],
+     "away": [
+      "Amy Tan"
+     ]
     },
     {
      "code": "ME2",
-     "home": [],
-     "away": []
+     "home": [
+      "Dyon van Wijlick"
+     ],
+     "away": [
+      "Mees Janssen"
+     ]
     },
     {
      "code": "VE2",
-     "home": [],
-     "away": []
+     "home": [
+      "Alida Chen"
+     ],
+     "away": [
+      "Veda Diemel"
+     ]
     },
     {
      "code": "GD1",
-     "home": [],
-     "away": []
+     "home": [
+      "Joep Strooper",
+      "Kirsten de Wit"
+     ],
+     "away": [
+      "Dion Rovers",
+      "Myke Halkema"
+     ]
     },
     {
      "code": "GD2",
-     "home": [],
-     "away": []
+     "home": [
+      "Dennis Koppen",
+      "Alida Chen"
+     ],
+     "away": [
+      "Rens Lagrouw",
+      "Amy Tan"
+     ]
     }
    ]
   }
@@ -664,43 +704,83 @@
      "rows": [
       {
        "code": "MD",
-       "home": [],
-       "away": []
+       "home": [
+        "Dyon van Wijlick",
+        "Joep Strooper"
+       ],
+       "away": [
+        "Mees Janssen",
+        "Rens Lagrouw"
+       ]
       },
       {
        "code": "VD",
-       "home": [],
-       "away": []
+       "home": [
+        "Diede Odijk",
+        "Kirsten de Wit"
+       ],
+       "away": [
+        "Myke Halkema",
+        "Veda Diemel"
+       ]
       },
       {
        "code": "ME1",
-       "home": [],
-       "away": []
+       "home": [
+        "Dennis Koppen"
+       ],
+       "away": [
+        "Dion Rovers"
+       ]
       },
       {
        "code": "VE1",
-       "home": [],
-       "away": []
+       "home": [
+        "Diede Odijk"
+       ],
+       "away": [
+        "Amy Tan"
+       ]
       },
       {
        "code": "ME2",
-       "home": [],
-       "away": []
+       "home": [
+        "Dyon van Wijlick"
+       ],
+       "away": [
+        "Mees Janssen"
+       ]
       },
       {
        "code": "VE2",
-       "home": [],
-       "away": []
+       "home": [
+        "Alida Chen"
+       ],
+       "away": [
+        "Veda Diemel"
+       ]
       },
       {
        "code": "GD1",
-       "home": [],
-       "away": []
+       "home": [
+        "Joep Strooper",
+        "Kirsten de Wit"
+       ],
+       "away": [
+        "Dion Rovers",
+        "Myke Halkema"
+       ]
       },
       {
        "code": "GD2",
-       "home": [],
-       "away": []
+       "home": [
+        "Dennis Koppen",
+        "Alida Chen"
+       ],
+       "away": [
+        "Rens Lagrouw",
+        "Amy Tan"
+       ]
       }
      ]
     }
@@ -6160,5 +6240,5 @@
    "Renske Kwakkenbos"
   ]
  },
- "updated": "11-10-2026 11:03"
+ "updated": "11-10-2026 11:46"
 }
