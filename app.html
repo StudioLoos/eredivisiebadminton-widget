@@ -5532,7 +5532,7 @@ const lvWhen=iso=>{const d=new Date(iso);const D=['zo','ma','di','wo','do','vr',
  return `${D[d.getDay()]} ${d.getDate()} ${M[d.getMonth()]} · ${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}`;};
 function lvState(){
  const t=new URLSearchParams(location.search).get('livetest');
- if(t) return {live:[{home:'Testwedstrijd',away:'livestream',start:new Date().toISOString(),ch:['test'],yt:[t]}],next:null};
+ if(t) return {live:[{home:'Testwedstrijd',away:'livestream',start:new Date().toISOString(),ch:[t]}],next:null};
  const now=Date.now(), live=[], up=[];
  LV.sched.forEach(m=>{const st=new Date(m.start).getTime(); if(isNaN(st)) return;
   const end=m.done_at?new Date(m.done_at).getTime()+10*60e3:st+4.5*36e5;
@@ -5561,11 +5561,11 @@ function drawLive(){
   const chips=S.live.length>1?`<div class="lvch">${S.live.map((x,j)=>`<button type="button" data-lm="${j}" aria-pressed="${j===LV.m}">${esc(x.home)} – ${esc(x.away)}</button>`).join('')}</div>`:'';
   const lanes=m.ch.length>1?`<div class="lvch">${m.ch.map((x,j)=>`<button type="button" data-ll="${j}" aria-pressed="${j===LV.lane}">Baan ${j+1}</button>`).join('')}</div>`:'';
   const sc=lvScore(m);
-  const vidId=(m.yt||[])[Math.min(LV.lane,m.ch.length-1)]; const cur=el.querySelector('iframe'); const src=vidId?`https://www.youtube.com/embed/${vidId}?autoplay=1&mute=1&playsinline=1&rel=0`:'';
-  const keep=src?(cur&&cur.dataset.src===src):(!cur&&!!el.querySelector('.lvwait')&&el.querySelector('.lvwait').dataset.k===m.home+LV.lane);
-  const vid=keep?null:(src?`<iframe data-src="${src}" src="${src}" title="Livestream ${esc(m.home)} – ${esc(m.away)}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>`:`<div class="lvwait" data-k="${esc(m.home+LV.lane)}" style="position:absolute;inset:0;display:flex;flex-direction:column;gap:10px;align-items:center;justify-content:center;color:#fff;font-weight:600;padding:16px;text-align:center">${ch?`De livestream is nog niet gevonden of nog niet gestart.<br><small style="font-weight:500;opacity:.8">De app kijkt elke paar minuten opnieuw.</small>${ch!=='test'?`<a href="https://www.youtube.com/channel/${ch}/live" target="_blank" rel="noopener" style="background:#E95822;color:#fff;border-radius:999px;padding:8px 16px;text-decoration:none">Kijk op YouTube ↗</a>`:''}`:`Geen livestream-kanaal bekend voor ${esc(m.home)}`}</div>`);
+  const cur=el.querySelector('iframe'); const src=ch?`https://www.youtube.com/embed/live_stream?channel=${ch}&autoplay=1&mute=1&playsinline=1&rel=0`:'';
+  const keep=cur&&cur.dataset.src===src;
+  const vid=keep?null:(ch?`<iframe data-src="${src}" src="${src}" title="Livestream ${esc(m.home)} – ${esc(m.away)}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>`:`<div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:600;padding:16px;text-align:center">Geen livestream-kanaal bekend voor ${esc(m.home)}</div>`);
   const info=`<div class="lvsc"><span>${esc(m.home)}</span><b>${sc?`${sc[0]} – ${sc[1]}`:'– –'}</b><span>${esc(m.away)}</span></div>
-   <div class="lvft"><span>Zie je geen beeld? De stream is mogelijk nog niet gestart.</span>${ch&&ch!=='test'?`<a href="https://www.youtube.com/channel/${ch}/live" target="_blank" rel="noopener">Kijk op YouTube ↗</a>`:''}</div>`;
+   <div class="lvft"><span>Zie je geen beeld? De stream is mogelijk nog niet gestart.</span>${ch?`<a href="https://www.youtube.com/channel/${ch}/live" target="_blank" rel="noopener">Kijk op YouTube ↗</a>`:''}</div>`;
   if(keep){el.querySelector('#lvt').outerHTML=bar; el.querySelector('#lvinfo').innerHTML=info;}
   else el.innerHTML=bar+`<div class="lvpanel">${chips}${lanes}<div class="lvvid">${vid}</div><div id="lvinfo">${info}</div></div>`;
   if(keep){const c=el.querySelector('.lvpanel'); c.querySelectorAll('.lvch').forEach(x=>x.remove()); c.insertAdjacentHTML('afterbegin',chips+lanes);}
