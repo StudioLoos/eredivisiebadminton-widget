@@ -305,7 +305,7 @@
   {
    "home": "FIT Almere",
    "away": "Velo Badminton",
-   "hs": 2,
+   "hs": 3,
    "as": 0,
    "rows": [
     {
@@ -341,7 +341,9 @@
      ],
      "away": [
       "Dion Rovers"
-     ]
+     ],
+     "score": "21-6 21-16",
+     "winner": "home"
     },
     {
      "code": "VE1",
@@ -703,7 +705,7 @@
     {
      "home": "FIT Almere",
      "away": "Velo Badminton",
-     "hs": 2,
+     "hs": 3,
      "as": 0,
      "rows": [
       {
@@ -739,7 +741,9 @@
        ],
        "away": [
         "Dion Rovers"
-       ]
+       ],
+       "score": "21-6 21-16",
+       "winner": "home"
       },
       {
        "code": "VE1",
@@ -2579,6 +2583,15 @@
   },
   {
    "pos": 12,
+   "speler": "Dennis Koppen",
+   "club": "FIT Almere",
+   "w": 4,
+   "gp": 5,
+   "games": "9 – 2",
+   "punten": "216 – 169"
+  },
+  {
+   "pos": 13,
    "speler": "Kirsten de Wit",
    "club": "FIT Almere",
    "w": 4,
@@ -2587,7 +2600,7 @@
    "punten": "302 – 265"
   },
   {
-   "pos": 13,
+   "pos": 14,
    "speler": "Timo Stoffelen",
    "club": "BC Duinwijck",
    "w": 4,
@@ -2596,7 +2609,7 @@
    "punten": "262 – 250"
   },
   {
-   "pos": 14,
+   "pos": 15,
    "speler": "Noah Jongen",
    "club": "PK Keukens Roosterse",
    "w": 4,
@@ -2605,7 +2618,7 @@
    "punten": "258 – 253"
   },
   {
-   "pos": 15,
+   "pos": 16,
    "speler": "Gijs Duijs",
    "club": "Dunlop DKC",
    "w": 4,
@@ -2614,7 +2627,7 @@
    "punten": "308 – 303"
   },
   {
-   "pos": 16,
+   "pos": 17,
    "speler": "Iris van Leijsen",
    "club": "PK Keukens Roosterse",
    "w": 4,
@@ -2623,7 +2636,7 @@
    "punten": "320 – 324"
   },
   {
-   "pos": 17,
+   "pos": 18,
    "speler": "Adith Karthikeyan Priya",
    "club": "BC Duinwijck",
    "w": 3,
@@ -2632,7 +2645,7 @@
    "punten": "126 – 83"
   },
   {
-   "pos": 18,
+   "pos": 19,
    "speler": "Noah Haase",
    "club": "FIT Almere",
    "w": 3,
@@ -2641,7 +2654,7 @@
    "punten": "154 – 116"
   },
   {
-   "pos": 19,
+   "pos": 20,
    "speler": "Hristomira Popovska",
    "club": "FIT Almere",
    "w": 3,
@@ -2650,22 +2663,13 @@
    "punten": "178 – 149"
   },
   {
-   "pos": 20,
+   "pos": 21,
    "speler": "Aram Mahmoud",
    "club": "BC Duinwijck",
    "w": 3,
    "gp": 4,
    "games": "7 – 2",
    "punten": "178 – 151"
-  },
-  {
-   "pos": 21,
-   "speler": "Dennis Koppen",
-   "club": "FIT Almere",
-   "w": 3,
-   "gp": 4,
-   "games": "7 – 2",
-   "punten": "174 – 147"
   },
   {
    "pos": 22,
@@ -3029,21 +3033,21 @@
   },
   {
    "pos": 62,
-   "speler": "Dion Rovers",
-   "club": "Velo Badminton",
-   "w": 1,
-   "gp": 6,
-   "games": "4 – 11",
-   "punten": "250 – 305"
-  },
-  {
-   "pos": 63,
    "speler": "Rens Lagrouw",
    "club": "Velo Badminton",
    "w": 1,
    "gp": 6,
    "games": "3 – 11",
    "punten": "225 – 283"
+  },
+  {
+   "pos": 63,
+   "speler": "Dion Rovers",
+   "club": "Velo Badminton",
+   "w": 1,
+   "gp": 7,
+   "games": "4 – 13",
+   "punten": "272 – 347"
   },
   {
    "pos": 64,
@@ -3384,6 +3388,7 @@
   "Diede Odijk": 4879,
   "Jaymie Laurens": 5755,
   "Joran Kweekel": 5757,
+  "Dennis Koppen": 4883,
   "Kirsten de Wit": 4888,
   "Timo Stoffelen": 3970,
   "Noah Jongen": 5344,
@@ -3393,7 +3398,6 @@
   "Noah Haase": 4884,
   "Hristomira Popovska": 4866,
   "Aram Mahmoud": 3952,
-  "Dennis Koppen": 4883,
   "Alida Chen": 4878,
   "Ties van der Lecq": 3966,
   "Mark Caljouw": 5756,
@@ -3434,8 +3438,8 @@
   "Imke van der Aar": 5159,
   "Leonie Rovers": 5200,
   "Lars Kros": 5151,
-  "Dion Rovers": 5076,
   "Rens Lagrouw": 5078,
+  "Dion Rovers": 5076,
   "Myke Halkema": 5074,
   "Lieke Maes": 5198,
   "Jop de Keijzer": 5777,
@@ -3869,6 +3873,14 @@
     },
     {
      "pos": 2,
+     "speler": "Dennis Koppen",
+     "e": "4 – 0",
+     "d": "0 – 1",
+     "m": "–",
+     "tot": "4/5"
+    },
+    {
+     "pos": 3,
      "speler": "Kirsten de Wit",
      "e": "–",
      "d": "3 – 0",
@@ -3876,20 +3888,12 @@
      "tot": "4/5"
     },
     {
-     "pos": 3,
+     "pos": 4,
      "speler": "Noah Haase",
      "e": "2 – 0",
      "d": "–",
      "m": "1 – 0",
      "tot": "3/3"
-    },
-    {
-     "pos": 4,
-     "speler": "Dennis Koppen",
-     "e": "3 – 0",
-     "d": "0 – 1",
-     "m": "–",
-     "tot": "3/4"
     },
     {
      "pos": 5,
@@ -4164,19 +4168,19 @@
     },
     {
      "pos": 3,
-     "speler": "Dion Rovers",
-     "e": "1 – 2",
-     "d": "–",
-     "m": "0 – 3",
-     "tot": "1/6"
-    },
-    {
-     "pos": 4,
      "speler": "Rens Lagrouw",
      "e": "–",
      "d": "0 – 4",
      "m": "1 – 1",
      "tot": "1/6"
+    },
+    {
+     "pos": 4,
+     "speler": "Dion Rovers",
+     "e": "1 – 3",
+     "d": "–",
+     "m": "0 – 3",
+     "tot": "1/7"
     },
     {
      "pos": 5,
@@ -4411,6 +4415,28 @@
      "top": [
       {
        "names": [
+        "Dennis Koppen"
+       ],
+       "club": "FIT Almere",
+       "w": 1,
+       "p": 1,
+       "games": "2-0",
+       "punten": "42-22",
+       "saldo": 20,
+       "res": [
+        {
+         "code": "ME1",
+         "tegen": [
+          "Dion Rovers"
+         ],
+         "tclub": "Velo Badminton",
+         "w": 1,
+         "score": "21-6 21-16"
+        }
+       ]
+      },
+      {
+       "names": [
         "Aram Mahmoud"
        ],
        "club": "BC Duinwijck",
@@ -4450,28 +4476,6 @@
          "tclub": "BC Drop Shot",
          "w": 1,
          "score": "21-10 21-18"
-        }
-       ]
-      },
-      {
-       "names": [
-        "Jasper Koppen"
-       ],
-       "club": "PK Keukens Roosterse",
-       "w": 1,
-       "p": 1,
-       "games": "2-0",
-       "punten": "42-29",
-       "saldo": 13,
-       "res": [
-        {
-         "code": "ME1",
-         "tegen": [
-          "Nagasharan Podala Vengatesh"
-         ],
-         "tclub": "Dunlop DKC",
-         "w": 1,
-         "score": "21-12 21-17"
         }
        ]
       }
@@ -6248,5 +6252,5 @@
    "Renske Kwakkenbos"
   ]
  },
- "updated": "11-10-2026 12:49"
+ "updated": "11-10-2026 13:03"
 }
