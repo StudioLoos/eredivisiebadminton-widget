@@ -5218,7 +5218,8 @@ const ONT=()=>{const D=DATA; if(!D) return {}; if(D._ont) return D._ont; const c
  return D._ont=c;};
 const POMIN=4;
 const pob=n=>(ONT()[n]||0)>=POMIN?`<span class="po" title="Speelgerechtigd voor de play-offs: ${ONT()[n]} ontmoetingen gespeeld (minimaal ${POMIN})" aria-label="speelgerechtigd voor de play-offs">${POSVG}</span>`:'';
-const pn=n=>`<span class="pl" role="button" tabindex="0" data-n="${esc(n)}">${esc(n)}</span>${pob(n)}`;
+const pn=n=>`<span class="pl" role="button" tabindex="0" data-n="${esc(n)}">${esc(n)}</span>`;
+const pnb=n=>pn(n)+pob(n); // vinkje alleen in de spelerslijsten
 const logo=(n,sz)=>LOGOS[n]?`<span class="logo" style="--sz:${sz||40}px"><img src="${LOGOS[n]}" alt=""></span>`:'';
 function render(D){
  DATA=D; if(!window._si){window._si=1; initSearch();}
@@ -5240,11 +5241,11 @@ function render(D){
  const drawP=()=>{const q=document.getElementById('pq').value.trim().toLowerCase(),c=document.getElementById('pc').value;
   const L=PL.filter(r=>(!c||r.club===c)&&(!q||r.speler.toLowerCase().includes(q)));
   document.getElementById('pn').innerHTML=`${L.length} van ${PL.length} spelers · gesorteerd op ranking · <span class="poleg"><span class="po" style="cursor:default">${POSVG}</span> = speelgerechtigd voor de play-offs (${POMIN}+ ontmoetingen)</span>`;
-  document.getElementById('pb').innerHTML=L.map(r=>`<tr><td><span class="pos">${r.pos}</span></td><td class="l nm"><span class="cpn">${av(r.speler,30)}<span>${pn(r.speler)}<span class="club">${esc(r.club)}</span></span></span></td><td><span class="hl">${r.w}</span></td><td>${r.gp}</td><td class="hide-m">${ONT()[r.speler]||0}</td><td class="hide-m">${esc(r.games)}</td><td class="hide-m">${esc(r.punten)}</td></tr>`).join('')||'<tr><td colspan="7">Geen spelers gevonden</td></tr>';
+  document.getElementById('pb').innerHTML=L.map(r=>`<tr><td><span class="pos">${r.pos}</span></td><td class="l nm"><span class="cpn">${av(r.speler,30)}<span>${pnb(r.speler)}<span class="club">${esc(r.club)}</span></span></span></td><td><span class="hl">${r.w}</span></td><td>${r.gp}</td><td class="hide-m">${ONT()[r.speler]||0}</td><td class="hide-m">${esc(r.games)}</td><td class="hide-m">${esc(r.punten)}</td></tr>`).join('')||'<tr><td colspan="7">Geen spelers gevonden</td></tr>';
   sendH();};
  document.getElementById('pq').oninput=drawP;document.getElementById('pc').onchange=drawP;drawP();
  document.getElementById('teams').innerHTML=`<p class="leg">Per speler gewonnen – verloren partijen. <span class="sm">E = enkel · D = dubbel · M = mix</span></p><div class="tgrid">${D.teams.map(t=>`<div class="tb"><h3>${logo(t.team,32)}<span class="tm" role="button" tabindex="0" data-t="${esc(t.team)}">${esc(t.team)}</span></h3><table><thead><tr><th class="pc">#</th><th class="l">Speler</th><th><span class="lg">Enkel</span><span class="sm">E</span></th><th><span class="lg">Dubbel</span><span class="sm">D</span></th><th><span class="lg">Mix</span><span class="sm">M</span></th><th><span class="lg">Totaal</span><span class="sm">Tot</span></th></tr></thead><tbody>${
-  t.rows.map(r=>`<tr><td class="pc"><span class="pos">${r.pos}</span></td><td class="l nm">${pn(r.speler)}</td><td>${esc(r.e)}</td><td>${esc(r.d)}</td><td>${esc(r.m)}</td><td><span class="hl">${esc(r.tot)}</span></td></tr>`).join('')}</tbody></table></div>`).join('')}</div>`;
+  t.rows.map(r=>`<tr><td class="pc"><span class="pos">${r.pos}</span></td><td class="l nm">${pnb(r.speler)}</td><td>${esc(r.e)}</td><td>${esc(r.d)}</td><td>${esc(r.m)}</td><td><span class="hl">${esc(r.tot)}</span></td></tr>`).join('')}</tbody></table></div>`).join('')}</div>`;
  drawMvp(D,0);
  document.querySelectorAll('.mh').forEach(b=>b.onclick=()=>{const m=b.parentElement;m.classList.toggle('open');b.setAttribute('aria-expanded',m.classList.contains('open'));sendH();});
  sendH();
