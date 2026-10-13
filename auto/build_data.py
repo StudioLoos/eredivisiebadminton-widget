@@ -241,6 +241,8 @@ def main(raw_p, old_p, out_p):
     for cand in (os.path.join(os.path.dirname(os.path.abspath(old_p)), "fotos", "photos.json"),):
         if os.path.exists(cand):
             data["photos"] = json.load(open(cand, encoding="utf-8"))
+    if not data.get("photos") and old.get("photos"):
+        data["photos"] = old["photos"]  # fotokoppeling nooit kwijtraken als photos.json even ontbreekt
     # per team: enkel/dubbel/mix uit alle wedstrijden van het seizoen
     agg = {}
     for R in data["seizoen"]:
