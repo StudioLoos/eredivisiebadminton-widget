@@ -2094,24 +2094,28 @@
      "home": "BC Duinwijck",
      "away": "BC Drop Shot",
      "when": "za 17 okt · 19:00",
+     "start": "2026-10-17T19:00:00",
      "rows": []
     },
     {
      "home": "Velo Badminton",
      "away": "FIT Almere",
      "when": "za 17 okt · 19:00",
+     "start": "2026-10-17T19:00:00",
      "rows": []
     },
     {
      "home": "PK Keukens Roosterse",
      "away": "Dunlop DKC",
      "when": "za 17 okt · 19:00",
+     "start": "2026-10-17T19:00:00",
      "rows": []
     },
     {
      "home": "Decorette Amersfoort",
      "away": "2dA Smashing",
      "when": "za 9 jan · 19:00",
+     "start": "2027-01-09T19:00:00",
      "rows": []
     }
    ]
@@ -2124,24 +2128,28 @@
      "home": "Velo Badminton",
      "away": "Dunlop DKC",
      "when": "za 31 okt · 19:00",
+     "start": "2026-10-31T19:00:00",
      "rows": []
     },
     {
      "home": "BC Duinwijck",
      "away": "2dA Smashing",
      "when": "za 31 okt · 19:00",
+     "start": "2026-10-31T19:00:00",
      "rows": []
     },
     {
      "home": "Decorette Amersfoort",
      "away": "BC Drop Shot",
      "when": "za 31 okt · 19:00",
+     "start": "2026-10-31T19:00:00",
      "rows": []
     },
     {
      "home": "PK Keukens Roosterse",
      "away": "FIT Almere",
      "when": "za 31 okt · 19:00",
+     "start": "2026-10-31T19:00:00",
      "rows": []
     }
    ]
@@ -2154,24 +2162,28 @@
      "home": "BC Duinwijck",
      "away": "Decorette Amersfoort",
      "when": "za 7 nov · 19:00",
+     "start": "2026-11-07T19:00:00",
      "rows": []
     },
     {
      "home": "PK Keukens Roosterse",
      "away": "BC Drop Shot",
      "when": "za 7 nov · 19:00",
+     "start": "2026-11-07T19:00:00",
      "rows": []
     },
     {
      "home": "Velo Badminton",
      "away": "2dA Smashing",
      "when": "za 7 nov · 19:00",
+     "start": "2026-11-07T19:00:00",
      "rows": []
     },
     {
      "home": "Dunlop DKC",
      "away": "FIT Almere",
      "when": "za 7 nov · 19:00",
+     "start": "2026-11-07T19:00:00",
      "rows": []
     }
    ]
@@ -2184,24 +2196,28 @@
      "home": "BC Drop Shot",
      "away": "Dunlop DKC",
      "when": "za 14 nov · 18:30",
+     "start": "2026-11-14T18:30:00",
      "rows": []
     },
     {
      "home": "2dA Smashing",
      "away": "PK Keukens Roosterse",
      "when": "za 14 nov · 19:00",
+     "start": "2026-11-14T19:00:00",
      "rows": []
     },
     {
      "home": "Decorette Amersfoort",
      "away": "Velo Badminton",
      "when": "za 14 nov · 19:00",
+     "start": "2026-11-14T19:00:00",
      "rows": []
     },
     {
      "home": "FIT Almere",
      "away": "BC Duinwijck",
      "when": "zo 15 nov · 14:00",
+     "start": "2026-11-15T14:00:00",
      "rows": []
     }
    ]
@@ -2214,24 +2230,28 @@
      "home": "BC Drop Shot",
      "away": "FIT Almere",
      "when": "za 28 nov · 18:30",
+     "start": "2026-11-28T18:30:00",
      "rows": []
     },
     {
      "home": "Dunlop DKC",
      "away": "2dA Smashing",
      "when": "za 28 nov · 19:00",
+     "start": "2026-11-28T19:00:00",
      "rows": []
     },
     {
      "home": "PK Keukens Roosterse",
      "away": "Decorette Amersfoort",
      "when": "za 28 nov · 19:00",
+     "start": "2026-11-28T19:00:00",
      "rows": []
     },
     {
      "home": "BC Duinwijck",
      "away": "Velo Badminton",
      "when": "za 28 nov · 19:00",
+     "start": "2026-11-28T19:00:00",
      "rows": []
     }
    ]
@@ -2244,24 +2264,28 @@
      "home": "BC Duinwijck",
      "away": "PK Keukens Roosterse",
      "when": "za 12 dec · 19:00",
+     "start": "2026-12-12T19:00:00",
      "rows": []
     },
     {
      "home": "Decorette Amersfoort",
      "away": "Dunlop DKC",
      "when": "za 12 dec · 19:00",
+     "start": "2026-12-12T19:00:00",
      "rows": []
     },
     {
      "home": "2dA Smashing",
      "away": "FIT Almere",
      "when": "za 12 dec · 19:00",
+     "start": "2026-12-12T19:00:00",
      "rows": []
     },
     {
      "home": "Velo Badminton",
      "away": "BC Drop Shot",
      "when": "za 12 dec · 19:00",
+     "start": "2026-12-12T19:00:00",
      "rows": []
     }
    ]
@@ -2274,24 +2298,28 @@
      "home": "BC Drop Shot",
      "away": "2dA Smashing",
      "when": "za 19 dec · 18:30",
+     "start": "2026-12-19T18:30:00",
      "rows": []
     },
     {
      "home": "Dunlop DKC",
      "away": "BC Duinwijck",
      "when": "za 19 dec · 19:00",
+     "start": "2026-12-19T19:00:00",
      "rows": []
     },
     {
      "home": "PK Keukens Roosterse",
      "away": "Velo Badminton",
      "when": "za 19 dec · 19:00",
+     "start": "2026-12-19T19:00:00",
      "rows": []
     },
     {
      "home": "FIT Almere",
      "away": "Decorette Amersfoort",
      "when": "zo 20 dec · 14:00",
+     "start": "2026-12-20T14:00:00",
      "rows": []
     }
    ]
@@ -2304,24 +2332,28 @@
      "home": "BC Drop Shot",
      "away": "PK Keukens Roosterse",
      "when": "za 16 jan · 18:30",
+     "start": "2027-01-16T18:30:00",
      "rows": []
     },
     {
      "home": "Decorette Amersfoort",
      "away": "BC Duinwijck",
      "when": "za 16 jan · 19:00",
+     "start": "2027-01-16T19:00:00",
      "rows": []
     },
     {
      "home": "2dA Smashing",
      "away": "Velo Badminton",
      "when": "za 16 jan · 19:00",
+     "start": "2027-01-16T19:00:00",
      "rows": []
     },
     {
      "home": "FIT Almere",
      "away": "Dunlop DKC",
      "when": "zo 17 jan · 14:00",
+     "start": "2027-01-17T14:00:00",
      "rows": []
     }
    ]
@@ -2334,24 +2366,28 @@
      "home": "Velo Badminton",
      "away": "Decorette Amersfoort",
      "when": "za 23 jan · 19:00",
+     "start": "2027-01-23T19:00:00",
      "rows": []
     },
     {
      "home": "Dunlop DKC",
      "away": "BC Drop Shot",
      "when": "za 23 jan · 19:00",
+     "start": "2027-01-23T19:00:00",
      "rows": []
     },
     {
      "home": "BC Duinwijck",
      "away": "FIT Almere",
      "when": "za 23 jan · 19:00",
+     "start": "2027-01-23T19:00:00",
      "rows": []
     },
     {
      "home": "PK Keukens Roosterse",
      "away": "2dA Smashing",
      "when": "za 23 jan · 19:00",
+     "start": "2027-01-23T19:00:00",
      "rows": []
     }
    ]
@@ -2364,24 +2400,28 @@
      "home": "Dunlop DKC",
      "away": "Velo Badminton",
      "when": "za 30 jan · 19:00",
+     "start": "2027-01-30T19:00:00",
      "rows": []
     },
     {
      "home": "2dA Smashing",
      "away": "BC Duinwijck",
      "when": "za 30 jan · 19:00",
+     "start": "2027-01-30T19:00:00",
      "rows": []
     },
     {
      "home": "FIT Almere",
      "away": "PK Keukens Roosterse",
      "when": "za 30 jan · 19:00",
+     "start": "2027-01-30T19:00:00",
      "rows": []
     },
     {
      "home": "BC Drop Shot",
      "away": "Decorette Amersfoort",
      "when": "za 30 jan · 19:00",
+     "start": "2027-01-30T19:00:00",
      "rows": []
     }
    ]
@@ -7661,5 +7701,5 @@
    "Renske Kwakkenbos"
   ]
  },
- "updated": "13-10-2026 16:17"
+ "updated": "13-10-2026 17:10"
 }

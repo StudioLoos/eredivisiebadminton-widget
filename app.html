@@ -204,6 +204,32 @@ footer a{color:#fff;font-weight:600}
 #ranking .pos{width:auto;min-width:30px;padding:0 6px}
 .cs5{grid-template-columns:repeat(5,1fr);gap:6px}.cs5 div{padding:6px 2px}.cs5 b{font-size:16px}
 .cs5 div.no{background:#f6e7de;color:#9a6a52}
+/* ── Toto ── */
+.ttintro{background:#fff;color:#3a1a0c;border-radius:18px;padding:16px;margin-bottom:12px}
+.ttintro h3{color:#E95822;font-size:20px;margin:0 0 6px}.ttintro p{margin:0 0 10px;font-size:15px;line-height:1.45;font-weight:500}
+.ttf{display:grid;gap:8px}.ttf input,.ttf select{font:inherit;font-weight:600;font-size:16px;border:2px solid #f3dccd;border-radius:12px;padding:9px 12px;color:#3a1a0c;background:#fff;width:100%;box-sizing:border-box}
+.ttbtn{display:block;width:100%;border:0;border-radius:999px;background:#E95822;color:#fff;font:inherit;font-weight:700;font-size:16px;padding:12px;cursor:pointer}
+.ttbtn:disabled{opacity:.6;cursor:default}.ttbtn.alt{background:#fff;color:#E95822}
+.ttmsg{font-size:14px;font-weight:600;margin:8px 0 0;min-height:1em}.ttmsg.err{color:#b3261e}
+.tthi{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px;font-weight:600}
+.tthi b{font-size:18px}.tthi button{font:inherit;font-size:13px;font-weight:600;border:0;background:none;color:#fff;text-decoration:underline;cursor:pointer;opacity:.9}
+.ttm{background:#fff;color:#3a1a0c;border-radius:16px;padding:10px 12px;margin-bottom:8px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:6px 10px}
+.ttm .h,.ttm .a{font-weight:700;font-size:15px;display:flex;align-items:center;gap:8px;min-width:0}.ttm .h{justify-content:flex-end;text-align:right}
+.ttm .h .logo,.ttm .a .logo{--sz:30px!important;flex:none}
+.ttm select{font:inherit;font-weight:800;font-size:18px;border:2px solid #f3dccd;border-radius:12px;padding:6px 6px;color:#E95822;background:#fff;text-align:center}
+.ttm .sub{grid-column:1/-1;text-align:center;font-size:12.5px;font-weight:500;opacity:.75}
+.ttm .sc{font-weight:800;font-size:18px;color:#E95822;text-align:center;white-space:nowrap}
+.ttpt{display:inline-block;border-radius:999px;padding:1px 9px;font-size:12px;font-weight:800;color:#fff;background:#b9a59a;margin-left:4px}
+.ttpt.p3{background:#1f9d55}.ttpt.p1{background:#E95822}
+.ttbar{grid-column:1/-1;display:flex;height:7px;border-radius:99px;overflow:hidden;background:#f3dccd}
+.ttbar i{display:block;height:100%}.ttbar .t{background:#E95822}.ttbar .g{background:#c9b3a6}.ttbar .u{background:#7a3a1c}
+.ttleg{grid-column:1/-1;display:flex;justify-content:space-between;font-size:11.5px;font-weight:600;opacity:.75}
+.ttsave{position:sticky;bottom:10px;margin-top:6px;box-shadow:0 8px 20px rgba(90,20,0,.3)}
+body.app .ttsave{bottom:calc(env(safe-area-inset-bottom) + 84px)}
+.ttrow.me td{background:rgba(255,255,255,.32)}
+.ttrules{font-size:13px;font-weight:500;opacity:.9;margin-top:10px;line-height:1.45}
+body.app .tabs button[data-p=toto]{display:none!important}
+@media (max-width:760px){.ttm .h,.ttm .a{font-size:13.5px}.ttm .h .logo,.ttm .a .logo{display:none}}
 .crkl{font-size:12px;font-weight:600;opacity:.65;margin:-2px 0 8px;text-align:center}
 @media (max-width:760px){.tabs{grid-template-columns:repeat(4,1fr)}.tabs button{font-size:13px;padding:6px 4px}.rkseg button{font-size:14px;padding:4px 11px}}
 </style>
@@ -255,7 +281,11 @@ window.OS_APP_ID='f401828b-e3c3-47cc-94ea-a37dfeab96e2';
    b.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));});
   // belknop
   const h=document.querySelector('header');const bell=document.createElement('button');bell.className='appbtn';bell.setAttribute('aria-label','Meldingen');
-  bell.innerHTML=svg('<path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9M10.3 21a1.9 1.9 0 0 0 3.4 0"/>');h.appendChild(bell);
+  bell.innerHTML=svg('<path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9M10.3 21a1.9 1.9 0 0 0 3.4 0"/>');
+  const bx=document.createElement('div');bx.style.cssText='display:flex;gap:8px;flex:none;margin-left:auto';
+  if(typeof TOTO_URL!=='undefined'&&TOTO_URL){const tb=document.createElement('button');tb.className='appbtn';tb.setAttribute('aria-label','Toto');
+   tb.innerHTML=svg('<path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0V4zM7 6H4v2a3 3 0 0 0 3 3M17 6h3v2a3 3 0 0 1-3 3"/>');tb.onclick=()=>{window.showPanel&&showPanel('toto');window.scrollTo({top:0,behavior:'smooth'});};bx.appendChild(tb);}
+  bx.appendChild(bell);h.appendChild(bx);
   const sh=document.createElement('div');sh.className='sheet';sh.hidden=true;document.body.appendChild(sh);
   const standalone=matchMedia('(display-mode: standalone)').matches||navigator.standalone;
   const ios=/iphone|ipad|ipod/i.test(navigator.userAgent);
@@ -329,6 +359,7 @@ window.OS_APP_ID='f401828b-e3c3-47cc-94ea-a37dfeab96e2';
   <button role="tab" data-p="ranking" aria-selected="false">Ranking</button>
   <button role="tab" data-p="teams" aria-selected="false"><span class="lg">Stats per team</span><span class="sm">Per team</span></button>
   <button role="tab" data-p="mvp" aria-selected="false">MVP</button>
+  <button role="tab" data-p="toto" aria-selected="false" hidden>Toto</button>
  </div>
  <section class="panel on" id="uitslagen"></section>
  <section class="panel" id="programma"></section>
@@ -337,6 +368,7 @@ window.OS_APP_ID='f401828b-e3c3-47cc-94ea-a37dfeab96e2';
  <section class="panel" id="ranking"></section>
  <section class="panel" id="teams"></section>
  <section class="panel" id="mvp"></section>
+ <section class="panel" id="toto"></section>
  <div id="pcard" class="pcard" hidden></div>
  <footer><span id="upd"></span><span>Bron: <a href="https://badmintonnederland.toernooi.nl" target="_blank" rel="noopener">toernooi.nl</a></span></footer>
 </div>
@@ -5325,6 +5357,8 @@ const INLINE={
   }
  ]
 };
+// Toto (voorspellingsspel). Uitzetten: maak deze URL leeg ('') — dan verdwijnt alles van de toto.
+const TOTO_URL='';
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const av=(n,sz,club)=>{const p=DATA&&DATA.photos&&DATA.photos[n];return p?`<span class="av" style="--sz:${sz}px"><img src="${esc(p)}" alt="" loading="lazy"></span>`:(club!==undefined?logo(club,sz):'');};
 const POSVG='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>';
@@ -5364,6 +5398,7 @@ function render(D){
   t.rows.map(r=>`<tr><td class="pc"><span class="pos">${r.pos}</span></td><td class="l nm">${pnb(r.speler)}</td><td>${esc(r.e)}</td><td>${esc(r.d)}</td><td>${esc(r.m)}</td><td><span class="hl">${esc(r.tot)}</span></td></tr>`).join('')}</tbody></table></div>`).join('')}</div>`;
  drawMvp(D,0);
  drawRank(D);
+ if(TOTO_URL) drawToto(D);
  document.querySelectorAll('.mh').forEach(b=>b.onclick=()=>{const m=b.parentElement;m.classList.toggle('open');b.setAttribute('aria-expanded',m.classList.contains('open'));sendH();});
  sendH();
 }
@@ -5385,6 +5420,95 @@ function drawRank(D){
   el.querySelectorAll('.rkseg button').forEach(x=>x.setAttribute('aria-pressed',x===b)); draw();});
  document.getElementById('rkc').onchange=draw; draw();
 }
+
+// ── Toto ─────────────────────────────────────────────────────────────────────
+const TT={user:null,preds:{},draft:{},stand:null,view:'v',ri:null,sf:'',rf:'',msg:'',err:0,busy:0};
+try{TT.user=JSON.parse(localStorage.getItem('edb_toto')||'null')}catch(e){}
+const ttKey=(r,h,a)=>r+'|'+h+'|'+a;
+async function ttPost(body){const r=await fetch(TOTO_URL,{method:'POST',body:JSON.stringify(body)});const j=await r.json();if(!j.ok)throw new Error(j.fout||'Er ging iets mis');return j;}
+async function ttStand(force){if(TT.stand&&!force)return;try{const r=await fetch(TOTO_URL+'?a=stand&t='+Date.now());const j=await r.json();if(j.ok)TT.stand=j;}catch(e){}}
+function ttRounds(D){const now=Date.now(),L=[];
+ (D.schema||[]).forEach(R=>{if((R.matches||[]).some(m=>m.start))L.push({round:R.round,date:R.date,up:1,matches:R.matches});});
+ (D.seizoen||[]).forEach(R=>L.push({round:R.round,date:R.date,up:0,matches:R.matches}));
+ return L;}
+function ttOpen(m){return m.start&&new Date(m.start).getTime()>Date.now();}
+function drawToto(D){
+ const el=document.getElementById('toto'), tab=document.querySelector('button[data-p=toto]'); if(!el) return;
+ if(tab) tab.hidden=false;
+ const L=ttRounds(D); if(TT.ri==null||TT.ri>=L.length) TT.ri=0;
+ const seg=`<div class="rkseg" role="group"><button type="button" data-v="v" aria-pressed="${TT.view==='v'}">Voorspellen</button><button type="button" data-v="k" aria-pressed="${TT.view==='k'}">Klassement</button></div>`;
+ let body='';
+ if(TT.view==='k') body=ttStandHtml(D);
+ else if(!TT.user) body=ttJoinHtml(D);
+ else body=ttPredHtml(D,L);
+ el.innerHTML=seg+body;
+ el.querySelectorAll('.rkseg button[data-v]').forEach(b=>b.onclick=()=>{TT.view=b.dataset.v;TT.msg='';if(TT.view==='k')ttStand(1).then(()=>drawToto(DATA));drawToto(DATA);});
+ ttBind(D,L); sendH();
+}
+function ttJoinHtml(D){
+ const clubs=(D.stand||[]).map(r=>r.team).sort();
+ return `<div class="ttintro"><h3>Eredivisie Toto</h3><p>Voorspel elke speelronde de uitslagen en strijd mee om de hoogste plek. Precies goed: <b>3 punten</b>. Juiste winnaar of gelijkspel: <b>1 punt</b>. Gratis, voor de eer.</p>
+ <div class="ttf"><input id="ttn" maxlength="24" placeholder="Je naam of bijnaam" autocomplete="nickname" value="${esc(TT.user&&TT.user.naam||'')}"><input id="ttp" inputmode="numeric" pattern="[0-9]*" maxlength="4" placeholder="Pincode (4 cijfers)" autocomplete="off">
+ <select id="ttc"><option value="">Mijn club (optioneel)</option>${clubs.map(c=>`<option>${esc(c)}</option>`).join('')}</select>
+ <button class="ttbtn" id="ttj">Meedoen of inloggen</button></div>
+ <p class="ttmsg ${TT.err?'err':''}">${esc(TT.msg)}</p>
+ <p class="ttrules" style="color:#3a1a0c;opacity:.75">Nieuw? Kies een naam en een pincode van 4 cijfers en je doet mee. Eerder meegedaan? Vul dezelfde naam en pincode in. Je naam is zichtbaar in het klassement.</p></div>`;}
+function ttPredHtml(D,L){
+ const R=L[TT.ri]; const me=TT.stand&&TT.stand.deelnemers?TT.stand.deelnemers.findIndex(x=>x.naam.toLowerCase()===TT.user.naam.toLowerCase()):-1;
+ const mine=me>=0?TT.stand.deelnemers[me]:null;
+ const nav=`<div class="prnav" style="margin-bottom:10px"><button type="button" id="ttprv"${TT.ri===0?' disabled':''}>‹</button><select id="ttsel" aria-label="Kies speelronde">${L.map((x,j)=>`<option value="${j}"${j===TT.ri?' selected':''}>${esc(x.round)}${x.up?'':' (gespeeld)'}</option>`).join('')}</select><button type="button" id="ttnxt"${TT.ri===L.length-1?' disabled':''}>›</button></div>`;
+ const V=(TT.stand&&TT.stand.verdeling)||{}, res={};
+ (D.seizoen||[]).forEach(S=>S.matches.forEach(m=>{if(m.hs!==''&&m.hs!=null&&m.hs+m.as>=8)res[ttKey(S.round,m.home,m.away)]=[m.hs,m.as];}));
+ const PX=(TT.stand&&TT.stand.punten&&TT.stand.punten.exact)||3, PT=(TT.stand&&TT.stand.punten&&TT.stand.punten.toto)||1;
+ const sg=(h,a)=>h>a?1:h<a?-1:0;
+ let open=0;
+ const rows=R.matches.map(m=>{const k=ttKey(R.round,m.home,m.away), p=TT.draft[k]||TT.preds[k], o=R.up&&ttOpen(m), r=res[k];
+  const teams=(mid)=>`<span class="h">${esc(m.home)}${logo(m.home,30)}</span>${mid}<span class="a">${logo(m.away,30)}${esc(m.away)}</span>`;
+  if(o){open++; const cur=p?p[0]+'-'+p[1]:'';
+   return `<div class="ttm">${teams(`<select data-k="${esc(k)}" aria-label="Voorspelling ${esc(m.home)} tegen ${esc(m.away)}"><option value="">? – ?</option>${[8,7,6,5,4,3,2,1,0].map(h=>`<option value="${h}-${8-h}"${cur===h+'-'+(8-h)?' selected':''}>${h} – ${8-h}</option>`).join('')}</select>`)}<div class="sub">${esc(m.when||'')}${TT.draft[k]?' · nog niet opgeslagen':p?' · opgeslagen ✓':''}</div></div>`;}
+  let pts='';
+  if(p&&r){const x=p[0]===r[0]&&p[1]===r[1]?PX:sg(p[0],p[1])===sg(r[0],r[1])?PT:0;pts=`<span class="ttpt p${x===PX?3:x?1:0}">+${x}</span>`;}
+  const v=V[k]; const bar=v&&v.n?`<div class="ttbar"><i class="t" style="width:${v.t/v.n*100}%"></i><i class="g" style="width:${v.g/v.n*100}%"></i><i class="u" style="width:${v.u/v.n*100}%"></i></div><div class="ttleg"><span>${Math.round(v.t/v.n*100)}% thuis</span><span>${Math.round(v.g/v.n*100)}% gelijk</span><span>${Math.round(v.u/v.n*100)}% uit</span></div>`:'';
+  return `<div class="ttm">${teams(`<span class="sc">${r?r[0]+' – '+r[1]:'– –'}</span>`)}<div class="sub">${p?`Jouw voorspelling: <b>${p[0]} – ${p[1]}</b>${pts}`:'Niet voorspeld'}${r?'':' · '+(m.when?esc(m.when):'gesloten')}</div>${bar}</div>`;}).join('');
+ return `<div class="tthi"><span>Hoi <b>${esc(TT.user.naam)}</b>${mine?` · ${mine.pt} punten · #${me+1}`:''}</span><button id="ttout">Uitloggen</button></div>${nav}<p class="pinfo">${esc(R.round)}${R.date?' · '+esc(R.date):''}</p>${rows}
+ ${open?`<button class="ttbtn ttsave" id="ttsv"${TT.busy?' disabled':''}>${TT.busy?'Bezig…':'Voorspellingen opslaan'}</button>`:''}<p class="ttmsg ${TT.err?'err':''}">${esc(TT.msg)}</p>
+ <p class="ttrules">Voorspellen kan tot de aanvang van elke wedstrijd. Precies goed: ${PX} punten · juiste winnaar of gelijkspel: ${PT} punt. Na de aanvang zie je hoe iedereen gestemd heeft.</p>`;}
+function ttStandHtml(D){
+ const S=TT.stand; if(!S) {ttStand().then(()=>drawToto(DATA)); return '<p class="leg">Klassement laden…</p>';}
+ const rounds=[...new Set(S.deelnemers.flatMap(x=>Object.keys(x.rondes||{})))].sort((a,b)=>(+b.split(' ').pop())-(+a.split(' ').pop()));
+ const clubs=[...new Set(S.deelnemers.map(x=>x.club).filter(Boolean))].sort();
+ let L=S.deelnemers.map(x=>({...x,v:TT.rf?((x.rondes||{})[TT.rf]||0):x.pt})).filter(x=>!TT.sf||x.club===TT.sf);
+ L.sort((a,b)=>b.v-a.v||b.exact-a.exact||a.naam.localeCompare(b.naam));
+ const meN=TT.user&&TT.user.naam.toLowerCase();
+ let pos=0,prev=null; L.forEach((x,i)=>{if(x.v!==prev){pos=i+1;prev=x.v;} x.pos=pos;});
+ const top=L.slice(0,100), meRow=L.find(x=>x.naam.toLowerCase()===meN);
+ if(meRow&&!top.includes(meRow)) top.push(meRow);
+ return `<div class="flt"><select id="ttrf" aria-label="Kies periode"><option value="">Heel het seizoen</option>${rounds.map(r=>`<option${r===TT.rf?' selected':''}>${esc(r)}</option>`).join('')}</select><select id="ttsf" aria-label="Filter op club"><option value="">Alle clubs</option>${clubs.map(c=>`<option${c===TT.sf?' selected':''}>${esc(c)}</option>`).join('')}</select></div>
+ <p class="leg">${L.length} deelnemer${L.length===1?'':'s'}</p>
+ <table><thead><tr><th>#</th><th class="l">Deelnemer</th><th>Punten</th><th class="hide-m" title="Precies goed voorspeld">Exact</th></tr></thead><tbody>${top.map(x=>`<tr class="ttrow${x.naam.toLowerCase()===meN?' me':''}"><td><span class="pos">${x.pos}</span></td><td class="l nm"><span class="cpn">${x.club?logo(x.club,26):''}<span>${esc(x.naam)}${x.club?`<span class="club">${esc(x.club)}</span>`:''}</span></span></td><td><span class="hl">${x.v}</span></td><td class="hide-m">${x.exact}</td></tr>`).join('')||'<tr><td colspan="4">Nog geen deelnemers</td></tr>'}</tbody></table>`;}
+function ttBind(D,L){
+ const $=id=>document.getElementById(id);
+ const j=$('ttj'); if(j) j.onclick=async()=>{const naam=$('ttn').value.trim(),pin=$('ttp').value.trim(),club=$('ttc').value;
+  j.disabled=true;j.textContent='Bezig…';
+  try{const r=await ttPost({a:'join',naam,pin,club});TT.user={naam:r.naam,pin};TT.preds=r.voorspellingen||{};TT.draft={};TT.msg='';TT.err=0;
+   try{localStorage.setItem('edb_toto',JSON.stringify(TT.user))}catch(e){} ttStand(1).then(()=>drawToto(DATA));}
+  catch(e){TT.msg=e.message;TT.err=1;} drawToto(DATA);};
+ const o=$('ttout'); if(o) o.onclick=()=>{TT.user=null;TT.preds={};TT.draft={};try{localStorage.removeItem('edb_toto')}catch(e){} drawToto(DATA);};
+ const sel=$('ttsel'); if(sel) sel.onchange=()=>{TT.ri=+sel.value;TT.msg='';drawToto(DATA);};
+ const pv=$('ttprv'); if(pv) pv.onclick=()=>{TT.ri--;TT.msg='';drawToto(DATA);};
+ const nx=$('ttnxt'); if(nx) nx.onclick=()=>{TT.ri++;TT.msg='';drawToto(DATA);};
+ document.querySelectorAll('#toto .ttm select[data-k]').forEach(s=>s.onchange=()=>{if(s.value){const [h,a]=s.value.split('-').map(Number);TT.draft[s.dataset.k]=[h,a];}else delete TT.draft[s.dataset.k];
+  const sub=s.closest('.ttm').querySelector('.sub'); if(sub&&!/nog niet opgeslagen/.test(sub.textContent)) sub.textContent+=' · nog niet opgeslagen';});
+ const sv=$('ttsv'); if(sv) sv.onclick=async()=>{const items=Object.entries(TT.draft).map(([k,v])=>{const [ronde,thuis,uit]=k.split('|');return {ronde,thuis,uit,h:v[0],u:v[1]};});
+  if(!items.length){TT.msg='Kies eerst een uitslag.';TT.err=1;drawToto(DATA);return;}
+  TT.busy=1;drawToto(DATA);
+  try{const r=await ttPost({a:'voorspel',naam:TT.user.naam,pin:TT.user.pin,items});TT.preds=r.voorspellingen||TT.preds;TT.draft={};
+   TT.msg=r.te_laat&&r.te_laat.length?`${r.opgeslagen} opgeslagen. ${r.te_laat.length} wedstrijd(en) waren al begonnen.`:'Opgeslagen ✓';TT.err=0;}
+  catch(e){TT.msg=e.message;TT.err=1;} TT.busy=0;drawToto(DATA);};
+ const rf=$('ttrf'); if(rf) rf.onchange=()=>{TT.rf=rf.value;drawToto(DATA);};
+ const sf=$('ttsf'); if(sf) sf.onchange=()=>{TT.sf=sf.value;drawToto(DATA);};
+}
+if(TOTO_URL&&TT.user){ttPost({a:'mijn',naam:TT.user.naam,pin:TT.user.pin}).then(r=>{TT.preds=r.voorspellingen||{};if(DATA)drawToto(DATA);}).catch(e=>{if(/niet bekend|pincode/i.test(e.message)){TT.user=null;try{localStorage.removeItem('edb_toto')}catch(x){}}});ttStand().then(()=>{if(DATA)drawToto(DATA);});}
 
 function drawProg(L,i){
  window._pi=i; const P=L[i], pe=document.getElementById('programma');
@@ -5413,9 +5537,10 @@ function drawMvp(D,i){
  <p class="mvleg">Per onderdeel kiezen we één MVP: eerst de meeste gewonnen partijen, dan het gamesaldo, dan het puntensaldo (gemaakte min tegenpunten). Staat het dan nog gelijk, dan telt de sterkte van de tegenstander. Opgaves tellen als winst, niet voor het saldo.</p>`;
  const sel=document.getElementById('mvsel'); if(sel) sel.onchange=()=>{drawMvp(D,+sel.value);sendH();};
 }
-document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>{
- document.querySelectorAll('.tabs button').forEach(x=>x.setAttribute('aria-selected',x===b));
- document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('on',p.id===b.dataset.p));sendH();});
+function showPanel(id){
+ document.querySelectorAll('.tabs button').forEach(x=>x.setAttribute('aria-selected',x.dataset.p===id));
+ document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('on',p.id===id));sendH();}
+document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>showPanel(b.dataset.p));
 
 const PURL='https://badmintonnederland.toernooi.nl/sport/player.aspx?id=9A42A3C8-BE3A-4EB6-AEEB-8D7D562D964E&player=';
 let DATA=null;

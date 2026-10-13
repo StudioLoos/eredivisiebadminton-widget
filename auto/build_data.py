@@ -200,7 +200,7 @@ def main(raw_p, old_p, out_p):
     def prog(src, r):
         ms = sorted(src, key=lambda m: (m["date"] or datetime.date.min, m["when"]))
         return {"round": "Speelronde %d" % r, "date": round_date([m["date"] for m in ms]),
-                "matches": [{"home": m["home"], "away": m["away"], "when": m["when"],
+                "matches": [{"home": m["home"], "away": m["away"], "when": m["when"], "start": m.get("start"),
                              "rows": [{"code": x["code"], "home": x["home"], "away": x["away"]} for x in m["rows"] if x["home"] and x["away"]]} for m in ms]}
     # rondes die alleen in het volledige speelschema staan (nog niet in het venster van de poulepagina)
     known = {m["id"] for m in lst}
