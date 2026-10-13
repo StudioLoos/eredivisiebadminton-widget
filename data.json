@@ -3487,87 +3487,6 @@
   "Anouk van Wijk": 4752,
   "Mees Janssen": 5077
  },
- "photos": {
-  "Alyssa Tirtosentono": "fotos/alyssa-tirtosentono.jpg",
-  "Brian Wassink": "fotos/brian-wassink.jpg",
-  "Chloë Mayer": "fotos/chloe-mayer.jpg",
-  "Debora Jille": "fotos/debora-jille.jpg",
-  "Meerte Loos": "fotos/meerte-loos.jpg",
-  "Mette Kool": "fotos/mette-kool.jpg",
-  "Novi Wieland": "fotos/novi-wieland.jpg",
-  "Ties van der Lecq": "fotos/ties-van-der-lecq.jpg",
-  "Timo Stoffelen": "fotos/timo-stoffelen.jpg",
-  "Adith Karthikeyan Priya": "fotos/adith-karthikeyan-priya.jpg",
-  "Aram Mahmoud": "fotos/aram-mahmoud.jpg",
-  "Alida Chen": "fotos/alida-chen.jpg",
-  "Dennis Koppen": "fotos/dennis-koppen.jpg",
-  "Diede Odijk": "fotos/diede-odijk.jpg",
-  "Dyon van Wijlick": "fotos/dyon-van-wijlick.jpg",
-  "Joep Strooper": "fotos/joep-strooper.jpg",
-  "Kirsten de Wit": "fotos/kirsten-de-wit.jpg",
-  "Noah Haase": "fotos/noah-haase.jpg",
-  "Casper Spaans": "fotos/casper-spaans.jpg",
-  "Freek Golinski": "fotos/freek-golinski.jpg",
-  "Inger Pothuizen": "fotos/inger-pothuizen.jpg",
-  "Jonah Quintens": "fotos/jonah-quintens.jpg",
-  "Leonie Rovers": "fotos/leonie-rovers.jpg",
-  "Lieke Maes": "fotos/lieke-maes.jpg",
-  "Marijn Put": "fotos/marijn-put.jpg",
-  "Maureen Zewald": "fotos/maureen-zewald.jpg",
-  "Natalia Perminova": "fotos/natalia-perminova.jpg",
-  "Robin Tabeling": "fotos/robin-tabeling.jpg",
-  "Sterre Bang": "fotos/sterre-bang.jpg",
-  "Vincent de Vries": "fotos/vincent-de-vries.jpg",
-  "Flora Wang": "fotos/flora-wang.jpg",
-  "Gijs Duijs": "fotos/gijs-duijs.jpg",
-  "Jaymie Laurens": "fotos/jaymie-laurens.jpg",
-  "Joran Kweekel": "fotos/joran-kweekel.jpg",
-  "Lieke van Parys": "fotos/lieke-van-parys.jpg",
-  "Mark Caljouw": "fotos/mark-caljouw.jpg",
-  "Thomas Sibbald": "fotos/thomas-sibbald.jpg",
-  "Amy Tan": "fotos/amy-tan.jpg",
-  "Angus Meldrum": "fotos/angus-meldrum.jpg",
-  "Dion Rovers": "fotos/dion-rovers.jpg",
-  "Luca Wiechmann": "fotos/luca-wiechmann.jpg",
-  "Mees Janssen": "fotos/mees-janssen.jpg",
-  "Myke Halkema": "fotos/myke-halkema.jpg",
-  "Rens Lagrouw": "fotos/rens-lagrouw.jpg",
-  "Veda Diemel": "fotos/veda-diemel.jpg",
-  "Andy Buijk": "fotos/andy-buijk.jpg",
-  "Brandon Bessem": "fotos/brandon-bessem.jpg",
-  "Clara Lassaux": "fotos/clara-lassaux.jpg",
-  "Iben Bergstein": "fotos/iben-bergstein.jpg",
-  "Imke van der Aar": "fotos/imke-van-der-aar.jpg",
-  "Kathell Desmots Chacun": "fotos/kathell-desmots-chacun.jpg",
-  "Lars Kros": "fotos/lars-kros.jpg",
-  "Mandy Duijndam": "fotos/mandy-duijndam.jpg",
-  "Nick Fransman": "fotos/nick-fransman.jpg",
-  "Tammi van Wonterghem": "fotos/tammi-van-wonterghem.jpg",
-  "Wessel van der Aar": "fotos/wessel-van-der-aar.jpg",
-  "William Villeger": "fotos/william-villeger.jpg",
-  "Anouk van Wijk": "fotos/anouk-van-wijk.jpg",
-  "Berend van Brenk": "fotos/berend-van-brenk.jpg",
-  "Dion Hoegen": "fotos/dion-hoegen.jpg",
-  "Esmeralda van Drunen": "fotos/esmeralda-van-drunen.jpg",
-  "Imka Putrama Arlin": "fotos/imka-putrama-arlin.jpg",
-  "Kelly van Buiten": "fotos/kelly-van-buiten.jpg",
-  "Ruben Jille": "fotos/ruben-jille.jpg",
-  "Ruben Wijnands": "fotos/ruben-wijnands.jpg",
-  "Shreya Hochscheid": "fotos/shreya-hochscheid.jpg",
-  "Ade Resky Dwicahyo": "fotos/ade-resky-dwicahyo.jpg",
-  "Alexander Roovers": "fotos/alexander-roovers.jpg",
-  "Flore Vandenhoucke": "fotos/flore-vandenhoucke.jpg",
-  "Florentine Schoffski": "fotos/florentine-schoffski.jpg",
-  "Iris van Leijsen": "fotos/iris-van-leijsen.jpg",
-  "Jasper Koppen": "fotos/jasper-koppen.jpg",
-  "Lien Lammertyn": "fotos/lien-lammertyn.jpg",
-  "Marcello Kausemann": "fotos/marcello-kausemann.jpg",
-  "Noah Jongen": "fotos/noah-jongen.jpg",
-  "Rik Hermans": "fotos/rik-hermans.jpg",
-  "Stefanie Nijsse": "fotos/stefanie-nijsse.jpg",
-  "Vihaan Shah": "fotos/vihaan-shah.jpg",
-  "Xenia Koelmel": "fotos/xenia-koelmel.jpg"
- },
  "teams": [
   {
    "team": "BC Duinwijck",
@@ -6263,6 +6182,1477 @@
    ]
   }
  ],
+ "ranking": {
+  "id": 54110,
+  "week": "40-2026",
+  "cats": [
+   {
+    "code": "HE",
+    "label": "Herenenkel",
+    "rows": [
+     {
+      "r": 1,
+      "n": "Noah Haase",
+      "pt": 17492,
+      "w": 28,
+      "pid": 1302758
+     },
+     {
+      "r": 2,
+      "n": "Dennis Koppen",
+      "pt": 13802,
+      "w": 24,
+      "pid": 135573
+     },
+     {
+      "r": 3,
+      "n": "Lars Kros",
+      "pt": 12958,
+      "w": 25,
+      "pid": 159446
+     },
+     {
+      "r": 4,
+      "n": "Berend van Brenk",
+      "pt": 12866,
+      "w": 36,
+      "pid": 2252580
+     },
+     {
+      "r": 5,
+      "n": "Jasper Koppen",
+      "pt": 11964,
+      "w": 16,
+      "pid": 131853
+     },
+     {
+      "r": 6,
+      "n": "Dion Hoegen",
+      "pt": 11898,
+      "w": 25,
+      "pid": 3445729
+     },
+     {
+      "r": 7,
+      "n": "Adith Karthikeyan Priya",
+      "pt": 11640,
+      "w": 20,
+      "pid": 6203133
+     },
+     {
+      "r": 9,
+      "n": "Vihaan Shah",
+      "pt": 10409,
+      "w": 22,
+      "pid": 5073902
+     },
+     {
+      "r": 12,
+      "n": "Aram Mahmoud",
+      "pt": 8950,
+      "w": 18,
+      "pid": 2013987
+     },
+     {
+      "r": 13,
+      "n": "Thomas Sibbald",
+      "pt": 8724,
+      "w": 17,
+      "pid": 140640
+     },
+     {
+      "r": 14,
+      "n": "Thijs van den Berg",
+      "pt": 8707,
+      "w": 21,
+      "pid": 159486
+     },
+     {
+      "r": 15,
+      "n": "Jop de Keijzer",
+      "pt": 8459,
+      "w": 29,
+      "pid": 6003674
+     },
+     {
+      "r": 17,
+      "n": "Quinn Jens",
+      "pt": 7482,
+      "w": 23,
+      "pid": 2252946
+     },
+     {
+      "r": 19,
+      "n": "Mark Caljouw",
+      "pt": 7120,
+      "w": 13,
+      "pid": 119334
+     },
+     {
+      "r": 20,
+      "n": "Nagasharan Podala Vengatesh",
+      "pt": 6894,
+      "w": 21,
+      "pid": 5540695
+     },
+     {
+      "r": 22,
+      "n": "Angus Meldrum",
+      "pt": 6730,
+      "w": 13,
+      "pid": 7875786
+     },
+     {
+      "r": 37,
+      "n": "Nick Fransman",
+      "pt": 5760,
+      "w": 11,
+      "pid": 119896
+     },
+     {
+      "r": 38,
+      "n": "Timo Stoffelen",
+      "pt": 5718,
+      "w": 9,
+      "pid": 209002
+     },
+     {
+      "r": 39,
+      "n": "Dion Rovers",
+      "pt": 5648,
+      "w": 15,
+      "pid": 158565
+     },
+     {
+      "r": 66,
+      "n": "Sander Prenen",
+      "pt": 4656,
+      "w": 15,
+      "pid": 1705811
+     },
+     {
+      "r": 68,
+      "n": "Mees Janssen",
+      "pt": 4592,
+      "w": 11,
+      "pid": 2719476
+     },
+     {
+      "r": 86,
+      "n": "Dyon van Wijlick",
+      "pt": 4024,
+      "w": 7,
+      "pid": 209458
+     },
+     {
+      "r": 92,
+      "n": "Jonah Quintens",
+      "pt": 3920,
+      "w": 9,
+      "pid": 8990549
+     },
+     {
+      "r": 102,
+      "n": "Ade Resky Dwicahyo",
+      "pt": 3680,
+      "w": 6,
+      "pid": 8109512
+     },
+     {
+      "r": 129,
+      "n": "Joep Strooper",
+      "pt": 3356,
+      "w": 4,
+      "pid": 2719542
+     },
+     {
+      "r": 147,
+      "n": "Joran Kweekel",
+      "pt": 3040,
+      "w": 4,
+      "pid": 130863
+     },
+     {
+      "r": 187,
+      "n": "Sean Fanseda",
+      "pt": 2626,
+      "w": 5,
+      "pid": 4634881
+     },
+     {
+      "r": 504,
+      "n": "Casper Spaans",
+      "pt": 1436,
+      "w": 2,
+      "pid": 3234628
+     }
+    ]
+   },
+   {
+    "code": "DE",
+    "label": "Damesenkel",
+    "rows": [
+     {
+      "r": 1,
+      "n": "Flora Wang",
+      "pt": 13852,
+      "w": 26,
+      "pid": 2719588
+     },
+     {
+      "r": 2,
+      "n": "Anouk van Wijk",
+      "pt": 12162,
+      "w": 22,
+      "pid": 1705828
+     },
+     {
+      "r": 3,
+      "n": "Novi Wieland",
+      "pt": 11640,
+      "w": 29,
+      "pid": 2254627
+     },
+     {
+      "r": 6,
+      "n": "Diede Odijk",
+      "pt": 10346,
+      "w": 26,
+      "pid": 1303135
+     },
+     {
+      "r": 7,
+      "n": "Alida Chen",
+      "pt": 10158,
+      "w": 21,
+      "pid": 119830
+     },
+     {
+      "r": 8,
+      "n": "Veda Diemel",
+      "pt": 10048,
+      "w": 21,
+      "pid": 135891
+     },
+     {
+      "r": 9,
+      "n": "Daphne van den Berg",
+      "pt": 9473,
+      "w": 27,
+      "pid": 1302243
+     },
+     {
+      "r": 10,
+      "n": "Inger Pothuizen",
+      "pt": 9358,
+      "w": 22,
+      "pid": 2253055
+     },
+     {
+      "r": 12,
+      "n": "Manon Middendorp",
+      "pt": 8901,
+      "w": 23,
+      "pid": 2719631
+     },
+     {
+      "r": 13,
+      "n": "Esmeralda van Drunen",
+      "pt": 8803,
+      "w": 22,
+      "pid": 2253123
+     },
+     {
+      "r": 14,
+      "n": "Maureen Zewald",
+      "pt": 8410,
+      "w": 14,
+      "pid": 137339
+     },
+     {
+      "r": 16,
+      "n": "Chloë Mayer",
+      "pt": 7820,
+      "w": 18,
+      "pid": 209018
+     },
+     {
+      "r": 18,
+      "n": "Jaymie Laurens",
+      "pt": 7490,
+      "w": 15,
+      "pid": 1302564
+     },
+     {
+      "r": 20,
+      "n": "Leonie Rovers",
+      "pt": 7261,
+      "w": 15,
+      "pid": 1302244
+     },
+     {
+      "r": 21,
+      "n": "Mandy Duijndam",
+      "pt": 7169,
+      "w": 18,
+      "pid": 5540696
+     },
+     {
+      "r": 23,
+      "n": "Amy Tan",
+      "pt": 6730,
+      "w": 9,
+      "pid": 1157416
+     },
+     {
+      "r": 24,
+      "n": "Stefanie Nijsse",
+      "pt": 6726,
+      "w": 9,
+      "pid": 2254243
+     },
+     {
+      "r": 30,
+      "n": "Beau Ritzen",
+      "pt": 6053,
+      "w": 20,
+      "pid": 1302338
+     },
+     {
+      "r": 50,
+      "n": "Chloe Tsai",
+      "pt": 4665,
+      "w": 10,
+      "pid": 5074038
+     },
+     {
+      "r": 57,
+      "n": "Yuanyuan Jiang",
+      "pt": 4256,
+      "w": 13,
+      "pid": 8109597
+     },
+     {
+      "r": 73,
+      "n": "Xenia Koelmel",
+      "pt": 3760,
+      "w": 6,
+      "pid": 5049208
+     },
+     {
+      "r": 81,
+      "n": "Flore Vandenhoucke",
+      "pt": 3600,
+      "w": 6,
+      "pid": 7896208
+     },
+     {
+      "r": 91,
+      "n": "Florentine Schoffski",
+      "pt": 3440,
+      "w": 5,
+      "pid": 8990809
+     },
+     {
+      "r": 98,
+      "n": "Nikki Pobezin",
+      "pt": 3385,
+      "w": 6,
+      "pid": 209097
+     },
+     {
+      "r": 273,
+      "n": "Myke Halkema",
+      "pt": 1904,
+      "w": 4,
+      "pid": 119310
+     },
+     {
+      "r": 357,
+      "n": "Hristomira Popovska",
+      "pt": 1600,
+      "w": 2,
+      "pid": 9918490
+     },
+     {
+      "r": 658,
+      "n": "Lien Lammertyn",
+      "pt": 1080,
+      "w": 3,
+      "pid": 8990980
+     },
+     {
+      "r": 658,
+      "n": "Lieke van Parys",
+      "pt": 1080,
+      "w": 3,
+      "pid": 9918488
+     },
+     {
+      "r": 770,
+      "n": "Lieke Maes",
+      "pt": 960,
+      "w": 3,
+      "pid": 118828
+     }
+    ]
+   },
+   {
+    "code": "HD",
+    "label": "Herendubbel",
+    "rows": [
+     {
+      "r": 1,
+      "n": "Joep Strooper",
+      "pt": 15416,
+      "w": 22,
+      "pid": 2719542
+     },
+     {
+      "r": 2,
+      "n": "Timo Stoffelen",
+      "pt": 14670,
+      "w": 24,
+      "pid": 209002
+     },
+     {
+      "r": 3,
+      "n": "Dyon van Wijlick",
+      "pt": 14638,
+      "w": 23,
+      "pid": 209458
+     },
+     {
+      "r": 5,
+      "n": "Brian Wassink",
+      "pt": 13640,
+      "w": 24,
+      "pid": 158569
+     },
+     {
+      "r": 6,
+      "n": "Lars Kros",
+      "pt": 11720,
+      "w": 13,
+      "pid": 159446
+     },
+     {
+      "r": 7,
+      "n": "Dennis Koppen",
+      "pt": 11454,
+      "w": 11,
+      "pid": 135573
+     },
+     {
+      "r": 8,
+      "n": "Thijs van den Berg",
+      "pt": 11026,
+      "w": 21,
+      "pid": 159486
+     },
+     {
+      "r": 9,
+      "n": "Berend van Brenk",
+      "pt": 10859,
+      "w": 23,
+      "pid": 2252580
+     },
+     {
+      "r": 10,
+      "n": "Gijs Duijs",
+      "pt": 10754,
+      "w": 22,
+      "pid": 158596
+     },
+     {
+      "r": 12,
+      "n": "Noah Jongen",
+      "pt": 10466,
+      "w": 19,
+      "pid": 1157419
+     },
+     {
+      "r": 13,
+      "n": "Ties van der Lecq",
+      "pt": 10420,
+      "w": 17,
+      "pid": 136570
+     },
+     {
+      "r": 14,
+      "n": "Andy Buijk",
+      "pt": 10300,
+      "w": 19,
+      "pid": 192490
+     },
+     {
+      "r": 21,
+      "n": "Ruben Wijnands",
+      "pt": 9149,
+      "w": 13,
+      "pid": 131989
+     },
+     {
+      "r": 26,
+      "n": "Rik Hermans",
+      "pt": 8216,
+      "w": 18,
+      "pid": 119086
+     },
+     {
+      "r": 28,
+      "n": "Ruben Jille",
+      "pt": 8000,
+      "w": 14,
+      "pid": 119632
+     },
+     {
+      "r": 32,
+      "n": "Jasper Koppen",
+      "pt": 7520,
+      "w": 6,
+      "pid": 131853
+     },
+     {
+      "r": 33,
+      "n": "Brandon Bessem",
+      "pt": 7263,
+      "w": 13,
+      "pid": 127083
+     },
+     {
+      "r": 36,
+      "n": "Vihaan Shah",
+      "pt": 6885,
+      "w": 9,
+      "pid": 5073902
+     },
+     {
+      "r": 38,
+      "n": "Freek Golinski",
+      "pt": 6800,
+      "w": 11,
+      "pid": 278480
+     },
+     {
+      "r": 46,
+      "n": "Noah Haase",
+      "pt": 6370,
+      "w": 5,
+      "pid": 1302758
+     },
+     {
+      "r": 47,
+      "n": "Mees Janssen",
+      "pt": 6364,
+      "w": 13,
+      "pid": 2719476
+     },
+     {
+      "r": 52,
+      "n": "Rens Lagrouw",
+      "pt": 6134,
+      "w": 15,
+      "pid": 1302528
+     },
+     {
+      "r": 58,
+      "n": "Jop de Keijzer",
+      "pt": 5652,
+      "w": 24,
+      "pid": 6003674
+     },
+     {
+      "r": 68,
+      "n": "Dion Hoegen",
+      "pt": 5185,
+      "w": 8,
+      "pid": 3445729
+     },
+     {
+      "r": 87,
+      "n": "Vincent de Vries",
+      "pt": 4598,
+      "w": 9,
+      "pid": 119593
+     },
+     {
+      "r": 133,
+      "n": "Nagasharan Podala Vengatesh",
+      "pt": 3820,
+      "w": 13,
+      "pid": 5540695
+     },
+     {
+      "r": 134,
+      "n": "Quinn Jens",
+      "pt": 3798,
+      "w": 9,
+      "pid": 2252946
+     },
+     {
+      "r": 155,
+      "n": "Thomas Sibbald",
+      "pt": 3474,
+      "w": 5,
+      "pid": 140640
+     },
+     {
+      "r": 179,
+      "n": "Marcello Kausemann",
+      "pt": 3200,
+      "w": 5,
+      "pid": 8990951
+     },
+     {
+      "r": 180,
+      "n": "Ade Resky Dwicahyo",
+      "pt": 3200,
+      "w": 4,
+      "pid": 8109512
+     },
+     {
+      "r": 244,
+      "n": "Angus Meldrum",
+      "pt": 2651,
+      "w": 4,
+      "pid": 7875786
+     },
+     {
+      "r": 278,
+      "n": "Nick Fransman",
+      "pt": 2400,
+      "w": 4,
+      "pid": 119896
+     },
+     {
+      "r": 394,
+      "n": "Jonah Quintens",
+      "pt": 2000,
+      "w": 4,
+      "pid": 8990549
+     },
+     {
+      "r": 395,
+      "n": "Robin Tabeling",
+      "pt": 2000,
+      "w": 3,
+      "pid": 119822
+     },
+     {
+      "r": 445,
+      "n": "Sean Fanseda",
+      "pt": 1910,
+      "w": 2,
+      "pid": 4634881
+     },
+     {
+      "r": 576,
+      "n": "Joran Kweekel",
+      "pt": 1600,
+      "w": 2,
+      "pid": 130863
+     },
+     {
+      "r": 717,
+      "n": "Sander Prenen",
+      "pt": 1360,
+      "w": 3,
+      "pid": 1705811
+     }
+    ]
+   },
+   {
+    "code": "DD",
+    "label": "Damesdubbel",
+    "rows": [
+     {
+      "r": 1,
+      "n": "Kirsten de Wit",
+      "pt": 22880,
+      "w": 34,
+      "pid": 1706440
+     },
+     {
+      "r": 2,
+      "n": "Meerte Loos",
+      "pt": 22120,
+      "w": 31,
+      "pid": 2719657
+     },
+     {
+      "r": 3,
+      "n": "Debora Jille",
+      "pt": 18480,
+      "w": 13,
+      "pid": 131386
+     },
+     {
+      "r": 4,
+      "n": "Kelly van Buiten",
+      "pt": 16052,
+      "w": 32,
+      "pid": 1264966
+     },
+     {
+      "r": 5,
+      "n": "Inger Pothuizen",
+      "pt": 14512,
+      "w": 23,
+      "pid": 2253055
+     },
+     {
+      "r": 6,
+      "n": "Lieke Maes",
+      "pt": 14064,
+      "w": 18,
+      "pid": 118828
+     },
+     {
+      "r": 7,
+      "n": "Iris van Leijsen",
+      "pt": 12772,
+      "w": 21,
+      "pid": 1707060
+     },
+     {
+      "r": 8,
+      "n": "Sterre Bang",
+      "pt": 12484,
+      "w": 22,
+      "pid": 2253154
+     },
+     {
+      "r": 10,
+      "n": "Diede Odijk",
+      "pt": 12222,
+      "w": 24,
+      "pid": 1303135
+     },
+     {
+      "r": 12,
+      "n": "Alyssa Tirtosentono",
+      "pt": 10350,
+      "w": 17,
+      "pid": 134778
+     },
+     {
+      "r": 16,
+      "n": "Anouk van Wijk",
+      "pt": 8565,
+      "w": 7,
+      "pid": 1705828
+     },
+     {
+      "r": 19,
+      "n": "Nikki Pobezin",
+      "pt": 8316,
+      "w": 13,
+      "pid": 209097
+     },
+     {
+      "r": 20,
+      "n": "Alida Chen",
+      "pt": 8235,
+      "w": 7,
+      "pid": 119830
+     },
+     {
+      "r": 21,
+      "n": "Jaymie Laurens",
+      "pt": 7945,
+      "w": 7,
+      "pid": 1302564
+     },
+     {
+      "r": 23,
+      "n": "Stefanie Nijsse",
+      "pt": 7868,
+      "w": 11,
+      "pid": 2254243
+     },
+     {
+      "r": 27,
+      "n": "Imke van der Aar",
+      "pt": 7750,
+      "w": 10,
+      "pid": 138314
+     },
+     {
+      "r": 29,
+      "n": "Veda Diemel",
+      "pt": 7461,
+      "w": 20,
+      "pid": 135891
+     },
+     {
+      "r": 30,
+      "n": "Daphne van den Berg",
+      "pt": 7307,
+      "w": 22,
+      "pid": 1302243
+     },
+     {
+      "r": 49,
+      "n": "Manon Middendorp",
+      "pt": 5701,
+      "w": 21,
+      "pid": 2719631
+     },
+     {
+      "r": 51,
+      "n": "Myke Halkema",
+      "pt": 5680,
+      "w": 14,
+      "pid": 119310
+     },
+     {
+      "r": 54,
+      "n": "Yuanyuan Jiang",
+      "pt": 5617,
+      "w": 19,
+      "pid": 8109597
+     },
+     {
+      "r": 64,
+      "n": "Leonie Rovers",
+      "pt": 5134,
+      "w": 7,
+      "pid": 1302244
+     },
+     {
+      "r": 71,
+      "n": "Chloe Tsai",
+      "pt": 4912,
+      "w": 16,
+      "pid": 5074038
+     },
+     {
+      "r": 83,
+      "n": "Maureen Zewald",
+      "pt": 4490,
+      "w": 6,
+      "pid": 137339
+     },
+     {
+      "r": 94,
+      "n": "Renske Kwakkenbos",
+      "pt": 4200,
+      "w": 7,
+      "pid": 130904
+     },
+     {
+      "r": 123,
+      "n": "Mandy Duijndam",
+      "pt": 3645,
+      "w": 6,
+      "pid": 5540696
+     },
+     {
+      "r": 134,
+      "n": "Beau Ritzen",
+      "pt": 3502,
+      "w": 9,
+      "pid": 1302338
+     },
+     {
+      "r": 150,
+      "n": "Flore Vandenhoucke",
+      "pt": 3200,
+      "w": 5,
+      "pid": 7896208
+     },
+     {
+      "r": 237,
+      "n": "Lien Lammertyn",
+      "pt": 2400,
+      "w": 5,
+      "pid": 8990980
+     },
+     {
+      "r": 317,
+      "n": "Lieke van Parys",
+      "pt": 2000,
+      "w": 3,
+      "pid": 9918488
+     },
+     {
+      "r": 410,
+      "n": "Esmeralda van Drunen",
+      "pt": 1780,
+      "w": 4,
+      "pid": 2253123
+     },
+     {
+      "r": 724,
+      "n": "Xenia Koelmel",
+      "pt": 1200,
+      "w": 2,
+      "pid": 5049208
+     },
+     {
+      "r": 724,
+      "n": "Florentine Schoffski",
+      "pt": 1200,
+      "w": 2,
+      "pid": 8990809
+     }
+    ]
+   },
+   {
+    "code": "GD",
+    "label": "Gemengd dubbel",
+    "rows": [
+     {
+      "r": 1,
+      "n": "Brian Wassink",
+      "pt": 22300,
+      "w": 28,
+      "pid": 158569
+     },
+     {
+      "r": 2,
+      "n": "Debora Jille",
+      "pt": 22300,
+      "w": 24,
+      "pid": 131386
+     },
+     {
+      "r": 3,
+      "n": "Meerte Loos",
+      "pt": 19120,
+      "w": 30,
+      "pid": 2719657
+     },
+     {
+      "r": 4,
+      "n": "Andy Buijk",
+      "pt": 15200,
+      "w": 22,
+      "pid": 192490
+     },
+     {
+      "r": 5,
+      "n": "Timo Stoffelen",
+      "pt": 13614,
+      "w": 29,
+      "pid": 209002
+     },
+     {
+      "r": 6,
+      "n": "Inger Pothuizen",
+      "pt": 13364,
+      "w": 25,
+      "pid": 2253055
+     },
+     {
+      "r": 7,
+      "n": "Lieke Maes",
+      "pt": 13122,
+      "w": 21,
+      "pid": 118828
+     },
+     {
+      "r": 8,
+      "n": "Kirsten de Wit",
+      "pt": 13120,
+      "w": 29,
+      "pid": 1706440
+     },
+     {
+      "r": 9,
+      "n": "Alida Chen",
+      "pt": 13100,
+      "w": 23,
+      "pid": 119830
+     },
+     {
+      "r": 10,
+      "n": "Joep Strooper",
+      "pt": 12622,
+      "w": 26,
+      "pid": 2719542
+     },
+     {
+      "r": 12,
+      "n": "Kelly van Buiten",
+      "pt": 12052,
+      "w": 25,
+      "pid": 1264966
+     },
+     {
+      "r": 13,
+      "n": "Dyon van Wijlick",
+      "pt": 11986,
+      "w": 20,
+      "pid": 209458
+     },
+     {
+      "r": 14,
+      "n": "Thijs van den Berg",
+      "pt": 11899,
+      "w": 16,
+      "pid": 159486
+     },
+     {
+      "r": 15,
+      "n": "Brandon Bessem",
+      "pt": 11764,
+      "w": 22,
+      "pid": 127083
+     },
+     {
+      "r": 16,
+      "n": "Lars Kros",
+      "pt": 11159,
+      "w": 12,
+      "pid": 159446
+     },
+     {
+      "r": 17,
+      "n": "Iris van Leijsen",
+      "pt": 10760,
+      "w": 22,
+      "pid": 1707060
+     },
+     {
+      "r": 19,
+      "n": "Nikki Pobezin",
+      "pt": 10521,
+      "w": 30,
+      "pid": 209097
+     },
+     {
+      "r": 20,
+      "n": "Dennis Koppen",
+      "pt": 10444,
+      "w": 7,
+      "pid": 135573
+     },
+     {
+      "r": 21,
+      "n": "Stefanie Nijsse",
+      "pt": 10200,
+      "w": 18,
+      "pid": 2254243
+     },
+     {
+      "r": 22,
+      "n": "Jasper Koppen",
+      "pt": 10088,
+      "w": 15,
+      "pid": 131853
+     },
+     {
+      "r": 25,
+      "n": "Sterre Bang",
+      "pt": 9024,
+      "w": 20,
+      "pid": 2253154
+     },
+     {
+      "r": 26,
+      "n": "Noah Jongen",
+      "pt": 8958,
+      "w": 19,
+      "pid": 1157419
+     },
+     {
+      "r": 28,
+      "n": "Ties van der Lecq",
+      "pt": 8250,
+      "w": 15,
+      "pid": 136570
+     },
+     {
+      "r": 29,
+      "n": "Gijs Duijs",
+      "pt": 8246,
+      "w": 19,
+      "pid": 158596
+     },
+     {
+      "r": 31,
+      "n": "Anouk van Wijk",
+      "pt": 7822,
+      "w": 18,
+      "pid": 1705828
+     },
+     {
+      "r": 33,
+      "n": "Jaymie Laurens",
+      "pt": 7696,
+      "w": 19,
+      "pid": 1302564
+     },
+     {
+      "r": 37,
+      "n": "Manon Middendorp",
+      "pt": 7551,
+      "w": 20,
+      "pid": 2719631
+     },
+     {
+      "r": 38,
+      "n": "Flora Wang",
+      "pt": 7536,
+      "w": 14,
+      "pid": 2719588
+     },
+     {
+      "r": 45,
+      "n": "Veda Diemel",
+      "pt": 7147,
+      "w": 13,
+      "pid": 135891
+     },
+     {
+      "r": 52,
+      "n": "Alyssa Tirtosentono",
+      "pt": 6680,
+      "w": 12,
+      "pid": 134778
+     },
+     {
+      "r": 53,
+      "n": "Berend van Brenk",
+      "pt": 6619,
+      "w": 21,
+      "pid": 2252580
+     },
+     {
+      "r": 60,
+      "n": "Mark Caljouw",
+      "pt": 6240,
+      "w": 12,
+      "pid": 119334
+     },
+     {
+      "r": 66,
+      "n": "Jop de Keijzer",
+      "pt": 6045,
+      "w": 29,
+      "pid": 6003674
+     },
+     {
+      "r": 69,
+      "n": "Yuanyuan Jiang",
+      "pt": 6011,
+      "w": 20,
+      "pid": 8109597
+     },
+     {
+      "r": 70,
+      "n": "Ruben Jille",
+      "pt": 6000,
+      "w": 14,
+      "pid": 119632
+     },
+     {
+      "r": 74,
+      "n": "Diede Odijk",
+      "pt": 5866,
+      "w": 4,
+      "pid": 1303135
+     },
+     {
+      "r": 78,
+      "n": "Leonie Rovers",
+      "pt": 5740,
+      "w": 9,
+      "pid": 1302244
+     },
+     {
+      "r": 81,
+      "n": "Rens Lagrouw",
+      "pt": 5648,
+      "w": 14,
+      "pid": 1302528
+     },
+     {
+      "r": 85,
+      "n": "Rik Hermans",
+      "pt": 5542,
+      "w": 14,
+      "pid": 119086
+     },
+     {
+      "r": 94,
+      "n": "Daphne van den Berg",
+      "pt": 5240,
+      "w": 7,
+      "pid": 1302243
+     },
+     {
+      "r": 96,
+      "n": "Imke van der Aar",
+      "pt": 5200,
+      "w": 9,
+      "pid": 138314
+     },
+     {
+      "r": 103,
+      "n": "Myke Halkema",
+      "pt": 5008,
+      "w": 12,
+      "pid": 119310
+     },
+     {
+      "r": 113,
+      "n": "Beau Ritzen",
+      "pt": 4742,
+      "w": 14,
+      "pid": 1302338
+     },
+     {
+      "r": 114,
+      "n": "Dion Rovers",
+      "pt": 4720,
+      "w": 13,
+      "pid": 158565
+     },
+     {
+      "r": 123,
+      "n": "Aram Mahmoud",
+      "pt": 4560,
+      "w": 7,
+      "pid": 2013987
+     },
+     {
+      "r": 137,
+      "n": "Freek Golinski",
+      "pt": 4320,
+      "w": 9,
+      "pid": 278480
+     },
+     {
+      "r": 141,
+      "n": "Mandy Duijndam",
+      "pt": 4213,
+      "w": 6,
+      "pid": 5540696
+     },
+     {
+      "r": 147,
+      "n": "Dion Hoegen",
+      "pt": 4153,
+      "w": 4,
+      "pid": 3445729
+     },
+     {
+      "r": 148,
+      "n": "Ruben Wijnands",
+      "pt": 4151,
+      "w": 13,
+      "pid": 131989
+     },
+     {
+      "r": 149,
+      "n": "Vincent de Vries",
+      "pt": 4122,
+      "w": 8,
+      "pid": 119593
+     },
+     {
+      "r": 158,
+      "n": "Sander Prenen",
+      "pt": 4040,
+      "w": 10,
+      "pid": 1705811
+     },
+     {
+      "r": 187,
+      "n": "Marcello Kausemann",
+      "pt": 3760,
+      "w": 6,
+      "pid": 8990951
+     },
+     {
+      "r": 191,
+      "n": "Novi Wieland",
+      "pt": 3682,
+      "w": 4,
+      "pid": 2254627
+     },
+     {
+      "r": 198,
+      "n": "Nagasharan Podala Vengatesh",
+      "pt": 3601,
+      "w": 12,
+      "pid": 5540695
+     },
+     {
+      "r": 206,
+      "n": "Quinn Jens",
+      "pt": 3544,
+      "w": 13,
+      "pid": 2252946
+     },
+     {
+      "r": 279,
+      "n": "Renske Kwakkenbos",
+      "pt": 3040,
+      "w": 6,
+      "pid": 130904
+     },
+     {
+      "r": 290,
+      "n": "Lien Lammertyn",
+      "pt": 2960,
+      "w": 5,
+      "pid": 8990980
+     },
+     {
+      "r": 371,
+      "n": "Mees Janssen",
+      "pt": 2612,
+      "w": 5,
+      "pid": 2719476
+     },
+     {
+      "r": 380,
+      "n": "Maureen Zewald",
+      "pt": 2584,
+      "w": 2,
+      "pid": 137339
+     },
+     {
+      "r": 440,
+      "n": "Thomas Sibbald",
+      "pt": 2386,
+      "w": 4,
+      "pid": 140640
+     },
+     {
+      "r": 492,
+      "n": "Chloe Tsai",
+      "pt": 2237,
+      "w": 5,
+      "pid": 5074038
+     },
+     {
+      "r": 502,
+      "n": "Vihaan Shah",
+      "pt": 2205,
+      "w": 4,
+      "pid": 5073902
+     },
+     {
+      "r": 596,
+      "n": "Flore Vandenhoucke",
+      "pt": 2000,
+      "w": 4,
+      "pid": 7896208
+     },
+     {
+      "r": 597,
+      "n": "Robin Tabeling",
+      "pt": 2000,
+      "w": 3,
+      "pid": 119822
+     },
+     {
+      "r": 625,
+      "n": "Angus Meldrum",
+      "pt": 1936,
+      "w": 2,
+      "pid": 7875786
+     }
+    ]
+   }
+  ],
+  "checked": [
+   "Ade Resky Dwicahyo",
+   "Adith Karthikeyan Priya",
+   "Alida Chen",
+   "Alyssa Tirtosentono",
+   "Amy Tan",
+   "Andy Buijk",
+   "Angus Meldrum",
+   "Anouk van Wijk",
+   "Aram Mahmoud",
+   "Beau Ritzen",
+   "Berend van Brenk",
+   "Brandon Bessem",
+   "Brian Wassink",
+   "Casper Spaans",
+   "Chloe Tsai",
+   "Chloë Mayer",
+   "Clara Lassaux",
+   "Daphne van den Berg",
+   "Debora Jille",
+   "Dennis Koppen",
+   "Diede Odijk",
+   "Dion Hoegen",
+   "Dion Rovers",
+   "Dyon van Wijlick",
+   "Esmeralda van Drunen",
+   "Flora Wang",
+   "Flore Vandenhoucke",
+   "Florentine Schoffski",
+   "Freek Golinski",
+   "Gijs Duijs",
+   "Hristomira Popovska",
+   "Iben Bergstein",
+   "Imka Putrama Arlin",
+   "Imke van der Aar",
+   "Inger Pothuizen",
+   "Iris van Leijsen",
+   "Jasper Koppen",
+   "Jaymie Laurens",
+   "Joep Strooper",
+   "Jonah Quintens",
+   "Jop de Keijzer",
+   "Joran Kweekel",
+   "Kelly van Buiten",
+   "Kirsten de Wit",
+   "Lars Kros",
+   "Leonie Rovers",
+   "Lieke Maes",
+   "Lieke van Parys",
+   "Lien Lammertyn",
+   "Luca Wiechmann",
+   "Mandy Duijndam",
+   "Manon Middendorp",
+   "Marcello Kausemann",
+   "Marijn Put",
+   "Mark Caljouw",
+   "Maureen Zewald",
+   "Meerte Loos",
+   "Mees Janssen",
+   "Myke Halkema",
+   "Nagasharan Podala Vengatesh",
+   "Nick Fransman",
+   "Nikki Pobezin",
+   "Noah Haase",
+   "Noah Jongen",
+   "Novi Wieland",
+   "Quinn Jens",
+   "Rens Lagrouw",
+   "Renske Kwakkenbos",
+   "Rik Hermans",
+   "Robin Tabeling",
+   "Ruben Jille",
+   "Ruben Wijnands",
+   "Sander Prenen",
+   "Sean Fanseda",
+   "Shreya Hochscheid",
+   "Stefanie Nijsse",
+   "Sterre Bang",
+   "Tammi van Wonterghem",
+   "Thijs van den Berg",
+   "Thomas Sibbald",
+   "Ties van der Lecq",
+   "Timo Stoffelen",
+   "Veda Diemel",
+   "Vihaan Shah",
+   "Vincent de Vries",
+   "Wessel van der Aar",
+   "William Villeger",
+   "Xenia Koelmel",
+   "Yuanyuan Jiang"
+  ]
+ },
  "check": {
   "afwijkingen": [
    "Robin Tabeling",
@@ -6271,5 +7661,5 @@
    "Renske Kwakkenbos"
   ]
  },
- "updated": "11-10-2026 15:12"
+ "updated": "13-10-2026 16:17"
 }

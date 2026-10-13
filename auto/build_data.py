@@ -262,6 +262,9 @@ def main(raw_p, old_p, out_p):
         teams.append({"team": s["team"], "rows": [{"pos": i + 1, "speler": n, "e": f(a["e"]), "d": f(a["d"]), "m": f(a["m"]), "tot": "%d/%d" % (a["w"], a["g"])} for i, (n, a) in enumerate(rows)]})
     data["teams"] = teams
     data["mvp"] = mvp(data["seizoen"], [x["team"] for x in st])
+    # nationale ranking: nieuw opgehaald, anders de vorige behouden
+    rk = raw.get("ranking") or old.get("ranking")
+    if rk: data["ranking"] = rk
     # controle: totalen per speler moeten gelijk zijn aan toernooi.nl
     diff = [s["speler"] for s in sp if s["speler"] in agg and (agg[s["speler"]]["w"], agg[s["speler"]]["g"]) != (s["w"], s["gp"])]
     data["check"] = {"afwijkingen": diff}

@@ -198,6 +198,14 @@ footer a{color:#fff;font-weight:600}
 .prnav button:disabled{opacity:.35;cursor:default}
 .prnav select{font:inherit;font-weight:600;font-size:15px;border:2px solid #fff;border-radius:999px;padding:7px 14px;background:rgba(255,255,255,.95);color:#E95822;outline:none}
 .poleg{display:inline-flex;align-items:center;gap:4px}
+.rkseg{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.rkseg button{font:inherit;font-weight:700;font-size:15px;border:2px solid #fff;background:transparent;color:#fff;padding:5px 14px;border-radius:999px;cursor:pointer}
+.rkseg button[aria-pressed=true]{background:#fff;color:var(--ink)}
+#ranking .pos{width:auto;min-width:30px;padding:0 6px}
+.cs5{grid-template-columns:repeat(5,1fr);gap:6px}.cs5 div{padding:6px 2px}.cs5 b{font-size:16px}
+.cs5 div.no{background:#f6e7de;color:#9a6a52}
+.crkl{font-size:12px;font-weight:600;opacity:.65;margin:-2px 0 8px;text-align:center}
+@media (max-width:760px){.tabs{grid-template-columns:repeat(4,1fr)}.tabs button{font-size:13px;padding:6px 4px}.rkseg button{font-size:14px;padding:4px 11px}}
 </style>
 <style>
 body.app{background:linear-gradient(160deg,#F9AB2E,#F07D27 45%,#E95822);min-height:100dvh}
@@ -210,7 +218,7 @@ body.app header .s{font-size:12px}
 .appbtn{border:0;background:rgba(255,255,255,.2);color:#fff;width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;flex:none}
 .appbtn svg{width:24px;height:24px}
 .appbtn.on{background:#fff;color:#E95822}
-body.app .tabs{position:fixed;left:0;right:0;bottom:0;z-index:40;margin:0;display:grid!important;grid-template-columns:repeat(6,1fr);gap:0;background:#fff;padding:6px 4px calc(env(safe-area-inset-bottom) + 6px);box-shadow:0 -6px 24px rgba(120,30,0,.18)}
+body.app .tabs{position:fixed;left:0;right:0;bottom:0;z-index:40;margin:0;display:grid!important;grid-template-columns:repeat(7,1fr);gap:0;background:#fff;padding:6px 4px calc(env(safe-area-inset-bottom) + 6px);box-shadow:0 -6px 24px rgba(120,30,0,.18)}
 body.app .tabs button{border:0;border-radius:14px;color:#9a6a52;background:none;padding:6px 0 4px;font-size:11px;font-weight:600;display:flex;flex-direction:column;align-items:center;gap:3px;letter-spacing:0}
 body.app .tabs button svg{width:24px;height:24px}
 body.app .tabs button[aria-selected=true]{color:#E95822;background:#fdeee4}
@@ -238,8 +246,8 @@ window.OS_APP_ID='f401828b-e3c3-47cc-94ea-a37dfeab96e2';
 (function(){
  const IC={uitslagen:'<path d="M4 6h16M4 12h16M4 18h10"/>',programma:'<rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/>',
   stand:'<path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0V4zM7 6H4v2a3 3 0 0 0 3 3M17 6h3v2a3 3 0 0 1-3 3"/>',top10:'<circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/>',
-  teams:'<circle cx="9" cy="8" r="3.5"/><circle cx="17" cy="9" r="2.5"/><path d="M2 20c0-3.5 3-5.5 7-5.5s7 2 7 5.5M16 14.5c3 0 6 1.5 6 4.5"/>',mvp:'<path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/>'};
- const LB={uitslagen:'Uitslagen',programma:'Programma',stand:'Stand',top10:'Spelers',teams:'Teams',mvp:'MVP'};
+  teams:'<circle cx="9" cy="8" r="3.5"/><circle cx="17" cy="9" r="2.5"/><path d="M2 20c0-3.5 3-5.5 7-5.5s7 2 7 5.5M16 14.5c3 0 6 1.5 6 4.5"/>',mvp:'<path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/>',ranking:'<path d="M3 20h18M6 20v-7h4v7M10 20V8h4v12M14 20v-5h4v5"/>'};
+ const LB={uitslagen:'Uitslagen',programma:'Programma',stand:'Stand',top10:'Spelers',ranking:'Ranking',teams:'Teams',mvp:'MVP'};
  const svg=p=>`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${p}</svg>`;
  document.addEventListener('DOMContentLoaded',()=>{
   document.body.classList.add('app');
@@ -318,6 +326,7 @@ window.OS_APP_ID='f401828b-e3c3-47cc-94ea-a37dfeab96e2';
   <button role="tab" data-p="programma" aria-selected="false">Programma</button>
   <button role="tab" data-p="stand" aria-selected="false">Stand</button>
   <button role="tab" data-p="top10" aria-selected="false">Spelers</button>
+  <button role="tab" data-p="ranking" aria-selected="false">Ranking</button>
   <button role="tab" data-p="teams" aria-selected="false"><span class="lg">Stats per team</span><span class="sm">Per team</span></button>
   <button role="tab" data-p="mvp" aria-selected="false">MVP</button>
  </div>
@@ -325,6 +334,7 @@ window.OS_APP_ID='f401828b-e3c3-47cc-94ea-a37dfeab96e2';
  <section class="panel" id="programma"></section>
  <section class="panel" id="stand"></section>
  <section class="panel" id="top10"></section>
+ <section class="panel" id="ranking"></section>
  <section class="panel" id="teams"></section>
  <section class="panel" id="mvp"></section>
  <div id="pcard" class="pcard" hidden></div>
@@ -5353,8 +5363,27 @@ function render(D){
  document.getElementById('teams').innerHTML=`<p class="leg">Per speler gewonnen – verloren partijen. <span class="sm">E = enkel · D = dubbel · M = mix</span></p><div class="tgrid">${D.teams.map(t=>`<div class="tb"><h3>${logo(t.team,32)}<span class="tm" role="button" tabindex="0" data-t="${esc(t.team)}">${esc(t.team)}</span></h3><table><thead><tr><th class="pc">#</th><th class="l">Speler</th><th><span class="lg">Enkel</span><span class="sm">E</span></th><th><span class="lg">Dubbel</span><span class="sm">D</span></th><th><span class="lg">Mix</span><span class="sm">M</span></th><th><span class="lg">Totaal</span><span class="sm">Tot</span></th></tr></thead><tbody>${
   t.rows.map(r=>`<tr><td class="pc"><span class="pos">${r.pos}</span></td><td class="l nm">${pnb(r.speler)}</td><td>${esc(r.e)}</td><td>${esc(r.d)}</td><td>${esc(r.m)}</td><td><span class="hl">${esc(r.tot)}</span></td></tr>`).join('')}</tbody></table></div>`).join('')}</div>`;
  drawMvp(D,0);
+ drawRank(D);
  document.querySelectorAll('.mh').forEach(b=>b.onclick=()=>{const m=b.parentElement;m.classList.toggle('open');b.setAttribute('aria-expanded',m.classList.contains('open'));sendH();});
  sendH();
+}
+
+function drawRank(D){
+ const el=document.getElementById('ranking'), tab=document.querySelector('button[data-p=ranking]');
+ const RK=D.ranking, cats=((RK&&RK.cats)||[]).filter(c=>c.rows&&c.rows.length);
+ if(!cats.length){tab.style.display='none';el.innerHTML='';return;} tab.style.display='';
+ const club={}; (D.spelers||D.top10||[]).forEach(r=>club[r.speler]=r.club);
+ const clubs=[...new Set(Object.values(club))].sort();
+ let ci=Math.max(0,cats.findIndex(c=>c.code===window._rc));
+ el.innerHTML=`<div class="rkseg" role="group" aria-label="Kies onderdeel">${cats.map((c,j)=>`<button type="button" data-j="${j}" aria-pressed="${j===ci}" title="${esc(c.label)}">${esc(c.code)}</button>`).join('')}</div><div class="flt"><select id="rkc" aria-label="Filter op team"><option value="">Alle teams</option>${clubs.map(c=>`<option${c===window._rf?' selected':''}>${esc(c)}</option>`).join('')}</select></div><p class="leg" id="rkl"></p><table><thead><tr><th title="Plaats op de nationale ranglijst">NL</th><th class="l">Speler</th><th>Punten</th></tr></thead><tbody id="rkb"></tbody></table><p class="mvleg">Plaats op de nationale ranglijst van Badminton Nederland, gefilterd op Eredivisiespelers. Spelers zonder Nederlandse ranking, zoals de meeste buitenlandse spelers, staan hier niet in.</p>`;
+ const draw=()=>{const c=cats[ci], f=document.getElementById('rkc').value; window._rf=f;
+  const L=c.rows.filter(r=>!f||club[r.n]===f);
+  document.getElementById('rkl').textContent=`${c.label} · nationale ranking week ${RK.week} · ${L.length} Eredivisiespeler${L.length===1?'':'s'}`;
+  document.getElementById('rkb').innerHTML=L.map(r=>`<tr><td><span class="pos">${r.r}</span></td><td class="l nm"><span class="cpn">${av(r.n,30)}<span>${pn(r.n)}<span class="club">${esc(club[r.n]||'')}</span></span></span></td><td><span class="hl">${r.pt!=null?Number(r.pt).toLocaleString('nl-NL'):'–'}</span></td></tr>`).join('')||'<tr><td colspan="3">Geen spelers van dit team in deze ranking</td></tr>';
+  sendH();};
+ el.querySelectorAll('.rkseg button').forEach(b=>b.onclick=()=>{ci=+b.dataset.j; window._rc=cats[ci].code;
+  el.querySelectorAll('.rkseg button').forEach(x=>x.setAttribute('aria-pressed',x===b)); draw();});
+ document.getElementById('rkc').onchange=draw; draw();
 }
 
 function drawProg(L,i){
@@ -5408,6 +5437,8 @@ function card(n,el,back){
  ${(()=>{const k=ONT()[n]||0; return k>=POMIN?`<div class="cpo ok"><span class="po" style="cursor:default">${POSVG}</span><div>Speelgerechtigd voor de play-offs<small>${k} ontmoetingen gespeeld · telt als ${esc(s.club||'het team')} de play-offs haalt</small></div></div>`:`<div class="cpo"><span class="podots">${Array.from({length:POMIN},(_,j)=>`<i class="${j<k?'on':''}"></i>`).join('')}</span><div>${k} van ${POMIN} ontmoetingen voor de play-offs<small>Nog ${POMIN-k} te gaan om speelgerechtigd te zijn</small></div></div>`;})()}
  <div class="cs"><div><b>${s.w??'–'}/${s.gp??'–'}</b><span>gewonnen</span></div><div><b>${esc(s.games||'–')}</b><span>games</span></div><div><b>${esc(s.punten||'–')}</b><span>punten</span></div></div>
  ${tr?`<div class="cs cs3"><div><b>${esc(tr.e)}</b><span>enkel</span></div><div><b>${esc(tr.d)}</b><span>dubbel</span></div><div><b>${esc(tr.m)}</b><span>mix</span></div></div>`:''}
+ ${(()=>{const RK=D.ranking; if(!RK||!RK.cats) return ''; const v=RK.cats.map(c=>{const x=(c.rows||[]).find(r=>r.n===n); return [c.code,c.label,x&&x.r];});
+  if(!v.some(x=>x[2])) return ''; return `<div class="cs cs5">${v.map(([c,l,r])=>`<div class="${r?'':'no'}" title="${esc(l)}"><b>${r?'#'+r:'–'}</b><span>${esc(c)}</span></div>`).join('')}</div><div class="crkl">Nationale ranking · week ${esc(RK.week)}</div>`;})()}
  ${blocks.length?`<button class="h2hb" data-h2h="${esc(n)}">⚔ HEAD TO HEAD (H2H)</button>`:''}
  ${blocks.length?`<div class="csep">Alle wedstrijden dit seizoen</div>${blocks.join('')}`:'<div class="nolu" style="color:#3a1a0c">Nog geen wedstrijden gespeeld</div>'}
 `;
