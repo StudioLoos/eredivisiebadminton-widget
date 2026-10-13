@@ -66,9 +66,12 @@ def ranking(names, old):
         raise RuntimeError("geen rankingpublicatie gevonden")
     rid = int(re.search(r"id=(\d+)", a["href"]).group(1))
     want = sorted(set(names))
-    if old and old.get("id") == rid and old.get("checked") == want:
-        return old
     pg = get("/ranking/ranking.aspx?id=%d" % rid)
+    # de publicatie wordt tussentijds bijgewerkt (bv. na competitieresultaten): ook op die datum letten
+    m = re.search(r"Laatst gewijzigd:\s*([^\n<]+?\d{1,2}:\d{2})", pg.get_text(" ", strip=True))
+    changed_at = m.group(1).strip() if m else ""
+    if old and old.get("id") == rid and old.get("checked") == want and old.get("gewijzigd", "") == changed_at:
+        return old
     opt = pg.find("option", attrs={"value": str(rid)})
     week = opt.get_text(strip=True) if opt else ""
     cats = []
@@ -105,7 +108,7 @@ def ranking(names, old):
     out.sort(key=lambda c: order.index(c["code"]))
     if not any(c["rows"] for c in out):
         raise RuntimeError("ranking leeg")
-    return {"id": rid, "week": week, "cats": out, "checked": want}
+    return {"id": rid, "week": week, "gewijzigd": changed_at, "cats": out, "checked": want}
 
 
 def main(out):
