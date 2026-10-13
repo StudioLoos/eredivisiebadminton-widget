@@ -5248,7 +5248,7 @@ const INLINE={
  ]
 };
 // Toto (voorspellingsspel). Uitzetten: maak deze URL leeg ('') — dan verdwijnt alles van de toto.
-const TOTO_URL='';
+const TOTO_URL='https://script.google.com/macros/s/AKfycbypPgXTTVwiTEXpW2n5m8617cGOe9iWs2qSGbUfmQCZ4H5DWqek_WKdJycziqUEex9r/exec';
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const av=(n,sz,club)=>{const p=DATA&&DATA.photos&&DATA.photos[n];return p?`<span class="av" style="--sz:${sz}px"><img src="${esc(p)}" alt="" loading="lazy"></span>`:(club!==undefined?logo(club,sz):'');};
 const POSVG='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>';
