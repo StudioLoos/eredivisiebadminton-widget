@@ -5265,9 +5265,7 @@ function render(D){
  DATA=D; if(!window._si){window._si=1; initSearch();}
  document.getElementById('sub').textContent=`${D.round} · ${D.date}`;
  document.getElementById('upd').textContent=`Bijgewerkt: ${D.updated}`;
- document.getElementById('uitslagen').innerHTML=D.matches.map((m,i)=>{
-  const rows=m.rows.map(r=>`<div class="r"><div class="p hp ${r.winner==='home'?'w':''}">${r.home.map(pn).join('<br>')}</div><div class="mid"><span class="code">${esc(r.code)}</span><div class="gs">${esc(r.score||'')}</div></div><div class="p ${r.winner==='away'?'w':''}">${r.away.map(pn).join('<br>')}</div></div>`).join('');
-  return `<div class="m${i===0?' open':''}"><button class="mh" aria-expanded="${i===0}"><span class="h">${esc(m.home)}${logo(m.home,36)}</span><span class="sc">${m.hs} – ${m.as}</span><span class="a">${logo(m.away,36)}${esc(m.away)}</span><span class="chev">details</span></button><div class="rows">${rows}</div></div>`;}).join('');
+ drawUits(D,window._ui);
 
  const SCH=(D.schema&&D.schema.length)?D.schema:(D.programma&&D.programma.matches&&D.programma.matches.length?[D.programma]:[]);
  const tabP=document.querySelector('button[data-p=programma]');
@@ -5400,6 +5398,29 @@ function ttBind(D,L){
  const sf=$('ttsf'); if(sf) sf.onchange=()=>{TT.sf=sf.value;drawToto(DATA);};
 }
 if(TOTO_URL&&TT.user){ttPost({a:'mijn',naam:TT.user.naam,pin:TT.user.pin}).then(r=>{TT.preds=r.voorspellingen||{};if(DATA)drawToto(DATA);}).catch(e=>{if(/niet bekend|pincode/i.test(e.message)){TT.user=null;try{localStorage.removeItem('edb_toto')}catch(x){}}});ttStand().then(()=>{if(DATA)drawToto(DATA);});}
+
+// Uitslagen per speelronde, met terugbladeren naar eerdere rondes
+function uitsRounds(D){
+ const L=(D.seizoen&&D.seizoen.length?D.seizoen.slice():[{round:D.round,date:D.date,matches:D.matches}]);
+ L.sort((a,b)=>(+String(a.round).split(' ').pop())-(+String(b.round).split(' ').pop()));
+ if(!L.some(R=>R.round===D.round)) L.push({round:D.round,date:D.date,matches:D.matches});
+ return L;}
+function drawUits(D,i){
+ const L=uitsRounds(D), cur=Math.max(0,L.findIndex(R=>R.round===D.round));
+ if(i==null||i<0||i>=L.length) i=cur; window._ui=i;
+ const R=L[i], ms=R.round===D.round?D.matches:R.matches, el=document.getElementById('uitslagen');
+ const nav=L.length>1?`<div class="prnav"><button type="button" id="uiprv" aria-label="Vorige speelronde"${i===0?' disabled':''}>‹</button><select id="uisel" aria-label="Kies speelronde">${L.map((x,j)=>`<option value="${j}"${j===i?' selected':''}>${esc(x.round)}${j===cur?' (laatste)':''}</option>`).join('')}</select><button type="button" id="uinxt" aria-label="Volgende speelronde"${i===L.length-1?' disabled':''}>›</button></div>`:'';
+ const dt=R.round===D.round?D.date:R.date;
+ el.innerHTML=`<div class="mvtop"><p class="pinfo">${esc(R.round)}${dt?' · '+esc(dt):''}</p>${nav}</div>`+(ms||[]).map((m,k)=>{
+  const played=m.hs!==''&&m.hs!=null;
+  const rows=(m.rows||[]).map(r=>`<div class="r"><div class="p hp ${r.winner==='home'?'w':''}">${(r.home||[]).map(pn).join('<br>')}</div><div class="mid"><span class="code">${esc(r.code)}</span><div class="gs">${esc(r.score||'')}</div></div><div class="p ${r.winner==='away'?'w':''}">${(r.away||[]).map(pn).join('<br>')}</div></div>`).join('')||'<div class="nolu">Nog niet gespeeld</div>';
+  return `<div class="m${k===0?' open':''}"><button class="mh" aria-expanded="${k===0}"><span class="h">${esc(m.home)}${logo(m.home,36)}</span><span class="sc">${played?m.hs+' – '+m.as:'– –'}</span><span class="a">${logo(m.away,36)}${esc(m.away)}</span><span class="chev">details</span></button><div class="rows">${rows}</div></div>`;}).join('');
+ el.querySelectorAll('.mh').forEach(b=>b.onclick=()=>{const m=b.parentElement;m.classList.toggle('open');b.setAttribute('aria-expanded',m.classList.contains('open'));sendH();});
+ const go=j=>{drawUits(D,j);sendH();};
+ const s=document.getElementById('uisel'); if(s) s.onchange=()=>go(+s.value);
+ const a=document.getElementById('uiprv'); if(a) a.onclick=()=>go(i-1);
+ const b=document.getElementById('uinxt'); if(b) b.onclick=()=>go(i+1);
+}
 
 function drawProg(L,i){
  window._pi=i; const P=L[i], pe=document.getElementById('programma');
