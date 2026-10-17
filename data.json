@@ -2095,7 +2095,88 @@
      "away": "BC Drop Shot",
      "when": "za 17 okt · 19:00",
      "start": "2026-10-17T19:00:00",
-     "rows": []
+     "rows": [
+      {
+       "code": "MD",
+       "home": [
+        "Ties van der Lecq",
+        "Brian Wassink"
+       ],
+       "away": [
+        "Lars Kros",
+        "Brandon Bessem"
+       ]
+      },
+      {
+       "code": "VD",
+       "home": [
+        "Meerte Loos",
+        "Alyssa Tirtosentono"
+       ],
+       "away": [
+        "Imke van der Aar",
+        "Tammi van Wonterghem"
+       ]
+      },
+      {
+       "code": "ME1",
+       "home": [
+        "Adith Karthikeyan Priya"
+       ],
+       "away": [
+        "Nick Fransman"
+       ]
+      },
+      {
+       "code": "VE1",
+       "home": [
+        "Chloë Mayer"
+       ],
+       "away": [
+        "Mandy Duijndam"
+       ]
+      },
+      {
+       "code": "ME2",
+       "home": [
+        "Timo Stoffelen"
+       ],
+       "away": [
+        "Lars Kros"
+       ]
+      },
+      {
+       "code": "VE2",
+       "home": [
+        "Mette Kool"
+       ],
+       "away": [
+        "Tammi van Wonterghem"
+       ]
+      },
+      {
+       "code": "GD1",
+       "home": [
+        "Brian Wassink",
+        "Meerte Loos"
+       ],
+       "away": [
+        "Wessel van der Aar",
+        "Imke van der Aar"
+       ]
+      },
+      {
+       "code": "GD2",
+       "home": [
+        "Ties van der Lecq",
+        "Alyssa Tirtosentono"
+       ],
+       "away": [
+        "Brandon Bessem",
+        "Mandy Duijndam"
+       ]
+      }
+     ]
     },
     {
      "home": "Velo Badminton",
@@ -2435,7 +2516,88 @@
     "home": "BC Duinwijck",
     "away": "BC Drop Shot",
     "when": "za 17 okt · 19:00",
-    "rows": []
+    "rows": [
+     {
+      "code": "MD",
+      "home": [
+       "Ties van der Lecq",
+       "Brian Wassink"
+      ],
+      "away": [
+       "Lars Kros",
+       "Brandon Bessem"
+      ]
+     },
+     {
+      "code": "VD",
+      "home": [
+       "Meerte Loos",
+       "Alyssa Tirtosentono"
+      ],
+      "away": [
+       "Imke van der Aar",
+       "Tammi van Wonterghem"
+      ]
+     },
+     {
+      "code": "ME1",
+      "home": [
+       "Adith Karthikeyan Priya"
+      ],
+      "away": [
+       "Nick Fransman"
+      ]
+     },
+     {
+      "code": "VE1",
+      "home": [
+       "Chloë Mayer"
+      ],
+      "away": [
+       "Mandy Duijndam"
+      ]
+     },
+     {
+      "code": "ME2",
+      "home": [
+       "Timo Stoffelen"
+      ],
+      "away": [
+       "Lars Kros"
+      ]
+     },
+     {
+      "code": "VE2",
+      "home": [
+       "Mette Kool"
+      ],
+      "away": [
+       "Tammi van Wonterghem"
+      ]
+     },
+     {
+      "code": "GD1",
+      "home": [
+       "Brian Wassink",
+       "Meerte Loos"
+      ],
+      "away": [
+       "Wessel van der Aar",
+       "Imke van der Aar"
+      ]
+     },
+     {
+      "code": "GD2",
+      "home": [
+       "Ties van der Lecq",
+       "Alyssa Tirtosentono"
+      ],
+      "away": [
+       "Brandon Bessem",
+       "Mandy Duijndam"
+      ]
+     }
+    ]
    },
    {
     "home": "Velo Badminton",
@@ -7783,5 +7945,5 @@
    "Renske Kwakkenbos"
   ]
  },
- "updated": "14-10-2026 05:43"
+ "updated": "17-10-2026 16:31"
 }
