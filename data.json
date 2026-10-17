@@ -98,7 +98,7 @@
    "home": "Velo Badminton",
    "away": "FIT Almere",
    "hs": 0,
-   "as": 2,
+   "as": 3,
    "rows": [
     {
      "code": "MD",
@@ -133,7 +133,9 @@
      ],
      "away": [
       "Noah Haase"
-     ]
+     ],
+     "score": "12-21 10-21",
+     "winner": "away"
     },
     {
      "code": "VE1",
@@ -380,7 +382,7 @@
      "home": "Velo Badminton",
      "away": "FIT Almere",
      "hs": 0,
-     "as": 2,
+     "as": 3,
      "rows": [
       {
        "code": "MD",
@@ -415,7 +417,9 @@
        ],
        "away": [
         "Noah Haase"
-       ]
+       ],
+       "score": "12-21 10-21",
+       "winner": "away"
       },
       {
        "code": "VE1",
@@ -2814,6 +2818,15 @@
   },
   {
    "pos": 17,
+   "speler": "Noah Haase",
+   "club": "FIT Almere",
+   "w": 4,
+   "gp": 4,
+   "games": "8 – 2",
+   "punten": "196 – 138"
+  },
+  {
+   "pos": 18,
    "speler": "Ties van der Lecq",
    "club": "BC Duinwijck",
    "w": 4,
@@ -2822,7 +2835,7 @@
    "punten": "256 – 201"
   },
   {
-   "pos": 18,
+   "pos": 19,
    "speler": "Timo Stoffelen",
    "club": "BC Duinwijck",
    "w": 4,
@@ -2831,7 +2844,7 @@
    "punten": "262 – 250"
   },
   {
-   "pos": 19,
+   "pos": 20,
    "speler": "Dyon van Wijlick",
    "club": "FIT Almere",
    "w": 4,
@@ -2840,7 +2853,7 @@
    "punten": "276 – 256"
   },
   {
-   "pos": 20,
+   "pos": 21,
    "speler": "Amy Tan",
    "club": "Velo Badminton",
    "w": 4,
@@ -2849,7 +2862,7 @@
    "punten": "332 – 336"
   },
   {
-   "pos": 21,
+   "pos": 22,
    "speler": "Joep Strooper",
    "club": "FIT Almere",
    "w": 4,
@@ -2858,7 +2871,7 @@
    "punten": "434 – 436"
   },
   {
-   "pos": 22,
+   "pos": 23,
    "speler": "Gijs Duijs",
    "club": "Dunlop DKC",
    "w": 4,
@@ -2867,22 +2880,13 @@
    "punten": "335 – 345"
   },
   {
-   "pos": 23,
+   "pos": 24,
    "speler": "Adith Karthikeyan Priya",
    "club": "BC Duinwijck",
    "w": 3,
    "gp": 3,
    "games": "6 – 0",
    "punten": "126 – 83"
-  },
-  {
-   "pos": 24,
-   "speler": "Noah Haase",
-   "club": "FIT Almere",
-   "w": 3,
-   "gp": 3,
-   "games": "6 – 2",
-   "punten": "154 – 116"
   },
   {
    "pos": 25,
@@ -3435,21 +3439,21 @@
   },
   {
    "pos": 86,
-   "speler": "Angus Meldrum",
-   "club": "Velo Badminton",
-   "w": 0,
-   "gp": 3,
-   "games": "1 – 6",
-   "punten": "112 – 145"
-  },
-  {
-   "pos": 87,
    "speler": "Mandy Duijndam",
    "club": "BC Drop Shot",
    "w": 0,
    "gp": 4,
    "games": "3 – 8",
    "punten": "173 – 223"
+  },
+  {
+   "pos": 87,
+   "speler": "Angus Meldrum",
+   "club": "Velo Badminton",
+   "w": 0,
+   "gp": 4,
+   "games": "1 – 8",
+   "punten": "134 – 187"
   },
   {
    "pos": 88,
@@ -3579,6 +3583,7 @@
   "Jaymie Laurens": 5755,
   "Iris van Leijsen": 5341,
   "Joran Kweekel": 5757,
+  "Noah Haase": 4884,
   "Ties van der Lecq": 3966,
   "Timo Stoffelen": 3970,
   "Dyon van Wijlick": 4886,
@@ -3586,7 +3591,6 @@
   "Joep Strooper": 4885,
   "Gijs Duijs": 5758,
   "Adith Karthikeyan Priya": 3972,
-  "Noah Haase": 4884,
   "Hristomira Popovska": 4866,
   "Aram Mahmoud": 3952,
   "Mark Caljouw": 5756,
@@ -3648,8 +3652,8 @@
   "Nagasharan Podala Vengatesh": 5763,
   "Maureen Zewald": 5199,
   "Dion Hoegen": 4747,
-  "Angus Meldrum": 5079,
   "Mandy Duijndam": 5156,
+  "Angus Meldrum": 5079,
   "Anouk van Wijk": 4752,
   "Mees Janssen": 5077
  },
@@ -3857,6 +3861,14 @@
     },
     {
      "pos": 5,
+     "speler": "Noah Haase",
+     "e": "3 – 0",
+     "d": "–",
+     "m": "1 – 0",
+     "tot": "4/4"
+    },
+    {
+     "pos": 6,
      "speler": "Dyon van Wijlick",
      "e": "1 – 0",
      "d": "2 – 2",
@@ -3864,20 +3876,12 @@
      "tot": "4/7"
     },
     {
-     "pos": 6,
+     "pos": 7,
      "speler": "Joep Strooper",
      "e": "–",
      "d": "2 – 3",
      "m": "2 – 2",
      "tot": "4/9"
-    },
-    {
-     "pos": 7,
-     "speler": "Noah Haase",
-     "e": "2 – 0",
-     "d": "–",
-     "m": "1 – 0",
-     "tot": "3/3"
     },
     {
      "pos": 8,
@@ -4387,10 +4391,10 @@
     {
      "pos": 7,
      "speler": "Angus Meldrum",
-     "e": "0 – 3",
+     "e": "0 – 4",
      "d": "–",
      "m": "–",
-     "tot": "0/3"
+     "tot": "0/4"
     },
     {
      "pos": 8,
@@ -4542,24 +4546,23 @@
     },
     {
      "names": [
-      "Alyssa Tirtosentono"
+      "Noah Haase"
      ],
-     "club": "BC Duinwijck",
+     "club": "FIT Almere",
      "w": 1,
      "p": 1,
      "games": "2-0",
-     "punten": "42-23",
-     "saldo": 19,
+     "punten": "42-22",
+     "saldo": 20,
      "res": [
       {
-       "code": "VD",
+       "code": "ME1",
        "tegen": [
-        "Imke van der Aar",
-        "Tammi van Wonterghem"
+        "Angus Meldrum"
        ],
-       "tclub": "BC Drop Shot",
+       "tclub": "Velo Badminton",
        "w": 1,
-       "score": "21-8 21-15"
+       "score": "21-12 21-10"
       }
      ]
     }
@@ -4568,7 +4571,52 @@
     {
      "code": "HE",
      "label": "Herenenkel",
-     "top": []
+     "top": [
+      {
+       "names": [
+        "Noah Haase"
+       ],
+       "club": "FIT Almere",
+       "w": 1,
+       "p": 1,
+       "games": "2-0",
+       "punten": "42-22",
+       "saldo": 20,
+       "res": [
+        {
+         "code": "ME1",
+         "tegen": [
+          "Angus Meldrum"
+         ],
+         "tclub": "Velo Badminton",
+         "w": 1,
+         "score": "21-12 21-10"
+        }
+       ]
+      },
+      {
+       "names": [
+        "Angus Meldrum"
+       ],
+       "club": "Velo Badminton",
+       "w": 0,
+       "p": 1,
+       "games": "0-2",
+       "punten": "22-42",
+       "saldo": -20,
+       "res": [
+        {
+         "code": "ME1",
+         "tegen": [
+          "Noah Haase"
+         ],
+         "tclub": "FIT Almere",
+         "w": 0,
+         "score": "12-21 10-21"
+        }
+       ]
+      }
+     ]
     },
     {
      "code": "DE",
@@ -8158,5 +8206,5 @@
    "Renske Kwakkenbos"
   ]
  },
- "updated": "17-10-2026 17:54"
+ "updated": "17-10-2026 18:06"
 }
