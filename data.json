@@ -2271,7 +2271,88 @@
      "away": "Dunlop DKC",
      "when": "za 17 okt · 19:00",
      "start": "2026-10-17T19:00:00",
-     "rows": []
+     "rows": [
+      {
+       "code": "MD",
+       "home": [
+        "Noah Jongen",
+        "Marcello Kausemann"
+       ],
+       "away": [
+        "Gijs Duijs",
+        "Nagasharan Podala Vengatesh"
+       ]
+      },
+      {
+       "code": "VD",
+       "home": [
+        "Xenia Koelmel",
+        "Iris van Leijsen"
+       ],
+       "away": [
+        "Jaymie Laurens",
+        "Lieke van Parys"
+       ]
+      },
+      {
+       "code": "ME1",
+       "home": [
+        "Alexander Roovers"
+       ],
+       "away": [
+        "Thomas Sibbald"
+       ]
+      },
+      {
+       "code": "VE1",
+       "home": [
+        "Xenia Koelmel"
+       ],
+       "away": [
+        "Flora Wang"
+       ]
+      },
+      {
+       "code": "ME2",
+       "home": [
+        "Vihaan Shah"
+       ],
+       "away": [
+        "Nagasharan Podala Vengatesh"
+       ]
+      },
+      {
+       "code": "VE2",
+       "home": [
+        "Stefanie Nijsse"
+       ],
+       "away": [
+        "Lieke van Parys"
+       ]
+      },
+      {
+       "code": "GD1",
+       "home": [
+        "Marcello Kausemann",
+        "Lien Lammertyn"
+       ],
+       "away": [
+        "Gijs Duijs",
+        "Flora Wang"
+       ]
+      },
+      {
+       "code": "GD2",
+       "home": [
+        "Jasper Koppen",
+        "Iris van Leijsen"
+       ],
+       "away": [
+        "Thomas Sibbald",
+        "Jaymie Laurens"
+       ]
+      }
+     ]
     },
     {
      "home": "Decorette Amersfoort",
@@ -2771,7 +2852,88 @@
     "home": "PK Keukens Roosterse",
     "away": "Dunlop DKC",
     "when": "za 17 okt · 19:00",
-    "rows": []
+    "rows": [
+     {
+      "code": "MD",
+      "home": [
+       "Noah Jongen",
+       "Marcello Kausemann"
+      ],
+      "away": [
+       "Gijs Duijs",
+       "Nagasharan Podala Vengatesh"
+      ]
+     },
+     {
+      "code": "VD",
+      "home": [
+       "Xenia Koelmel",
+       "Iris van Leijsen"
+      ],
+      "away": [
+       "Jaymie Laurens",
+       "Lieke van Parys"
+      ]
+     },
+     {
+      "code": "ME1",
+      "home": [
+       "Alexander Roovers"
+      ],
+      "away": [
+       "Thomas Sibbald"
+      ]
+     },
+     {
+      "code": "VE1",
+      "home": [
+       "Xenia Koelmel"
+      ],
+      "away": [
+       "Flora Wang"
+      ]
+     },
+     {
+      "code": "ME2",
+      "home": [
+       "Vihaan Shah"
+      ],
+      "away": [
+       "Nagasharan Podala Vengatesh"
+      ]
+     },
+     {
+      "code": "VE2",
+      "home": [
+       "Stefanie Nijsse"
+      ],
+      "away": [
+       "Lieke van Parys"
+      ]
+     },
+     {
+      "code": "GD1",
+      "home": [
+       "Marcello Kausemann",
+       "Lien Lammertyn"
+      ],
+      "away": [
+       "Gijs Duijs",
+       "Flora Wang"
+      ]
+     },
+     {
+      "code": "GD2",
+      "home": [
+       "Jasper Koppen",
+       "Iris van Leijsen"
+      ],
+      "away": [
+       "Thomas Sibbald",
+       "Jaymie Laurens"
+      ]
+     }
+    ]
    }
   ]
  },
@@ -8107,5 +8269,5 @@
    "Renske Kwakkenbos"
   ]
  },
- "updated": "17-10-2026 16:55"
+ "updated": "17-10-2026 17:11"
 }
