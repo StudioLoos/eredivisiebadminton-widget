@@ -211,7 +211,7 @@
   {
    "home": "PK Keukens Roosterse",
    "away": "Dunlop DKC",
-   "hs": 4,
+   "hs": 5,
    "as": 2,
    "rows": [
     {
@@ -304,7 +304,9 @@
      "away": [
       "Thomas Sibbald",
       "Jaymie Laurens"
-     ]
+     ],
+     "score": "21-13 21-14",
+     "winner": "home"
     }
    ]
   }
@@ -523,7 +525,7 @@
     {
      "home": "PK Keukens Roosterse",
      "away": "Dunlop DKC",
-     "hs": 4,
+     "hs": 5,
      "as": 2,
      "rows": [
       {
@@ -616,7 +618,9 @@
        "away": [
         "Thomas Sibbald",
         "Jaymie Laurens"
-       ]
+       ],
+       "score": "21-13 21-14",
+       "winner": "home"
       }
      ]
     }
@@ -2813,13 +2817,22 @@
    "pos": 10,
    "speler": "Jasper Koppen",
    "club": "PK Keukens Roosterse",
-   "w": 5,
-   "gp": 6,
-   "games": "11 – 4",
-   "punten": "296 – 249"
+   "w": 6,
+   "gp": 7,
+   "games": "13 – 4",
+   "punten": "338 – 276"
   },
   {
    "pos": 11,
+   "speler": "Iris van Leijsen",
+   "club": "PK Keukens Roosterse",
+   "w": 6,
+   "gp": 10,
+   "games": "12 – 11",
+   "punten": "421 – 402"
+  },
+  {
+   "pos": 12,
    "speler": "Ties van der Lecq",
    "club": "BC Duinwijck",
    "w": 5,
@@ -2828,7 +2841,7 @@
    "punten": "298 – 217"
   },
   {
-   "pos": 12,
+   "pos": 13,
    "speler": "Robin Tabeling",
    "club": "2dA Smashing",
    "w": 5,
@@ -2837,7 +2850,7 @@
    "punten": "335 – 252"
   },
   {
-   "pos": 13,
+   "pos": 14,
    "speler": "Noah Jongen",
    "club": "PK Keukens Roosterse",
    "w": 5,
@@ -2846,7 +2859,7 @@
    "punten": "300 – 280"
   },
   {
-   "pos": 14,
+   "pos": 15,
    "speler": "Alida Chen",
    "club": "FIT Almere",
    "w": 5,
@@ -2855,31 +2868,22 @@
    "punten": "364 – 338"
   },
   {
-   "pos": 15,
-   "speler": "Jaymie Laurens",
-   "club": "Dunlop DKC",
-   "w": 5,
-   "gp": 9,
-   "games": "11 – 8",
-   "punten": "293 – 339"
-  },
-  {
    "pos": 16,
-   "speler": "Iris van Leijsen",
-   "club": "PK Keukens Roosterse",
-   "w": 5,
-   "gp": 9,
-   "games": "10 – 11",
-   "punten": "379 – 375"
-  },
-  {
-   "pos": 17,
    "speler": "Joep Strooper",
    "club": "FIT Almere",
    "w": 5,
    "gp": 10,
    "games": "13 – 12",
    "punten": "476 – 462"
+  },
+  {
+   "pos": 17,
+   "speler": "Jaymie Laurens",
+   "club": "Dunlop DKC",
+   "w": 5,
+   "gp": 10,
+   "games": "11 – 10",
+   "punten": "320 – 381"
   },
   {
    "pos": 18,
@@ -3273,9 +3277,9 @@
    "speler": "Thomas Sibbald",
    "club": "Dunlop DKC",
    "w": 1,
-   "gp": 5,
-   "games": "4 – 8",
-   "punten": "186 – 229"
+   "gp": 6,
+   "games": "4 – 10",
+   "punten": "213 – 271"
   },
   {
    "pos": 62,
@@ -3634,10 +3638,10 @@
    "pos": 10,
    "speler": "Jasper Koppen",
    "club": "PK Keukens Roosterse",
-   "w": 5,
-   "gp": 6,
-   "games": "11 – 4",
-   "punten": "296 – 249"
+   "w": 6,
+   "gp": 7,
+   "games": "13 – 4",
+   "punten": "338 – 276"
   }
  ],
  "ids": {
@@ -3651,13 +3655,13 @@
   "Ade Resky Dwicahyo": 5335,
   "Dennis Koppen": 4883,
   "Jasper Koppen": 5336,
+  "Iris van Leijsen": 5341,
   "Ties van der Lecq": 3966,
   "Robin Tabeling": 5202,
   "Noah Jongen": 5344,
   "Alida Chen": 4878,
-  "Jaymie Laurens": 5755,
-  "Iris van Leijsen": 5341,
   "Joep Strooper": 4885,
+  "Jaymie Laurens": 5755,
   "Adith Karthikeyan Priya": 3972,
   "Joran Kweekel": 5757,
   "Noah Haase": 4884,
@@ -4001,24 +4005,24 @@
      "speler": "Jasper Koppen",
      "e": "2 – 1",
      "d": "–",
-     "m": "3 – 0",
-     "tot": "5/6"
+     "m": "4 – 0",
+     "tot": "6/7"
     },
     {
      "pos": 3,
+     "speler": "Iris van Leijsen",
+     "e": "–",
+     "d": "2 – 3",
+     "m": "4 – 1",
+     "tot": "6/10"
+    },
+    {
+     "pos": 4,
      "speler": "Noah Jongen",
      "e": "–",
      "d": "3 – 1",
      "m": "2 – 1",
      "tot": "5/7"
-    },
-    {
-     "pos": 4,
-     "speler": "Iris van Leijsen",
-     "e": "–",
-     "d": "2 – 3",
-     "m": "3 – 1",
-     "tot": "5/9"
     },
     {
      "pos": 5,
@@ -4158,8 +4162,8 @@
      "speler": "Jaymie Laurens",
      "e": "–",
      "d": "3 – 2",
-     "m": "2 – 2",
-     "tot": "5/9"
+     "m": "2 – 3",
+     "tot": "5/10"
     },
     {
      "pos": 3,
@@ -4198,8 +4202,8 @@
      "speler": "Thomas Sibbald",
      "e": "1 – 2",
      "d": "0 – 2",
-     "m": "–",
-     "tot": "1/5"
+     "m": "0 – 1",
+     "tot": "1/6"
     },
     {
      "pos": 8,
@@ -5045,25 +5049,25 @@
       },
       {
        "names": [
-        "Brian Wassink",
-        "Meerte Loos"
+        "Jasper Koppen",
+        "Iris van Leijsen"
        ],
-       "club": "BC Duinwijck",
+       "club": "PK Keukens Roosterse",
        "w": 1,
        "p": 1,
        "games": "2-0",
-       "punten": "42-34",
-       "saldo": 8,
+       "punten": "42-27",
+       "saldo": 15,
        "res": [
         {
-         "code": "GD1",
+         "code": "GD2",
          "tegen": [
-          "Wessel van der Aar",
-          "Imke van der Aar"
+          "Thomas Sibbald",
+          "Jaymie Laurens"
          ],
-         "tclub": "BC Drop Shot",
+         "tclub": "Dunlop DKC",
          "w": 1,
-         "score": "21-15 21-19"
+         "score": "21-13 21-14"
         }
        ]
       }
@@ -8528,5 +8532,5 @@
    "Renske Kwakkenbos"
   ]
  },
- "updated": "17-10-2026 19:36"
+ "updated": "17-10-2026 19:55"
 }
