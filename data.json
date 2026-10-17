@@ -2183,7 +2183,88 @@
      "away": "FIT Almere",
      "when": "za 17 okt · 19:00",
      "start": "2026-10-17T19:00:00",
-     "rows": []
+     "rows": [
+      {
+       "code": "MD",
+       "home": [
+        "Mees Janssen",
+        "Rens Lagrouw"
+       ],
+       "away": [
+        "Dyon van Wijlick",
+        "Joep Strooper"
+       ]
+      },
+      {
+       "code": "VD",
+       "home": [
+        "Myke Halkema",
+        "Veda Diemel"
+       ],
+       "away": [
+        "Diede Odijk",
+        "Kirsten de Wit"
+       ]
+      },
+      {
+       "code": "ME1",
+       "home": [
+        "Angus Meldrum"
+       ],
+       "away": [
+        "Noah Haase"
+       ]
+      },
+      {
+       "code": "VE1",
+       "home": [
+        "Amy Tan"
+       ],
+       "away": [
+        "Diede Odijk"
+       ]
+      },
+      {
+       "code": "ME2",
+       "home": [
+        "Dion Rovers"
+       ],
+       "away": [
+        "Dennis Koppen"
+       ]
+      },
+      {
+       "code": "VE2",
+       "home": [
+        "Veda Diemel"
+       ],
+       "away": [
+        "Alida Chen"
+       ]
+      },
+      {
+       "code": "GD1",
+       "home": [
+        "Dion Rovers",
+        "Myke Halkema"
+       ],
+       "away": [
+        "Joep Strooper",
+        "Kirsten de Wit"
+       ]
+      },
+      {
+       "code": "GD2",
+       "home": [
+        "Angus Meldrum",
+        "Amy Tan"
+       ],
+       "away": [
+        "Dyon van Wijlick",
+        "Alida Chen"
+       ]
+      }
+     ]
     },
     {
      "home": "PK Keukens Roosterse",
@@ -2603,7 +2684,88 @@
     "home": "Velo Badminton",
     "away": "FIT Almere",
     "when": "za 17 okt · 19:00",
-    "rows": []
+    "rows": [
+     {
+      "code": "MD",
+      "home": [
+       "Mees Janssen",
+       "Rens Lagrouw"
+      ],
+      "away": [
+       "Dyon van Wijlick",
+       "Joep Strooper"
+      ]
+     },
+     {
+      "code": "VD",
+      "home": [
+       "Myke Halkema",
+       "Veda Diemel"
+      ],
+      "away": [
+       "Diede Odijk",
+       "Kirsten de Wit"
+      ]
+     },
+     {
+      "code": "ME1",
+      "home": [
+       "Angus Meldrum"
+      ],
+      "away": [
+       "Noah Haase"
+      ]
+     },
+     {
+      "code": "VE1",
+      "home": [
+       "Amy Tan"
+      ],
+      "away": [
+       "Diede Odijk"
+      ]
+     },
+     {
+      "code": "ME2",
+      "home": [
+       "Dion Rovers"
+      ],
+      "away": [
+       "Dennis Koppen"
+      ]
+     },
+     {
+      "code": "VE2",
+      "home": [
+       "Veda Diemel"
+      ],
+      "away": [
+       "Alida Chen"
+      ]
+     },
+     {
+      "code": "GD1",
+      "home": [
+       "Dion Rovers",
+       "Myke Halkema"
+      ],
+      "away": [
+       "Joep Strooper",
+       "Kirsten de Wit"
+      ]
+     },
+     {
+      "code": "GD2",
+      "home": [
+       "Angus Meldrum",
+       "Amy Tan"
+      ],
+      "away": [
+       "Dyon van Wijlick",
+       "Alida Chen"
+      ]
+     }
+    ]
    },
    {
     "home": "PK Keukens Roosterse",
@@ -7945,5 +8107,5 @@
    "Renske Kwakkenbos"
   ]
  },
- "updated": "17-10-2026 16:31"
+ "updated": "17-10-2026 16:55"
 }
