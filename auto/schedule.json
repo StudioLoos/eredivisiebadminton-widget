@@ -80,28 +80,28 @@
 "start": "2026-10-31T19:00:00",
 "home": "Decorette Amersfoort",
 "away": "BC Drop Shot",
-"lineup": false,
+"lineup": true,
 "done_at": null
 },
 {
 "start": "2026-10-31T19:00:00",
 "home": "Velo Badminton",
 "away": "Dunlop DKC",
-"lineup": false,
+"lineup": true,
 "done_at": null
 },
 {
 "start": "2026-10-31T19:00:00",
 "home": "BC Duinwijck",
 "away": "2dA Smashing",
-"lineup": false,
+"lineup": true,
 "done_at": null
 },
 {
 "start": "2026-10-31T19:00:00",
 "home": "PK Keukens Roosterse",
 "away": "FIT Almere",
-"lineup": false,
+"lineup": true,
 "done_at": null
 },
 {
