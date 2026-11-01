@@ -5576,7 +5576,7 @@ function card(n,el,back){
   const side=(r.home||[]).includes(n)?'home':(r.away||[]).includes(n)?'away':null; if(!side) return;
   const mine=side==='home'?r.home:r.away, opp=side==='home'?r.away:r.home;
   const won=r.winner?r.winner===side:null; if(won!==null){G++; if(won)W++;}
-  games.push(`<div class="cg"><span class="code">${esc(r.code)}</span><div class="ct">${mine.length>1?'met '+pn(mine.find(x=>x!==n))+'<br>':''}tegen ${opp.map(pn).join(' / ')}<div class="gs">${esc(side==='home'?m.home:m.away)} – ${esc(side==='home'?m.away:m.home)} · ${esc(r.score||'')}</div></div>${won===null?'':`<b class="${won?'cw':'cl'}">${won?'W':'V'}</b>`}</div>`);}));
+  games.push(`<div class="cg"><span class="code">${esc(r.code)}</span><div class="ct">${mine.length>1?'met '+pn(mine.find(x=>x!==n))+'<br>':''}tegen ${opp.map(pn).join(' / ')}<div class="gs">${esc(side==='home'?m.home:m.away)} – ${esc(side==='home'?m.away:m.home)} · ${esc(r.score||'')}</div></div>${won===null?(r.score?'<b class="cl" title="Geen uitslag (onderbroken of nog bezig)">–</b>':''):`<b class="${won?'cw':'cl'}">${won?'W':'V'}</b>`}</div>`);}));
   if(games.length) blocks.push(`<div class="cl2">${esc(R.round)}${R.date?' · '+esc(R.date):''}</div>${games.join('')}`);});
  const pid=(D.ids||{})[n];
  const box=document.getElementById('pcard');
