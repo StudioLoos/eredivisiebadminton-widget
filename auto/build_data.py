@@ -30,7 +30,9 @@ def rubber(c):
             r["winner"] = "away" if mo.group(1) == "1" else "home"
             r["score"] = (" ".join("%s-%s" % x for x in g) + " (opgave)").strip()
         elif g:
-            h = sum(int(a) > int(b) for a, b in g); a_ = sum(int(b) > int(a) for a, b in g)
+            # alleen afgeronde games tellen (21 met 2 verschil, of 30); een onderbroken of nog lopende game niet
+            fin = [(int(a), int(b)) for a, b in g if (max(int(a), int(b)) >= 21 and abs(int(a) - int(b)) >= 2) or max(int(a), int(b)) == 30]
+            h = sum(a > b for a, b in fin); a_ = sum(b > a for a, b in fin)
             r["score"] = " ".join("%s-%s" % x for x in g)
             if h >= 2: r["winner"] = "home"
             elif a_ >= 2: r["winner"] = "away"
@@ -249,7 +251,14 @@ def main(raw_p, old_p, out_p):
     for R in data["seizoen"]:
         for m in R["matches"]:
             for r in m["rows"]:
-                if not r.get("winner"): continue
+                if not r.get("winner"):
+                    # gespeeld maar zonder uitslag (onderbroken): telt als gespeeld, niet als gewonnen, net als toernooi.nl
+                    if r.get("score"):
+                        for side in ("home", "away"):
+                            for n in r[side]:
+                                a = agg.setdefault(n, {"club": m[side], "e": [0, 0], "d": [0, 0], "m": [0, 0], "w": 0, "g": 0})
+                                a["g"] += 1
+                    continue
                 cat = "e" if r["code"][:2] in ("ME", "VE") else "d" if r["code"] in ("MD", "VD") else "m"
                 for side in ("home", "away"):
                     for n in r[side]:
