@@ -2,6 +2,7 @@
 """Bouwt data.json voor de widget uit de ruwe gegevens van collect.js (Python 3.9+).
 Gebruik: build_data.py raw.json bestaande_data.json uit_data.json"""
 import json, re, sys, datetime
+from zoneinfo import ZoneInfo
 
 TEAMS = {"DUINWIJCK BC 1": "BC Duinwijck", "DUNLOP DKC 1": "Dunlop DKC", "ROOSTERSE BC 1": "PK Keukens Roosterse",
          "DROP SHOT BC 1": "BC Drop Shot", "ALMERE BV 1": "FIT Almere", "VELO BADMINTON 1": "Velo Badminton",
@@ -273,7 +274,7 @@ def main(raw_p, old_p, out_p):
     cmp_old = {k: v for k, v in old.items() if k not in ("updated", "check")}
     cmp_new = {k: v for k, v in data.items() if k not in ("updated", "check")}
     changed = json.dumps(cmp_old, sort_keys=True, ensure_ascii=False) != json.dumps(cmp_new, sort_keys=True, ensure_ascii=False)
-    data["updated"] = datetime.datetime.now().strftime("%d-%m-%Y %H:%M") if changed else old.get("updated", "")
+    data["updated"] = datetime.datetime.now(ZoneInfo("Europe/Amsterdam")).strftime("%d-%m-%Y %H:%M") if changed else old.get("updated", "")
     json.dump(data, open(out_p, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     if changed:
         ev = events(old, data)
