@@ -4,7 +4,12 @@ on:
   schedule:
     - cron: "*/5 11-22 * * 0,6"   # zaterdag en zondag, elke 5 minuten (UTC)
     - cron: "17 5 * * *"          # elke ochtend: wedstrijdschema verversen
-  workflow_dispatch:              # handmatig starten via het tabblad Actions
+  workflow_dispatch:              # handmatig starten via het tabblad Actions, of extern via cron-job.org
+    inputs:
+      force:
+        description: "Altijd ophalen, ook buiten een wedstrijdvenster"
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -20,9 +25,9 @@ jobs:
       HAS_ONESIGNAL: ${{ secrets.ONESIGNAL_REST_KEY != '' }}
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -32,7 +37,7 @@ jobs:
       - name: Is er nu een wedstrijd?
         id: gate
         env:
-          FORCE: ${{ (github.event_name == 'workflow_dispatch' || github.event.schedule == '17 5 * * *') && '1' || '0' }}
+          FORCE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.force) || github.event.schedule == '17 5 * * *') && '1' || '0' }}
         run: |
           if python3 auto/gate.py; then echo "run=1" >> "$GITHUB_OUTPUT"; else echo "run=0" >> "$GITHUB_OUTPUT"; fi
 
