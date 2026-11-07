@@ -5,7 +5,7 @@
   {
    "home": "Dunlop DKC",
    "away": "FIT Almere",
-   "hs": 3,
+   "hs": 5,
    "as": 1,
    "rows": [
     {
@@ -41,7 +41,9 @@
      ],
      "away": [
       "Dennis Koppen"
-     ]
+     ],
+     "score": "21-11 21-14",
+     "winner": "home"
     },
     {
      "code": "VE1",
@@ -50,7 +52,9 @@
      ],
      "away": [
       "Diede Odijk"
-     ]
+     ],
+     "score": "24-22 21-8",
+     "winner": "home"
     },
     {
      "code": "ME2",
@@ -297,7 +301,7 @@
   {
    "home": "Velo Badminton",
    "away": "2dA Smashing",
-   "hs": 1,
+   "hs": 2,
    "as": 3,
    "rows": [
     {
@@ -355,7 +359,9 @@
      ],
      "away": [
       "Casper Spaans"
-     ]
+     ],
+     "score": "21-17 21-19",
+     "winner": "home"
     },
     {
      "code": "VE2",
@@ -717,7 +723,7 @@
     {
      "home": "Dunlop DKC",
      "away": "FIT Almere",
-     "hs": 3,
+     "hs": 5,
      "as": 1,
      "rows": [
       {
@@ -753,7 +759,9 @@
        ],
        "away": [
         "Dennis Koppen"
-       ]
+       ],
+       "score": "21-11 21-14",
+       "winner": "home"
       },
       {
        "code": "VE1",
@@ -762,7 +770,9 @@
        ],
        "away": [
         "Diede Odijk"
-       ]
+       ],
+       "score": "24-22 21-8",
+       "winner": "home"
       },
       {
        "code": "ME2",
@@ -1009,7 +1019,7 @@
     {
      "home": "Velo Badminton",
      "away": "2dA Smashing",
-     "hs": 1,
+     "hs": 2,
      "as": 3,
      "rows": [
       {
@@ -1067,7 +1077,9 @@
        ],
        "away": [
         "Casper Spaans"
-       ]
+       ],
+       "score": "21-17 21-19",
+       "winner": "home"
       },
       {
        "code": "VE2",
@@ -4816,18 +4828,18 @@
     {
      "pos": 3,
      "speler": "Diede Odijk",
-     "e": "2 – 4",
+     "e": "2 – 5",
      "d": "6 – 1",
      "m": "–",
-     "tot": "8/13"
+     "tot": "8/14"
     },
     {
      "pos": 4,
      "speler": "Dennis Koppen",
-     "e": "6 – 0",
+     "e": "6 – 1",
      "d": "0 – 1",
      "m": "1 – 0",
-     "tot": "7/8"
+     "tot": "7/9"
     },
     {
      "pos": 5,
@@ -5042,10 +5054,10 @@
     {
      "pos": 1,
      "speler": "Flora Wang",
-     "e": "6 – 0",
+     "e": "7 – 0",
      "d": "1 – 0",
      "m": "3 – 3",
-     "tot": "10/13"
+     "tot": "11/14"
     },
     {
      "pos": 2,
@@ -5057,19 +5069,19 @@
     },
     {
      "pos": 3,
+     "speler": "Joran Kweekel",
+     "e": "2 – 0",
+     "d": "3 – 0",
+     "m": "1 – 0",
+     "tot": "6/6"
+    },
+    {
+     "pos": 4,
      "speler": "Mark Caljouw",
      "e": "3 – 1",
      "d": "1 – 0",
      "m": "2 – 2",
      "tot": "6/9"
-    },
-    {
-     "pos": 4,
-     "speler": "Joran Kweekel",
-     "e": "1 – 0",
-     "d": "3 – 0",
-     "m": "1 – 0",
-     "tot": "5/5"
     },
     {
      "pos": 5,
@@ -5259,6 +5271,14 @@
     },
     {
      "pos": 3,
+     "speler": "Luca Wiechmann",
+     "e": "1 – 0",
+     "d": "1 – 2",
+     "m": "0 – 1",
+     "tot": "2/5"
+    },
+    {
+     "pos": 4,
      "speler": "Rens Lagrouw",
      "e": "–",
      "d": "1 – 6",
@@ -5266,20 +5286,12 @@
      "tot": "2/10"
     },
     {
-     "pos": 4,
+     "pos": 5,
      "speler": "Myke Halkema",
      "e": "–",
      "d": "1 – 6",
      "m": "1 – 5",
      "tot": "2/13"
-    },
-    {
-     "pos": 5,
-     "speler": "Luca Wiechmann",
-     "e": "–",
-     "d": "1 – 2",
-     "m": "0 – 1",
-     "tot": "1/4"
     },
     {
      "pos": 6,
@@ -5385,10 +5397,10 @@
     {
      "pos": 10,
      "speler": "Casper Spaans",
-     "e": "0 – 1",
+     "e": "0 – 2",
      "d": "0 – 1",
      "m": "0 – 1",
-     "tot": "0/3"
+     "tot": "0/4"
     },
     {
      "pos": 11,
@@ -10488,7 +10500,14 @@
   ]
  },
  "check": {
-  "afwijkingen": []
+  "afwijkingen": [
+   "Flora Wang",
+   "Diede Odijk",
+   "Dennis Koppen",
+   "Joran Kweekel",
+   "Luca Wiechmann",
+   "Casper Spaans"
+  ]
  },
- "updated": "07-11-2026 20:45"
+ "updated": "07-11-2026 20:50"
 }
