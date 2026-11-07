@@ -2845,7 +2845,88 @@
      "away": "FIT Almere",
      "when": "za 7 nov · 19:00",
      "start": "2026-11-07T19:00:00",
-     "rows": []
+     "rows": [
+      {
+       "code": "MD",
+       "home": [
+        "Mark Caljouw",
+        "Joran Kweekel"
+       ],
+       "away": [
+        "Dyon van Wijlick",
+        "Joep Strooper"
+       ]
+      },
+      {
+       "code": "VD",
+       "home": [
+        "Flora Wang",
+        "Jaymie Laurens"
+       ],
+       "away": [
+        "Diede Odijk",
+        "Kirsten de Wit"
+       ]
+      },
+      {
+       "code": "ME1",
+       "home": [
+        "Joran Kweekel"
+       ],
+       "away": [
+        "Dennis Koppen"
+       ]
+      },
+      {
+       "code": "VE1",
+       "home": [
+        "Flora Wang"
+       ],
+       "away": [
+        "Diede Odijk"
+       ]
+      },
+      {
+       "code": "ME2",
+       "home": [
+        "Thomas Sibbald"
+       ],
+       "away": [
+        "Djayden Annema"
+       ]
+      },
+      {
+       "code": "VE2",
+       "home": [
+        "Liselotte van Balen"
+       ],
+       "away": [
+        "Alida Chen"
+       ]
+      },
+      {
+       "code": "GD1",
+       "home": [
+        "Mark Caljouw",
+        "Jaymie Laurens"
+       ],
+       "away": [
+        "Kirsten de Wit",
+        "Joep Strooper"
+       ]
+      },
+      {
+       "code": "GD2",
+       "home": [
+        "Thomas Sibbald",
+        "Liselotte van Balen"
+       ],
+       "away": [
+        "Alida Chen",
+        "Dyon van Wijlick"
+       ]
+      }
+     ]
     },
     {
      "home": "PK Keukens Roosterse",
@@ -2859,7 +2940,88 @@
      "away": "Decorette Amersfoort",
      "when": "za 7 nov · 19:00",
      "start": "2026-11-07T19:00:00",
-     "rows": []
+     "rows": [
+      {
+       "code": "MD",
+       "home": [
+        "Ties van der Lecq",
+        "Timo Stoffelen"
+       ],
+       "away": [
+        "Ruben Hoksbergen",
+        "Berend van Brenk"
+       ]
+      },
+      {
+       "code": "VD",
+       "home": [
+        "Meerte Loos",
+        "Debora Jille"
+       ],
+       "away": [
+        "Kelly van Buiten",
+        "Anouk van Wijk"
+       ]
+      },
+      {
+       "code": "ME1",
+       "home": [
+        "Aram Mahmoud"
+       ],
+       "away": [
+        "Berend van Brenk"
+       ]
+      },
+      {
+       "code": "VE1",
+       "home": [
+        "Chloë Mayer"
+       ],
+       "away": [
+        "Anouk van Wijk"
+       ]
+      },
+      {
+       "code": "ME2",
+       "home": [
+        "Timo Stoffelen"
+       ],
+       "away": [
+        "Lennart Bijkerk"
+       ]
+      },
+      {
+       "code": "VE2",
+       "home": [
+        "Mette Kool"
+       ],
+       "away": [
+        "Xandra Stelling"
+       ]
+      },
+      {
+       "code": "GD1",
+       "home": [
+        "Brian Wassink",
+        "Meerte Loos"
+       ],
+       "away": [
+        "Lennart Bijkerk",
+        "Kelly van Buiten"
+       ]
+      },
+      {
+       "code": "GD2",
+       "home": [
+        "Ties van der Lecq",
+        "Debora Jille"
+       ],
+       "away": [
+        "Ruben Hoksbergen",
+        "Xandra Stelling"
+       ]
+      }
+     ]
     },
     {
      "home": "Velo Badminton",
@@ -3117,7 +3279,88 @@
     "home": "Dunlop DKC",
     "away": "FIT Almere",
     "when": "za 7 nov · 19:00",
-    "rows": []
+    "rows": [
+     {
+      "code": "MD",
+      "home": [
+       "Mark Caljouw",
+       "Joran Kweekel"
+      ],
+      "away": [
+       "Dyon van Wijlick",
+       "Joep Strooper"
+      ]
+     },
+     {
+      "code": "VD",
+      "home": [
+       "Flora Wang",
+       "Jaymie Laurens"
+      ],
+      "away": [
+       "Diede Odijk",
+       "Kirsten de Wit"
+      ]
+     },
+     {
+      "code": "ME1",
+      "home": [
+       "Joran Kweekel"
+      ],
+      "away": [
+       "Dennis Koppen"
+      ]
+     },
+     {
+      "code": "VE1",
+      "home": [
+       "Flora Wang"
+      ],
+      "away": [
+       "Diede Odijk"
+      ]
+     },
+     {
+      "code": "ME2",
+      "home": [
+       "Thomas Sibbald"
+      ],
+      "away": [
+       "Djayden Annema"
+      ]
+     },
+     {
+      "code": "VE2",
+      "home": [
+       "Liselotte van Balen"
+      ],
+      "away": [
+       "Alida Chen"
+      ]
+     },
+     {
+      "code": "GD1",
+      "home": [
+       "Mark Caljouw",
+       "Jaymie Laurens"
+      ],
+      "away": [
+       "Kirsten de Wit",
+       "Joep Strooper"
+      ]
+     },
+     {
+      "code": "GD2",
+      "home": [
+       "Thomas Sibbald",
+       "Liselotte van Balen"
+      ],
+      "away": [
+       "Alida Chen",
+       "Dyon van Wijlick"
+      ]
+     }
+    ]
    },
    {
     "home": "PK Keukens Roosterse",
@@ -3129,7 +3372,88 @@
     "home": "BC Duinwijck",
     "away": "Decorette Amersfoort",
     "when": "za 7 nov · 19:00",
-    "rows": []
+    "rows": [
+     {
+      "code": "MD",
+      "home": [
+       "Ties van der Lecq",
+       "Timo Stoffelen"
+      ],
+      "away": [
+       "Ruben Hoksbergen",
+       "Berend van Brenk"
+      ]
+     },
+     {
+      "code": "VD",
+      "home": [
+       "Meerte Loos",
+       "Debora Jille"
+      ],
+      "away": [
+       "Kelly van Buiten",
+       "Anouk van Wijk"
+      ]
+     },
+     {
+      "code": "ME1",
+      "home": [
+       "Aram Mahmoud"
+      ],
+      "away": [
+       "Berend van Brenk"
+      ]
+     },
+     {
+      "code": "VE1",
+      "home": [
+       "Chloë Mayer"
+      ],
+      "away": [
+       "Anouk van Wijk"
+      ]
+     },
+     {
+      "code": "ME2",
+      "home": [
+       "Timo Stoffelen"
+      ],
+      "away": [
+       "Lennart Bijkerk"
+      ]
+     },
+     {
+      "code": "VE2",
+      "home": [
+       "Mette Kool"
+      ],
+      "away": [
+       "Xandra Stelling"
+      ]
+     },
+     {
+      "code": "GD1",
+      "home": [
+       "Brian Wassink",
+       "Meerte Loos"
+      ],
+      "away": [
+       "Lennart Bijkerk",
+       "Kelly van Buiten"
+      ]
+     },
+     {
+      "code": "GD2",
+      "home": [
+       "Ties van der Lecq",
+       "Debora Jille"
+      ],
+      "away": [
+       "Ruben Hoksbergen",
+       "Xandra Stelling"
+      ]
+     }
+    ]
    },
    {
     "home": "Velo Badminton",
@@ -9548,5 +9872,5 @@
  "check": {
   "afwijkingen": []
  },
- "updated": "06-11-2026 13:57"
+ "updated": "07-11-2026 18:40"
 }

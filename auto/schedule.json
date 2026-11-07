@@ -80,7 +80,7 @@
 "start": "2026-11-07T19:00:00",
 "home": "Dunlop DKC",
 "away": "FIT Almere",
-"lineup": false,
+"lineup": true,
 "done_at": null
 },
 {
@@ -94,7 +94,7 @@
 "start": "2026-11-07T19:00:00",
 "home": "BC Duinwijck",
 "away": "Decorette Amersfoort",
-"lineup": false,
+"lineup": true,
 "done_at": null
 },
 {
