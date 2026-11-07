@@ -96,7 +96,7 @@
    "home": "PK Keukens Roosterse",
    "away": "BC Drop Shot",
    "hs": 1,
-   "as": 0,
+   "as": 1,
    "rows": [
     {
      "code": "MD",
@@ -120,7 +120,9 @@
      "away": [
       "Tammi van Wonterghem",
       "Iben Bergstein"
-     ]
+     ],
+     "score": "15-21 17-21",
+     "winner": "away"
     },
     {
      "code": "ME1",
@@ -780,7 +782,7 @@
      "home": "PK Keukens Roosterse",
      "away": "BC Drop Shot",
      "hs": 1,
-     "as": 0,
+     "as": 1,
      "rows": [
       {
        "code": "MD",
@@ -804,7 +806,9 @@
        "away": [
         "Tammi van Wonterghem",
         "Iben Bergstein"
-       ]
+       ],
+       "score": "15-21 17-21",
+       "winner": "away"
       },
       {
        "code": "ME1",
@@ -3517,6 +3521,24 @@
   },
   {
    "pos": 2,
+   "speler": "Flora Wang",
+   "club": "Dunlop DKC",
+   "w": 10,
+   "gp": 13,
+   "games": "22 – 8",
+   "punten": "598 – 481"
+  },
+  {
+   "pos": 3,
+   "speler": "Meerte Loos",
+   "club": "BC Duinwijck",
+   "w": 9,
+   "gp": 9,
+   "games": "18 – 0",
+   "punten": "382 – 235"
+  },
+  {
+   "pos": 4,
    "speler": "Alyssa Tirtosentono",
    "club": "BC Duinwijck",
    "w": 9,
@@ -3525,43 +3547,43 @@
    "punten": "434 – 305"
   },
   {
-   "pos": 3,
+   "pos": 5,
    "speler": "Kirsten de Wit",
    "club": "FIT Almere",
    "w": 9,
-   "gp": 10,
-   "games": "19 – 7",
-   "punten": "551 – 454"
-  },
-  {
-   "pos": 4,
-   "speler": "Flora Wang",
-   "club": "Dunlop DKC",
-   "w": 9,
-   "gp": 12,
-   "games": "20 – 8",
-   "punten": "553 – 446"
-  },
-  {
-   "pos": 5,
-   "speler": "Meerte Loos",
-   "club": "BC Duinwijck",
-   "w": 8,
-   "gp": 8,
-   "games": "16 – 0",
-   "punten": "340 – 211"
+   "gp": 11,
+   "games": "19 – 9",
+   "punten": "586 – 499"
   },
   {
    "pos": 6,
-   "speler": "Diede Odijk",
-   "club": "FIT Almere",
+   "speler": "Ties van der Lecq",
+   "club": "BC Duinwijck",
    "w": 8,
-   "gp": 12,
-   "games": "18 – 13",
-   "punten": "601 – 556"
+   "gp": 10,
+   "games": "17 – 4",
+   "punten": "424 – 297"
   },
   {
    "pos": 7,
+   "speler": "Jaymie Laurens",
+   "club": "Dunlop DKC",
+   "w": 8,
+   "gp": 13,
+   "games": "17 – 10",
+   "punten": "449 – 474"
+  },
+  {
+   "pos": 8,
+   "speler": "Diede Odijk",
+   "club": "FIT Almere",
+   "w": 8,
+   "gp": 13,
+   "games": "18 – 15",
+   "punten": "636 – 601"
+  },
+  {
+   "pos": 9,
    "speler": "Chloë Mayer",
    "club": "BC Duinwijck",
    "w": 7,
@@ -3570,7 +3592,16 @@
    "punten": "311 – 187"
   },
   {
-   "pos": 8,
+   "pos": 10,
+   "speler": "Ade Resky Dwicahyo",
+   "club": "PK Keukens Roosterse",
+   "w": 7,
+   "gp": 7,
+   "games": "14 – 3",
+   "punten": "348 – 265"
+  },
+  {
+   "pos": 11,
    "speler": "Dennis Koppen",
    "club": "FIT Almere",
    "w": 7,
@@ -3579,16 +3610,7 @@
    "punten": "358 – 275"
   },
   {
-   "pos": 9,
-   "speler": "Ties van der Lecq",
-   "club": "BC Duinwijck",
-   "w": 7,
-   "gp": 9,
-   "games": "15 – 4",
-   "punten": "382 – 270"
-  },
-  {
-   "pos": 10,
+   "pos": 12,
    "speler": "Dyon van Wijlick",
    "club": "FIT Almere",
    "w": 7,
@@ -3597,7 +3619,7 @@
    "punten": "402 – 350"
   },
   {
-   "pos": 11,
+   "pos": 13,
    "speler": "Alida Chen",
    "club": "FIT Almere",
    "w": 7,
@@ -3606,31 +3628,13 @@
    "punten": "480 – 443"
   },
   {
-   "pos": 12,
+   "pos": 14,
    "speler": "Joep Strooper",
    "club": "FIT Almere",
    "w": 7,
    "gp": 12,
    "games": "17 – 12",
    "punten": "560 – 521"
-  },
-  {
-   "pos": 13,
-   "speler": "Jaymie Laurens",
-   "club": "Dunlop DKC",
-   "w": 7,
-   "gp": 12,
-   "games": "15 – 10",
-   "punten": "404 – 439"
-  },
-  {
-   "pos": 14,
-   "speler": "Ade Resky Dwicahyo",
-   "club": "PK Keukens Roosterse",
-   "w": 6,
-   "gp": 6,
-   "games": "12 – 3",
-   "punten": "306 – 235"
   },
   {
    "pos": 15,
@@ -3643,15 +3647,42 @@
   },
   {
    "pos": 16,
-   "speler": "Iris van Leijsen",
+   "speler": "Noah Jongen",
    "club": "PK Keukens Roosterse",
    "w": 6,
-   "gp": 12,
-   "games": "13 – 15",
-   "punten": "499 – 505"
+   "gp": 10,
+   "games": "12 – 10",
+   "punten": "401 – 394"
   },
   {
    "pos": 17,
+   "speler": "Iris van Leijsen",
+   "club": "PK Keukens Roosterse",
+   "w": 6,
+   "gp": 13,
+   "games": "13 – 17",
+   "punten": "531 – 547"
+  },
+  {
+   "pos": 18,
+   "speler": "Debora Jille",
+   "club": "BC Duinwijck",
+   "w": 5,
+   "gp": 5,
+   "games": "10 – 0",
+   "punten": "210 – 117"
+  },
+  {
+   "pos": 19,
+   "speler": "Iben Bergstein",
+   "club": "BC Drop Shot",
+   "w": 5,
+   "gp": 5,
+   "games": "10 – 0",
+   "punten": "210 – 146"
+  },
+  {
+   "pos": 20,
    "speler": "Noah Haase",
    "club": "FIT Almere",
    "w": 5,
@@ -3660,7 +3691,7 @@
    "punten": "238 – 162"
   },
   {
-   "pos": 18,
+   "pos": 21,
    "speler": "Robin Tabeling",
    "club": "2dA Smashing",
    "w": 5,
@@ -3669,7 +3700,7 @@
    "punten": "335 – 252"
   },
   {
-   "pos": 19,
+   "pos": 22,
    "speler": "Mark Caljouw",
    "club": "Dunlop DKC",
    "w": 5,
@@ -3678,16 +3709,25 @@
    "punten": "239 – 263"
   },
   {
-   "pos": 20,
-   "speler": "Noah Jongen",
-   "club": "PK Keukens Roosterse",
+   "pos": 23,
+   "speler": "Timo Stoffelen",
+   "club": "BC Duinwijck",
    "w": 5,
    "gp": 9,
    "games": "10 – 10",
-   "punten": "359 – 364"
+   "punten": "372 – 361"
   },
   {
-   "pos": 21,
+   "pos": 24,
+   "speler": "Tammi van Wonterghem",
+   "club": "BC Drop Shot",
+   "w": 5,
+   "gp": 11,
+   "games": "13 – 12",
+   "punten": "443 – 478"
+  },
+  {
+   "pos": 25,
    "speler": "Lieke van Parys",
    "club": "Dunlop DKC",
    "w": 5,
@@ -3696,7 +3736,7 @@
    "punten": "535 – 540"
   },
   {
-   "pos": 22,
+   "pos": 26,
    "speler": "Gijs Duijs",
    "club": "Dunlop DKC",
    "w": 5,
@@ -3705,7 +3745,7 @@
    "punten": "463 – 479"
   },
   {
-   "pos": 23,
+   "pos": 27,
    "speler": "Veda Diemel",
    "club": "Velo Badminton",
    "w": 5,
@@ -3714,16 +3754,7 @@
    "punten": "502 – 531"
   },
   {
-   "pos": 24,
-   "speler": "Debora Jille",
-   "club": "BC Duinwijck",
-   "w": 4,
-   "gp": 4,
-   "games": "8 – 0",
-   "punten": "168 – 93"
-  },
-  {
-   "pos": 25,
+   "pos": 28,
    "speler": "Adith Karthikeyan Priya",
    "club": "BC Duinwijck",
    "w": 4,
@@ -3732,16 +3763,7 @@
    "punten": "168 – 101"
   },
   {
-   "pos": 26,
-   "speler": "Iben Bergstein",
-   "club": "BC Drop Shot",
-   "w": 4,
-   "gp": 4,
-   "games": "8 – 0",
-   "punten": "168 – 114"
-  },
-  {
-   "pos": 27,
+   "pos": 29,
    "speler": "Joran Kweekel",
    "club": "Dunlop DKC",
    "w": 4,
@@ -3750,7 +3772,7 @@
    "punten": "168 – 122"
   },
   {
-   "pos": 28,
+   "pos": 30,
    "speler": "Aram Mahmoud",
    "club": "BC Duinwijck",
    "w": 4,
@@ -3759,31 +3781,13 @@
    "punten": "220 – 185"
   },
   {
-   "pos": 29,
-   "speler": "Timo Stoffelen",
-   "club": "BC Duinwijck",
-   "w": 4,
-   "gp": 8,
-   "games": "8 – 10",
-   "punten": "330 – 334"
-  },
-  {
-   "pos": 30,
+   "pos": 31,
    "speler": "Ruben Jille",
    "club": "Decorette Amersfoort",
    "w": 4,
    "gp": 9,
    "games": "11 – 11",
    "punten": "399 – 407"
-  },
-  {
-   "pos": 31,
-   "speler": "Tammi van Wonterghem",
-   "club": "BC Drop Shot",
-   "w": 4,
-   "gp": 10,
-   "games": "11 – 12",
-   "punten": "401 – 446"
   },
   {
    "pos": 32,
@@ -3814,15 +3818,6 @@
   },
   {
    "pos": 35,
-   "speler": "Xenia Koelmel",
-   "club": "PK Keukens Roosterse",
-   "w": 3,
-   "gp": 6,
-   "games": "9 – 7",
-   "punten": "289 – 286"
-  },
-  {
-   "pos": 36,
    "speler": "Flore Vandenhoucke",
    "club": "PK Keukens Roosterse",
    "w": 3,
@@ -3831,13 +3826,22 @@
    "punten": "270 – 280"
   },
   {
-   "pos": 37,
+   "pos": 36,
    "speler": "Nick Fransman",
    "club": "BC Drop Shot",
    "w": 3,
    "gp": 6,
    "games": "6 – 9",
    "punten": "257 – 292"
+  },
+  {
+   "pos": 37,
+   "speler": "Xenia Koelmel",
+   "club": "PK Keukens Roosterse",
+   "w": 3,
+   "gp": 7,
+   "games": "9 – 9",
+   "punten": "321 – 328"
   },
   {
    "pos": 38,
@@ -3868,21 +3872,21 @@
   },
   {
    "pos": 41,
-   "speler": "Lars Kros",
-   "club": "BC Drop Shot",
-   "w": 3,
-   "gp": 10,
-   "games": "8 – 15",
-   "punten": "414 – 448"
-  },
-  {
-   "pos": 42,
    "speler": "Brandon Bessem",
    "club": "BC Drop Shot",
    "w": 3,
    "gp": 10,
    "games": "8 – 15",
    "punten": "380 – 441"
+  },
+  {
+   "pos": 42,
+   "speler": "Lars Kros",
+   "club": "BC Drop Shot",
+   "w": 3,
+   "gp": 11,
+   "games": "8 – 17",
+   "punten": "444 – 490"
   },
   {
    "pos": 43,
@@ -3904,15 +3908,6 @@
   },
   {
    "pos": 45,
-   "speler": "Andy Buijk",
-   "club": "BC Drop Shot",
-   "w": 2,
-   "gp": 3,
-   "games": "4 – 2",
-   "punten": "113 – 98"
-  },
-  {
-   "pos": 46,
    "speler": "Marcello Kausemann",
    "club": "PK Keukens Roosterse",
    "w": 2,
@@ -3921,7 +3916,7 @@
    "punten": "135 – 113"
   },
   {
-   "pos": 47,
+   "pos": 46,
    "speler": "Thijs van den Berg",
    "club": "PK Keukens Roosterse",
    "w": 2,
@@ -3930,13 +3925,22 @@
    "punten": "132 – 133"
   },
   {
-   "pos": 48,
+   "pos": 47,
    "speler": "Freek Golinski",
    "club": "2dA Smashing",
    "w": 2,
    "gp": 4,
    "games": "6 – 5",
    "punten": "186 – 171"
+  },
+  {
+   "pos": 48,
+   "speler": "Andy Buijk",
+   "club": "BC Drop Shot",
+   "w": 2,
+   "gp": 4,
+   "games": "4 – 4",
+   "punten": "143 – 140"
   },
   {
    "pos": 49,
@@ -4003,21 +4007,21 @@
   },
   {
    "pos": 56,
-   "speler": "Kelly van Buiten",
-   "club": "Decorette Amersfoort",
-   "w": 2,
-   "gp": 9,
-   "games": "8 – 14",
-   "punten": "378 – 432"
-  },
-  {
-   "pos": 57,
    "speler": "Rens Lagrouw",
    "club": "Velo Badminton",
    "w": 2,
    "gp": 9,
    "games": "5 – 15",
    "punten": "315 – 402"
+  },
+  {
+   "pos": 57,
+   "speler": "Kelly van Buiten",
+   "club": "Decorette Amersfoort",
+   "w": 2,
+   "gp": 10,
+   "games": "8 – 16",
+   "punten": "402 – 474"
   },
   {
    "pos": 58,
@@ -4096,9 +4100,9 @@
    "speler": "Berend van Brenk",
    "club": "Decorette Amersfoort",
    "w": 1,
-   "gp": 4,
-   "games": "2 – 6",
-   "punten": "130 – 160"
+   "gp": 5,
+   "games": "2 – 8",
+   "punten": "157 – 202"
   },
   {
    "pos": 67,
@@ -4174,6 +4178,15 @@
   },
   {
    "pos": 75,
+   "speler": "Ruben Hoksbergen",
+   "club": "Decorette Amersfoort",
+   "w": 0,
+   "gp": 1,
+   "games": "0 – 2",
+   "punten": "27 – 42"
+  },
+  {
+   "pos": 76,
    "speler": "Sean Fanseda",
    "club": "BC Drop Shot",
    "w": 0,
@@ -4182,7 +4195,7 @@
    "punten": "27 – 42"
   },
   {
-   "pos": 76,
+   "pos": 77,
    "speler": "Manon Middendorp",
    "club": "PK Keukens Roosterse",
    "w": 0,
@@ -4191,7 +4204,7 @@
    "punten": "26 – 42"
   },
   {
-   "pos": 77,
+   "pos": 78,
    "speler": "Daphne van den Berg",
    "club": "PK Keukens Roosterse",
    "w": 0,
@@ -4200,7 +4213,7 @@
    "punten": "26 – 42"
   },
   {
-   "pos": 78,
+   "pos": 79,
    "speler": "Rik Hermans",
    "club": "PK Keukens Roosterse",
    "w": 0,
@@ -4209,7 +4222,7 @@
    "punten": "25 – 42"
   },
   {
-   "pos": 79,
+   "pos": 80,
    "speler": "Beau Ritzen",
    "club": "PK Keukens Roosterse",
    "w": 0,
@@ -4218,7 +4231,7 @@
    "punten": "25 – 42"
   },
   {
-   "pos": 80,
+   "pos": 81,
    "speler": "Imka Putrama Arlin",
    "club": "Decorette Amersfoort",
    "w": 0,
@@ -4227,7 +4240,7 @@
    "punten": "94 – 119"
   },
   {
-   "pos": 81,
+   "pos": 82,
    "speler": "Chloe Tsai",
    "club": "BC Drop Shot",
    "w": 0,
@@ -4236,7 +4249,7 @@
    "punten": "79 – 99"
   },
   {
-   "pos": 82,
+   "pos": 83,
    "speler": "Lien Lammertyn",
    "club": "PK Keukens Roosterse",
    "w": 0,
@@ -4245,7 +4258,7 @@
    "punten": "53 – 84"
   },
   {
-   "pos": 83,
+   "pos": 84,
    "speler": "Shreya Hochscheid",
    "club": "Decorette Amersfoort",
    "w": 0,
@@ -4254,7 +4267,7 @@
    "punten": "123 – 151"
   },
   {
-   "pos": 84,
+   "pos": 85,
    "speler": "Lieke Maes",
    "club": "2dA Smashing",
    "w": 0,
@@ -4263,7 +4276,7 @@
    "punten": "79 – 120"
   },
   {
-   "pos": 85,
+   "pos": 86,
    "speler": "Nagasharan Podala Vengatesh",
    "club": "Dunlop DKC",
    "w": 0,
@@ -4272,7 +4285,7 @@
    "punten": "84 – 126"
   },
   {
-   "pos": 86,
+   "pos": 87,
    "speler": "Casper Spaans",
    "club": "2dA Smashing",
    "w": 0,
@@ -4281,7 +4294,7 @@
    "punten": "83 – 126"
   },
   {
-   "pos": 87,
+   "pos": 88,
    "speler": "Dion Hoegen",
    "club": "Decorette Amersfoort",
    "w": 0,
@@ -4290,7 +4303,7 @@
    "punten": "135 – 187"
   },
   {
-   "pos": 88,
+   "pos": 89,
    "speler": "Maureen Zewald",
    "club": "2dA Smashing",
    "w": 0,
@@ -4299,22 +4312,13 @@
    "punten": "93 – 168"
   },
   {
-   "pos": 89,
+   "pos": 90,
    "speler": "Mandy Duijndam",
    "club": "BC Drop Shot",
    "w": 0,
    "gp": 6,
    "games": "4 – 12",
    "punten": "232 – 324"
-  },
-  {
-   "pos": 90,
-   "speler": "Anouk van Wijk",
-   "club": "Decorette Amersfoort",
-   "w": 0,
-   "gp": 6,
-   "games": "0 – 12",
-   "punten": "143 – 253"
   },
   {
    "pos": 91,
@@ -4324,6 +4328,15 @@
    "gp": 7,
    "games": "2 – 14",
    "punten": "242 – 329"
+  },
+  {
+   "pos": 92,
+   "speler": "Anouk van Wijk",
+   "club": "Decorette Amersfoort",
+   "w": 0,
+   "gp": 7,
+   "games": "0 – 14",
+   "punten": "167 – 295"
   }
  ],
  "top10": [
@@ -4338,6 +4351,24 @@
   },
   {
    "pos": 2,
+   "speler": "Flora Wang",
+   "club": "Dunlop DKC",
+   "w": 10,
+   "gp": 13,
+   "games": "22 – 8",
+   "punten": "598 – 481"
+  },
+  {
+   "pos": 3,
+   "speler": "Meerte Loos",
+   "club": "BC Duinwijck",
+   "w": 9,
+   "gp": 9,
+   "games": "18 – 0",
+   "punten": "382 – 235"
+  },
+  {
+   "pos": 4,
    "speler": "Alyssa Tirtosentono",
    "club": "BC Duinwijck",
    "w": 9,
@@ -4346,43 +4377,43 @@
    "punten": "434 – 305"
   },
   {
-   "pos": 3,
+   "pos": 5,
    "speler": "Kirsten de Wit",
    "club": "FIT Almere",
    "w": 9,
-   "gp": 10,
-   "games": "19 – 7",
-   "punten": "551 – 454"
-  },
-  {
-   "pos": 4,
-   "speler": "Flora Wang",
-   "club": "Dunlop DKC",
-   "w": 9,
-   "gp": 12,
-   "games": "20 – 8",
-   "punten": "553 – 446"
-  },
-  {
-   "pos": 5,
-   "speler": "Meerte Loos",
-   "club": "BC Duinwijck",
-   "w": 8,
-   "gp": 8,
-   "games": "16 – 0",
-   "punten": "340 – 211"
+   "gp": 11,
+   "games": "19 – 9",
+   "punten": "586 – 499"
   },
   {
    "pos": 6,
-   "speler": "Diede Odijk",
-   "club": "FIT Almere",
+   "speler": "Ties van der Lecq",
+   "club": "BC Duinwijck",
    "w": 8,
-   "gp": 12,
-   "games": "18 – 13",
-   "punten": "601 – 556"
+   "gp": 10,
+   "games": "17 – 4",
+   "punten": "424 – 297"
   },
   {
    "pos": 7,
+   "speler": "Jaymie Laurens",
+   "club": "Dunlop DKC",
+   "w": 8,
+   "gp": 13,
+   "games": "17 – 10",
+   "punten": "449 – 474"
+  },
+  {
+   "pos": 8,
+   "speler": "Diede Odijk",
+   "club": "FIT Almere",
+   "w": 8,
+   "gp": 13,
+   "games": "18 – 15",
+   "punten": "636 – 601"
+  },
+  {
+   "pos": 9,
    "speler": "Chloë Mayer",
    "club": "BC Duinwijck",
    "w": 7,
@@ -4391,82 +4422,64 @@
    "punten": "311 – 187"
   },
   {
-   "pos": 8,
-   "speler": "Dennis Koppen",
-   "club": "FIT Almere",
-   "w": 7,
-   "gp": 8,
-   "games": "15 – 3",
-   "punten": "358 – 275"
-  },
-  {
-   "pos": 9,
-   "speler": "Ties van der Lecq",
-   "club": "BC Duinwijck",
-   "w": 7,
-   "gp": 9,
-   "games": "15 – 4",
-   "punten": "382 – 270"
-  },
-  {
    "pos": 10,
-   "speler": "Dyon van Wijlick",
-   "club": "FIT Almere",
+   "speler": "Ade Resky Dwicahyo",
+   "club": "PK Keukens Roosterse",
    "w": 7,
-   "gp": 10,
-   "games": "14 – 7",
-   "punten": "402 – 350"
+   "gp": 7,
+   "games": "14 – 3",
+   "punten": "348 – 265"
   }
  ],
  "ids": {
   "Brian Wassink": 3971,
-  "Alyssa Tirtosentono": 3977,
-  "Kirsten de Wit": 4888,
   "Flora Wang": 5754,
   "Meerte Loos": 3974,
+  "Alyssa Tirtosentono": 3977,
+  "Kirsten de Wit": 4888,
+  "Ties van der Lecq": 3966,
+  "Jaymie Laurens": 5755,
   "Diede Odijk": 4879,
   "Chloë Mayer": 3978,
+  "Ade Resky Dwicahyo": 5335,
   "Dennis Koppen": 4883,
-  "Ties van der Lecq": 3966,
   "Dyon van Wijlick": 4886,
   "Alida Chen": 4878,
   "Joep Strooper": 4885,
-  "Jaymie Laurens": 5755,
-  "Ade Resky Dwicahyo": 5335,
   "Jasper Koppen": 5336,
+  "Noah Jongen": 5344,
   "Iris van Leijsen": 5341,
+  "Debora Jille": 3975,
+  "Iben Bergstein": 5163,
   "Noah Haase": 4884,
   "Robin Tabeling": 5202,
   "Mark Caljouw": 5756,
-  "Noah Jongen": 5344,
+  "Timo Stoffelen": 3970,
+  "Tammi van Wonterghem": 5157,
   "Lieke van Parys": 5753,
   "Gijs Duijs": 5758,
   "Veda Diemel": 5075,
-  "Debora Jille": 3975,
   "Adith Karthikeyan Priya": 3972,
-  "Iben Bergstein": 5163,
   "Joran Kweekel": 5757,
   "Aram Mahmoud": 3952,
-  "Timo Stoffelen": 3970,
   "Ruben Jille": 4748,
-  "Tammi van Wonterghem": 5157,
   "Amy Tan": 5073,
   "Hristomira Popovska": 4866,
   "Clara Lassaux": 5158,
-  "Xenia Koelmel": 5348,
   "Flore Vandenhoucke": 5340,
   "Nick Fransman": 5152,
+  "Xenia Koelmel": 5348,
   "Ruben Wijnands": 4749,
   "Sterre Bang": 5197,
   "Imke van der Aar": 5159,
-  "Lars Kros": 5151,
   "Brandon Bessem": 5155,
+  "Lars Kros": 5151,
   "Florentine Schoffski": 5339,
   "Vihaan Shah": 5345,
-  "Andy Buijk": 5154,
   "Marcello Kausemann": 5337,
   "Thijs van den Berg": 5343,
   "Freek Golinski": 5201,
+  "Andy Buijk": 5154,
   "Wessel van der Aar": 5153,
   "Stefanie Nijsse": 5354,
   "Esmeralda van Drunen": 4757,
@@ -4474,8 +4487,8 @@
   "Inger Pothuizen": 5196,
   "Marijn Put": 5204,
   "Thomas Sibbald": 5759,
-  "Kelly van Buiten": 4751,
   "Rens Lagrouw": 5078,
+  "Kelly van Buiten": 4751,
   "Myke Halkema": 5074,
   "Yuanyuan Jiang": 5084,
   "William Villeger": 5162,
@@ -4493,6 +4506,7 @@
   "Nikki Pobezin": 5353,
   "Quinn Jens": 4872,
   "Vincent de Vries": 5206,
+  "Ruben Hoksbergen": 4761,
   "Sean Fanseda": 5114,
   "Manon Middendorp": 5350,
   "Daphne van den Berg": 5352,
@@ -4508,8 +4522,8 @@
   "Dion Hoegen": 4747,
   "Maureen Zewald": 5199,
   "Mandy Duijndam": 5156,
-  "Anouk van Wijk": 4752,
-  "Mees Janssen": 5077
+  "Mees Janssen": 5077,
+  "Anouk van Wijk": 4752
  },
  "photos": {
   "Alyssa Tirtosentono": "fotos/alyssa-tirtosentono.jpg",
@@ -4796,25 +4810,25 @@
      "pos": 4,
      "speler": "Iris van Leijsen",
      "e": "–",
-     "d": "2 – 4",
+     "d": "2 – 5",
      "m": "4 – 2",
-     "tot": "6/12"
+     "tot": "6/13"
     },
     {
      "pos": 5,
-     "speler": "Xenia Koelmel",
-     "e": "2 – 2",
-     "d": "1 – 1",
-     "m": "–",
-     "tot": "3/6"
-    },
-    {
-     "pos": 6,
      "speler": "Flore Vandenhoucke",
      "e": "1 – 1",
      "d": "1 – 2",
      "m": "1 – 0",
      "tot": "3/6"
+    },
+    {
+     "pos": 6,
+     "speler": "Xenia Koelmel",
+     "e": "2 – 2",
+     "d": "1 – 2",
+     "m": "–",
+     "tot": "3/7"
     },
     {
      "pos": 7,
@@ -5006,17 +5020,17 @@
      "pos": 1,
      "speler": "Iben Bergstein",
      "e": "–",
-     "d": "2 – 0",
+     "d": "3 – 0",
      "m": "2 – 0",
-     "tot": "4/4"
+     "tot": "5/5"
     },
     {
      "pos": 2,
      "speler": "Tammi van Wonterghem",
      "e": "3 – 1",
-     "d": "0 – 3",
+     "d": "1 – 3",
      "m": "1 – 2",
-     "tot": "4/10"
+     "tot": "5/11"
     },
     {
      "pos": 3,
@@ -5060,18 +5074,18 @@
     },
     {
      "pos": 8,
-     "speler": "Andy Buijk",
-     "e": "–",
-     "d": "1 – 1",
-     "m": "1 – 1",
-     "tot": "2/4"
-    },
-    {
-     "pos": 9,
      "speler": "Wessel van der Aar",
      "e": "–",
      "d": "–",
      "m": "2 – 2",
+     "tot": "2/4"
+    },
+    {
+     "pos": 9,
+     "speler": "Andy Buijk",
+     "e": "–",
+     "d": "1 – 1",
+     "m": "1 – 1",
      "tot": "2/4"
     },
     {
@@ -6053,6 +6067,30 @@
       },
       {
        "names": [
+        "Tammi van Wonterghem",
+        "Iben Bergstein"
+       ],
+       "club": "BC Drop Shot",
+       "w": 1,
+       "p": 1,
+       "games": "2-0",
+       "punten": "42-32",
+       "saldo": 10,
+       "res": [
+        {
+         "code": "VD",
+         "tegen": [
+          "Iris van Leijsen",
+          "Xenia Koelmel"
+         ],
+         "tclub": "PK Keukens Roosterse",
+         "w": 1,
+         "score": "21-15 21-17"
+        }
+       ]
+      },
+      {
+       "names": [
         "Flora Wang",
         "Jaymie Laurens"
        ],
@@ -6072,30 +6110,6 @@
          "tclub": "FIT Almere",
          "w": 1,
          "score": "24-22 21-13"
-        }
-       ]
-      },
-      {
-       "names": [
-        "Diede Odijk",
-        "Kirsten de Wit"
-       ],
-       "club": "FIT Almere",
-       "w": 0,
-       "p": 1,
-       "games": "0-2",
-       "punten": "35-45",
-       "saldo": -10,
-       "res": [
-        {
-         "code": "VD",
-         "tegen": [
-          "Flora Wang",
-          "Jaymie Laurens"
-         ],
-         "tclub": "Dunlop DKC",
-         "w": 0,
-         "score": "22-24 13-21"
         }
        ]
       }
@@ -8745,6 +8759,13 @@
       "pt": 1716,
       "w": 3,
       "pid": 3234628
+     },
+     {
+      "r": 465,
+      "n": "Ruben Hoksbergen",
+      "pt": 1531,
+      "w": 3,
+      "pid": 135274
      }
     ]
    },
@@ -9149,6 +9170,13 @@
       "pt": 5652,
       "w": 26,
       "pid": 6003674
+     },
+     {
+      "r": 60,
+      "n": "Ruben Hoksbergen",
+      "pt": 5641,
+      "w": 21,
+      "pid": 135274
      },
      {
       "r": 99,
@@ -9814,6 +9842,13 @@
       "pid": 158565
      },
      {
+      "r": 122,
+      "n": "Ruben Hoksbergen",
+      "pt": 4633,
+      "w": 21,
+      "pid": 135274
+     },
+     {
       "r": 130,
       "n": "Dion Hoegen",
       "pt": 4513,
@@ -10057,6 +10092,7 @@
    "Renske Kwakkenbos",
    "Rik Hermans",
    "Robin Tabeling",
+   "Ruben Hoksbergen",
    "Ruben Jille",
    "Ruben Wijnands",
    "Sander Prenen",
@@ -10079,23 +10115,7 @@
   ]
  },
  "check": {
-  "afwijkingen": [
-   "Kirsten de Wit",
-   "Flora Wang",
-   "Meerte Loos",
-   "Diede Odijk",
-   "Ties van der Lecq",
-   "Jaymie Laurens",
-   "Ade Resky Dwicahyo",
-   "Noah Jongen",
-   "Debora Jille",
-   "Timo Stoffelen",
-   "Lars Kros",
-   "Andy Buijk",
-   "Kelly van Buiten",
-   "Berend van Brenk",
-   "Anouk van Wijk"
-  ]
+  "afwijkingen": []
  },
- "updated": "07-11-2026 19:40"
+ "updated": "07-11-2026 19:45"
 }
