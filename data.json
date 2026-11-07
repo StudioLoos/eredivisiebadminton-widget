@@ -6,7 +6,7 @@
    "home": "Dunlop DKC",
    "away": "FIT Almere",
    "hs": 3,
-   "as": 0,
+   "as": 1,
    "rows": [
     {
      "code": "MD",
@@ -70,7 +70,9 @@
      ],
      "away": [
       "Alida Chen"
-     ]
+     ],
+     "score": "8-21 13-21",
+     "winner": "away"
     },
     {
      "code": "GD1",
@@ -704,7 +706,7 @@
      "home": "Dunlop DKC",
      "away": "FIT Almere",
      "hs": 3,
-     "as": 0,
+     "as": 1,
      "rows": [
       {
        "code": "MD",
@@ -768,7 +770,9 @@
        ],
        "away": [
         "Alida Chen"
-       ]
+       ],
+       "score": "8-21 13-21",
+       "winner": "away"
       },
       {
        "code": "GD1",
@@ -3590,6 +3594,15 @@
   },
   {
    "pos": 7,
+   "speler": "Alida Chen",
+   "club": "FIT Almere",
+   "w": 8,
+   "gp": 11,
+   "games": "17 – 10",
+   "punten": "522 – 464"
+  },
+  {
+   "pos": 8,
    "speler": "Jaymie Laurens",
    "club": "Dunlop DKC",
    "w": 8,
@@ -3598,7 +3611,7 @@
    "punten": "449 – 474"
   },
   {
-   "pos": 8,
+   "pos": 9,
    "speler": "Diede Odijk",
    "club": "FIT Almere",
    "w": 8,
@@ -3607,7 +3620,7 @@
    "punten": "636 – 601"
   },
   {
-   "pos": 9,
+   "pos": 10,
    "speler": "Chloë Mayer",
    "club": "BC Duinwijck",
    "w": 7,
@@ -3616,7 +3629,7 @@
    "punten": "311 – 187"
   },
   {
-   "pos": 10,
+   "pos": 11,
    "speler": "Ade Resky Dwicahyo",
    "club": "PK Keukens Roosterse",
    "w": 7,
@@ -3625,22 +3638,13 @@
    "punten": "348 – 265"
   },
   {
-   "pos": 11,
+   "pos": 12,
    "speler": "Dennis Koppen",
    "club": "FIT Almere",
    "w": 7,
    "gp": 8,
    "games": "15 – 3",
    "punten": "358 – 275"
-  },
-  {
-   "pos": 12,
-   "speler": "Alida Chen",
-   "club": "FIT Almere",
-   "w": 7,
-   "gp": 10,
-   "games": "15 – 10",
-   "punten": "480 – 443"
   },
   {
    "pos": 13,
@@ -4274,6 +4278,15 @@
   },
   {
    "pos": 83,
+   "speler": "Liselotte van Balen",
+   "club": "Dunlop DKC",
+   "w": 0,
+   "gp": 1,
+   "games": "0 – 2",
+   "punten": "21 – 42"
+  },
+  {
+   "pos": 84,
    "speler": "Imka Putrama Arlin",
    "club": "Decorette Amersfoort",
    "w": 0,
@@ -4282,7 +4295,7 @@
    "punten": "94 – 119"
   },
   {
-   "pos": 84,
+   "pos": 85,
    "speler": "Chloe Tsai",
    "club": "BC Drop Shot",
    "w": 0,
@@ -4291,7 +4304,7 @@
    "punten": "79 – 99"
   },
   {
-   "pos": 85,
+   "pos": 86,
    "speler": "Lien Lammertyn",
    "club": "PK Keukens Roosterse",
    "w": 0,
@@ -4300,7 +4313,7 @@
    "punten": "53 – 84"
   },
   {
-   "pos": 86,
+   "pos": 87,
    "speler": "Shreya Hochscheid",
    "club": "Decorette Amersfoort",
    "w": 0,
@@ -4309,7 +4322,7 @@
    "punten": "123 – 151"
   },
   {
-   "pos": 87,
+   "pos": 88,
    "speler": "Nagasharan Podala Vengatesh",
    "club": "Dunlop DKC",
    "w": 0,
@@ -4318,7 +4331,7 @@
    "punten": "84 – 126"
   },
   {
-   "pos": 88,
+   "pos": 89,
    "speler": "Casper Spaans",
    "club": "2dA Smashing",
    "w": 0,
@@ -4327,7 +4340,7 @@
    "punten": "83 – 126"
   },
   {
-   "pos": 89,
+   "pos": 90,
    "speler": "Dion Hoegen",
    "club": "Decorette Amersfoort",
    "w": 0,
@@ -4336,7 +4349,7 @@
    "punten": "135 – 187"
   },
   {
-   "pos": 90,
+   "pos": 91,
    "speler": "Maureen Zewald",
    "club": "2dA Smashing",
    "w": 0,
@@ -4345,7 +4358,7 @@
    "punten": "93 – 168"
   },
   {
-   "pos": 91,
+   "pos": 92,
    "speler": "Mandy Duijndam",
    "club": "BC Drop Shot",
    "w": 0,
@@ -4354,7 +4367,7 @@
    "punten": "232 – 324"
   },
   {
-   "pos": 92,
+   "pos": 93,
    "speler": "Anouk van Wijk",
    "club": "Decorette Amersfoort",
    "w": 0,
@@ -4363,7 +4376,7 @@
    "punten": "167 – 295"
   },
   {
-   "pos": 93,
+   "pos": 94,
    "speler": "Mees Janssen",
    "club": "Velo Badminton",
    "w": 0,
@@ -4429,6 +4442,15 @@
   },
   {
    "pos": 7,
+   "speler": "Alida Chen",
+   "club": "FIT Almere",
+   "w": 8,
+   "gp": 11,
+   "games": "17 – 10",
+   "punten": "522 – 464"
+  },
+  {
+   "pos": 8,
    "speler": "Jaymie Laurens",
    "club": "Dunlop DKC",
    "w": 8,
@@ -4437,7 +4459,7 @@
    "punten": "449 – 474"
   },
   {
-   "pos": 8,
+   "pos": 9,
    "speler": "Diede Odijk",
    "club": "FIT Almere",
    "w": 8,
@@ -4446,22 +4468,13 @@
    "punten": "636 – 601"
   },
   {
-   "pos": 9,
+   "pos": 10,
    "speler": "Chloë Mayer",
    "club": "BC Duinwijck",
    "w": 7,
    "gp": 7,
    "games": "14 – 1",
    "punten": "311 – 187"
-  },
-  {
-   "pos": 10,
-   "speler": "Ade Resky Dwicahyo",
-   "club": "PK Keukens Roosterse",
-   "w": 7,
-   "gp": 7,
-   "games": "14 – 3",
-   "punten": "348 – 265"
   }
  ],
  "ids": {
@@ -4471,12 +4484,12 @@
   "Alyssa Tirtosentono": 3977,
   "Kirsten de Wit": 4888,
   "Ties van der Lecq": 3966,
+  "Alida Chen": 4878,
   "Jaymie Laurens": 5755,
   "Diede Odijk": 4879,
   "Chloë Mayer": 3978,
   "Ade Resky Dwicahyo": 5335,
   "Dennis Koppen": 4883,
-  "Alida Chen": 4878,
   "Dyon van Wijlick": 4886,
   "Joep Strooper": 4885,
   "Jasper Koppen": 5336,
@@ -4547,6 +4560,7 @@
   "Rik Hermans": 5342,
   "Beau Ritzen": 5351,
   "Djayden Annema": 4857,
+  "Liselotte van Balen": 5761,
   "Imka Putrama Arlin": 4762,
   "Chloe Tsai": 5085,
   "Lien Lammertyn": 5349,
@@ -4749,6 +4763,14 @@
     },
     {
      "pos": 2,
+     "speler": "Alida Chen",
+     "e": "3 – 2",
+     "d": "1 – 0",
+     "m": "4 – 1",
+     "tot": "8/11"
+    },
+    {
+     "pos": 3,
      "speler": "Diede Odijk",
      "e": "2 – 4",
      "d": "6 – 1",
@@ -4756,20 +4778,12 @@
      "tot": "8/13"
     },
     {
-     "pos": 3,
+     "pos": 4,
      "speler": "Dennis Koppen",
      "e": "6 – 0",
      "d": "0 – 1",
      "m": "1 – 0",
      "tot": "7/8"
-    },
-    {
-     "pos": 4,
-     "speler": "Alida Chen",
-     "e": "2 – 2",
-     "d": "1 – 0",
-     "m": "4 – 1",
-     "tot": "7/10"
     },
     {
      "pos": 5,
@@ -5047,6 +5061,14 @@
     },
     {
      "pos": 9,
+     "speler": "Liselotte van Balen",
+     "e": "0 – 1",
+     "d": "–",
+     "m": "–",
+     "tot": "0/1"
+    },
+    {
+     "pos": 10,
      "speler": "Nagasharan Podala Vengatesh",
      "e": "0 – 2",
      "d": "0 – 1",
@@ -5976,23 +5998,23 @@
     },
     {
      "names": [
-      "Thomas Sibbald"
+      "Alida Chen"
      ],
-     "club": "Dunlop DKC",
+     "club": "FIT Almere",
      "w": 1,
      "p": 1,
      "games": "2-0",
-     "punten": "42-22",
-     "saldo": 20,
+     "punten": "42-21",
+     "saldo": 21,
      "res": [
       {
-       "code": "ME2",
+       "code": "VE2",
        "tegen": [
-        "Djayden Annema"
+        "Liselotte van Balen"
        ],
-       "tclub": "FIT Almere",
+       "tclub": "Dunlop DKC",
        "w": 1,
-       "score": "21-17 21-5"
+       "score": "21-8 21-13"
       }
      ]
     }
@@ -6073,7 +6095,52 @@
     {
      "code": "DE",
      "label": "Damesenkel",
-     "top": []
+     "top": [
+      {
+       "names": [
+        "Alida Chen"
+       ],
+       "club": "FIT Almere",
+       "w": 1,
+       "p": 1,
+       "games": "2-0",
+       "punten": "42-21",
+       "saldo": 21,
+       "res": [
+        {
+         "code": "VE2",
+         "tegen": [
+          "Liselotte van Balen"
+         ],
+         "tclub": "Dunlop DKC",
+         "w": 1,
+         "score": "21-8 21-13"
+        }
+       ]
+      },
+      {
+       "names": [
+        "Liselotte van Balen"
+       ],
+       "club": "Dunlop DKC",
+       "w": 0,
+       "p": 1,
+       "games": "0-2",
+       "punten": "21-42",
+       "saldo": -21,
+       "res": [
+        {
+         "code": "VE2",
+         "tegen": [
+          "Alida Chen"
+         ],
+         "tclub": "FIT Almere",
+         "w": 0,
+         "score": "8-21 13-21"
+        }
+       ]
+      }
+     ]
     },
     {
      "code": "HD",
@@ -9058,6 +9125,13 @@
       "pid": 7896208
      },
      {
+      "r": 96,
+      "n": "Liselotte van Balen",
+      "pt": 3444,
+      "w": 14,
+      "pid": 129031
+     },
+     {
       "r": 98,
       "n": "Florentine Schoffski",
       "pt": 3440,
@@ -9553,6 +9627,13 @@
       "pid": 130904
      },
      {
+      "r": 51,
+      "n": "Liselotte van Balen",
+      "pt": 5685,
+      "w": 17,
+      "pid": 129031
+     },
+     {
       "r": 52,
       "n": "Myke Halkema",
       "pt": 5680,
@@ -10035,6 +10116,13 @@
       "pid": 131989
      },
      {
+      "r": 159,
+      "n": "Liselotte van Balen",
+      "pt": 4056,
+      "w": 16,
+      "pid": 129031
+     },
+     {
       "r": 175,
       "n": "Renske Kwakkenbos",
       "pt": 3880,
@@ -10208,6 +10296,7 @@
    "Lieke Maes",
    "Lieke van Parys",
    "Lien Lammertyn",
+   "Liselotte van Balen",
    "Luca Wiechmann",
    "Mandy Duijndam",
    "Manon Middendorp",
@@ -10255,5 +10344,5 @@
  "check": {
   "afwijkingen": []
  },
- "updated": "07-11-2026 20:15"
+ "updated": "07-11-2026 20:20"
 }
