@@ -2933,7 +2933,88 @@
      "away": "BC Drop Shot",
      "when": "za 7 nov · 19:00",
      "start": "2026-11-07T19:00:00",
-     "rows": []
+     "rows": [
+      {
+       "code": "MD",
+       "home": [
+        "Noah Jongen",
+        "Ade Resky Dwicahyo"
+       ],
+       "away": [
+        "Andy Buijk",
+        "Lars Kros"
+       ]
+      },
+      {
+       "code": "VD",
+       "home": [
+        "Iris van Leijsen",
+        "Xenia Koelmel"
+       ],
+       "away": [
+        "Tammi van Wonterghem",
+        "Iben Bergstein"
+       ]
+      },
+      {
+       "code": "ME1",
+       "home": [
+        "Ade Resky Dwicahyo"
+       ],
+       "away": [
+        "Nick Fransman"
+       ]
+      },
+      {
+       "code": "VE1",
+       "home": [
+        "Xenia Koelmel"
+       ],
+       "away": [
+        "Tammi van Wonterghem"
+       ]
+      },
+      {
+       "code": "ME2",
+       "home": [
+        "Vihaan Shah"
+       ],
+       "away": [
+        "Lars Kros"
+       ]
+      },
+      {
+       "code": "VE2",
+       "home": [
+        "Daphne van den Berg"
+       ],
+       "away": [
+        "Chloe Tsai"
+       ]
+      },
+      {
+       "code": "GD1",
+       "home": [
+        "Iris van Leijsen",
+        "Noah Jongen"
+       ],
+       "away": [
+        "Iben Bergstein",
+        "Andy Buijk"
+       ]
+      },
+      {
+       "code": "GD2",
+       "home": [
+        "Nikki Pobezin",
+        "Rik Hermans"
+       ],
+       "away": [
+        "Chloe Tsai",
+        "Brandon Bessem"
+       ]
+      }
+     ]
     },
     {
      "home": "BC Duinwijck",
@@ -3447,7 +3528,88 @@
     "home": "PK Keukens Roosterse",
     "away": "BC Drop Shot",
     "when": "za 7 nov · 19:00",
-    "rows": []
+    "rows": [
+     {
+      "code": "MD",
+      "home": [
+       "Noah Jongen",
+       "Ade Resky Dwicahyo"
+      ],
+      "away": [
+       "Andy Buijk",
+       "Lars Kros"
+      ]
+     },
+     {
+      "code": "VD",
+      "home": [
+       "Iris van Leijsen",
+       "Xenia Koelmel"
+      ],
+      "away": [
+       "Tammi van Wonterghem",
+       "Iben Bergstein"
+      ]
+     },
+     {
+      "code": "ME1",
+      "home": [
+       "Ade Resky Dwicahyo"
+      ],
+      "away": [
+       "Nick Fransman"
+      ]
+     },
+     {
+      "code": "VE1",
+      "home": [
+       "Xenia Koelmel"
+      ],
+      "away": [
+       "Tammi van Wonterghem"
+      ]
+     },
+     {
+      "code": "ME2",
+      "home": [
+       "Vihaan Shah"
+      ],
+      "away": [
+       "Lars Kros"
+      ]
+     },
+     {
+      "code": "VE2",
+      "home": [
+       "Daphne van den Berg"
+      ],
+      "away": [
+       "Chloe Tsai"
+      ]
+     },
+     {
+      "code": "GD1",
+      "home": [
+       "Iris van Leijsen",
+       "Noah Jongen"
+      ],
+      "away": [
+       "Iben Bergstein",
+       "Andy Buijk"
+      ]
+     },
+     {
+      "code": "GD2",
+      "home": [
+       "Nikki Pobezin",
+       "Rik Hermans"
+      ],
+      "away": [
+       "Chloe Tsai",
+       "Brandon Bessem"
+      ]
+     }
+    ]
    },
    {
     "home": "BC Duinwijck",
@@ -10034,5 +10196,5 @@
  "check": {
   "afwijkingen": []
  },
- "updated": "07-11-2026 18:45"
+ "updated": "07-11-2026 19:00"
 }
