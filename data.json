@@ -105,7 +105,7 @@
   {
    "home": "PK Keukens Roosterse",
    "away": "BC Drop Shot",
-   "hs": 3,
+   "hs": 4,
    "as": 1,
    "rows": [
     {
@@ -152,7 +152,9 @@
      ],
      "away": [
       "Tammi van Wonterghem"
-     ]
+     ],
+     "score": "21-18 21-18",
+     "winner": "home"
     },
     {
      "code": "ME2",
@@ -823,7 +825,7 @@
     {
      "home": "PK Keukens Roosterse",
      "away": "BC Drop Shot",
-     "hs": 3,
+     "hs": 4,
      "as": 1,
      "rows": [
       {
@@ -870,7 +872,9 @@
        ],
        "away": [
         "Tammi van Wonterghem"
-       ]
+       ],
+       "score": "21-18 21-18",
+       "winner": "home"
       },
       {
        "code": "ME2",
@@ -4928,19 +4932,19 @@
     },
     {
      "pos": 5,
+     "speler": "Xenia Koelmel",
+     "e": "3 – 2",
+     "d": "1 – 2",
+     "m": "–",
+     "tot": "4/8"
+    },
+    {
+     "pos": 6,
      "speler": "Flore Vandenhoucke",
      "e": "1 – 1",
      "d": "1 – 2",
      "m": "1 – 0",
      "tot": "3/6"
-    },
-    {
-     "pos": 6,
-     "speler": "Xenia Koelmel",
-     "e": "2 – 2",
-     "d": "1 – 2",
-     "m": "–",
-     "tot": "3/7"
     },
     {
      "pos": 7,
@@ -5147,10 +5151,10 @@
     {
      "pos": 2,
      "speler": "Tammi van Wonterghem",
-     "e": "3 – 1",
+     "e": "3 – 2",
      "d": "1 – 3",
      "m": "1 – 2",
-     "tot": "5/11"
+     "tot": "5/12"
     },
     {
      "pos": 3,
@@ -10505,9 +10509,11 @@
    "Diede Odijk",
    "Dennis Koppen",
    "Joran Kweekel",
+   "Tammi van Wonterghem",
+   "Xenia Koelmel",
    "Luca Wiechmann",
    "Casper Spaans"
   ]
  },
- "updated": "07-11-2026 20:50"
+ "updated": "07-11-2026 20:55"
 }
