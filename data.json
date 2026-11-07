@@ -5,7 +5,7 @@
   {
    "home": "Dunlop DKC",
    "away": "FIT Almere",
-   "hs": 1,
+   "hs": 2,
    "as": 0,
    "rows": [
     {
@@ -17,7 +17,9 @@
      "away": [
       "Dyon van Wijlick",
       "Joep Strooper"
-     ]
+     ],
+     "score": "23-25 21-14 21-12",
+     "winner": "home"
     },
     {
      "code": "VD",
@@ -691,7 +693,7 @@
     {
      "home": "Dunlop DKC",
      "away": "FIT Almere",
-     "hs": 1,
+     "hs": 2,
      "as": 0,
      "rows": [
       {
@@ -703,7 +705,9 @@
        "away": [
         "Dyon van Wijlick",
         "Joep Strooper"
-       ]
+       ],
+       "score": "23-25 21-14 21-12",
+       "winner": "home"
       },
       {
        "code": "VD",
@@ -3611,15 +3615,6 @@
   },
   {
    "pos": 12,
-   "speler": "Dyon van Wijlick",
-   "club": "FIT Almere",
-   "w": 7,
-   "gp": 10,
-   "games": "14 – 7",
-   "punten": "402 – 350"
-  },
-  {
-   "pos": 13,
    "speler": "Alida Chen",
    "club": "FIT Almere",
    "w": 7,
@@ -3628,13 +3623,22 @@
    "punten": "480 – 443"
   },
   {
+   "pos": 13,
+   "speler": "Dyon van Wijlick",
+   "club": "FIT Almere",
+   "w": 7,
+   "gp": 11,
+   "games": "15 – 9",
+   "punten": "453 – 415"
+  },
+  {
    "pos": 14,
    "speler": "Joep Strooper",
    "club": "FIT Almere",
    "w": 7,
-   "gp": 12,
-   "games": "17 – 12",
-   "punten": "560 – 521"
+   "gp": 13,
+   "games": "18 – 14",
+   "punten": "611 – 586"
   },
   {
    "pos": 15,
@@ -3647,6 +3651,15 @@
   },
   {
    "pos": 16,
+   "speler": "Mark Caljouw",
+   "club": "Dunlop DKC",
+   "w": 6,
+   "gp": 9,
+   "games": "12 – 7",
+   "punten": "304 – 314"
+  },
+  {
+   "pos": 17,
    "speler": "Noah Jongen",
    "club": "PK Keukens Roosterse",
    "w": 6,
@@ -3655,7 +3668,7 @@
    "punten": "401 – 394"
   },
   {
-   "pos": 17,
+   "pos": 18,
    "speler": "Iris van Leijsen",
    "club": "PK Keukens Roosterse",
    "w": 6,
@@ -3664,7 +3677,7 @@
    "punten": "531 – 547"
   },
   {
-   "pos": 18,
+   "pos": 19,
    "speler": "Debora Jille",
    "club": "BC Duinwijck",
    "w": 5,
@@ -3673,7 +3686,7 @@
    "punten": "210 – 117"
   },
   {
-   "pos": 19,
+   "pos": 20,
    "speler": "Iben Bergstein",
    "club": "BC Drop Shot",
    "w": 5,
@@ -3682,7 +3695,16 @@
    "punten": "210 – 146"
   },
   {
-   "pos": 20,
+   "pos": 21,
+   "speler": "Joran Kweekel",
+   "club": "Dunlop DKC",
+   "w": 5,
+   "gp": 5,
+   "games": "10 – 1",
+   "punten": "233 – 173"
+  },
+  {
+   "pos": 22,
    "speler": "Noah Haase",
    "club": "FIT Almere",
    "w": 5,
@@ -3691,7 +3713,7 @@
    "punten": "238 – 162"
   },
   {
-   "pos": 21,
+   "pos": 23,
    "speler": "Robin Tabeling",
    "club": "2dA Smashing",
    "w": 5,
@@ -3700,16 +3722,7 @@
    "punten": "335 – 252"
   },
   {
-   "pos": 22,
-   "speler": "Mark Caljouw",
-   "club": "Dunlop DKC",
-   "w": 5,
-   "gp": 8,
-   "games": "10 – 6",
-   "punten": "239 – 263"
-  },
-  {
-   "pos": 23,
+   "pos": 24,
    "speler": "Timo Stoffelen",
    "club": "BC Duinwijck",
    "w": 5,
@@ -3718,7 +3731,7 @@
    "punten": "372 – 361"
   },
   {
-   "pos": 24,
+   "pos": 25,
    "speler": "Tammi van Wonterghem",
    "club": "BC Drop Shot",
    "w": 5,
@@ -3727,7 +3740,7 @@
    "punten": "443 – 478"
   },
   {
-   "pos": 25,
+   "pos": 26,
    "speler": "Lieke van Parys",
    "club": "Dunlop DKC",
    "w": 5,
@@ -3736,7 +3749,7 @@
    "punten": "535 – 540"
   },
   {
-   "pos": 26,
+   "pos": 27,
    "speler": "Gijs Duijs",
    "club": "Dunlop DKC",
    "w": 5,
@@ -3745,7 +3758,7 @@
    "punten": "463 – 479"
   },
   {
-   "pos": 27,
+   "pos": 28,
    "speler": "Veda Diemel",
    "club": "Velo Badminton",
    "w": 5,
@@ -3754,22 +3767,13 @@
    "punten": "502 – 531"
   },
   {
-   "pos": 28,
+   "pos": 29,
    "speler": "Adith Karthikeyan Priya",
    "club": "BC Duinwijck",
    "w": 4,
    "gp": 4,
    "games": "8 – 0",
    "punten": "168 – 101"
-  },
-  {
-   "pos": 29,
-   "speler": "Joran Kweekel",
-   "club": "Dunlop DKC",
-   "w": 4,
-   "gp": 4,
-   "games": "8 – 0",
-   "punten": "168 – 122"
   },
   {
    "pos": 30,
@@ -4443,24 +4447,24 @@
   "Chloë Mayer": 3978,
   "Ade Resky Dwicahyo": 5335,
   "Dennis Koppen": 4883,
-  "Dyon van Wijlick": 4886,
   "Alida Chen": 4878,
+  "Dyon van Wijlick": 4886,
   "Joep Strooper": 4885,
   "Jasper Koppen": 5336,
+  "Mark Caljouw": 5756,
   "Noah Jongen": 5344,
   "Iris van Leijsen": 5341,
   "Debora Jille": 3975,
   "Iben Bergstein": 5163,
+  "Joran Kweekel": 5757,
   "Noah Haase": 4884,
   "Robin Tabeling": 5202,
-  "Mark Caljouw": 5756,
   "Timo Stoffelen": 3970,
   "Tammi van Wonterghem": 5157,
   "Lieke van Parys": 5753,
   "Gijs Duijs": 5758,
   "Veda Diemel": 5075,
   "Adith Karthikeyan Priya": 3972,
-  "Joran Kweekel": 5757,
   "Aram Mahmoud": 3952,
   "Ruben Jille": 4748,
   "Amy Tan": 5073,
@@ -4731,14 +4735,6 @@
     },
     {
      "pos": 4,
-     "speler": "Dyon van Wijlick",
-     "e": "1 – 0",
-     "d": "3 – 2",
-     "m": "3 – 1",
-     "tot": "7/10"
-    },
-    {
-     "pos": 5,
      "speler": "Alida Chen",
      "e": "2 – 2",
      "d": "1 – 0",
@@ -4746,12 +4742,20 @@
      "tot": "7/10"
     },
     {
+     "pos": 5,
+     "speler": "Dyon van Wijlick",
+     "e": "1 – 0",
+     "d": "3 – 3",
+     "m": "3 – 1",
+     "tot": "7/11"
+    },
+    {
      "pos": 6,
      "speler": "Joep Strooper",
      "e": "–",
-     "d": "3 – 3",
+     "d": "3 – 4",
      "m": "4 – 2",
-     "tot": "7/12"
+     "tot": "7/13"
     },
     {
      "pos": 7,
@@ -4959,12 +4963,20 @@
      "pos": 3,
      "speler": "Mark Caljouw",
      "e": "3 – 1",
-     "d": "–",
+     "d": "1 – 0",
      "m": "2 – 2",
-     "tot": "5/8"
+     "tot": "6/9"
     },
     {
      "pos": 4,
+     "speler": "Joran Kweekel",
+     "e": "1 – 0",
+     "d": "3 – 0",
+     "m": "1 – 0",
+     "tot": "5/5"
+    },
+    {
+     "pos": 5,
      "speler": "Lieke van Parys",
      "e": "1 – 5",
      "d": "4 – 2",
@@ -4972,20 +4984,12 @@
      "tot": "5/12"
     },
     {
-     "pos": 5,
+     "pos": 6,
      "speler": "Gijs Duijs",
      "e": "–",
      "d": "2 – 4",
      "m": "3 – 3",
      "tot": "5/12"
-    },
-    {
-     "pos": 6,
-     "speler": "Joran Kweekel",
-     "e": "1 – 0",
-     "d": "2 – 0",
-     "m": "1 – 0",
-     "tot": "4/4"
     },
     {
      "pos": 7,
@@ -6013,25 +6017,25 @@
       },
       {
        "names": [
-        "Andy Buijk",
-        "Lars Kros"
+        "Mark Caljouw",
+        "Joran Kweekel"
        ],
-       "club": "BC Drop Shot",
-       "w": 0,
+       "club": "Dunlop DKC",
+       "w": 1,
        "p": 1,
-       "games": "0-2",
-       "punten": "30-42",
-       "saldo": -12,
+       "games": "2-1",
+       "punten": "65-51",
+       "saldo": 14,
        "res": [
         {
          "code": "MD",
          "tegen": [
-          "Noah Jongen",
-          "Ade Resky Dwicahyo"
+          "Dyon van Wijlick",
+          "Joep Strooper"
          ],
-         "tclub": "PK Keukens Roosterse",
-         "w": 0,
-         "score": "13-21 17-21"
+         "tclub": "FIT Almere",
+         "w": 1,
+         "score": "23-25 21-14 21-12"
         }
        ]
       }
@@ -10117,5 +10121,5 @@
  "check": {
   "afwijkingen": []
  },
- "updated": "07-11-2026 19:45"
+ "updated": "07-11-2026 19:50"
 }
