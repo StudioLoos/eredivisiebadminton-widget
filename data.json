@@ -108,7 +108,7 @@
    "home": "Velo Badminton",
    "away": "2dA Smashing",
    "hs": 3,
-   "as": 3,
+   "as": 4,
    "rows": [
     {
      "code": "MD",
@@ -189,7 +189,9 @@
      "away": [
       "Freek Golinski",
       "Inger Pothuizen"
-     ]
+     ],
+     "score": "21-15 14-21 17-21",
+     "winner": "away"
     },
     {
      "code": "GD2",
@@ -1042,7 +1044,7 @@
      "home": "Velo Badminton",
      "away": "2dA Smashing",
      "hs": 3,
-     "as": 3,
+     "as": 4,
      "rows": [
       {
        "code": "MD",
@@ -1123,7 +1125,9 @@
        "away": [
         "Freek Golinski",
         "Inger Pothuizen"
-       ]
+       ],
+       "score": "21-15 14-21 17-21",
+       "winner": "away"
       },
       {
        "code": "GD2",
@@ -3879,6 +3883,15 @@
   },
   {
    "pos": 32,
+   "speler": "Freek Golinski",
+   "club": "2dA Smashing",
+   "w": 4,
+   "gp": 6,
+   "games": "10 – 6",
+   "punten": "285 – 247"
+  },
+  {
+   "pos": 33,
    "speler": "Xenia Koelmel",
    "club": "PK Keukens Roosterse",
    "w": 4,
@@ -3887,7 +3900,16 @@
    "punten": "363 – 364"
   },
   {
-   "pos": 33,
+   "pos": 34,
+   "speler": "Inger Pothuizen",
+   "club": "2dA Smashing",
+   "w": 4,
+   "gp": 8,
+   "games": "10 – 11",
+   "punten": "388 – 386"
+  },
+  {
+   "pos": 35,
    "speler": "Marijn Put",
    "club": "2dA Smashing",
    "w": 4,
@@ -3896,7 +3918,7 @@
    "punten": "362 – 357"
   },
   {
-   "pos": 34,
+   "pos": 36,
    "speler": "Ruben Jille",
    "club": "Decorette Amersfoort",
    "w": 4,
@@ -3905,7 +3927,7 @@
    "punten": "399 – 407"
   },
   {
-   "pos": 35,
+   "pos": 37,
    "speler": "Lars Kros",
    "club": "BC Drop Shot",
    "w": 4,
@@ -3914,7 +3936,7 @@
    "punten": "497 – 543"
   },
   {
-   "pos": 36,
+   "pos": 38,
    "speler": "Hristomira Popovska",
    "club": "FIT Almere",
    "w": 3,
@@ -3923,16 +3945,7 @@
    "punten": "178 – 149"
   },
   {
-   "pos": 37,
-   "speler": "Freek Golinski",
-   "club": "2dA Smashing",
-   "w": 3,
-   "gp": 5,
-   "games": "8 – 5",
-   "punten": "228 – 195"
-  },
-  {
-   "pos": 38,
+   "pos": 39,
    "speler": "Clara Lassaux",
    "club": "BC Drop Shot",
    "w": 3,
@@ -3941,7 +3954,7 @@
    "punten": "221 – 190"
   },
   {
-   "pos": 39,
+   "pos": 40,
    "speler": "Flore Vandenhoucke",
    "club": "PK Keukens Roosterse",
    "w": 3,
@@ -3950,7 +3963,7 @@
    "punten": "270 – 280"
   },
   {
-   "pos": 40,
+   "pos": 41,
    "speler": "Ruben Wijnands",
    "club": "Decorette Amersfoort",
    "w": 3,
@@ -3959,22 +3972,13 @@
    "punten": "266 – 283"
   },
   {
-   "pos": 41,
+   "pos": 42,
    "speler": "Sterre Bang",
    "club": "2dA Smashing",
    "w": 3,
    "gp": 7,
    "games": "8 – 9",
    "punten": "292 – 261"
-  },
-  {
-   "pos": 42,
-   "speler": "Inger Pothuizen",
-   "club": "2dA Smashing",
-   "w": 3,
-   "gp": 7,
-   "games": "8 – 10",
-   "punten": "331 – 334"
   },
   {
    "pos": 43,
@@ -4113,15 +4117,6 @@
   },
   {
    "pos": 58,
-   "speler": "Rens Lagrouw",
-   "club": "Velo Badminton",
-   "w": 2,
-   "gp": 10,
-   "games": "5 – 17",
-   "punten": "339 – 444"
-  },
-  {
-   "pos": 59,
    "speler": "Kelly van Buiten",
    "club": "Decorette Amersfoort",
    "w": 2,
@@ -4130,13 +4125,22 @@
    "punten": "422 – 516"
   },
   {
+   "pos": 59,
+   "speler": "Rens Lagrouw",
+   "club": "Velo Badminton",
+   "w": 2,
+   "gp": 11,
+   "games": "6 – 19",
+   "punten": "391 – 501"
+  },
+  {
    "pos": 60,
    "speler": "Myke Halkema",
    "club": "Velo Badminton",
    "w": 2,
-   "gp": 13,
-   "games": "7 – 24",
-   "punten": "522 – 628"
+   "gp": 14,
+   "games": "8 – 26",
+   "punten": "574 – 685"
   },
   {
    "pos": 61,
@@ -4587,17 +4591,17 @@
   "Gijs Duijs": 5758,
   "Amy Tan": 5073,
   "Adith Karthikeyan Priya": 3972,
+  "Freek Golinski": 5201,
   "Xenia Koelmel": 5348,
+  "Inger Pothuizen": 5196,
   "Marijn Put": 5204,
   "Ruben Jille": 4748,
   "Lars Kros": 5151,
   "Hristomira Popovska": 4866,
-  "Freek Golinski": 5201,
   "Clara Lassaux": 5158,
   "Flore Vandenhoucke": 5340,
   "Ruben Wijnands": 4749,
   "Sterre Bang": 5197,
-  "Inger Pothuizen": 5196,
   "Nick Fransman": 5152,
   "Imke van der Aar": 5159,
   "Thomas Sibbald": 5759,
@@ -4613,8 +4617,8 @@
   "Esmeralda van Drunen": 4757,
   "Novi Wieland": 3976,
   "Luca Wiechmann": 5080,
-  "Rens Lagrouw": 5078,
   "Kelly van Buiten": 4751,
+  "Rens Lagrouw": 5078,
   "Myke Halkema": 5074,
   "Yuanyuan Jiang": 5084,
   "William Villeger": 5162,
@@ -5306,16 +5310,16 @@
      "speler": "Rens Lagrouw",
      "e": "–",
      "d": "1 – 6",
-     "m": "1 – 2",
-     "tot": "2/10"
+     "m": "1 – 3",
+     "tot": "2/11"
     },
     {
      "pos": 5,
      "speler": "Myke Halkema",
      "e": "–",
      "d": "1 – 6",
-     "m": "1 – 5",
-     "tot": "2/13"
+     "m": "1 – 6",
+     "tot": "2/14"
     },
     {
      "pos": 6,
@@ -5356,6 +5360,22 @@
     },
     {
      "pos": 2,
+     "speler": "Freek Golinski",
+     "e": "–",
+     "d": "3 – 0",
+     "m": "1 – 1",
+     "tot": "4/6"
+    },
+    {
+     "pos": 3,
+     "speler": "Inger Pothuizen",
+     "e": "1 – 0",
+     "d": "1 – 2",
+     "m": "2 – 2",
+     "tot": "4/8"
+    },
+    {
+     "pos": 4,
      "speler": "Marijn Put",
      "e": "2 – 3",
      "d": "1 – 1",
@@ -5363,27 +5383,11 @@
      "tot": "4/9"
     },
     {
-     "pos": 3,
-     "speler": "Freek Golinski",
-     "e": "–",
-     "d": "3 – 0",
-     "m": "0 – 1",
-     "tot": "3/5"
-    },
-    {
-     "pos": 4,
+     "pos": 5,
      "speler": "Sterre Bang",
      "e": "–",
      "d": "0 – 3",
      "m": "3 – 0",
-     "tot": "3/7"
-    },
-    {
-     "pos": 5,
-     "speler": "Inger Pothuizen",
-     "e": "1 – 0",
-     "d": "1 – 2",
-     "m": "1 – 2",
      "tot": "3/7"
     },
     {
@@ -10601,5 +10605,5 @@
  "check": {
   "afwijkingen": []
  },
- "updated": "07-11-2026 21:25"
+ "updated": "07-11-2026 21:45"
 }
