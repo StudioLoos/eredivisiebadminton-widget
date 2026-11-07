@@ -3028,7 +3028,88 @@
      "away": "2dA Smashing",
      "when": "za 7 nov · 19:00",
      "start": "2026-11-07T19:00:00",
-     "rows": []
+     "rows": [
+      {
+       "code": "MD",
+       "home": [
+        "Rens Lagrouw",
+        "Luca Wiechmann"
+       ],
+       "away": [
+        "Freek Golinski",
+        "Marijn Put"
+       ]
+      },
+      {
+       "code": "VD",
+       "home": [
+        "Myke Halkema",
+        "Veda Diemel"
+       ],
+       "away": [
+        "Lieke Maes",
+        "Inger Pothuizen"
+       ]
+      },
+      {
+       "code": "ME1",
+       "home": [
+        "Mees Janssen"
+       ],
+       "away": [
+        "Marijn Put"
+       ]
+      },
+      {
+       "code": "VE1",
+       "home": [
+        "Amy Tan"
+       ],
+       "away": [
+        "Maureen Zewald"
+       ]
+      },
+      {
+       "code": "ME2",
+       "home": [
+        "Luca Wiechmann"
+       ],
+       "away": [
+        "Casper Spaans"
+       ]
+      },
+      {
+       "code": "VE2",
+       "home": [
+        "Veda Diemel"
+       ],
+       "away": [
+        "Leonie Rovers"
+       ]
+      },
+      {
+       "code": "GD1",
+       "home": [
+        "Myke Halkema",
+        "Rens Lagrouw"
+       ],
+       "away": [
+        "Freek Golinski",
+        "Inger Pothuizen"
+       ]
+      },
+      {
+       "code": "GD2",
+       "home": [
+        "Amy Tan",
+        "Mees Janssen"
+       ],
+       "away": [
+        "Casper Spaans",
+        "Lieke Maes"
+       ]
+      }
+     ]
     }
    ]
   },
@@ -3459,7 +3540,88 @@
     "home": "Velo Badminton",
     "away": "2dA Smashing",
     "when": "za 7 nov · 19:00",
-    "rows": []
+    "rows": [
+     {
+      "code": "MD",
+      "home": [
+       "Rens Lagrouw",
+       "Luca Wiechmann"
+      ],
+      "away": [
+       "Freek Golinski",
+       "Marijn Put"
+      ]
+     },
+     {
+      "code": "VD",
+      "home": [
+       "Myke Halkema",
+       "Veda Diemel"
+      ],
+      "away": [
+       "Lieke Maes",
+       "Inger Pothuizen"
+      ]
+     },
+     {
+      "code": "ME1",
+      "home": [
+       "Mees Janssen"
+      ],
+      "away": [
+       "Marijn Put"
+      ]
+     },
+     {
+      "code": "VE1",
+      "home": [
+       "Amy Tan"
+      ],
+      "away": [
+       "Maureen Zewald"
+      ]
+     },
+     {
+      "code": "ME2",
+      "home": [
+       "Luca Wiechmann"
+      ],
+      "away": [
+       "Casper Spaans"
+      ]
+     },
+     {
+      "code": "VE2",
+      "home": [
+       "Veda Diemel"
+      ],
+      "away": [
+       "Leonie Rovers"
+      ]
+     },
+     {
+      "code": "GD1",
+      "home": [
+       "Myke Halkema",
+       "Rens Lagrouw"
+      ],
+      "away": [
+       "Freek Golinski",
+       "Inger Pothuizen"
+      ]
+     },
+     {
+      "code": "GD2",
+      "home": [
+       "Amy Tan",
+       "Mees Janssen"
+      ],
+      "away": [
+       "Casper Spaans",
+       "Lieke Maes"
+      ]
+     }
+    ]
    }
   ]
  },
@@ -9872,5 +10034,5 @@
  "check": {
   "afwijkingen": []
  },
- "updated": "07-11-2026 18:40"
+ "updated": "07-11-2026 18:45"
 }
