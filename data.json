@@ -5,7 +5,7 @@
   {
    "home": "Dunlop DKC",
    "away": "FIT Almere",
-   "hs": 5,
+   "hs": 6,
    "as": 1,
    "rows": [
     {
@@ -87,7 +87,9 @@
      "away": [
       "Kirsten de Wit",
       "Joep Strooper"
-     ]
+     ],
+     "score": "21-19 21-12",
+     "winner": "home"
     },
     {
      "code": "GD2",
@@ -204,7 +206,7 @@
    "home": "PK Keukens Roosterse",
    "away": "BC Drop Shot",
    "hs": 4,
-   "as": 1,
+   "as": 2,
    "rows": [
     {
      "code": "MD",
@@ -261,7 +263,9 @@
      ],
      "away": [
       "Lars Kros"
-     ]
+     ],
+     "score": "17-21 21-11 15-21",
+     "winner": "away"
     },
     {
      "code": "VE2",
@@ -729,7 +733,7 @@
     {
      "home": "Dunlop DKC",
      "away": "FIT Almere",
-     "hs": 5,
+     "hs": 6,
      "as": 1,
      "rows": [
       {
@@ -811,7 +815,9 @@
        "away": [
         "Kirsten de Wit",
         "Joep Strooper"
-       ]
+       ],
+       "score": "21-19 21-12",
+       "winner": "home"
       },
       {
        "code": "GD2",
@@ -830,7 +836,7 @@
      "home": "PK Keukens Roosterse",
      "away": "BC Drop Shot",
      "hs": 4,
-     "as": 1,
+     "as": 2,
      "rows": [
       {
        "code": "MD",
@@ -887,7 +893,9 @@
        ],
        "away": [
         "Lars Kros"
-       ]
+       ],
+       "score": "17-21 21-11 15-21",
+       "winner": "away"
       },
       {
        "code": "VE2",
@@ -4826,8 +4834,8 @@
      "speler": "Kirsten de Wit",
      "e": "–",
      "d": "5 – 1",
-     "m": "4 – 1",
-     "tot": "9/11"
+     "m": "4 – 2",
+     "tot": "9/12"
     },
     {
      "pos": 2,
@@ -4866,8 +4874,8 @@
      "speler": "Joep Strooper",
      "e": "–",
      "d": "3 – 4",
-     "m": "4 – 2",
-     "tot": "7/13"
+     "m": "4 – 3",
+     "tot": "7/14"
     },
     {
      "pos": 7,
@@ -4964,14 +4972,6 @@
     },
     {
      "pos": 8,
-     "speler": "Vihaan Shah",
-     "e": "2 – 1",
-     "d": "–",
-     "m": "–",
-     "tot": "2/3"
-    },
-    {
-     "pos": 9,
      "speler": "Marcello Kausemann",
      "e": "–",
      "d": "1 – 0",
@@ -4979,12 +4979,20 @@
      "tot": "2/3"
     },
     {
-     "pos": 10,
+     "pos": 9,
      "speler": "Thijs van den Berg",
      "e": "1 – 0",
      "d": "1 – 1",
      "m": "–",
      "tot": "2/3"
+    },
+    {
+     "pos": 10,
+     "speler": "Vihaan Shah",
+     "e": "2 – 2",
+     "d": "–",
+     "m": "–",
+     "tot": "2/4"
     },
     {
      "pos": 11,
@@ -5076,24 +5084,24 @@
      "speler": "Jaymie Laurens",
      "e": "–",
      "d": "5 – 2",
-     "m": "3 – 3",
-     "tot": "8/13"
+     "m": "4 – 3",
+     "tot": "9/14"
     },
     {
      "pos": 3,
+     "speler": "Mark Caljouw",
+     "e": "3 – 1",
+     "d": "1 – 0",
+     "m": "3 – 2",
+     "tot": "7/10"
+    },
+    {
+     "pos": 4,
      "speler": "Joran Kweekel",
      "e": "2 – 0",
      "d": "3 – 0",
      "m": "1 – 0",
      "tot": "6/6"
-    },
-    {
-     "pos": 4,
-     "speler": "Mark Caljouw",
-     "e": "3 – 1",
-     "d": "1 – 0",
-     "m": "2 – 2",
-     "tot": "6/9"
     },
     {
      "pos": 5,
@@ -5166,6 +5174,14 @@
     },
     {
      "pos": 3,
+     "speler": "Lars Kros",
+     "e": "4 – 3",
+     "d": "0 – 5",
+     "m": "–",
+     "tot": "4/12"
+    },
+    {
+     "pos": 4,
      "speler": "Clara Lassaux",
      "e": "3 – 0",
      "d": "0 – 2",
@@ -5173,7 +5189,7 @@
      "tot": "3/5"
     },
     {
-     "pos": 4,
+     "pos": 5,
      "speler": "Nick Fransman",
      "e": "2 – 4",
      "d": "1 – 0",
@@ -5181,7 +5197,7 @@
      "tot": "3/7"
     },
     {
-     "pos": 5,
+     "pos": 6,
      "speler": "Imke van der Aar",
      "e": "–",
      "d": "2 – 2",
@@ -5189,20 +5205,12 @@
      "tot": "3/8"
     },
     {
-     "pos": 6,
+     "pos": 7,
      "speler": "Brandon Bessem",
      "e": "–",
      "d": "1 – 4",
      "m": "2 – 3",
      "tot": "3/10"
-    },
-    {
-     "pos": 7,
-     "speler": "Lars Kros",
-     "e": "3 – 3",
-     "d": "0 – 5",
-     "m": "–",
-     "tot": "3/11"
     },
     {
      "pos": 8,
@@ -6480,25 +6488,25 @@
       },
       {
        "names": [
-        "Ruben Hoksbergen",
-        "Xandra Stelling"
+        "Mark Caljouw",
+        "Jaymie Laurens"
        ],
-       "club": "Decorette Amersfoort",
-       "w": 0,
+       "club": "Dunlop DKC",
+       "w": 1,
        "p": 1,
-       "games": "0-2",
-       "punten": "26-42",
-       "saldo": -16,
+       "games": "2-0",
+       "punten": "42-31",
+       "saldo": 11,
        "res": [
         {
-         "code": "GD2",
+         "code": "GD1",
          "tegen": [
-          "Ties van der Lecq",
-          "Debora Jille"
+          "Kirsten de Wit",
+          "Joep Strooper"
          ],
-         "tclub": "BC Duinwijck",
-         "w": 0,
-         "score": "10-21 16-21"
+         "tclub": "FIT Almere",
+         "w": 1,
+         "score": "21-19 21-12"
         }
        ]
       }
@@ -10587,7 +10595,14 @@
   ]
  },
  "check": {
-  "afwijkingen": []
+  "afwijkingen": [
+   "Kirsten de Wit",
+   "Jaymie Laurens",
+   "Joep Strooper",
+   "Mark Caljouw",
+   "Lars Kros",
+   "Vihaan Shah"
+  ]
  },
- "updated": "07-11-2026 21:15"
+ "updated": "07-11-2026 21:20"
 }
