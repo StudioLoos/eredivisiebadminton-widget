@@ -107,110 +107,6 @@
    ]
   },
   {
-   "home": "PK Keukens Roosterse",
-   "away": "BC Drop Shot",
-   "hs": 5,
-   "as": 3,
-   "rows": [
-    {
-     "code": "MD",
-     "home": [
-      "Noah Jongen",
-      "Ade Resky Dwicahyo"
-     ],
-     "away": [
-      "Andy Buijk",
-      "Lars Kros"
-     ],
-     "score": "21-13 21-17",
-     "winner": "home"
-    },
-    {
-     "code": "VD",
-     "home": [
-      "Iris van Leijsen",
-      "Xenia Koelmel"
-     ],
-     "away": [
-      "Tammi van Wonterghem",
-      "Iben Bergstein"
-     ],
-     "score": "15-21 17-21",
-     "winner": "away"
-    },
-    {
-     "code": "ME1",
-     "home": [
-      "Ade Resky Dwicahyo"
-     ],
-     "away": [
-      "Nick Fransman"
-     ],
-     "score": "21-13 21-15",
-     "winner": "home"
-    },
-    {
-     "code": "VE1",
-     "home": [
-      "Xenia Koelmel"
-     ],
-     "away": [
-      "Tammi van Wonterghem"
-     ],
-     "score": "21-18 21-18",
-     "winner": "home"
-    },
-    {
-     "code": "ME2",
-     "home": [
-      "Vihaan Shah"
-     ],
-     "away": [
-      "Lars Kros"
-     ],
-     "score": "17-21 21-11 15-21",
-     "winner": "away"
-    },
-    {
-     "code": "VE2",
-     "home": [
-      "Daphne van den Berg"
-     ],
-     "away": [
-      "Chloe Tsai"
-     ],
-     "score": "18-21 21-13 21-8",
-     "winner": "home"
-    },
-    {
-     "code": "GD1",
-     "home": [
-      "Iris van Leijsen",
-      "Noah Jongen"
-     ],
-     "away": [
-      "Iben Bergstein",
-      "Andy Buijk"
-     ],
-     "score": "15-21 22-20 22-24",
-     "winner": "away"
-    },
-    {
-     "code": "GD2",
-     "home": [
-      "Nikki Pobezin",
-      "Rik Hermans"
-     ],
-     "away": [
-      "Chloe Tsai",
-      "Brandon Bessem"
-     ],
-     "score": "21-9 21-16",
-     "winner": "home"
-    }
-   ]
-  },
-  {
    "home": "BC Duinwijck",
    "away": "Decorette Amersfoort",
    "hs": 8,
@@ -310,6 +206,110 @@
       "Xandra Stelling"
      ],
      "score": "21-10 21-16",
+     "winner": "home"
+    }
+   ]
+  },
+  {
+   "home": "PK Keukens Roosterse",
+   "away": "BC Drop Shot",
+   "hs": 5,
+   "as": 3,
+   "rows": [
+    {
+     "code": "MD",
+     "home": [
+      "Noah Jongen",
+      "Ade Resky Dwicahyo"
+     ],
+     "away": [
+      "Andy Buijk",
+      "Lars Kros"
+     ],
+     "score": "21-13 21-17",
+     "winner": "home"
+    },
+    {
+     "code": "VD",
+     "home": [
+      "Iris van Leijsen",
+      "Xenia Koelmel"
+     ],
+     "away": [
+      "Tammi van Wonterghem",
+      "Iben Bergstein"
+     ],
+     "score": "15-21 17-21",
+     "winner": "away"
+    },
+    {
+     "code": "ME1",
+     "home": [
+      "Ade Resky Dwicahyo"
+     ],
+     "away": [
+      "Nick Fransman"
+     ],
+     "score": "21-13 21-15",
+     "winner": "home"
+    },
+    {
+     "code": "VE1",
+     "home": [
+      "Xenia Koelmel"
+     ],
+     "away": [
+      "Tammi van Wonterghem"
+     ],
+     "score": "21-18 21-18",
+     "winner": "home"
+    },
+    {
+     "code": "ME2",
+     "home": [
+      "Vihaan Shah"
+     ],
+     "away": [
+      "Lars Kros"
+     ],
+     "score": "17-21 21-11 15-21",
+     "winner": "away"
+    },
+    {
+     "code": "VE2",
+     "home": [
+      "Daphne van den Berg"
+     ],
+     "away": [
+      "Chloe Tsai"
+     ],
+     "score": "18-21 21-13 21-8",
+     "winner": "home"
+    },
+    {
+     "code": "GD1",
+     "home": [
+      "Iris van Leijsen",
+      "Noah Jongen"
+     ],
+     "away": [
+      "Iben Bergstein",
+      "Andy Buijk"
+     ],
+     "score": "15-21 22-20 22-24",
+     "winner": "away"
+    },
+    {
+     "code": "GD2",
+     "home": [
+      "Nikki Pobezin",
+      "Rik Hermans"
+     ],
+     "away": [
+      "Chloe Tsai",
+      "Brandon Bessem"
+     ],
+     "score": "21-9 21-16",
      "winner": "home"
     }
    ]
@@ -3848,9 +3848,9 @@
    "speler": "Robin Tabeling",
    "club": "2dA Smashing",
    "w": 5,
-   "gp": 7,
-   "games": "12 – 6",
-   "punten": "335 – 252"
+   "gp": 6,
+   "games": "10 – 5",
+   "punten": "298 – 217"
   },
   {
    "pos": 27,
@@ -3902,9 +3902,9 @@
    "speler": "Freek Golinski",
    "club": "2dA Smashing",
    "w": 4,
-   "gp": 6,
-   "games": "10 – 6",
-   "punten": "285 – 247"
+   "gp": 5,
+   "games": "8 – 5",
+   "punten": "248 – 212"
   },
   {
    "pos": 33,
@@ -3917,6 +3917,15 @@
   },
   {
    "pos": 34,
+   "speler": "Ruben Jille",
+   "club": "Decorette Amersfoort",
+   "w": 4,
+   "gp": 8,
+   "games": "10 – 9",
+   "punten": "364 – 370"
+  },
+  {
+   "pos": 35,
    "speler": "Inger Pothuizen",
    "club": "2dA Smashing",
    "w": 4,
@@ -3925,22 +3934,13 @@
    "punten": "388 – 386"
   },
   {
-   "pos": 35,
+   "pos": 36,
    "speler": "Marijn Put",
    "club": "2dA Smashing",
    "w": 4,
    "gp": 9,
    "games": "10 – 10",
    "punten": "362 – 357"
-  },
-  {
-   "pos": 36,
-   "speler": "Ruben Jille",
-   "club": "Decorette Amersfoort",
-   "w": 4,
-   "gp": 9,
-   "games": "11 – 11",
-   "punten": "399 – 407"
   },
   {
    "pos": 37,
@@ -3980,30 +3980,30 @@
   },
   {
    "pos": 41,
+   "speler": "Ruben Wijnands",
+   "club": "Decorette Amersfoort",
+   "w": 3,
+   "gp": 6,
+   "games": "7 – 6",
+   "punten": "231 – 246"
+  },
+  {
+   "pos": 42,
+   "speler": "Sterre Bang",
+   "club": "2dA Smashing",
+   "w": 3,
+   "gp": 6,
+   "games": "7 – 7",
+   "punten": "254 – 225"
+  },
+  {
+   "pos": 43,
    "speler": "Flore Vandenhoucke",
    "club": "PK Keukens Roosterse",
    "w": 3,
    "gp": 6,
    "games": "7 – 8",
    "punten": "270 – 280"
-  },
-  {
-   "pos": 42,
-   "speler": "Ruben Wijnands",
-   "club": "Decorette Amersfoort",
-   "w": 3,
-   "gp": 7,
-   "games": "8 – 8",
-   "punten": "266 – 283"
-  },
-  {
-   "pos": 43,
-   "speler": "Sterre Bang",
-   "club": "2dA Smashing",
-   "w": 3,
-   "gp": 7,
-   "games": "8 – 9",
-   "punten": "292 – 261"
   },
   {
    "pos": 44,
@@ -4115,6 +4115,15 @@
   },
   {
    "pos": 56,
+   "speler": "Lieke Maes",
+   "club": "2dA Smashing",
+   "w": 2,
+   "gp": 4,
+   "games": "4 – 6",
+   "punten": "153 – 183"
+  },
+  {
+   "pos": 57,
    "speler": "Novi Wieland",
    "club": "BC Duinwijck",
    "w": 2,
@@ -4123,7 +4132,7 @@
    "punten": "208 – 212"
   },
   {
-   "pos": 57,
+   "pos": 58,
    "speler": "Luca Wiechmann",
    "club": "Velo Badminton",
    "w": 2,
@@ -4132,22 +4141,13 @@
    "punten": "162 – 197"
   },
   {
-   "pos": 58,
-   "speler": "Lieke Maes",
-   "club": "2dA Smashing",
-   "w": 2,
-   "gp": 5,
-   "games": "5 – 8",
-   "punten": "191 – 219"
-  },
-  {
    "pos": 59,
    "speler": "Kelly van Buiten",
    "club": "Decorette Amersfoort",
    "w": 2,
-   "gp": 11,
-   "games": "8 – 18",
-   "punten": "422 – 516"
+   "gp": 10,
+   "games": "6 – 17",
+   "punten": "386 – 478"
   },
   {
    "pos": 60,
@@ -4214,21 +4214,21 @@
   },
   {
    "pos": 67,
+   "speler": "Renske Kwakkenbos",
+   "club": "Decorette Amersfoort",
+   "w": 1,
+   "gp": 3,
+   "games": "3 – 4",
+   "punten": "129 – 133"
+  },
+  {
+   "pos": 68,
    "speler": "Alexander Roovers",
    "club": "PK Keukens Roosterse",
    "w": 1,
    "gp": 3,
    "games": "2 – 5",
    "punten": "111 – 132"
-  },
-  {
-   "pos": 68,
-   "speler": "Renske Kwakkenbos",
-   "club": "Decorette Amersfoort",
-   "w": 1,
-   "gp": 4,
-   "games": "5 – 5",
-   "punten": "165 – 171"
   },
   {
    "pos": 69,
@@ -4609,16 +4609,16 @@
   "Adith Karthikeyan Priya": 3972,
   "Freek Golinski": 5201,
   "Xenia Koelmel": 5348,
+  "Ruben Jille": 4748,
   "Inger Pothuizen": 5196,
   "Marijn Put": 5204,
-  "Ruben Jille": 4748,
   "Lars Kros": 5151,
   "Hristomira Popovska": 4866,
   "Clara Lassaux": 5158,
   "Andy Buijk": 5154,
-  "Flore Vandenhoucke": 5340,
   "Ruben Wijnands": 4749,
   "Sterre Bang": 5197,
+  "Flore Vandenhoucke": 5340,
   "Nick Fransman": 5152,
   "Imke van der Aar": 5159,
   "Thomas Sibbald": 5759,
@@ -4631,9 +4631,9 @@
   "Wessel van der Aar": 5153,
   "Stefanie Nijsse": 5354,
   "Esmeralda van Drunen": 4757,
+  "Lieke Maes": 5198,
   "Novi Wieland": 3976,
   "Luca Wiechmann": 5080,
-  "Lieke Maes": 5198,
   "Kelly van Buiten": 4751,
   "Rens Lagrouw": 5078,
   "Myke Halkema": 5074,
@@ -4642,8 +4642,8 @@
   "Nikki Pobezin": 5353,
   "Rik Hermans": 5342,
   "Daphne van den Berg": 5352,
-  "Alexander Roovers": 5360,
   "Renske Kwakkenbos": 4777,
+  "Alexander Roovers": 5360,
   "Jonah Quintens": 5203,
   "Casper Spaans": 5205,
   "Berend van Brenk": 4750,
@@ -10619,7 +10619,16 @@
   ]
  },
  "check": {
-  "afwijkingen": []
+  "afwijkingen": [
+   "Robin Tabeling",
+   "Freek Golinski",
+   "Ruben Jille",
+   "Ruben Wijnands",
+   "Sterre Bang",
+   "Lieke Maes",
+   "Kelly van Buiten",
+   "Renske Kwakkenbos"
+  ]
  },
- "updated": "07-11-2026 22:15"
+ "updated": "09-11-2026 14:54"
 }
