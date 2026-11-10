@@ -242,6 +242,8 @@ body.app header img{height:40px}
 body.app header h1{font-size:22px}
 body.app header .s{font-size:12px}
 .appbtn{border:0;background:rgba(255,255,255,.2);color:#fff;width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;flex:none}
+.appbtn.spin svg{animation:edbspin .8s linear infinite}@keyframes edbspin{to{transform:rotate(360deg)}}
+.edbtoast{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom));transform:translateX(-50%);background:rgba(20,20,20,.88);color:#fff;font:600 14px/1.3 inherit;padding:9px 16px;border-radius:20px;z-index:9999;pointer-events:none;opacity:0;transition:opacity .25s}.edbtoast.on{opacity:1}
 .appbtn svg{width:24px;height:24px}
 .appbtn.on{background:#fff;color:#E95822}
 body.app .tabs{position:fixed;left:0;right:0;bottom:0;z-index:40;margin:0;display:grid!important;grid-template-columns:repeat(7,1fr);gap:0;background:#fff;padding:6px 4px calc(env(safe-area-inset-bottom) + 6px);box-shadow:0 -6px 24px rgba(120,30,0,.18)}
@@ -285,6 +287,8 @@ window.OS_APP_ID='f401828b-e3c3-47cc-94ea-a37dfeab96e2';
   const bx=document.createElement('div');bx.style.cssText='display:flex;gap:8px;flex:none;margin-left:auto';
   if(typeof TOTO_URL!=='undefined'&&TOTO_URL){const tb=document.createElement('button');tb.className='appbtn';tb.setAttribute('aria-label','Toto');
    tb.innerHTML=svg('<path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0V4zM7 6H4v2a3 3 0 0 0 3 3M17 6h3v2a3 3 0 0 1-3 3"/>');tb.onclick=()=>{window.showPanel&&showPanel('toto');window.scrollTo({top:0,behavior:'smooth'});};bx.appendChild(tb);}
+  const rf=document.createElement('button');rf.className='appbtn';rf.id='edbrf';rf.setAttribute('aria-label','Verversen');
+  rf.innerHTML=svg('<path d="M21 12a9 9 0 1 1-2.6-6.4M21 4v5h-5"/>');rf.onclick=()=>window.edbRefresh&&edbRefresh(true);bx.appendChild(rf);
   bx.appendChild(bell);h.appendChild(bx);
   const sh=document.createElement('div');sh.className='sheet';sh.hidden=true;document.body.appendChild(sh);
   const standalone=matchMedia('(display-mode: standalone)').matches||navigator.standalone;
@@ -5678,7 +5682,25 @@ function initSearch(){
 }
 function sendH(){try{parent.postMessage({edbHeight:document.getElementById('edb').offsetHeight+4},'*')}catch(e){}}
 window.addEventListener('resize',sendH);
-fetch('data.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(render).catch(()=>render(INLINE));
+// Data laden en verversen: bij openen, bij terugkeren naar de app, elke minuut zolang de app open staat, en via de verversknop
+let EDB_BUSY=false, EDB_LAST=0;
+function edbToast(t){let el=document.getElementById('edbtoast');if(!el){el=document.createElement('div');el.id='edbtoast';el.className='edbtoast';document.body.appendChild(el);}
+ el.textContent=t;el.classList.add('on');clearTimeout(el._t);el._t=setTimeout(()=>el.classList.remove('on'),1800);}
+function edbRefresh(manual){
+ if(EDB_BUSY) return; EDB_BUSY=true; EDB_LAST=Date.now();
+ const rf=document.getElementById('edbrf'); if(rf) rf.classList.add('spin');
+ return fetch('data.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject())
+  .then(D=>{const nieuw=!DATA||D.updated!==DATA.updated;
+   if(nieuw){const y=window.scrollY; render(D); window.scrollTo(0,y); if(DATA&&manual!==undefined) edbToast('Bijgewerkt · '+D.updated.split(' ').pop());}
+   else if(manual===true) edbToast('Alles is al up-to-date');})
+  .catch(()=>{if(!DATA) render(INLINE); else if(manual===true) edbToast('Geen verbinding, probeer het zo opnieuw');})
+  .finally(()=>{EDB_BUSY=false; if(rf) setTimeout(()=>rf.classList.remove('spin'),300);});
+}
+edbRefresh();
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&Date.now()-EDB_LAST>15000) edbRefresh(false);});
+window.addEventListener('pageshow',e=>{if(e.persisted) edbRefresh(false);});
+window.addEventListener('focus',()=>{if(Date.now()-EDB_LAST>15000) edbRefresh(false);});
+setInterval(()=>{if(document.visibilityState==='visible') edbRefresh(false);},60000);
 </script>
 </body>
 </html>
