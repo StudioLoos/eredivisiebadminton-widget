@@ -103,7 +103,7 @@
   {
    "home": "2dA Smashing",
    "away": "PK Keukens Roosterse",
-   "hs": 3,
+   "hs": 4,
    "as": 1,
    "rows": [
     {
@@ -161,7 +161,9 @@
      ],
      "away": [
       "Thijs van den Berg"
-     ]
+     ],
+     "score": "21-11 21-17",
+     "winner": "home"
     },
     {
      "code": "VE2",
@@ -765,7 +767,7 @@
     {
      "home": "2dA Smashing",
      "away": "PK Keukens Roosterse",
-     "hs": 3,
+     "hs": 4,
      "as": 1,
      "rows": [
       {
@@ -823,7 +825,9 @@
        ],
        "away": [
         "Thijs van den Berg"
-       ]
+       ],
+       "score": "21-11 21-17",
+       "winner": "home"
       },
       {
        "code": "VE2",
@@ -4329,15 +4333,6 @@
   },
   {
    "pos": 54,
-   "speler": "Thijs van den Berg",
-   "club": "PK Keukens Roosterse",
-   "w": 2,
-   "gp": 4,
-   "games": "4 – 5",
-   "punten": "156 – 175"
-  },
-  {
-   "pos": 55,
    "speler": "Esmeralda van Drunen",
    "club": "Decorette Amersfoort",
    "w": 2,
@@ -4346,7 +4341,7 @@
    "punten": "179 – 191"
   },
   {
-   "pos": 56,
+   "pos": 55,
    "speler": "Novi Wieland",
    "club": "BC Duinwijck",
    "w": 2,
@@ -4355,13 +4350,22 @@
    "punten": "208 – 212"
   },
   {
-   "pos": 57,
+   "pos": 56,
    "speler": "Vihaan Shah",
    "club": "PK Keukens Roosterse",
    "w": 2,
    "gp": 5,
    "games": "6 – 7",
    "punten": "242 – 229"
+  },
+  {
+   "pos": 57,
+   "speler": "Jonah Quintens",
+   "club": "2dA Smashing",
+   "w": 2,
+   "gp": 5,
+   "games": "5 – 6",
+   "punten": "190 – 204"
   },
   {
    "pos": 58,
@@ -4374,6 +4378,15 @@
   },
   {
    "pos": 59,
+   "speler": "Thijs van den Berg",
+   "club": "PK Keukens Roosterse",
+   "w": 2,
+   "gp": 5,
+   "games": "4 – 7",
+   "punten": "184 – 217"
+  },
+  {
+   "pos": 60,
    "speler": "Lieke Maes",
    "club": "2dA Smashing",
    "w": 2,
@@ -4382,7 +4395,7 @@
    "punten": "202 – 241"
   },
   {
-   "pos": 60,
+   "pos": 61,
    "speler": "Rens Lagrouw",
    "club": "Velo Badminton",
    "w": 2,
@@ -4391,7 +4404,7 @@
    "punten": "414 – 543"
   },
   {
-   "pos": 61,
+   "pos": 62,
    "speler": "Myke Halkema",
    "club": "Velo Badminton",
    "w": 2,
@@ -4400,7 +4413,7 @@
    "punten": "611 – 727"
   },
   {
-   "pos": 62,
+   "pos": 63,
    "speler": "Yuanyuan Jiang",
    "club": "BC Drop Shot",
    "w": 1,
@@ -4409,7 +4422,7 @@
    "punten": "42 – 35"
   },
   {
-   "pos": 63,
+   "pos": 64,
    "speler": "William Villeger",
    "club": "BC Drop Shot",
    "w": 1,
@@ -4418,7 +4431,7 @@
    "punten": "104 – 85"
   },
   {
-   "pos": 64,
+   "pos": 65,
    "speler": "Nikki Pobezin",
    "club": "PK Keukens Roosterse",
    "w": 1,
@@ -4427,7 +4440,7 @@
    "punten": "78 – 67"
   },
   {
-   "pos": 65,
+   "pos": 66,
    "speler": "Rik Hermans",
    "club": "PK Keukens Roosterse",
    "w": 1,
@@ -4436,7 +4449,7 @@
    "punten": "67 – 67"
   },
   {
-   "pos": 66,
+   "pos": 67,
    "speler": "Daphne van den Berg",
    "club": "PK Keukens Roosterse",
    "w": 1,
@@ -4445,7 +4458,7 @@
    "punten": "86 – 84"
   },
   {
-   "pos": 67,
+   "pos": 68,
    "speler": "Imka Putrama Arlin",
    "club": "Decorette Amersfoort",
    "w": 1,
@@ -4454,7 +4467,7 @@
    "punten": "136 – 156"
   },
   {
-   "pos": 68,
+   "pos": 69,
    "speler": "Renske Kwakkenbos",
    "club": "Decorette Amersfoort",
    "w": 1,
@@ -4463,7 +4476,7 @@
    "punten": "129 – 133"
   },
   {
-   "pos": 69,
+   "pos": 70,
    "speler": "Alexander Roovers",
    "club": "PK Keukens Roosterse",
    "w": 1,
@@ -4472,22 +4485,13 @@
    "punten": "111 – 132"
   },
   {
-   "pos": 70,
+   "pos": 71,
    "speler": "Shreya Hochscheid",
    "club": "Decorette Amersfoort",
    "w": 1,
    "gp": 4,
    "games": "3 – 6",
    "punten": "165 – 188"
-  },
-  {
-   "pos": 71,
-   "speler": "Jonah Quintens",
-   "club": "2dA Smashing",
-   "w": 1,
-   "gp": 4,
-   "games": "3 – 6",
-   "punten": "148 – 176"
   },
   {
    "pos": 72,
@@ -4879,11 +4883,12 @@
   "Marcello Kausemann": 5337,
   "Mette Kool": 3965,
   "Stefanie Nijsse": 5354,
-  "Thijs van den Berg": 5343,
   "Esmeralda van Drunen": 4757,
   "Novi Wieland": 3976,
   "Vihaan Shah": 5345,
+  "Jonah Quintens": 5203,
   "Luca Wiechmann": 5080,
+  "Thijs van den Berg": 5343,
   "Lieke Maes": 5198,
   "Rens Lagrouw": 5078,
   "Myke Halkema": 5074,
@@ -4896,7 +4901,6 @@
   "Renske Kwakkenbos": 4777,
   "Alexander Roovers": 5360,
   "Shreya Hochscheid": 4759,
-  "Jonah Quintens": 5203,
   "Casper Spaans": 5205,
   "Berend van Brenk": 4750,
   "Mandy Duijndam": 5156,
@@ -5264,17 +5268,17 @@
     },
     {
      "pos": 10,
-     "speler": "Thijs van den Berg",
-     "e": "1 – 0",
-     "d": "1 – 2",
-     "m": "–",
-     "tot": "2/4"
-    },
-    {
-     "pos": 11,
      "speler": "Vihaan Shah",
      "e": "2 – 3",
      "d": "–",
+     "m": "–",
+     "tot": "2/5"
+    },
+    {
+     "pos": 11,
+     "speler": "Thijs van den Berg",
+     "e": "1 – 1",
+     "d": "1 – 2",
      "m": "–",
      "tot": "2/5"
     },
@@ -5599,19 +5603,19 @@
     },
     {
      "pos": 6,
+     "speler": "Jonah Quintens",
+     "e": "2 – 2",
+     "d": "–",
+     "m": "0 – 1",
+     "tot": "2/5"
+    },
+    {
+     "pos": 7,
      "speler": "Lieke Maes",
      "e": "–",
      "d": "1 – 2",
      "m": "1 – 1",
      "tot": "2/6"
-    },
-    {
-     "pos": 7,
-     "speler": "Jonah Quintens",
-     "e": "1 – 2",
-     "d": "–",
-     "m": "0 – 1",
-     "tot": "1/4"
     },
     {
      "pos": 8,
@@ -6403,6 +6407,28 @@
      "top": [
       {
        "names": [
+        "Jonah Quintens"
+       ],
+       "club": "2dA Smashing",
+       "w": 1,
+       "p": 1,
+       "games": "2-0",
+       "punten": "42-28",
+       "saldo": 14,
+       "res": [
+        {
+         "code": "ME2",
+         "tegen": [
+          "Thijs van den Berg"
+         ],
+         "tclub": "PK Keukens Roosterse",
+         "w": 1,
+         "score": "21-11 21-17"
+        }
+       ]
+      },
+      {
+       "names": [
         "Mark Caljouw"
        ],
        "club": "Dunlop DKC",
@@ -6442,28 +6468,6 @@
          "tclub": "PK Keukens Roosterse",
          "w": 1,
          "score": "21-19 21-15"
-        }
-       ]
-      },
-      {
-       "names": [
-        "Imka Putrama Arlin"
-       ],
-       "club": "Decorette Amersfoort",
-       "w": 1,
-       "p": 1,
-       "games": "2-0",
-       "punten": "42-37",
-       "saldo": 5,
-       "res": [
-        {
-         "code": "ME1",
-         "tegen": [
-          "Angus Meldrum"
-         ],
-         "tclub": "Velo Badminton",
-         "w": 1,
-         "score": "21-18 21-19"
         }
        ]
       }
@@ -11318,5 +11322,5 @@
    "Renske Kwakkenbos"
   ]
  },
- "updated": "14-11-2026 20:45"
+ "updated": "14-11-2026 20:50"
 }
