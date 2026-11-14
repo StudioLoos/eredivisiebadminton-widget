@@ -73,7 +73,7 @@
 "start": "2026-11-14T18:30:00",
 "home": "BC Drop Shot",
 "away": "Dunlop DKC",
-"lineup": false,
+"lineup": true,
 "done_at": null
 },
 {
