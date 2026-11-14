@@ -105,7 +105,7 @@
   {
    "home": "2dA Smashing",
    "away": "PK Keukens Roosterse",
-   "hs": 4,
+   "hs": 5,
    "as": 1,
    "rows": [
     {
@@ -185,7 +185,9 @@
      "away": [
       "Noah Jongen",
       "Stefanie Nijsse"
-     ]
+     ],
+     "score": "21-13 21-16",
+     "winner": "home"
     },
     {
      "code": "GD2",
@@ -775,7 +777,7 @@
     {
      "home": "2dA Smashing",
      "away": "PK Keukens Roosterse",
-     "hs": 4,
+     "hs": 5,
      "as": 1,
      "rows": [
       {
@@ -855,7 +857,9 @@
        "away": [
         "Noah Jongen",
         "Stefanie Nijsse"
-       ]
+       ],
+       "score": "21-13 21-16",
+       "winner": "home"
       },
       {
        "code": "GD2",
@@ -3985,6 +3989,15 @@
   },
   {
    "pos": 14,
+   "speler": "Robin Tabeling",
+   "club": "2dA Smashing",
+   "w": 7,
+   "gp": 8,
+   "games": "14 – 5",
+   "punten": "382 – 270"
+  },
+  {
+   "pos": 15,
    "speler": "Dennis Koppen",
    "club": "FIT Almere",
    "w": 7,
@@ -3993,7 +4006,7 @@
    "punten": "383 – 317"
   },
   {
-   "pos": 15,
+   "pos": 16,
    "speler": "Joep Strooper",
    "club": "FIT Almere",
    "w": 7,
@@ -4002,7 +4015,7 @@
    "punten": "642 – 628"
   },
   {
-   "pos": 16,
+   "pos": 17,
    "speler": "Iris van Leijsen",
    "club": "PK Keukens Roosterse",
    "w": 7,
@@ -4011,7 +4024,7 @@
    "punten": "648 – 661"
   },
   {
-   "pos": 17,
+   "pos": 18,
    "speler": "Debora Jille",
    "club": "BC Duinwijck",
    "w": 6,
@@ -4020,7 +4033,7 @@
    "punten": "252 – 143"
   },
   {
-   "pos": 18,
+   "pos": 19,
    "speler": "Joran Kweekel",
    "club": "Dunlop DKC",
    "w": 6,
@@ -4029,7 +4042,7 @@
    "punten": "275 – 198"
   },
   {
-   "pos": 19,
+   "pos": 20,
    "speler": "Iben Bergstein",
    "club": "BC Drop Shot",
    "w": 6,
@@ -4038,22 +4051,13 @@
    "punten": "275 – 205"
   },
   {
-   "pos": 20,
+   "pos": 21,
    "speler": "Jasper Koppen",
    "club": "PK Keukens Roosterse",
    "w": 6,
    "gp": 7,
    "games": "13 – 4",
    "punten": "338 – 276"
-  },
-  {
-   "pos": 21,
-   "speler": "Robin Tabeling",
-   "club": "2dA Smashing",
-   "w": 6,
-   "gp": 7,
-   "games": "12 – 5",
-   "punten": "340 – 241"
   },
   {
    "pos": 22,
@@ -4066,21 +4070,21 @@
   },
   {
    "pos": 23,
-   "speler": "Noah Jongen",
-   "club": "PK Keukens Roosterse",
-   "w": 6,
-   "gp": 12,
-   "games": "13 – 14",
-   "punten": "484 – 501"
-  },
-  {
-   "pos": 24,
    "speler": "Tammi van Wonterghem",
    "club": "BC Drop Shot",
    "w": 6,
    "gp": 13,
    "games": "15 – 15",
    "punten": "539 – 566"
+  },
+  {
+   "pos": 24,
+   "speler": "Noah Jongen",
+   "club": "PK Keukens Roosterse",
+   "w": 6,
+   "gp": 13,
+   "games": "13 – 16",
+   "punten": "513 – 543"
   },
   {
    "pos": 25,
@@ -4219,6 +4223,15 @@
   },
   {
    "pos": 40,
+   "speler": "Sterre Bang",
+   "club": "2dA Smashing",
+   "w": 4,
+   "gp": 8,
+   "games": "10 – 9",
+   "punten": "345 – 312"
+  },
+  {
+   "pos": 41,
    "speler": "Flore Vandenhoucke",
    "club": "PK Keukens Roosterse",
    "w": 4,
@@ -4227,7 +4240,7 @@
    "punten": "380 – 390"
   },
   {
-   "pos": 41,
+   "pos": 42,
    "speler": "Imke van der Aar",
    "club": "BC Drop Shot",
    "w": 4,
@@ -4236,7 +4249,7 @@
    "punten": "333 – 348"
   },
   {
-   "pos": 42,
+   "pos": 43,
    "speler": "Lars Kros",
    "club": "BC Drop Shot",
    "w": 4,
@@ -4245,7 +4258,7 @@
    "punten": "525 – 585"
   },
   {
-   "pos": 43,
+   "pos": 44,
    "speler": "Hristomira Popovska",
    "club": "FIT Almere",
    "w": 3,
@@ -4254,7 +4267,7 @@
    "punten": "178 – 149"
   },
   {
-   "pos": 44,
+   "pos": 45,
    "speler": "Wessel van der Aar",
    "club": "BC Drop Shot",
    "w": 3,
@@ -4263,22 +4276,13 @@
    "punten": "188 – 181"
   },
   {
-   "pos": 45,
+   "pos": 46,
    "speler": "Esmeralda van Drunen",
    "club": "Decorette Amersfoort",
    "w": 3,
    "gp": 5,
    "games": "6 – 6",
    "punten": "221 – 227"
-  },
-  {
-   "pos": 46,
-   "speler": "Sterre Bang",
-   "club": "2dA Smashing",
-   "w": 3,
-   "gp": 7,
-   "games": "8 – 9",
-   "punten": "303 – 283"
   },
   {
    "pos": 47,
@@ -4345,15 +4349,6 @@
   },
   {
    "pos": 54,
-   "speler": "Stefanie Nijsse",
-   "club": "PK Keukens Roosterse",
-   "w": 2,
-   "gp": 4,
-   "games": "4 – 5",
-   "punten": "166 – 170"
-  },
-  {
-   "pos": 55,
    "speler": "Novi Wieland",
    "club": "BC Duinwijck",
    "w": 2,
@@ -4362,7 +4357,7 @@
    "punten": "208 – 212"
   },
   {
-   "pos": 56,
+   "pos": 55,
    "speler": "Vihaan Shah",
    "club": "PK Keukens Roosterse",
    "w": 2,
@@ -4371,7 +4366,7 @@
    "punten": "242 – 229"
   },
   {
-   "pos": 57,
+   "pos": 56,
    "speler": "Jonah Quintens",
    "club": "2dA Smashing",
    "w": 2,
@@ -4380,13 +4375,22 @@
    "punten": "190 – 204"
   },
   {
-   "pos": 58,
+   "pos": 57,
    "speler": "Luca Wiechmann",
    "club": "Velo Badminton",
    "w": 2,
    "gp": 5,
    "games": "4 – 6",
    "punten": "162 – 197"
+  },
+  {
+   "pos": 58,
+   "speler": "Stefanie Nijsse",
+   "club": "PK Keukens Roosterse",
+   "w": 2,
+   "gp": 5,
+   "games": "4 – 7",
+   "punten": "195 – 212"
   },
   {
    "pos": 59,
@@ -4864,6 +4868,7 @@
   "Mark Caljouw": 5756,
   "Dyon van Wijlick": 4886,
   "Diede Odijk": 4879,
+  "Robin Tabeling": 5202,
   "Dennis Koppen": 4883,
   "Joep Strooper": 4885,
   "Iris van Leijsen": 5341,
@@ -4871,10 +4876,9 @@
   "Joran Kweekel": 5757,
   "Iben Bergstein": 5163,
   "Jasper Koppen": 5336,
-  "Robin Tabeling": 5202,
   "Timo Stoffelen": 3970,
-  "Noah Jongen": 5344,
   "Tammi van Wonterghem": 5157,
+  "Noah Jongen": 5344,
   "Amy Tan": 5073,
   "Veda Diemel": 5075,
   "Noah Haase": 4884,
@@ -4890,13 +4894,13 @@
   "Andy Buijk": 5154,
   "Ruben Wijnands": 4749,
   "Xenia Koelmel": 5348,
+  "Sterre Bang": 5197,
   "Flore Vandenhoucke": 5340,
   "Imke van der Aar": 5159,
   "Lars Kros": 5151,
   "Hristomira Popovska": 4866,
   "Wessel van der Aar": 5153,
   "Esmeralda van Drunen": 4757,
-  "Sterre Bang": 5197,
   "Nick Fransman": 5152,
   "Brandon Bessem": 5155,
   "Kelly van Buiten": 4751,
@@ -4904,11 +4908,11 @@
   "Florentine Schoffski": 5339,
   "Marcello Kausemann": 5337,
   "Mette Kool": 3965,
-  "Stefanie Nijsse": 5354,
   "Novi Wieland": 3976,
   "Vihaan Shah": 5345,
   "Jonah Quintens": 5203,
   "Luca Wiechmann": 5080,
+  "Stefanie Nijsse": 5354,
   "Thijs van den Berg": 5343,
   "Lieke Maes": 5198,
   "Rens Lagrouw": 5078,
@@ -5245,8 +5249,8 @@
      "speler": "Noah Jongen",
      "e": "–",
      "d": "4 – 3",
-     "m": "2 – 3",
-     "tot": "6/12"
+     "m": "2 – 4",
+     "tot": "6/13"
     },
     {
      "pos": 5,
@@ -5282,18 +5286,18 @@
     },
     {
      "pos": 9,
-     "speler": "Stefanie Nijsse",
-     "e": "0 – 1",
-     "d": "–",
-     "m": "2 – 1",
-     "tot": "2/4"
-    },
-    {
-     "pos": 10,
      "speler": "Vihaan Shah",
      "e": "2 – 3",
      "d": "–",
      "m": "–",
+     "tot": "2/5"
+    },
+    {
+     "pos": 10,
+     "speler": "Stefanie Nijsse",
+     "e": "0 – 1",
+     "d": "–",
+     "m": "2 – 2",
      "tot": "2/5"
     },
     {
@@ -5588,8 +5592,8 @@
      "speler": "Robin Tabeling",
      "e": "–",
      "d": "3 – 1",
-     "m": "3 – 0",
-     "tot": "6/8"
+     "m": "4 – 0",
+     "tot": "7/9"
     },
     {
      "pos": 2,
@@ -5620,8 +5624,8 @@
      "speler": "Sterre Bang",
      "e": "–",
      "d": "0 – 4",
-     "m": "3 – 0",
-     "tot": "3/8"
+     "m": "4 – 0",
+     "tot": "4/9"
     },
     {
      "pos": 6,
@@ -6362,6 +6366,39 @@
    "speler": [
     {
      "names": [
+      "Robin Tabeling"
+     ],
+     "club": "2dA Smashing",
+     "w": 2,
+     "p": 2,
+     "games": "4-0",
+     "punten": "84-53",
+     "saldo": 31,
+     "res": [
+      {
+       "code": "MD",
+       "tegen": [
+        "Noah Jongen",
+        "Thijs van den Berg"
+       ],
+       "tclub": "PK Keukens Roosterse",
+       "w": 1,
+       "score": "21-14 21-10"
+      },
+      {
+       "code": "GD1",
+       "tegen": [
+        "Noah Jongen",
+        "Stefanie Nijsse"
+       ],
+       "tclub": "PK Keukens Roosterse",
+       "w": 1,
+       "score": "21-13 21-16"
+      }
+     ]
+    },
+    {
+     "names": [
       "Ruben Jille"
      ],
      "club": "Decorette Amersfoort",
@@ -6403,29 +6440,6 @@
        "tclub": "Velo Badminton",
        "w": 1,
        "score": "21-12 21-11"
-      }
-     ]
-    },
-    {
-     "names": [
-      "Freek Golinski"
-     ],
-     "club": "2dA Smashing",
-     "w": 1,
-     "p": 1,
-     "games": "2-0",
-     "punten": "42-24",
-     "saldo": 18,
-     "res": [
-      {
-       "code": "MD",
-       "tegen": [
-        "Noah Jongen",
-        "Thijs van den Berg"
-       ],
-       "tclub": "PK Keukens Roosterse",
-       "w": 1,
-       "score": "21-14 21-10"
       }
      ]
     }
@@ -6734,7 +6748,56 @@
     {
      "code": "GD",
      "label": "Gemengd dubbel",
-     "top": []
+     "top": [
+      {
+       "names": [
+        "Robin Tabeling",
+        "Sterre Bang"
+       ],
+       "club": "2dA Smashing",
+       "w": 1,
+       "p": 1,
+       "games": "2-0",
+       "punten": "42-29",
+       "saldo": 13,
+       "res": [
+        {
+         "code": "GD1",
+         "tegen": [
+          "Noah Jongen",
+          "Stefanie Nijsse"
+         ],
+         "tclub": "PK Keukens Roosterse",
+         "w": 1,
+         "score": "21-13 21-16"
+        }
+       ]
+      },
+      {
+       "names": [
+        "Noah Jongen",
+        "Stefanie Nijsse"
+       ],
+       "club": "PK Keukens Roosterse",
+       "w": 0,
+       "p": 1,
+       "games": "0-2",
+       "punten": "29-42",
+       "saldo": -13,
+       "res": [
+        {
+         "code": "GD1",
+         "tegen": [
+          "Robin Tabeling",
+          "Sterre Bang"
+         ],
+         "tclub": "2dA Smashing",
+         "w": 0,
+         "score": "13-21 16-21"
+        }
+       ]
+      }
+     ]
     }
    ]
   },
@@ -11374,5 +11437,5 @@
    "Renske Kwakkenbos"
   ]
  },
- "updated": "14-11-2026 21:05"
+ "updated": "14-11-2026 21:20"
 }
