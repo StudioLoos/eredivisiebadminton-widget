@@ -187,7 +187,7 @@
   {
    "home": "Decorette Amersfoort",
    "away": "Velo Badminton",
-   "hs": 1,
+   "hs": 2,
    "as": 0,
    "rows": [
     {
@@ -212,7 +212,9 @@
      "away": [
       "Myke Halkema",
       "Veda Diemel"
-     ]
+     ],
+     "score": "21-19 21-18",
+     "winner": "home"
     },
     {
      "code": "ME1",
@@ -831,7 +833,7 @@
     {
      "home": "Decorette Amersfoort",
      "away": "Velo Badminton",
-     "hs": 1,
+     "hs": 2,
      "as": 0,
      "rows": [
       {
@@ -856,7 +858,9 @@
        "away": [
         "Myke Halkema",
         "Veda Diemel"
-       ]
+       ],
+       "score": "21-19 21-18",
+       "winner": "home"
       },
       {
        "code": "ME1",
@@ -5600,9 +5604,9 @@
      "pos": 1,
      "speler": "Veda Diemel",
      "e": "5 – 2",
-     "d": "1 – 6",
+     "d": "1 – 7",
      "m": "–",
-     "tot": "6/14"
+     "tot": "6/15"
     },
     {
      "pos": 2,
@@ -5632,9 +5636,9 @@
      "pos": 5,
      "speler": "Myke Halkema",
      "e": "–",
-     "d": "1 – 6",
+     "d": "1 – 7",
      "m": "1 – 6",
-     "tot": "2/14"
+     "tot": "2/15"
     },
     {
      "pos": 6,
@@ -5691,19 +5695,19 @@
     },
     {
      "pos": 3,
+     "speler": "Kelly van Buiten",
+     "e": "–",
+     "d": "2 – 4",
+     "m": "1 – 4",
+     "tot": "3/12"
+    },
+    {
+     "pos": 4,
      "speler": "Esmeralda van Drunen",
      "e": "2 – 2",
      "d": "–",
      "m": "–",
      "tot": "2/4"
-    },
-    {
-     "pos": 4,
-     "speler": "Kelly van Buiten",
-     "e": "–",
-     "d": "1 – 4",
-     "m": "1 – 4",
-     "tot": "2/11"
     },
     {
      "pos": 5,
@@ -5715,6 +5719,14 @@
     },
     {
      "pos": 6,
+     "speler": "Shreya Hochscheid",
+     "e": "–",
+     "d": "1 – 2",
+     "m": "0 – 1",
+     "tot": "1/4"
+    },
+    {
+     "pos": 7,
      "speler": "Berend van Brenk",
      "e": "1 – 4",
      "d": "0 – 1",
@@ -5722,7 +5734,7 @@
      "tot": "1/6"
     },
     {
-     "pos": 7,
+     "pos": 8,
      "speler": "Imka Putrama Arlin",
      "e": "0 – 1",
      "d": "0 – 1",
@@ -5730,7 +5742,7 @@
      "tot": "0/2"
     },
     {
-     "pos": 8,
+     "pos": 9,
      "speler": "Ruben Hoksbergen",
      "e": "–",
      "d": "0 – 1",
@@ -5738,7 +5750,7 @@
      "tot": "0/2"
     },
     {
-     "pos": 9,
+     "pos": 10,
      "speler": "Lennart Bijkerk",
      "e": "0 – 1",
      "d": "–",
@@ -5746,20 +5758,12 @@
      "tot": "0/2"
     },
     {
-     "pos": 10,
+     "pos": 11,
      "speler": "Xandra Stelling",
      "e": "0 – 1",
      "d": "–",
      "m": "0 – 1",
      "tot": "0/2"
-    },
-    {
-     "pos": 11,
-     "speler": "Shreya Hochscheid",
-     "e": "–",
-     "d": "0 – 2",
-     "m": "0 – 1",
-     "tot": "0/3"
     },
     {
      "pos": 12,
@@ -6435,6 +6439,30 @@
      "code": "DD",
      "label": "Damesdubbel",
      "top": [
+      {
+       "names": [
+        "Kelly van Buiten",
+        "Shreya Hochscheid"
+       ],
+       "club": "Decorette Amersfoort",
+       "w": 1,
+       "p": 1,
+       "games": "2-0",
+       "punten": "42-37",
+       "saldo": 5,
+       "res": [
+        {
+         "code": "VD",
+         "tegen": [
+          "Myke Halkema",
+          "Veda Diemel"
+         ],
+         "tclub": "Velo Badminton",
+         "w": 1,
+         "score": "21-19 21-18"
+        }
+       ]
+      },
       {
        "names": [
         "Imke van der Aar",
@@ -11075,14 +11103,17 @@
  "check": {
   "afwijkingen": [
    "Robin Tabeling",
+   "Veda Diemel",
    "Freek Golinski",
    "Ruben Jille",
    "Ruben Wijnands",
    "Sterre Bang",
    "Lieke Maes",
    "Kelly van Buiten",
-   "Renske Kwakkenbos"
+   "Myke Halkema",
+   "Renske Kwakkenbos",
+   "Shreya Hochscheid"
   ]
  },
- "updated": "14-11-2026 19:35"
+ "updated": "14-11-2026 19:40"
 }
