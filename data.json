@@ -188,43 +188,83 @@
    "rows": [
     {
      "code": "MD",
-     "home": [],
-     "away": []
+     "home": [
+      "Ruben Jille",
+      "Ruben Wijnands"
+     ],
+     "away": [
+      "Rens Lagrouw",
+      "Senna van den Beukel"
+     ]
     },
     {
      "code": "VD",
-     "home": [],
-     "away": []
+     "home": [
+      "Kelly van Buiten",
+      "Shreya Hochscheid"
+     ],
+     "away": [
+      "Myke Halkema",
+      "Veda Diemel"
+     ]
     },
     {
      "code": "ME1",
-     "home": [],
-     "away": []
+     "home": [
+      "Imka Putrama Arlin"
+     ],
+     "away": [
+      "Angus Meldrum"
+     ]
     },
     {
      "code": "VE1",
-     "home": [],
-     "away": []
+     "home": [
+      "Anouk van Wijk"
+     ],
+     "away": [
+      "Amy Tan"
+     ]
     },
     {
      "code": "ME2",
-     "home": [],
-     "away": []
+     "home": [
+      "Dion Hoegen"
+     ],
+     "away": [
+      "Dennis Eversdijk"
+     ]
     },
     {
      "code": "VE2",
-     "home": [],
-     "away": []
+     "home": [
+      "Esmeralda van Drunen"
+     ],
+     "away": [
+      "Veda Diemel"
+     ]
     },
     {
      "code": "GD1",
-     "home": [],
-     "away": []
+     "home": [
+      "Ruben Jille",
+      "Kelly van Buiten"
+     ],
+     "away": [
+      "Angus Meldrum",
+      "Myke Halkema"
+     ]
     },
     {
      "code": "GD2",
-     "home": [],
-     "away": []
+     "home": [
+      "Imka Putrama Arlin",
+      "Shreya Hochscheid"
+     ],
+     "away": [
+      "Rens Lagrouw",
+      "Amy Tan"
+     ]
     }
    ]
   },
@@ -786,43 +826,83 @@
      "rows": [
       {
        "code": "MD",
-       "home": [],
-       "away": []
+       "home": [
+        "Ruben Jille",
+        "Ruben Wijnands"
+       ],
+       "away": [
+        "Rens Lagrouw",
+        "Senna van den Beukel"
+       ]
       },
       {
        "code": "VD",
-       "home": [],
-       "away": []
+       "home": [
+        "Kelly van Buiten",
+        "Shreya Hochscheid"
+       ],
+       "away": [
+        "Myke Halkema",
+        "Veda Diemel"
+       ]
       },
       {
        "code": "ME1",
-       "home": [],
-       "away": []
+       "home": [
+        "Imka Putrama Arlin"
+       ],
+       "away": [
+        "Angus Meldrum"
+       ]
       },
       {
        "code": "VE1",
-       "home": [],
-       "away": []
+       "home": [
+        "Anouk van Wijk"
+       ],
+       "away": [
+        "Amy Tan"
+       ]
       },
       {
        "code": "ME2",
-       "home": [],
-       "away": []
+       "home": [
+        "Dion Hoegen"
+       ],
+       "away": [
+        "Dennis Eversdijk"
+       ]
       },
       {
        "code": "VE2",
-       "home": [],
-       "away": []
+       "home": [
+        "Esmeralda van Drunen"
+       ],
+       "away": [
+        "Veda Diemel"
+       ]
       },
       {
        "code": "GD1",
-       "home": [],
-       "away": []
+       "home": [
+        "Ruben Jille",
+        "Kelly van Buiten"
+       ],
+       "away": [
+        "Angus Meldrum",
+        "Myke Halkema"
+       ]
       },
       {
        "code": "GD2",
-       "home": [],
-       "away": []
+       "home": [
+        "Imka Putrama Arlin",
+        "Shreya Hochscheid"
+       ],
+       "away": [
+        "Rens Lagrouw",
+        "Amy Tan"
+       ]
       }
      ]
     },
@@ -10886,5 +10966,5 @@
    "Renske Kwakkenbos"
   ]
  },
- "updated": "14-11-2026 19:05"
+ "updated": "14-11-2026 19:15"
 }
