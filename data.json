@@ -5,7 +5,7 @@
   {
    "home": "BC Drop Shot",
    "away": "Dunlop DKC",
-   "hs": 1,
+   "hs": 2,
    "as": 0,
    "rows": [
     {
@@ -30,7 +30,9 @@
      "away": [
       "Jaymie Laurens",
       "Flora Wang"
-     ]
+     ],
+     "score": "18-21 21-13 21-12",
+     "winner": "home"
     },
     {
      "code": "ME1",
@@ -643,7 +645,7 @@
     {
      "home": "BC Drop Shot",
      "away": "Dunlop DKC",
-     "hs": 1,
+     "hs": 2,
      "as": 0,
      "rows": [
       {
@@ -668,7 +670,9 @@
        "away": [
         "Jaymie Laurens",
         "Flora Wang"
-       ]
+       ],
+       "score": "18-21 21-13 21-12",
+       "winner": "home"
       },
       {
        "code": "ME1",
@@ -5283,17 +5287,17 @@
      "pos": 1,
      "speler": "Flora Wang",
      "e": "7 – 0",
-     "d": "1 – 0",
+     "d": "1 – 1",
      "m": "3 – 3",
-     "tot": "11/14"
+     "tot": "11/15"
     },
     {
      "pos": 2,
      "speler": "Jaymie Laurens",
      "e": "–",
-     "d": "5 – 2",
+     "d": "5 – 3",
      "m": "4 – 3",
-     "tot": "9/14"
+     "tot": "9/15"
     },
     {
      "pos": 3,
@@ -5376,9 +5380,9 @@
      "pos": 2,
      "speler": "Tammi van Wonterghem",
      "e": "3 – 2",
-     "d": "1 – 3",
+     "d": "2 – 3",
      "m": "1 – 2",
-     "tot": "5/12"
+     "tot": "6/13"
     },
     {
      "pos": 3,
@@ -5390,6 +5394,14 @@
     },
     {
      "pos": 4,
+     "speler": "Imke van der Aar",
+     "e": "–",
+     "d": "3 – 2",
+     "m": "1 – 3",
+     "tot": "4/9"
+    },
+    {
+     "pos": 5,
      "speler": "Lars Kros",
      "e": "4 – 3",
      "d": "0 – 5",
@@ -5397,7 +5409,7 @@
      "tot": "4/12"
     },
     {
-     "pos": 5,
+     "pos": 6,
      "speler": "Wessel van der Aar",
      "e": "–",
      "d": "1 – 0",
@@ -5405,7 +5417,7 @@
      "tot": "3/5"
     },
     {
-     "pos": 6,
+     "pos": 7,
      "speler": "Clara Lassaux",
      "e": "3 – 0",
      "d": "0 – 2",
@@ -5413,20 +5425,12 @@
      "tot": "3/5"
     },
     {
-     "pos": 7,
+     "pos": 8,
      "speler": "Nick Fransman",
      "e": "2 – 4",
      "d": "1 – 0",
      "m": "–",
      "tot": "3/7"
-    },
-    {
-     "pos": 8,
-     "speler": "Imke van der Aar",
-     "e": "–",
-     "d": "2 – 2",
-     "m": "1 – 3",
-     "tot": "3/8"
     },
     {
      "pos": 9,
@@ -6290,24 +6294,24 @@
     },
     {
      "names": [
-      "Jop de Keijzer"
+      "Imke van der Aar"
      ],
-     "club": "Dunlop DKC",
-     "w": 0,
+     "club": "BC Drop Shot",
+     "w": 1,
      "p": 1,
-     "games": "0-2",
-     "punten": "24-42",
-     "saldo": -18,
+     "games": "2-1",
+     "punten": "60-46",
+     "saldo": 14,
      "res": [
       {
-       "code": "MD",
+       "code": "VD",
        "tegen": [
-        "Andy Buijk",
-        "Wessel van der Aar"
+        "Jaymie Laurens",
+        "Flora Wang"
        ],
-       "tclub": "BC Drop Shot",
-       "w": 0,
-       "score": "13-21 11-21"
+       "tclub": "Dunlop DKC",
+       "w": 1,
+       "score": "18-21 21-13 21-12"
       }
      ]
     }
@@ -6380,7 +6384,56 @@
     {
      "code": "DD",
      "label": "Damesdubbel",
-     "top": []
+     "top": [
+      {
+       "names": [
+        "Imke van der Aar",
+        "Tammi van Wonterghem"
+       ],
+       "club": "BC Drop Shot",
+       "w": 1,
+       "p": 1,
+       "games": "2-1",
+       "punten": "60-46",
+       "saldo": 14,
+       "res": [
+        {
+         "code": "VD",
+         "tegen": [
+          "Jaymie Laurens",
+          "Flora Wang"
+         ],
+         "tclub": "Dunlop DKC",
+         "w": 1,
+         "score": "18-21 21-13 21-12"
+        }
+       ]
+      },
+      {
+       "names": [
+        "Jaymie Laurens",
+        "Flora Wang"
+       ],
+       "club": "Dunlop DKC",
+       "w": 0,
+       "p": 1,
+       "games": "1-2",
+       "punten": "46-60",
+       "saldo": -14,
+       "res": [
+        {
+         "code": "VD",
+         "tegen": [
+          "Imke van der Aar",
+          "Tammi van Wonterghem"
+         ],
+         "tclub": "BC Drop Shot",
+         "w": 0,
+         "score": "21-18 13-21 12-21"
+        }
+       ]
+      }
+     ]
     },
     {
      "code": "GD",
@@ -10956,15 +11009,19 @@
  },
  "check": {
   "afwijkingen": [
+   "Flora Wang",
+   "Jaymie Laurens",
    "Robin Tabeling",
+   "Tammi van Wonterghem",
    "Freek Golinski",
    "Ruben Jille",
    "Ruben Wijnands",
    "Sterre Bang",
+   "Imke van der Aar",
    "Lieke Maes",
    "Kelly van Buiten",
    "Renske Kwakkenbos"
   ]
  },
- "updated": "14-11-2026 19:15"
+ "updated": "14-11-2026 19:25"
 }
