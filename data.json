@@ -100,7 +100,7 @@
    "home": "2dA Smashing",
    "away": "PK Keukens Roosterse",
    "hs": 1,
-   "as": 0,
+   "as": 1,
    "rows": [
     {
      "code": "MD",
@@ -124,7 +124,9 @@
      "away": [
       "Iris van Leijsen",
       "Flore Vandenhoucke"
-     ]
+     ],
+     "score": "14-21 21-16 14-21",
+     "winner": "away"
     },
     {
      "code": "ME1",
@@ -748,7 +750,7 @@
      "home": "2dA Smashing",
      "away": "PK Keukens Roosterse",
      "hs": 1,
-     "as": 0,
+     "as": 1,
      "rows": [
       {
        "code": "MD",
@@ -772,7 +774,9 @@
        "away": [
         "Iris van Leijsen",
         "Flore Vandenhoucke"
-       ]
+       ],
+       "score": "14-21 21-16 14-21",
+       "winner": "away"
       },
       {
        "code": "ME1",
@@ -5162,6 +5166,14 @@
     },
     {
      "pos": 2,
+     "speler": "Iris van Leijsen",
+     "e": "–",
+     "d": "3 – 5",
+     "m": "4 – 3",
+     "tot": "7/15"
+    },
+    {
+     "pos": 3,
      "speler": "Jasper Koppen",
      "e": "2 – 1",
      "d": "–",
@@ -5169,7 +5181,7 @@
      "tot": "6/7"
     },
     {
-     "pos": 3,
+     "pos": 4,
      "speler": "Noah Jongen",
      "e": "–",
      "d": "4 – 3",
@@ -5177,28 +5189,20 @@
      "tot": "6/12"
     },
     {
-     "pos": 4,
-     "speler": "Iris van Leijsen",
-     "e": "–",
-     "d": "2 – 5",
-     "m": "4 – 3",
-     "tot": "6/14"
+     "pos": 5,
+     "speler": "Flore Vandenhoucke",
+     "e": "1 – 1",
+     "d": "2 – 2",
+     "m": "1 – 0",
+     "tot": "4/7"
     },
     {
-     "pos": 5,
+     "pos": 6,
      "speler": "Xenia Koelmel",
      "e": "3 – 2",
      "d": "1 – 2",
      "m": "–",
      "tot": "4/8"
-    },
-    {
-     "pos": 6,
-     "speler": "Flore Vandenhoucke",
-     "e": "1 – 1",
-     "d": "1 – 2",
-     "m": "1 – 0",
-     "tot": "3/6"
     },
     {
      "pos": 7,
@@ -5547,17 +5551,17 @@
      "pos": 5,
      "speler": "Sterre Bang",
      "e": "–",
-     "d": "0 – 3",
+     "d": "0 – 4",
      "m": "3 – 0",
-     "tot": "3/7"
+     "tot": "3/8"
     },
     {
      "pos": 6,
      "speler": "Lieke Maes",
      "e": "–",
-     "d": "1 – 1",
+     "d": "1 – 2",
      "m": "1 – 1",
-     "tot": "2/5"
+     "tot": "2/6"
     },
     {
      "pos": 7,
@@ -6538,25 +6542,25 @@
       },
       {
        "names": [
-        "Jaymie Laurens",
-        "Flora Wang"
+        "Iris van Leijsen",
+        "Flore Vandenhoucke"
        ],
-       "club": "Dunlop DKC",
-       "w": 0,
+       "club": "PK Keukens Roosterse",
+       "w": 1,
        "p": 1,
-       "games": "1-2",
-       "punten": "46-60",
-       "saldo": -14,
+       "games": "2-1",
+       "punten": "58-49",
+       "saldo": 9,
        "res": [
         {
          "code": "VD",
          "tegen": [
-          "Imke van der Aar",
-          "Tammi van Wonterghem"
+          "Lieke Maes",
+          "Sterre Bang"
          ],
-         "tclub": "BC Drop Shot",
-         "w": 0,
-         "score": "21-18 13-21 12-21"
+         "tclub": "2dA Smashing",
+         "w": 1,
+         "score": "21-14 16-21 21-14"
         }
        ]
       }
@@ -11151,15 +11155,15 @@
  },
  "check": {
   "afwijkingen": [
-   "Iris van Leijsen",
    "Robin Tabeling",
    "Freek Golinski",
    "Ruben Jille",
    "Ruben Wijnands",
-   "Flore Vandenhoucke",
+   "Sterre Bang",
    "Kelly van Buiten",
+   "Lieke Maes",
    "Renske Kwakkenbos"
   ]
  },
- "updated": "14-11-2026 19:45"
+ "updated": "14-11-2026 19:50"
 }
