@@ -109,7 +109,7 @@
   {
    "home": "2dA Smashing",
    "away": "PK Keukens Roosterse",
-   "hs": 5,
+   "hs": 6,
    "as": 1,
    "rows": [
     {
@@ -178,7 +178,9 @@
      ],
      "away": [
       "Iris van Leijsen"
-     ]
+     ],
+     "score": "21-13 16-21 25-23",
+     "winner": "home"
     },
     {
      "code": "GD1",
@@ -787,7 +789,7 @@
     {
      "home": "2dA Smashing",
      "away": "PK Keukens Roosterse",
-     "hs": 5,
+     "hs": 6,
      "as": 1,
      "rows": [
       {
@@ -856,7 +858,9 @@
        ],
        "away": [
         "Iris van Leijsen"
-       ]
+       ],
+       "score": "21-13 16-21 25-23",
+       "winner": "home"
       },
       {
        "code": "GD1",
@@ -5243,10 +5247,10 @@
     {
      "pos": 2,
      "speler": "Iris van Leijsen",
-     "e": "–",
+     "e": "0 – 1",
      "d": "3 – 5",
      "m": "4 – 3",
-     "tot": "7/15"
+     "tot": "7/16"
     },
     {
      "pos": 3,
@@ -5657,19 +5661,19 @@
     },
     {
      "pos": 8,
+     "speler": "Leonie Rovers",
+     "e": "2 – 4",
+     "d": "0 – 1",
+     "m": "0 – 1",
+     "tot": "2/8"
+    },
+    {
+     "pos": 9,
      "speler": "Casper Spaans",
      "e": "0 – 2",
      "d": "0 – 1",
      "m": "1 – 1",
      "tot": "1/5"
-    },
-    {
-     "pos": 9,
-     "speler": "Leonie Rovers",
-     "e": "1 – 4",
-     "d": "0 – 1",
-     "m": "0 – 1",
-     "tot": "1/7"
     },
     {
      "pos": 10,
@@ -11484,14 +11488,16 @@
  "check": {
   "afwijkingen": [
    "Robin Tabeling",
+   "Iris van Leijsen",
    "Ruben Jille",
    "Freek Golinski",
    "Ruben Wijnands",
    "Sterre Bang",
    "Kelly van Buiten",
    "Lieke Maes",
-   "Renske Kwakkenbos"
+   "Renske Kwakkenbos",
+   "Leonie Rovers"
   ]
  },
- "updated": "14-11-2026 21:30"
+ "updated": "14-11-2026 21:40"
 }
