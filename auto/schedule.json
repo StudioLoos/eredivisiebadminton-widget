@@ -7,11 +7,11 @@
 "done_at": "2026-10-17T20:07:58"
 },
 {
-"start": "2026-10-17T19:00:00",
-"home": "BC Duinwijck",
-"away": "BC Drop Shot",
+"start": "2026-10-31T19:00:00",
+"home": "Velo Badminton",
+"away": "Dunlop DKC",
 "lineup": true,
-"done_at": "2026-10-17T19:36:40"
+"done_at": "2026-10-31T22:08:02"
 },
 {
 "start": "2026-10-31T19:00:00",
@@ -35,11 +35,11 @@
 "done_at": "2026-10-31T22:08:02"
 },
 {
-"start": "2026-10-31T19:00:00",
+"start": "2026-11-07T19:00:00",
 "home": "Velo Badminton",
-"away": "Dunlop DKC",
+"away": "2dA Smashing",
 "lineup": true,
-"done_at": "2026-10-31T22:08:02"
+"done_at": "2026-11-07T21:15:31"
 },
 {
 "start": "2026-11-07T19:00:00",
@@ -63,18 +63,11 @@
 "done_at": "2026-11-07T21:00:47"
 },
 {
-"start": "2026-11-07T19:00:00",
-"home": "Velo Badminton",
-"away": "2dA Smashing",
-"lineup": true,
-"done_at": "2026-11-07T21:15:31"
-},
-{
 "start": "2026-11-14T18:30:00",
 "home": "BC Drop Shot",
 "away": "Dunlop DKC",
 "lineup": true,
-"done_at": null
+"done_at": "2026-11-14T20:30:45"
 },
 {
 "start": "2026-11-14T19:00:00",
@@ -106,13 +99,6 @@
 },
 {
 "start": "2026-11-28T19:00:00",
-"home": "Dunlop DKC",
-"away": "2dA Smashing",
-"lineup": false,
-"done_at": null
-},
-{
-"start": "2026-11-28T19:00:00",
 "home": "BC Duinwijck",
 "away": "Velo Badminton",
 "lineup": false,
@@ -122,6 +108,13 @@
 "start": "2026-11-28T19:00:00",
 "home": "PK Keukens Roosterse",
 "away": "Decorette Amersfoort",
+"lineup": false,
+"done_at": null
+},
+{
+"start": "2026-11-28T19:00:00",
+"home": "Dunlop DKC",
+"away": "2dA Smashing",
 "lineup": false,
 "done_at": null
 },
@@ -136,6 +129,13 @@
 "start": "2026-12-12T19:00:00",
 "home": "Decorette Amersfoort",
 "away": "Dunlop DKC",
+"lineup": false,
+"done_at": null
+},
+{
+"start": "2026-12-12T19:00:00",
+"home": "Velo Badminton",
+"away": "BC Drop Shot",
 "lineup": false,
 "done_at": null
 }
