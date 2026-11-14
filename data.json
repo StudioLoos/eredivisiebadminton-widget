@@ -109,7 +109,7 @@
   {
    "home": "2dA Smashing",
    "away": "PK Keukens Roosterse",
-   "hs": 6,
+   "hs": 7,
    "as": 1,
    "rows": [
     {
@@ -204,7 +204,9 @@
      "away": [
       "Rik Hermans",
       "Lien Lammertyn"
-     ]
+     ],
+     "score": "21-17 21-15",
+     "winner": "home"
     }
    ]
   },
@@ -791,7 +793,7 @@
     {
      "home": "2dA Smashing",
      "away": "PK Keukens Roosterse",
-     "hs": 6,
+     "hs": 7,
      "as": 1,
      "rows": [
       {
@@ -886,7 +888,9 @@
        "away": [
         "Rik Hermans",
         "Lien Lammertyn"
-       ]
+       ],
+       "score": "21-17 21-15",
+       "winner": "home"
       }
      ]
     },
@@ -3576,6 +3580,13 @@
      "rows": []
     },
     {
+     "home": "Dunlop DKC",
+     "away": "2dA Smashing",
+     "when": "za 28 nov · 19:00",
+     "start": "2026-11-28T19:00:00",
+     "rows": []
+    },
+    {
      "home": "BC Duinwijck",
      "away": "Velo Badminton",
      "when": "za 28 nov · 19:00",
@@ -3585,13 +3596,6 @@
     {
      "home": "PK Keukens Roosterse",
      "away": "Decorette Amersfoort",
-     "when": "za 28 nov · 19:00",
-     "start": "2026-11-28T19:00:00",
-     "rows": []
-    },
-    {
-     "home": "Dunlop DKC",
-     "away": "2dA Smashing",
      "when": "za 28 nov · 19:00",
      "start": "2026-11-28T19:00:00",
      "rows": []
@@ -3610,15 +3614,15 @@
      "rows": []
     },
     {
-     "home": "BC Duinwijck",
-     "away": "PK Keukens Roosterse",
+     "home": "Velo Badminton",
+     "away": "BC Drop Shot",
      "when": "za 12 dec · 19:00",
      "start": "2026-12-12T19:00:00",
      "rows": []
     },
     {
-     "home": "Velo Badminton",
-     "away": "BC Drop Shot",
+     "home": "BC Duinwijck",
+     "away": "PK Keukens Roosterse",
      "when": "za 12 dec · 19:00",
      "start": "2026-12-12T19:00:00",
      "rows": []
@@ -3780,6 +3784,12 @@
     "rows": []
    },
    {
+    "home": "Dunlop DKC",
+    "away": "2dA Smashing",
+    "when": "za 28 nov · 19:00",
+    "rows": []
+   },
+   {
     "home": "BC Duinwijck",
     "away": "Velo Badminton",
     "when": "za 28 nov · 19:00",
@@ -3788,12 +3798,6 @@
    {
     "home": "PK Keukens Roosterse",
     "away": "Decorette Amersfoort",
-    "when": "za 28 nov · 19:00",
-    "rows": []
-   },
-   {
-    "home": "Dunlop DKC",
-    "away": "2dA Smashing",
     "when": "za 28 nov · 19:00",
     "rows": []
    }
@@ -3825,13 +3829,13 @@
   {
    "pos": 3,
    "team": "PK Keukens Roosterse",
-   "pts": 32,
-   "gp": 7,
+   "pts": 33,
+   "gp": 8,
    "w": 4,
    "g": 1,
-   "v": 2,
-   "wed": "32 – 24",
-   "games": "72 – 61"
+   "v": 3,
+   "wed": "33 – 31",
+   "games": "76 – 76"
   },
   {
    "pos": 4,
@@ -3857,6 +3861,17 @@
   },
   {
    "pos": 6,
+   "team": "2dA Smashing",
+   "pts": 22,
+   "gp": 6,
+   "w": 2,
+   "g": 1,
+   "v": 3,
+   "wed": "22 – 26",
+   "games": "51 – 62"
+  },
+  {
+   "pos": 7,
    "team": "Velo Badminton",
    "pts": 16,
    "gp": 8,
@@ -3865,17 +3880,6 @@
    "v": 7,
    "wed": "16 – 48",
    "games": "44 – 105"
-  },
-  {
-   "pos": 7,
-   "team": "2dA Smashing",
-   "pts": 15,
-   "gp": 5,
-   "w": 1,
-   "g": 1,
-   "v": 3,
-   "wed": "15 – 25",
-   "games": "36 – 58"
   },
   {
    "pos": 8,
@@ -5338,19 +5342,19 @@
     },
     {
      "pos": 13,
-     "speler": "Rik Hermans",
-     "e": "–",
-     "d": "0 – 1",
-     "m": "1 – 0",
-     "tot": "1/2"
-    },
-    {
-     "pos": 14,
      "speler": "Daphne van den Berg",
      "e": "1 – 0",
      "d": "0 – 1",
      "m": "–",
      "tot": "1/2"
+    },
+    {
+     "pos": 14,
+     "speler": "Rik Hermans",
+     "e": "–",
+     "d": "0 – 1",
+     "m": "1 – 1",
+     "tot": "1/3"
     },
     {
      "pos": 15,
@@ -5389,8 +5393,8 @@
      "speler": "Lien Lammertyn",
      "e": "0 – 1",
      "d": "–",
-     "m": "0 – 1",
-     "tot": "0/2"
+     "m": "0 – 2",
+     "tot": "0/3"
     }
    ]
   },
@@ -5605,6 +5609,99 @@
    ]
   },
   {
+   "team": "2dA Smashing",
+   "rows": [
+    {
+     "pos": 1,
+     "speler": "Robin Tabeling",
+     "e": "–",
+     "d": "3 – 1",
+     "m": "4 – 0",
+     "tot": "7/9"
+    },
+    {
+     "pos": 2,
+     "speler": "Freek Golinski",
+     "e": "–",
+     "d": "4 – 0",
+     "m": "2 – 1",
+     "tot": "6/8"
+    },
+    {
+     "pos": 3,
+     "speler": "Inger Pothuizen",
+     "e": "2 – 0",
+     "d": "1 – 2",
+     "m": "3 – 2",
+     "tot": "6/10"
+    },
+    {
+     "pos": 4,
+     "speler": "Marijn Put",
+     "e": "3 – 3",
+     "d": "1 – 1",
+     "m": "1 – 1",
+     "tot": "5/10"
+    },
+    {
+     "pos": 5,
+     "speler": "Sterre Bang",
+     "e": "–",
+     "d": "0 – 4",
+     "m": "4 – 0",
+     "tot": "4/9"
+    },
+    {
+     "pos": 6,
+     "speler": "Jonah Quintens",
+     "e": "2 – 2",
+     "d": "–",
+     "m": "0 – 1",
+     "tot": "2/5"
+    },
+    {
+     "pos": 7,
+     "speler": "Lieke Maes",
+     "e": "–",
+     "d": "1 – 2",
+     "m": "1 – 1",
+     "tot": "2/6"
+    },
+    {
+     "pos": 8,
+     "speler": "Leonie Rovers",
+     "e": "2 – 4",
+     "d": "0 – 1",
+     "m": "0 – 1",
+     "tot": "2/8"
+    },
+    {
+     "pos": 9,
+     "speler": "Casper Spaans",
+     "e": "0 – 2",
+     "d": "0 – 1",
+     "m": "1 – 1",
+     "tot": "1/5"
+    },
+    {
+     "pos": 10,
+     "speler": "Vincent de Vries",
+     "e": "–",
+     "d": "0 – 1",
+     "m": "–",
+     "tot": "0/1"
+    },
+    {
+     "pos": 11,
+     "speler": "Maureen Zewald",
+     "e": "0 – 4",
+     "d": "0 – 1",
+     "m": "–",
+     "tot": "0/5"
+    }
+   ]
+  },
+  {
    "team": "Velo Badminton",
    "rows": [
     {
@@ -5686,99 +5783,6 @@
      "d": "0 – 4",
      "m": "0 – 2",
      "tot": "0/9"
-    }
-   ]
-  },
-  {
-   "team": "2dA Smashing",
-   "rows": [
-    {
-     "pos": 1,
-     "speler": "Robin Tabeling",
-     "e": "–",
-     "d": "3 – 1",
-     "m": "4 – 0",
-     "tot": "7/9"
-    },
-    {
-     "pos": 2,
-     "speler": "Freek Golinski",
-     "e": "–",
-     "d": "4 – 0",
-     "m": "1 – 1",
-     "tot": "5/7"
-    },
-    {
-     "pos": 3,
-     "speler": "Inger Pothuizen",
-     "e": "2 – 0",
-     "d": "1 – 2",
-     "m": "2 – 2",
-     "tot": "5/9"
-    },
-    {
-     "pos": 4,
-     "speler": "Marijn Put",
-     "e": "3 – 3",
-     "d": "1 – 1",
-     "m": "1 – 1",
-     "tot": "5/10"
-    },
-    {
-     "pos": 5,
-     "speler": "Sterre Bang",
-     "e": "–",
-     "d": "0 – 4",
-     "m": "4 – 0",
-     "tot": "4/9"
-    },
-    {
-     "pos": 6,
-     "speler": "Jonah Quintens",
-     "e": "2 – 2",
-     "d": "–",
-     "m": "0 – 1",
-     "tot": "2/5"
-    },
-    {
-     "pos": 7,
-     "speler": "Lieke Maes",
-     "e": "–",
-     "d": "1 – 2",
-     "m": "1 – 1",
-     "tot": "2/6"
-    },
-    {
-     "pos": 8,
-     "speler": "Leonie Rovers",
-     "e": "2 – 4",
-     "d": "0 – 1",
-     "m": "0 – 1",
-     "tot": "2/8"
-    },
-    {
-     "pos": 9,
-     "speler": "Casper Spaans",
-     "e": "0 – 2",
-     "d": "0 – 1",
-     "m": "1 – 1",
-     "tot": "1/5"
-    },
-    {
-     "pos": 10,
-     "speler": "Vincent de Vries",
-     "e": "–",
-     "d": "0 – 1",
-     "m": "–",
-     "tot": "0/1"
-    },
-    {
-     "pos": 11,
-     "speler": "Maureen Zewald",
-     "e": "0 – 4",
-     "d": "0 – 1",
-     "m": "–",
-     "tot": "0/5"
     }
    ]
   },
@@ -11495,15 +11499,18 @@
    "Ruben Jille",
    "Amy Tan",
    "Freek Golinski",
+   "Inger Pothuizen",
    "Ruben Wijnands",
    "Sterre Bang",
    "Kelly van Buiten",
    "Lieke Maes",
    "Rens Lagrouw",
+   "Rik Hermans",
    "Imka Putrama Arlin",
    "Renske Kwakkenbos",
-   "Shreya Hochscheid"
+   "Shreya Hochscheid",
+   "Lien Lammertyn"
   ]
  },
- "updated": "14-11-2026 21:50"
+ "updated": "14-11-2026 21:55"
 }

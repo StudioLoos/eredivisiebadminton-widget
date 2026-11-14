@@ -1,13 +1,6 @@
 [
 {
 "start": "2026-10-31T19:00:00",
-"home": "Velo Badminton",
-"away": "Dunlop DKC",
-"lineup": true,
-"done_at": "2026-10-31T22:08:02"
-},
-{
-"start": "2026-10-31T19:00:00",
 "home": "Decorette Amersfoort",
 "away": "BC Drop Shot",
 "lineup": true,
@@ -26,13 +19,6 @@
 "away": "2dA Smashing",
 "lineup": true,
 "done_at": "2026-10-31T22:08:02"
-},
-{
-"start": "2026-11-07T19:00:00",
-"home": "Velo Badminton",
-"away": "2dA Smashing",
-"lineup": true,
-"done_at": "2026-11-07T21:15:31"
 },
 {
 "start": "2026-11-07T19:00:00",
@@ -56,6 +42,13 @@
 "done_at": "2026-11-07T21:00:47"
 },
 {
+"start": "2026-11-07T19:00:00",
+"home": "Velo Badminton",
+"away": "2dA Smashing",
+"lineup": true,
+"done_at": "2026-11-07T21:15:31"
+},
+{
 "start": "2026-11-14T18:30:00",
 "home": "BC Drop Shot",
 "away": "Dunlop DKC",
@@ -67,7 +60,7 @@
 "home": "2dA Smashing",
 "away": "PK Keukens Roosterse",
 "lineup": true,
-"done_at": null
+"done_at": "2026-11-14T20:55:25"
 },
 {
 "start": "2026-11-14T19:00:00",
@@ -92,6 +85,13 @@
 },
 {
 "start": "2026-11-28T19:00:00",
+"home": "Dunlop DKC",
+"away": "2dA Smashing",
+"lineup": false,
+"done_at": null
+},
+{
+"start": "2026-11-28T19:00:00",
 "home": "BC Duinwijck",
 "away": "Velo Badminton",
 "lineup": false,
@@ -105,23 +105,9 @@
 "done_at": null
 },
 {
-"start": "2026-11-28T19:00:00",
-"home": "Dunlop DKC",
-"away": "2dA Smashing",
-"lineup": false,
-"done_at": null
-},
-{
 "start": "2026-12-12T19:00:00",
 "home": "Decorette Amersfoort",
 "away": "Dunlop DKC",
-"lineup": false,
-"done_at": null
-},
-{
-"start": "2026-12-12T19:00:00",
-"home": "BC Duinwijck",
-"away": "PK Keukens Roosterse",
 "lineup": false,
 "done_at": null
 },
@@ -134,8 +120,22 @@
 },
 {
 "start": "2026-12-12T19:00:00",
+"home": "BC Duinwijck",
+"away": "PK Keukens Roosterse",
+"lineup": false,
+"done_at": null
+},
+{
+"start": "2026-12-12T19:00:00",
 "home": "2dA Smashing",
 "away": "FIT Almere",
+"lineup": false,
+"done_at": null
+},
+{
+"start": "2026-12-19T18:30:00",
+"home": "BC Drop Shot",
+"away": "2dA Smashing",
 "lineup": false,
 "done_at": null
 }
