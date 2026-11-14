@@ -5,7 +5,7 @@
   {
    "home": "BC Drop Shot",
    "away": "Dunlop DKC",
-   "hs": 3,
+   "hs": 4,
    "as": 1,
    "rows": [
     {
@@ -52,7 +52,9 @@
      ],
      "away": [
       "Flora Wang"
-     ]
+     ],
+     "score": "21-15 24-22",
+     "winner": "home"
     },
     {
      "code": "ME2",
@@ -101,7 +103,7 @@
   {
    "home": "2dA Smashing",
    "away": "PK Keukens Roosterse",
-   "hs": 2,
+   "hs": 3,
    "as": 1,
    "rows": [
     {
@@ -148,7 +150,9 @@
      ],
      "away": [
       "Flore Vandenhoucke"
-     ]
+     ],
+     "score": "21-12 19-21 21-19",
+     "winner": "home"
     },
     {
      "code": "ME2",
@@ -663,7 +667,7 @@
     {
      "home": "BC Drop Shot",
      "away": "Dunlop DKC",
-     "hs": 3,
+     "hs": 4,
      "as": 1,
      "rows": [
       {
@@ -710,7 +714,9 @@
        ],
        "away": [
         "Flora Wang"
-       ]
+       ],
+       "score": "21-15 24-22",
+       "winner": "home"
       },
       {
        "code": "ME2",
@@ -759,7 +765,7 @@
     {
      "home": "2dA Smashing",
      "away": "PK Keukens Roosterse",
-     "hs": 2,
+     "hs": 3,
      "as": 1,
      "rows": [
       {
@@ -806,7 +812,9 @@
        ],
        "away": [
         "Flore Vandenhoucke"
-       ]
+       ],
+       "score": "21-12 19-21 21-19",
+       "winner": "home"
       },
       {
        "code": "ME2",
@@ -3856,9 +3864,9 @@
    "speler": "Flora Wang",
    "club": "Dunlop DKC",
    "w": 11,
-   "gp": 15,
-   "games": "25 – 10",
-   "punten": "689 – 571"
+   "gp": 16,
+   "games": "25 – 12",
+   "punten": "726 – 616"
   },
   {
    "pos": 3,
@@ -4114,6 +4122,15 @@
   },
   {
    "pos": 31,
+   "speler": "Inger Pothuizen",
+   "club": "2dA Smashing",
+   "w": 5,
+   "gp": 9,
+   "games": "12 – 12",
+   "punten": "449 – 438"
+  },
+  {
+   "pos": 32,
    "speler": "Marijn Put",
    "club": "2dA Smashing",
    "w": 5,
@@ -4122,7 +4139,7 @@
    "punten": "404 – 391"
   },
   {
-   "pos": 32,
+   "pos": 33,
    "speler": "Lieke van Parys",
    "club": "Dunlop DKC",
    "w": 5,
@@ -4131,7 +4148,7 @@
    "punten": "535 – 540"
   },
   {
-   "pos": 33,
+   "pos": 34,
    "speler": "Gijs Duijs",
    "club": "Dunlop DKC",
    "w": 5,
@@ -4140,7 +4157,7 @@
    "punten": "463 – 479"
   },
   {
-   "pos": 34,
+   "pos": 35,
    "speler": "Adith Karthikeyan Priya",
    "club": "BC Duinwijck",
    "w": 4,
@@ -4149,7 +4166,16 @@
    "punten": "168 – 101"
   },
   {
-   "pos": 35,
+   "pos": 36,
+   "speler": "Clara Lassaux",
+   "club": "BC Drop Shot",
+   "w": 4,
+   "gp": 6,
+   "games": "9 – 5",
+   "punten": "266 – 227"
+  },
+  {
+   "pos": 37,
    "speler": "Andy Buijk",
    "club": "BC Drop Shot",
    "w": 4,
@@ -4158,7 +4184,7 @@
    "punten": "250 – 223"
   },
   {
-   "pos": 36,
+   "pos": 38,
    "speler": "Ruben Wijnands",
    "club": "Decorette Amersfoort",
    "w": 4,
@@ -4167,16 +4193,7 @@
    "punten": "273 – 269"
   },
   {
-   "pos": 37,
-   "speler": "Flore Vandenhoucke",
-   "club": "PK Keukens Roosterse",
-   "w": 4,
-   "gp": 7,
-   "games": "9 – 9",
-   "punten": "328 – 329"
-  },
-  {
-   "pos": 38,
+   "pos": 39,
    "speler": "Xenia Koelmel",
    "club": "PK Keukens Roosterse",
    "w": 4,
@@ -4185,16 +4202,16 @@
    "punten": "363 – 364"
   },
   {
-   "pos": 39,
-   "speler": "Inger Pothuizen",
-   "club": "2dA Smashing",
+   "pos": 40,
+   "speler": "Flore Vandenhoucke",
+   "club": "PK Keukens Roosterse",
    "w": 4,
    "gp": 8,
    "games": "10 – 11",
-   "punten": "388 – 386"
+   "punten": "380 – 390"
   },
   {
-   "pos": 40,
+   "pos": 41,
    "speler": "Imke van der Aar",
    "club": "BC Drop Shot",
    "w": 4,
@@ -4203,7 +4220,7 @@
    "punten": "333 – 348"
   },
   {
-   "pos": 41,
+   "pos": 42,
    "speler": "Lars Kros",
    "club": "BC Drop Shot",
    "w": 4,
@@ -4212,22 +4229,13 @@
    "punten": "525 – 585"
   },
   {
-   "pos": 42,
+   "pos": 43,
    "speler": "Hristomira Popovska",
    "club": "FIT Almere",
    "w": 3,
    "gp": 4,
    "games": "7 – 2",
    "punten": "178 – 149"
-  },
-  {
-   "pos": 43,
-   "speler": "Clara Lassaux",
-   "club": "BC Drop Shot",
-   "w": 3,
-   "gp": 5,
-   "games": "7 – 5",
-   "punten": "221 – 190"
   },
   {
    "pos": 44,
@@ -4740,9 +4748,9 @@
    "speler": "Flora Wang",
    "club": "Dunlop DKC",
    "w": 11,
-   "gp": 15,
-   "games": "25 – 10",
-   "punten": "689 – 571"
+   "gp": 16,
+   "games": "25 – 12",
+   "punten": "726 – 616"
   },
   {
    "pos": 3,
@@ -4848,19 +4856,19 @@
   "Aram Mahmoud": 3952,
   "Freek Golinski": 5201,
   "Ruben Jille": 4748,
+  "Inger Pothuizen": 5196,
   "Marijn Put": 5204,
   "Lieke van Parys": 5753,
   "Gijs Duijs": 5758,
   "Adith Karthikeyan Priya": 3972,
+  "Clara Lassaux": 5158,
   "Andy Buijk": 5154,
   "Ruben Wijnands": 4749,
-  "Flore Vandenhoucke": 5340,
   "Xenia Koelmel": 5348,
-  "Inger Pothuizen": 5196,
+  "Flore Vandenhoucke": 5340,
   "Imke van der Aar": 5159,
   "Lars Kros": 5151,
   "Hristomira Popovska": 4866,
-  "Clara Lassaux": 5158,
   "Wessel van der Aar": 5153,
   "Sterre Bang": 5197,
   "Nick Fransman": 5152,
@@ -5216,18 +5224,18 @@
     },
     {
      "pos": 5,
-     "speler": "Flore Vandenhoucke",
-     "e": "1 – 1",
-     "d": "2 – 2",
-     "m": "1 – 0",
-     "tot": "4/7"
-    },
-    {
-     "pos": 6,
      "speler": "Xenia Koelmel",
      "e": "3 – 2",
      "d": "1 – 2",
      "m": "–",
+     "tot": "4/8"
+    },
+    {
+     "pos": 6,
+     "speler": "Flore Vandenhoucke",
+     "e": "1 – 2",
+     "d": "2 – 2",
+     "m": "1 – 0",
      "tot": "4/8"
     },
     {
@@ -5342,10 +5350,10 @@
     {
      "pos": 1,
      "speler": "Flora Wang",
-     "e": "7 – 0",
+     "e": "7 – 1",
      "d": "1 – 1",
      "m": "3 – 3",
-     "tot": "11/15"
+     "tot": "11/16"
     },
     {
      "pos": 2,
@@ -5450,6 +5458,14 @@
     },
     {
      "pos": 3,
+     "speler": "Clara Lassaux",
+     "e": "4 – 0",
+     "d": "0 – 2",
+     "m": "–",
+     "tot": "4/6"
+    },
+    {
+     "pos": 4,
      "speler": "Andy Buijk",
      "e": "–",
      "d": "2 – 1",
@@ -5457,7 +5473,7 @@
      "tot": "4/6"
     },
     {
-     "pos": 4,
+     "pos": 5,
      "speler": "Imke van der Aar",
      "e": "–",
      "d": "3 – 2",
@@ -5465,7 +5481,7 @@
      "tot": "4/9"
     },
     {
-     "pos": 5,
+     "pos": 6,
      "speler": "Lars Kros",
      "e": "4 – 4",
      "d": "0 – 5",
@@ -5473,19 +5489,11 @@
      "tot": "4/13"
     },
     {
-     "pos": 6,
+     "pos": 7,
      "speler": "Wessel van der Aar",
      "e": "–",
      "d": "1 – 0",
      "m": "2 – 2",
-     "tot": "3/5"
-    },
-    {
-     "pos": 7,
-     "speler": "Clara Lassaux",
-     "e": "3 – 0",
-     "d": "0 – 2",
-     "m": "–",
      "tot": "3/5"
     },
     {
@@ -5567,19 +5575,19 @@
     },
     {
      "pos": 3,
+     "speler": "Inger Pothuizen",
+     "e": "2 – 0",
+     "d": "1 – 2",
+     "m": "2 – 2",
+     "tot": "5/9"
+    },
+    {
+     "pos": 4,
      "speler": "Marijn Put",
      "e": "3 – 3",
      "d": "1 – 1",
      "m": "1 – 1",
      "tot": "5/10"
-    },
-    {
-     "pos": 4,
-     "speler": "Inger Pothuizen",
-     "e": "1 – 0",
-     "d": "1 – 2",
-     "m": "2 – 2",
-     "tot": "4/8"
     },
     {
      "pos": 5,
@@ -6511,23 +6519,23 @@
       },
       {
        "names": [
-        "Nienke van der Werf"
+        "Clara Lassaux"
        ],
-       "club": "Dunlop DKC",
-       "w": 0,
+       "club": "BC Drop Shot",
+       "w": 1,
        "p": 1,
-       "games": "0-2",
-       "punten": "32-42",
-       "saldo": -10,
+       "games": "2-0",
+       "punten": "45-37",
+       "saldo": 8,
        "res": [
         {
-         "code": "VE2",
+         "code": "VE1",
          "tegen": [
-          "Mandy Duijndam"
+          "Flora Wang"
          ],
-         "tclub": "BC Drop Shot",
-         "w": 0,
-         "score": "14-21 18-21"
+         "tclub": "Dunlop DKC",
+         "w": 1,
+         "score": "21-15 24-22"
         }
        ]
       }
@@ -11310,5 +11318,5 @@
    "Renske Kwakkenbos"
   ]
  },
- "updated": "14-11-2026 20:25"
+ "updated": "14-11-2026 20:45"
 }
