@@ -211,7 +211,7 @@
   {
    "home": "Decorette Amersfoort",
    "away": "Velo Badminton",
-   "hs": 6,
+   "hs": 7,
    "as": 1,
    "rows": [
     {
@@ -306,7 +306,9 @@
      "away": [
       "Rens Lagrouw",
       "Amy Tan"
-     ]
+     ],
+     "score": "18-21 21-17 21-13",
+     "winner": "home"
     }
    ]
   },
@@ -891,7 +893,7 @@
     {
      "home": "Decorette Amersfoort",
      "away": "Velo Badminton",
-     "hs": 6,
+     "hs": 7,
      "as": 1,
      "rows": [
       {
@@ -986,7 +988,9 @@
        "away": [
         "Rens Lagrouw",
         "Amy Tan"
-       ]
+       ],
+       "score": "18-21 21-17 21-13",
+       "winner": "home"
       }
      ]
     },
@@ -3599,15 +3603,15 @@
    "date": "12 december 2026",
    "matches": [
     {
-     "home": "BC Duinwijck",
-     "away": "PK Keukens Roosterse",
+     "home": "Decorette Amersfoort",
+     "away": "Dunlop DKC",
      "when": "za 12 dec · 19:00",
      "start": "2026-12-12T19:00:00",
      "rows": []
     },
     {
-     "home": "Decorette Amersfoort",
-     "away": "Dunlop DKC",
+     "home": "BC Duinwijck",
+     "away": "PK Keukens Roosterse",
      "when": "za 12 dec · 19:00",
      "start": "2026-12-12T19:00:00",
      "rows": []
@@ -3853,6 +3857,17 @@
   },
   {
    "pos": 6,
+   "team": "Velo Badminton",
+   "pts": 16,
+   "gp": 8,
+   "w": 1,
+   "g": 0,
+   "v": 7,
+   "wed": "16 – 48",
+   "games": "44 – 105"
+  },
+  {
+   "pos": 7,
    "team": "2dA Smashing",
    "pts": 15,
    "gp": 5,
@@ -3863,26 +3878,15 @@
    "games": "36 – 58"
   },
   {
-   "pos": 7,
-   "team": "Velo Badminton",
-   "pts": 15,
-   "gp": 7,
-   "w": 1,
-   "g": 0,
-   "v": 6,
-   "wed": "15 – 41",
-   "games": "41 – 91"
-  },
-  {
    "pos": 8,
    "team": "Decorette Amersfoort",
-   "pts": 8,
-   "gp": 5,
-   "w": 0,
+   "pts": 15,
+   "gp": 6,
+   "w": 1,
    "g": 1,
    "v": 4,
-   "wed": "8 – 32",
-   "games": "22 – 67"
+   "wed": "15 – 33",
+   "games": "36 – 70"
   }
  ],
  "spelers": [
@@ -5601,6 +5605,91 @@
    ]
   },
   {
+   "team": "Velo Badminton",
+   "rows": [
+    {
+     "pos": 1,
+     "speler": "Amy Tan",
+     "e": "5 – 3",
+     "d": "–",
+     "m": "1 – 7",
+     "tot": "6/16"
+    },
+    {
+     "pos": 2,
+     "speler": "Veda Diemel",
+     "e": "5 – 3",
+     "d": "1 – 7",
+     "m": "–",
+     "tot": "6/16"
+    },
+    {
+     "pos": 3,
+     "speler": "Luca Wiechmann",
+     "e": "1 – 0",
+     "d": "1 – 2",
+     "m": "0 – 1",
+     "tot": "2/5"
+    },
+    {
+     "pos": 4,
+     "speler": "Rens Lagrouw",
+     "e": "–",
+     "d": "1 – 7",
+     "m": "1 – 4",
+     "tot": "2/13"
+    },
+    {
+     "pos": 5,
+     "speler": "Myke Halkema",
+     "e": "–",
+     "d": "1 – 7",
+     "m": "1 – 7",
+     "tot": "2/16"
+    },
+    {
+     "pos": 6,
+     "speler": "Angus Meldrum",
+     "e": "0 – 6",
+     "d": "–",
+     "m": "1 – 2",
+     "tot": "1/9"
+    },
+    {
+     "pos": 7,
+     "speler": "Dion Rovers",
+     "e": "1 – 4",
+     "d": "–",
+     "m": "0 – 5",
+     "tot": "1/10"
+    },
+    {
+     "pos": 8,
+     "speler": "Senna van den Beukel",
+     "e": "–",
+     "d": "0 – 1",
+     "m": "–",
+     "tot": "0/1"
+    },
+    {
+     "pos": 9,
+     "speler": "Dennis Eversdijk",
+     "e": "0 – 1",
+     "d": "–",
+     "m": "–",
+     "tot": "0/1"
+    },
+    {
+     "pos": 10,
+     "speler": "Mees Janssen",
+     "e": "0 – 3",
+     "d": "0 – 4",
+     "m": "0 – 2",
+     "tot": "0/9"
+    }
+   ]
+  },
+  {
    "team": "2dA Smashing",
    "rows": [
     {
@@ -5694,91 +5783,6 @@
    ]
   },
   {
-   "team": "Velo Badminton",
-   "rows": [
-    {
-     "pos": 1,
-     "speler": "Amy Tan",
-     "e": "5 – 3",
-     "d": "–",
-     "m": "1 – 6",
-     "tot": "6/15"
-    },
-    {
-     "pos": 2,
-     "speler": "Veda Diemel",
-     "e": "5 – 3",
-     "d": "1 – 7",
-     "m": "–",
-     "tot": "6/16"
-    },
-    {
-     "pos": 3,
-     "speler": "Luca Wiechmann",
-     "e": "1 – 0",
-     "d": "1 – 2",
-     "m": "0 – 1",
-     "tot": "2/5"
-    },
-    {
-     "pos": 4,
-     "speler": "Rens Lagrouw",
-     "e": "–",
-     "d": "1 – 7",
-     "m": "1 – 3",
-     "tot": "2/12"
-    },
-    {
-     "pos": 5,
-     "speler": "Myke Halkema",
-     "e": "–",
-     "d": "1 – 7",
-     "m": "1 – 7",
-     "tot": "2/16"
-    },
-    {
-     "pos": 6,
-     "speler": "Angus Meldrum",
-     "e": "0 – 6",
-     "d": "–",
-     "m": "1 – 2",
-     "tot": "1/9"
-    },
-    {
-     "pos": 7,
-     "speler": "Dion Rovers",
-     "e": "1 – 4",
-     "d": "–",
-     "m": "0 – 5",
-     "tot": "1/10"
-    },
-    {
-     "pos": 8,
-     "speler": "Senna van den Beukel",
-     "e": "–",
-     "d": "0 – 1",
-     "m": "–",
-     "tot": "0/1"
-    },
-    {
-     "pos": 9,
-     "speler": "Dennis Eversdijk",
-     "e": "0 – 1",
-     "d": "–",
-     "m": "–",
-     "tot": "0/1"
-    },
-    {
-     "pos": 10,
-     "speler": "Mees Janssen",
-     "e": "0 – 3",
-     "d": "0 – 4",
-     "m": "0 – 2",
-     "tot": "0/9"
-    }
-   ]
-  },
-  {
    "team": "Decorette Amersfoort",
    "rows": [
     {
@@ -5818,22 +5822,22 @@
      "speler": "Imka Putrama Arlin",
      "e": "1 – 1",
      "d": "0 – 1",
-     "m": "–",
-     "tot": "1/3"
+     "m": "1 – 0",
+     "tot": "2/4"
     },
     {
      "pos": 6,
-     "speler": "Renske Kwakkenbos",
-     "e": "–",
-     "d": "1 – 1",
-     "m": "0 – 1",
-     "tot": "1/4"
-    },
-    {
-     "pos": 7,
      "speler": "Shreya Hochscheid",
      "e": "–",
      "d": "1 – 2",
+     "m": "1 – 1",
+     "tot": "2/5"
+    },
+    {
+     "pos": 7,
+     "speler": "Renske Kwakkenbos",
+     "e": "–",
+     "d": "1 – 1",
      "m": "0 – 1",
      "tot": "1/4"
     },
@@ -11489,13 +11493,17 @@
   "afwijkingen": [
    "Robin Tabeling",
    "Ruben Jille",
+   "Amy Tan",
    "Freek Golinski",
    "Ruben Wijnands",
    "Sterre Bang",
    "Kelly van Buiten",
    "Lieke Maes",
-   "Renske Kwakkenbos"
+   "Rens Lagrouw",
+   "Imka Putrama Arlin",
+   "Renske Kwakkenbos",
+   "Shreya Hochscheid"
   ]
  },
- "updated": "14-11-2026 21:45"
+ "updated": "14-11-2026 21:50"
 }
