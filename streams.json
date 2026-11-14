@@ -2,9 +2,9 @@
   "uitleg": "Handmatige livestreams. Vul bij 'wedstrijd' thuis - uit in (bijv. 'Smashing - Roosterse') en plak bij baan1/baan2 de link van de stream (YouTube, Vimeo, Twitch of Facebook). Laat leeg voor automatisch. Gaat altijd voor op de automatische koppeling. Haal oude regels gerust weg.",
   "handmatig": [
     {
-      "wedstrijd": "Drop Shot - Dunlop DKC",
+      "wedstrijd": "bc amersfoort - velo badminton",
       "baan1": "",
-      "baan2": "https://www.youtube.com/live/l-6KY8mvld4?si=jb6BxcaH3RhFa2Dw"
+      "baan2": "https://www.youtube.com/watch?v=jV8Flih-4qE"
     }
   ]
 }
