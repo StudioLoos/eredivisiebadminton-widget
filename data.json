@@ -3820,9 +3820,9 @@
    "speler": "Flora Wang",
    "club": "Dunlop DKC",
    "w": 11,
-   "gp": 14,
-   "games": "24 – 8",
-   "punten": "643 – 511"
+   "gp": 15,
+   "games": "25 – 10",
+   "punten": "689 – 571"
   },
   {
    "pos": 3,
@@ -3874,9 +3874,9 @@
    "speler": "Jaymie Laurens",
    "club": "Dunlop DKC",
    "w": 9,
-   "gp": 14,
-   "games": "19 – 10",
-   "punten": "491 – 505"
+   "gp": 15,
+   "games": "20 – 12",
+   "punten": "537 – 565"
   },
   {
    "pos": 9,
@@ -3997,6 +3997,15 @@
   },
   {
    "pos": 22,
+   "speler": "Tammi van Wonterghem",
+   "club": "BC Drop Shot",
+   "w": 6,
+   "gp": 13,
+   "games": "15 – 15",
+   "punten": "539 – 566"
+  },
+  {
+   "pos": 23,
    "speler": "Iris van Leijsen",
    "club": "PK Keukens Roosterse",
    "w": 6,
@@ -4005,7 +4014,7 @@
    "punten": "590 – 612"
   },
   {
-   "pos": 23,
+   "pos": 24,
    "speler": "Veda Diemel",
    "club": "Velo Badminton",
    "w": 6,
@@ -4014,7 +4023,7 @@
    "punten": "608 – 645"
   },
   {
-   "pos": 24,
+   "pos": 25,
    "speler": "Noah Haase",
    "club": "FIT Almere",
    "w": 5,
@@ -4023,7 +4032,7 @@
    "punten": "238 – 162"
   },
   {
-   "pos": 25,
+   "pos": 26,
    "speler": "Aram Mahmoud",
    "club": "BC Duinwijck",
    "w": 5,
@@ -4032,7 +4041,7 @@
    "punten": "262 – 205"
   },
   {
-   "pos": 26,
+   "pos": 27,
    "speler": "Robin Tabeling",
    "club": "2dA Smashing",
    "w": 5,
@@ -4041,22 +4050,13 @@
    "punten": "298 – 217"
   },
   {
-   "pos": 27,
+   "pos": 28,
    "speler": "Lieke van Parys",
    "club": "Dunlop DKC",
    "w": 5,
    "gp": 12,
    "games": "15 – 14",
    "punten": "535 – 540"
-  },
-  {
-   "pos": 28,
-   "speler": "Tammi van Wonterghem",
-   "club": "BC Drop Shot",
-   "w": 5,
-   "gp": 12,
-   "games": "13 – 14",
-   "punten": "479 – 520"
   },
   {
    "pos": 29,
@@ -4141,6 +4141,15 @@
   },
   {
    "pos": 38,
+   "speler": "Imke van der Aar",
+   "club": "BC Drop Shot",
+   "w": 4,
+   "gp": 9,
+   "games": "8 – 11",
+   "punten": "333 – 348"
+  },
+  {
+   "pos": 39,
    "speler": "Lars Kros",
    "club": "BC Drop Shot",
    "w": 4,
@@ -4149,7 +4158,7 @@
    "punten": "497 – 543"
   },
   {
-   "pos": 39,
+   "pos": 40,
    "speler": "Hristomira Popovska",
    "club": "FIT Almere",
    "w": 3,
@@ -4158,7 +4167,7 @@
    "punten": "178 – 149"
   },
   {
-   "pos": 40,
+   "pos": 41,
    "speler": "Clara Lassaux",
    "club": "BC Drop Shot",
    "w": 3,
@@ -4167,7 +4176,7 @@
    "punten": "221 – 190"
   },
   {
-   "pos": 41,
+   "pos": 42,
    "speler": "Wessel van der Aar",
    "club": "BC Drop Shot",
    "w": 3,
@@ -4176,7 +4185,7 @@
    "punten": "188 – 181"
   },
   {
-   "pos": 42,
+   "pos": 43,
    "speler": "Ruben Wijnands",
    "club": "Decorette Amersfoort",
    "w": 3,
@@ -4185,7 +4194,7 @@
    "punten": "231 – 246"
   },
   {
-   "pos": 43,
+   "pos": 44,
    "speler": "Sterre Bang",
    "club": "2dA Smashing",
    "w": 3,
@@ -4194,7 +4203,7 @@
    "punten": "254 – 225"
   },
   {
-   "pos": 44,
+   "pos": 45,
    "speler": "Flore Vandenhoucke",
    "club": "PK Keukens Roosterse",
    "w": 3,
@@ -4203,22 +4212,13 @@
    "punten": "270 – 280"
   },
   {
-   "pos": 45,
+   "pos": 46,
    "speler": "Nick Fransman",
    "club": "BC Drop Shot",
    "w": 3,
    "gp": 7,
    "games": "6 – 11",
    "punten": "285 – 334"
-  },
-  {
-   "pos": 46,
-   "speler": "Imke van der Aar",
-   "club": "BC Drop Shot",
-   "w": 3,
-   "gp": 8,
-   "games": "6 – 10",
-   "punten": "273 – 302"
   },
   {
    "pos": 47,
@@ -4686,9 +4686,9 @@
    "speler": "Flora Wang",
    "club": "Dunlop DKC",
    "w": 11,
-   "gp": 14,
-   "games": "24 – 8",
-   "punten": "643 – 511"
+   "gp": 15,
+   "games": "25 – 10",
+   "punten": "689 – 571"
   },
   {
    "pos": 3,
@@ -4740,9 +4740,9 @@
    "speler": "Jaymie Laurens",
    "club": "Dunlop DKC",
    "w": 9,
-   "gp": 14,
-   "games": "19 – 10",
-   "punten": "491 – 505"
+   "gp": 15,
+   "games": "20 – 12",
+   "punten": "537 – 565"
   },
   {
    "pos": 9,
@@ -4785,13 +4785,13 @@
   "Jasper Koppen": 5336,
   "Timo Stoffelen": 3970,
   "Noah Jongen": 5344,
+  "Tammi van Wonterghem": 5157,
   "Iris van Leijsen": 5341,
   "Veda Diemel": 5075,
   "Noah Haase": 4884,
   "Aram Mahmoud": 3952,
   "Robin Tabeling": 5202,
   "Lieke van Parys": 5753,
-  "Tammi van Wonterghem": 5157,
   "Gijs Duijs": 5758,
   "Amy Tan": 5073,
   "Adith Karthikeyan Priya": 3972,
@@ -4801,6 +4801,7 @@
   "Ruben Jille": 4748,
   "Inger Pothuizen": 5196,
   "Marijn Put": 5204,
+  "Imke van der Aar": 5159,
   "Lars Kros": 5151,
   "Hristomira Popovska": 4866,
   "Clara Lassaux": 5158,
@@ -4809,7 +4810,6 @@
   "Sterre Bang": 5197,
   "Flore Vandenhoucke": 5340,
   "Nick Fransman": 5152,
-  "Imke van der Aar": 5159,
   "Thomas Sibbald": 5759,
   "Brandon Bessem": 5155,
   "Florentine Schoffski": 5339,
@@ -11009,19 +11009,15 @@
  },
  "check": {
   "afwijkingen": [
-   "Flora Wang",
-   "Jaymie Laurens",
    "Robin Tabeling",
-   "Tammi van Wonterghem",
    "Freek Golinski",
    "Ruben Jille",
    "Ruben Wijnands",
    "Sterre Bang",
-   "Imke van der Aar",
    "Lieke Maes",
    "Kelly van Buiten",
    "Renske Kwakkenbos"
   ]
  },
- "updated": "14-11-2026 19:25"
+ "updated": "14-11-2026 19:30"
 }
