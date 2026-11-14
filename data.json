@@ -201,7 +201,7 @@
   {
    "home": "Decorette Amersfoort",
    "away": "Velo Badminton",
-   "hs": 3,
+   "hs": 5,
    "as": 1,
    "rows": [
     {
@@ -259,7 +259,9 @@
      ],
      "away": [
       "Dennis Eversdijk"
-     ]
+     ],
+     "score": "21-7 26-24",
+     "winner": "home"
     },
     {
      "code": "VE2",
@@ -268,7 +270,9 @@
      ],
      "away": [
       "Veda Diemel"
-     ]
+     ],
+     "score": "21-17 21-19",
+     "winner": "home"
     },
     {
      "code": "GD1",
@@ -865,7 +869,7 @@
     {
      "home": "Decorette Amersfoort",
      "away": "Velo Badminton",
-     "hs": 3,
+     "hs": 5,
      "as": 1,
      "rows": [
       {
@@ -923,7 +927,9 @@
        ],
        "away": [
         "Dennis Eversdijk"
-       ]
+       ],
+       "score": "21-7 26-24",
+       "winner": "home"
       },
       {
        "code": "VE2",
@@ -932,7 +938,9 @@
        ],
        "away": [
         "Veda Diemel"
-       ]
+       ],
+       "score": "21-17 21-19",
+       "winner": "home"
       },
       {
        "code": "GD1",
@@ -5665,10 +5673,10 @@
     {
      "pos": 2,
      "speler": "Veda Diemel",
-     "e": "5 – 2",
+     "e": "5 – 3",
      "d": "1 – 7",
      "m": "–",
-     "tot": "6/15"
+     "tot": "6/16"
     },
     {
      "pos": 3,
@@ -5712,6 +5720,14 @@
     },
     {
      "pos": 8,
+     "speler": "Dennis Eversdijk",
+     "e": "0 – 1",
+     "d": "–",
+     "m": "–",
+     "tot": "0/1"
+    },
+    {
+     "pos": 9,
      "speler": "Senna van den Beukel",
      "e": "–",
      "d": "0 – 1",
@@ -5719,7 +5735,7 @@
      "tot": "0/1"
     },
     {
-     "pos": 9,
+     "pos": 10,
      "speler": "Mees Janssen",
      "e": "0 – 3",
      "d": "0 – 4",
@@ -5749,19 +5765,19 @@
     },
     {
      "pos": 3,
+     "speler": "Esmeralda van Drunen",
+     "e": "3 – 2",
+     "d": "–",
+     "m": "–",
+     "tot": "3/5"
+    },
+    {
+     "pos": 4,
      "speler": "Kelly van Buiten",
      "e": "–",
      "d": "2 – 4",
      "m": "1 – 4",
      "tot": "3/12"
-    },
-    {
-     "pos": 4,
-     "speler": "Esmeralda van Drunen",
-     "e": "2 – 2",
-     "d": "–",
-     "m": "–",
-     "tot": "2/4"
     },
     {
      "pos": 5,
@@ -5789,6 +5805,14 @@
     },
     {
      "pos": 8,
+     "speler": "Dion Hoegen",
+     "e": "1 – 3",
+     "d": "–",
+     "m": "0 – 1",
+     "tot": "1/5"
+    },
+    {
+     "pos": 9,
      "speler": "Berend van Brenk",
      "e": "1 – 4",
      "d": "0 – 1",
@@ -5796,7 +5820,7 @@
      "tot": "1/6"
     },
     {
-     "pos": 9,
+     "pos": 10,
      "speler": "Ruben Hoksbergen",
      "e": "–",
      "d": "0 – 1",
@@ -5804,7 +5828,7 @@
      "tot": "0/2"
     },
     {
-     "pos": 10,
+     "pos": 11,
      "speler": "Lennart Bijkerk",
      "e": "0 – 1",
      "d": "–",
@@ -5812,20 +5836,12 @@
      "tot": "0/2"
     },
     {
-     "pos": 11,
+     "pos": 12,
      "speler": "Xandra Stelling",
      "e": "0 – 1",
      "d": "–",
      "m": "0 – 1",
      "tot": "0/2"
-    },
-    {
-     "pos": 12,
-     "speler": "Dion Hoegen",
-     "e": "0 – 3",
-     "d": "–",
-     "m": "0 – 1",
-     "tot": "0/4"
     },
     {
      "pos": 13,
@@ -6407,6 +6423,28 @@
      "top": [
       {
        "names": [
+        "Dion Hoegen"
+       ],
+       "club": "Decorette Amersfoort",
+       "w": 1,
+       "p": 1,
+       "games": "2-0",
+       "punten": "47-31",
+       "saldo": 16,
+       "res": [
+        {
+         "code": "ME2",
+         "tegen": [
+          "Dennis Eversdijk"
+         ],
+         "tclub": "Velo Badminton",
+         "w": 1,
+         "score": "21-7 26-24"
+        }
+       ]
+      },
+      {
+       "names": [
         "Jonah Quintens"
        ],
        "club": "2dA Smashing",
@@ -6446,28 +6484,6 @@
          "tclub": "BC Drop Shot",
          "w": 1,
          "score": "21-15 21-13"
-        }
-       ]
-      },
-      {
-       "names": [
-        "Marijn Put"
-       ],
-       "club": "2dA Smashing",
-       "w": 1,
-       "p": 1,
-       "games": "2-0",
-       "punten": "42-34",
-       "saldo": 8,
-       "res": [
-        {
-         "code": "ME1",
-         "tegen": [
-          "Vihaan Shah"
-         ],
-         "tclub": "PK Keukens Roosterse",
-         "w": 1,
-         "score": "21-19 21-15"
         }
        ]
       }
@@ -11313,14 +11329,17 @@
  "check": {
   "afwijkingen": [
    "Robin Tabeling",
+   "Veda Diemel",
    "Freek Golinski",
    "Ruben Jille",
    "Ruben Wijnands",
    "Sterre Bang",
    "Kelly van Buiten",
+   "Esmeralda van Drunen",
    "Lieke Maes",
-   "Renske Kwakkenbos"
+   "Renske Kwakkenbos",
+   "Dion Hoegen"
   ]
  },
- "updated": "14-11-2026 20:50"
+ "updated": "14-11-2026 21:00"
 }
