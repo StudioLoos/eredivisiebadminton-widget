@@ -3355,7 +3355,88 @@
      "away": "PK Keukens Roosterse",
      "when": "za 14 nov · 19:00",
      "start": "2026-11-14T19:00:00",
-     "rows": []
+     "rows": [
+      {
+       "code": "MD",
+       "home": [
+        "Robin Tabeling",
+        "Freek Golinski"
+       ],
+       "away": [
+        "Noah Jongen",
+        "Thijs van den Berg"
+       ]
+      },
+      {
+       "code": "VD",
+       "home": [
+        "Lieke Maes",
+        "Sterre Bang"
+       ],
+       "away": [
+        "Iris van Leijsen",
+        "Flore Vandenhoucke"
+       ]
+      },
+      {
+       "code": "ME1",
+       "home": [
+        "Marijn Put"
+       ],
+       "away": [
+        "Vihaan Shah"
+       ]
+      },
+      {
+       "code": "VE1",
+       "home": [
+        "Inger Pothuizen"
+       ],
+       "away": [
+        "Flore Vandenhoucke"
+       ]
+      },
+      {
+       "code": "ME2",
+       "home": [
+        "Jonah Quintens"
+       ],
+       "away": [
+        "Thijs van den Berg"
+       ]
+      },
+      {
+       "code": "VE2",
+       "home": [
+        "Leonie Rovers"
+       ],
+       "away": [
+        "Iris van Leijsen"
+       ]
+      },
+      {
+       "code": "GD1",
+       "home": [
+        "Robin Tabeling",
+        "Sterre Bang"
+       ],
+       "away": [
+        "Noah Jongen",
+        "Stefanie Nijsse"
+       ]
+      },
+      {
+       "code": "GD2",
+       "home": [
+        "Freek Golinski",
+        "Inger Pothuizen"
+       ],
+       "away": [
+        "Rik Hermans",
+        "Lien Lammertyn"
+       ]
+      }
+     ]
     },
     {
      "home": "Decorette Amersfoort",
@@ -3673,7 +3754,88 @@
     "home": "2dA Smashing",
     "away": "PK Keukens Roosterse",
     "when": "za 14 nov · 19:00",
-    "rows": []
+    "rows": [
+     {
+      "code": "MD",
+      "home": [
+       "Robin Tabeling",
+       "Freek Golinski"
+      ],
+      "away": [
+       "Noah Jongen",
+       "Thijs van den Berg"
+      ]
+     },
+     {
+      "code": "VD",
+      "home": [
+       "Lieke Maes",
+       "Sterre Bang"
+      ],
+      "away": [
+       "Iris van Leijsen",
+       "Flore Vandenhoucke"
+      ]
+     },
+     {
+      "code": "ME1",
+      "home": [
+       "Marijn Put"
+      ],
+      "away": [
+       "Vihaan Shah"
+      ]
+     },
+     {
+      "code": "VE1",
+      "home": [
+       "Inger Pothuizen"
+      ],
+      "away": [
+       "Flore Vandenhoucke"
+      ]
+     },
+     {
+      "code": "ME2",
+      "home": [
+       "Jonah Quintens"
+      ],
+      "away": [
+       "Thijs van den Berg"
+      ]
+     },
+     {
+      "code": "VE2",
+      "home": [
+       "Leonie Rovers"
+      ],
+      "away": [
+       "Iris van Leijsen"
+      ]
+     },
+     {
+      "code": "GD1",
+      "home": [
+       "Robin Tabeling",
+       "Sterre Bang"
+      ],
+      "away": [
+       "Noah Jongen",
+       "Stefanie Nijsse"
+      ]
+     },
+     {
+      "code": "GD2",
+      "home": [
+       "Freek Golinski",
+       "Inger Pothuizen"
+      ],
+      "away": [
+       "Rik Hermans",
+       "Lien Lammertyn"
+      ]
+     }
+    ]
    },
    {
     "home": "Decorette Amersfoort",
@@ -10792,5 +10954,5 @@
    "Renske Kwakkenbos"
   ]
  },
- "updated": "14-11-2026 18:10"
+ "updated": "14-11-2026 18:40"
 }
