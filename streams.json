@@ -2,7 +2,7 @@
   "uitleg": "Handmatige livestreams. Vul bij 'wedstrijd' thuis - uit in (bijv. 'Smashing - Roosterse') en plak bij baan1/baan2 de link van de stream (YouTube, Vimeo, Twitch of Facebook). Laat leeg voor automatisch. Gaat altijd voor op de automatische koppeling. Haal oude regels gerust weg.",
   "handmatig": [
     {
-      "wedstrijd": "Smashing - Roosterse",
+      "wedstrijd": "Drop Shot - Dunlop DKC",
       "baan1": "",
       "baan2": ""
     }
