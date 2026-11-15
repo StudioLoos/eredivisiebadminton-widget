@@ -322,42 +322,68 @@
    "rows": [
     {
      "code": "MD",
-     "home": [],
-     "away": []
+     "home": [
+      "Dyon van Wijlick",
+      "Joep Strooper"
+     ],
+     "away": [
+      "Ties van der Lecq",
+      "Timo Stoffelen"
+     ]
     },
     {
      "code": "VD",
-     "home": [],
-     "away": []
+     "home": [
+      "Kirsten de Wit",
+      "Diede Odijk"
+     ],
+     "away": [
+      "Meerte Loos",
+      "Debora Jille"
+     ]
     },
     {
      "code": "ME1",
-     "home": [],
+     "home": [
+      "Noah Haase"
+     ],
      "away": []
     },
     {
      "code": "VE1",
-     "home": [],
+     "home": [
+      "Hristomira Popovska"
+     ],
      "away": []
     },
     {
      "code": "ME2",
-     "home": [],
+     "home": [
+      "Dennis Koppen"
+     ],
      "away": []
     },
     {
      "code": "VE2",
-     "home": [],
+     "home": [
+      "Diede Odijk"
+     ],
      "away": []
     },
     {
      "code": "GD1",
-     "home": [],
+     "home": [
+      "Dyon van Wijlick",
+      "Kirsten de Wit"
+     ],
      "away": []
     },
     {
      "code": "GD2",
-     "home": [],
+     "home": [
+      "Joep Strooper",
+      "Alida Chen"
+     ],
      "away": []
     }
    ]
@@ -1006,42 +1032,68 @@
      "rows": [
       {
        "code": "MD",
-       "home": [],
-       "away": []
+       "home": [
+        "Dyon van Wijlick",
+        "Joep Strooper"
+       ],
+       "away": [
+        "Ties van der Lecq",
+        "Timo Stoffelen"
+       ]
       },
       {
        "code": "VD",
-       "home": [],
-       "away": []
+       "home": [
+        "Kirsten de Wit",
+        "Diede Odijk"
+       ],
+       "away": [
+        "Meerte Loos",
+        "Debora Jille"
+       ]
       },
       {
        "code": "ME1",
-       "home": [],
+       "home": [
+        "Noah Haase"
+       ],
        "away": []
       },
       {
        "code": "VE1",
-       "home": [],
+       "home": [
+        "Hristomira Popovska"
+       ],
        "away": []
       },
       {
        "code": "ME2",
-       "home": [],
+       "home": [
+        "Dennis Koppen"
+       ],
        "away": []
       },
       {
        "code": "VE2",
-       "home": [],
+       "home": [
+        "Diede Odijk"
+       ],
        "away": []
       },
       {
        "code": "GD1",
-       "home": [],
+       "home": [
+        "Dyon van Wijlick",
+        "Kirsten de Wit"
+       ],
        "away": []
       },
       {
        "code": "GD2",
-       "home": [],
+       "home": [
+        "Joep Strooper",
+        "Alida Chen"
+       ],
        "away": []
       }
      ]
@@ -11505,5 +11557,5 @@
    "Renske Kwakkenbos"
   ]
  },
- "updated": "14-11-2026 22:00"
+ "updated": "15-11-2026 14:00"
 }
