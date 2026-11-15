@@ -317,8 +317,8 @@
   {
    "home": "FIT Almere",
    "away": "BC Duinwijck",
-   "hs": "",
-   "as": "",
+   "hs": 1,
+   "as": 0,
    "rows": [
     {
      "code": "MD",
@@ -329,7 +329,9 @@
      "away": [
       "Ties van der Lecq",
       "Timo Stoffelen"
-     ]
+     ],
+     "score": "21-13 21-13",
+     "winner": "home"
     },
     {
      "code": "VD",
@@ -1041,8 +1043,8 @@
     {
      "home": "FIT Almere",
      "away": "BC Duinwijck",
-     "hs": "",
-     "as": "",
+     "hs": 1,
+     "as": 0,
      "rows": [
       {
        "code": "MD",
@@ -1053,7 +1055,9 @@
        "away": [
         "Ties van der Lecq",
         "Timo Stoffelen"
-       ]
+       ],
+       "score": "21-13 21-13",
+       "winner": "home"
       },
       {
        "code": "VD",
@@ -4015,9 +4019,9 @@
    "speler": "Ties van der Lecq",
    "club": "BC Duinwijck",
    "w": 9,
-   "gp": 11,
-   "games": "19 – 4",
-   "punten": "466 – 323"
+   "gp": 12,
+   "games": "19 – 6",
+   "punten": "492 – 365"
   },
   {
    "pos": 6,
@@ -4039,6 +4043,15 @@
   },
   {
    "pos": 8,
+   "speler": "Dyon van Wijlick",
+   "club": "FIT Almere",
+   "w": 9,
+   "gp": 13,
+   "games": "19 – 10",
+   "punten": "564 – 509"
+  },
+  {
+   "pos": 9,
    "speler": "Jaymie Laurens",
    "club": "Dunlop DKC",
    "w": 9,
@@ -4047,7 +4060,7 @@
    "punten": "587 – 620"
   },
   {
-   "pos": 9,
+   "pos": 10,
    "speler": "Chloë Mayer",
    "club": "BC Duinwijck",
    "w": 8,
@@ -4056,7 +4069,7 @@
    "punten": "353 – 215"
   },
   {
-   "pos": 10,
+   "pos": 11,
    "speler": "Ade Resky Dwicahyo",
    "club": "PK Keukens Roosterse",
    "w": 8,
@@ -4065,22 +4078,13 @@
    "punten": "390 – 293"
   },
   {
-   "pos": 11,
+   "pos": 12,
    "speler": "Mark Caljouw",
    "club": "Dunlop DKC",
    "w": 8,
    "gp": 12,
    "games": "17 – 9",
    "punten": "438 – 428"
-  },
-  {
-   "pos": 12,
-   "speler": "Dyon van Wijlick",
-   "club": "FIT Almere",
-   "w": 8,
-   "gp": 12,
-   "games": "17 – 10",
-   "punten": "522 – 483"
   },
   {
    "pos": 13,
@@ -4093,6 +4097,15 @@
   },
   {
    "pos": 14,
+   "speler": "Joep Strooper",
+   "club": "FIT Almere",
+   "w": 8,
+   "gp": 15,
+   "games": "20 – 16",
+   "punten": "684 – 654"
+  },
+  {
+   "pos": 15,
    "speler": "Robin Tabeling",
    "club": "2dA Smashing",
    "w": 7,
@@ -4101,22 +4114,13 @@
    "punten": "382 – 270"
   },
   {
-   "pos": 15,
+   "pos": 16,
    "speler": "Dennis Koppen",
    "club": "FIT Almere",
    "w": 7,
    "gp": 9,
    "games": "15 – 5",
    "punten": "383 – 317"
-  },
-  {
-   "pos": 16,
-   "speler": "Joep Strooper",
-   "club": "FIT Almere",
-   "w": 7,
-   "gp": 14,
-   "games": "18 – 16",
-   "punten": "642 – 628"
   },
   {
    "pos": 17,
@@ -4192,21 +4196,21 @@
   },
   {
    "pos": 25,
-   "speler": "Timo Stoffelen",
-   "club": "BC Duinwijck",
-   "w": 6,
-   "gp": 10,
-   "games": "12 – 10",
-   "punten": "414 – 385"
-  },
-  {
-   "pos": 26,
    "speler": "Inger Pothuizen",
    "club": "2dA Smashing",
    "w": 6,
    "gp": 10,
    "games": "14 – 12",
    "punten": "491 – 470"
+  },
+  {
+   "pos": 26,
+   "speler": "Timo Stoffelen",
+   "club": "BC Duinwijck",
+   "w": 6,
+   "gp": 11,
+   "games": "12 – 12",
+   "punten": "440 – 427"
   },
   {
    "pos": 27,
@@ -4908,9 +4912,9 @@
    "speler": "Ties van der Lecq",
    "club": "BC Duinwijck",
    "w": 9,
-   "gp": 11,
-   "games": "19 – 4",
-   "punten": "466 – 323"
+   "gp": 12,
+   "games": "19 – 6",
+   "punten": "492 – 365"
   },
   {
    "pos": 6,
@@ -4932,6 +4936,15 @@
   },
   {
    "pos": 8,
+   "speler": "Dyon van Wijlick",
+   "club": "FIT Almere",
+   "w": 9,
+   "gp": 13,
+   "games": "19 – 10",
+   "punten": "564 – 509"
+  },
+  {
+   "pos": 9,
    "speler": "Jaymie Laurens",
    "club": "Dunlop DKC",
    "w": 9,
@@ -4940,22 +4953,13 @@
    "punten": "587 – 620"
   },
   {
-   "pos": 9,
+   "pos": 10,
    "speler": "Chloë Mayer",
    "club": "BC Duinwijck",
    "w": 8,
    "gp": 8,
    "games": "16 – 1",
    "punten": "353 – 215"
-  },
-  {
-   "pos": 10,
-   "speler": "Ade Resky Dwicahyo",
-   "club": "PK Keukens Roosterse",
-   "w": 8,
-   "gp": 8,
-   "games": "16 – 3",
-   "punten": "390 – 293"
   }
  ],
  "ids": {
@@ -4966,15 +4970,15 @@
   "Ties van der Lecq": 3966,
   "Kirsten de Wit": 4888,
   "Alida Chen": 4878,
+  "Dyon van Wijlick": 4886,
   "Jaymie Laurens": 5755,
   "Chloë Mayer": 3978,
   "Ade Resky Dwicahyo": 5335,
   "Mark Caljouw": 5756,
-  "Dyon van Wijlick": 4886,
   "Diede Odijk": 4879,
+  "Joep Strooper": 4885,
   "Robin Tabeling": 5202,
   "Dennis Koppen": 4883,
-  "Joep Strooper": 4885,
   "Tammi van Wonterghem": 5157,
   "Iris van Leijsen": 5341,
   "Debora Jille": 3975,
@@ -4983,8 +4987,8 @@
   "Jasper Koppen": 5336,
   "Freek Golinski": 5201,
   "Ruben Jille": 4748,
-  "Timo Stoffelen": 3970,
   "Inger Pothuizen": 5196,
+  "Timo Stoffelen": 3970,
   "Noah Jongen": 5344,
   "Amy Tan": 5073,
   "Veda Diemel": 5075,
@@ -5174,9 +5178,9 @@
      "pos": 4,
      "speler": "Ties van der Lecq",
      "e": "–",
-     "d": "5 – 1",
+     "d": "5 – 2",
      "m": "4 – 1",
-     "tot": "9/11"
+     "tot": "9/12"
     },
     {
      "pos": 5,
@@ -5198,9 +5202,9 @@
      "pos": 7,
      "speler": "Timo Stoffelen",
      "e": "3 – 2",
-     "d": "2 – 1",
+     "d": "2 – 2",
      "m": "1 – 1",
-     "tot": "6/10"
+     "tot": "6/11"
     },
     {
      "pos": 8,
@@ -5259,9 +5263,9 @@
      "pos": 3,
      "speler": "Dyon van Wijlick",
      "e": "1 – 0",
-     "d": "3 – 3",
+     "d": "4 – 3",
      "m": "4 – 1",
-     "tot": "8/12"
+     "tot": "9/13"
     },
     {
      "pos": 4,
@@ -5273,19 +5277,19 @@
     },
     {
      "pos": 5,
+     "speler": "Joep Strooper",
+     "e": "–",
+     "d": "4 – 4",
+     "m": "4 – 3",
+     "tot": "8/15"
+    },
+    {
+     "pos": 6,
      "speler": "Dennis Koppen",
      "e": "6 – 1",
      "d": "0 – 1",
      "m": "1 – 0",
      "tot": "7/9"
-    },
-    {
-     "pos": 6,
-     "speler": "Joep Strooper",
-     "e": "–",
-     "d": "3 – 4",
-     "m": "4 – 3",
-     "tot": "7/14"
     },
     {
      "pos": 7,
@@ -11585,5 +11589,5 @@
    "Renske Kwakkenbos"
   ]
  },
- "updated": "15-11-2026 14:02"
+ "updated": "15-11-2026 14:40"
 }
