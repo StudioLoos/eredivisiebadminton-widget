@@ -318,7 +318,7 @@
    "home": "FIT Almere",
    "away": "BC Duinwijck",
    "hs": 5,
-   "as": 2,
+   "as": 3,
    "rows": [
     {
      "code": "MD",
@@ -399,7 +399,9 @@
      "away": [
       "Ties van der Lecq",
       "Debora Jille"
-     ]
+     ],
+     "score": "8-21 21-16 22-24",
+     "winner": "away"
     },
     {
      "code": "GD2",
@@ -1056,7 +1058,7 @@
      "home": "FIT Almere",
      "away": "BC Duinwijck",
      "hs": 5,
-     "as": 2,
+     "as": 3,
      "rows": [
       {
        "code": "MD",
@@ -1137,7 +1139,9 @@
        "away": [
         "Ties van der Lecq",
         "Debora Jille"
-       ]
+       ],
+       "score": "8-21 21-16 22-24",
+       "winner": "away"
       },
       {
        "code": "GD2",
@@ -3715,15 +3719,15 @@
    "date": "12 december 2026",
    "matches": [
     {
-     "home": "Decorette Amersfoort",
-     "away": "Dunlop DKC",
+     "home": "Velo Badminton",
+     "away": "BC Drop Shot",
      "when": "za 12 dec · 19:00",
      "start": "2026-12-12T19:00:00",
      "rows": []
     },
     {
-     "home": "Velo Badminton",
-     "away": "BC Drop Shot",
+     "home": "Decorette Amersfoort",
+     "away": "Dunlop DKC",
      "when": "za 12 dec · 19:00",
      "start": "2026-12-12T19:00:00",
      "rows": []
@@ -3915,24 +3919,24 @@
   {
    "pos": 1,
    "team": "BC Duinwijck",
-   "pts": 47,
-   "gp": 7,
+   "pts": 50,
+   "gp": 8,
    "w": 7,
    "g": 0,
-   "v": 0,
-   "wed": "47 – 9",
-   "games": "97 – 23"
+   "v": 1,
+   "wed": "50 – 14",
+   "games": "104 – 34"
   },
   {
    "pos": 2,
    "team": "FIT Almere",
-   "pts": 37,
-   "gp": 7,
-   "w": 5,
+   "pts": 42,
+   "gp": 8,
+   "w": 6,
    "g": 1,
    "v": 1,
-   "wed": "37 – 19",
-   "games": "81 – 52"
+   "wed": "42 – 22",
+   "games": "92 – 59"
   },
   {
    "pos": 3,
@@ -4031,15 +4035,24 @@
   },
   {
    "pos": 4,
-   "speler": "Kirsten de Wit",
-   "club": "FIT Almere",
+   "speler": "Ties van der Lecq",
+   "club": "BC Duinwijck",
    "w": 10,
    "gp": 13,
-   "games": "21 – 11",
-   "punten": "661 – 576"
+   "games": "21 – 7",
+   "punten": "553 – 416"
   },
   {
    "pos": 5,
+   "speler": "Kirsten de Wit",
+   "club": "FIT Almere",
+   "w": 10,
+   "gp": 14,
+   "games": "22 – 13",
+   "punten": "712 – 637"
+  },
+  {
+   "pos": 6,
    "speler": "Chloë Mayer",
    "club": "BC Duinwijck",
    "w": 9,
@@ -4048,7 +4061,7 @@
    "punten": "395 – 239"
   },
   {
-   "pos": 6,
+   "pos": 7,
    "speler": "Alyssa Tirtosentono",
    "club": "BC Duinwijck",
    "w": 9,
@@ -4057,31 +4070,22 @@
    "punten": "434 – 305"
   },
   {
-   "pos": 7,
-   "speler": "Ties van der Lecq",
-   "club": "BC Duinwijck",
-   "w": 9,
-   "gp": 12,
-   "games": "19 – 6",
-   "punten": "492 – 365"
-  },
-  {
    "pos": 8,
-   "speler": "Dyon van Wijlick",
-   "club": "FIT Almere",
-   "w": 9,
-   "gp": 13,
-   "games": "19 – 10",
-   "punten": "564 – 509"
-  },
-  {
-   "pos": 9,
    "speler": "Alida Chen",
    "club": "FIT Almere",
    "w": 9,
    "gp": 13,
    "games": "19 – 13",
    "punten": "614 – 574"
+  },
+  {
+   "pos": 9,
+   "speler": "Dyon van Wijlick",
+   "club": "FIT Almere",
+   "w": 9,
+   "gp": 14,
+   "games": "20 – 12",
+   "punten": "615 – 570"
   },
   {
    "pos": 10,
@@ -4139,6 +4143,15 @@
   },
   {
    "pos": 16,
+   "speler": "Debora Jille",
+   "club": "BC Duinwijck",
+   "w": 7,
+   "gp": 8,
+   "games": "14 – 3",
+   "punten": "348 – 238"
+  },
+  {
+   "pos": 17,
    "speler": "Robin Tabeling",
    "club": "2dA Smashing",
    "w": 7,
@@ -4147,7 +4160,7 @@
    "punten": "382 – 270"
   },
   {
-   "pos": 17,
+   "pos": 18,
    "speler": "Tammi van Wonterghem",
    "club": "BC Drop Shot",
    "w": 7,
@@ -4156,7 +4169,7 @@
    "punten": "581 – 588"
   },
   {
-   "pos": 18,
+   "pos": 19,
    "speler": "Iris van Leijsen",
    "club": "PK Keukens Roosterse",
    "w": 7,
@@ -4165,7 +4178,7 @@
    "punten": "705 – 723"
   },
   {
-   "pos": 19,
+   "pos": 20,
    "speler": "Joran Kweekel",
    "club": "Dunlop DKC",
    "w": 6,
@@ -4174,7 +4187,7 @@
    "punten": "275 – 198"
   },
   {
-   "pos": 20,
+   "pos": 21,
    "speler": "Iben Bergstein",
    "club": "BC Drop Shot",
    "w": 6,
@@ -4183,22 +4196,13 @@
    "punten": "275 – 205"
   },
   {
-   "pos": 21,
+   "pos": 22,
    "speler": "Noah Haase",
    "club": "FIT Almere",
    "w": 6,
    "gp": 6,
    "games": "12 – 2",
    "punten": "280 – 192"
-  },
-  {
-   "pos": 22,
-   "speler": "Debora Jille",
-   "club": "BC Duinwijck",
-   "w": 6,
-   "gp": 7,
-   "games": "12 – 2",
-   "punten": "287 – 187"
   },
   {
    "pos": 23,
@@ -4924,15 +4928,24 @@
   },
   {
    "pos": 4,
-   "speler": "Kirsten de Wit",
-   "club": "FIT Almere",
+   "speler": "Ties van der Lecq",
+   "club": "BC Duinwijck",
    "w": 10,
    "gp": 13,
-   "games": "21 – 11",
-   "punten": "661 – 576"
+   "games": "21 – 7",
+   "punten": "553 – 416"
   },
   {
    "pos": 5,
+   "speler": "Kirsten de Wit",
+   "club": "FIT Almere",
+   "w": 10,
+   "gp": 14,
+   "games": "22 – 13",
+   "punten": "712 – 637"
+  },
+  {
+   "pos": 6,
    "speler": "Chloë Mayer",
    "club": "BC Duinwijck",
    "w": 9,
@@ -4941,7 +4954,7 @@
    "punten": "395 – 239"
   },
   {
-   "pos": 6,
+   "pos": 7,
    "speler": "Alyssa Tirtosentono",
    "club": "BC Duinwijck",
    "w": 9,
@@ -4950,31 +4963,22 @@
    "punten": "434 – 305"
   },
   {
-   "pos": 7,
-   "speler": "Ties van der Lecq",
-   "club": "BC Duinwijck",
-   "w": 9,
-   "gp": 12,
-   "games": "19 – 6",
-   "punten": "492 – 365"
-  },
-  {
    "pos": 8,
-   "speler": "Dyon van Wijlick",
-   "club": "FIT Almere",
-   "w": 9,
-   "gp": 13,
-   "games": "19 – 10",
-   "punten": "564 – 509"
-  },
-  {
-   "pos": 9,
    "speler": "Alida Chen",
    "club": "FIT Almere",
    "w": 9,
    "gp": 13,
    "games": "19 – 13",
    "punten": "614 – 574"
+  },
+  {
+   "pos": 9,
+   "speler": "Dyon van Wijlick",
+   "club": "FIT Almere",
+   "w": 9,
+   "gp": 14,
+   "games": "20 – 12",
+   "punten": "615 – 570"
   },
   {
    "pos": 10,
@@ -4990,25 +4994,25 @@
   "Brian Wassink": 3971,
   "Meerte Loos": 3974,
   "Flora Wang": 5754,
+  "Ties van der Lecq": 3966,
   "Kirsten de Wit": 4888,
   "Chloë Mayer": 3978,
   "Alyssa Tirtosentono": 3977,
-  "Ties van der Lecq": 3966,
-  "Dyon van Wijlick": 4886,
   "Alida Chen": 4878,
+  "Dyon van Wijlick": 4886,
   "Jaymie Laurens": 5755,
   "Diede Odijk": 4879,
   "Ade Resky Dwicahyo": 5335,
   "Dennis Koppen": 4883,
   "Mark Caljouw": 5756,
   "Joep Strooper": 4885,
+  "Debora Jille": 3975,
   "Robin Tabeling": 5202,
   "Tammi van Wonterghem": 5157,
   "Iris van Leijsen": 5341,
   "Joran Kweekel": 5757,
   "Iben Bergstein": 5163,
   "Noah Haase": 4884,
-  "Debora Jille": 3975,
   "Jasper Koppen": 5336,
   "Freek Golinski": 5201,
   "Aram Mahmoud": 3952,
@@ -5192,6 +5196,14 @@
     },
     {
      "pos": 3,
+     "speler": "Ties van der Lecq",
+     "e": "–",
+     "d": "5 – 2",
+     "m": "5 – 1",
+     "tot": "10/13"
+    },
+    {
+     "pos": 4,
      "speler": "Chloë Mayer",
      "e": "8 – 0",
      "d": "1 – 0",
@@ -5199,7 +5211,7 @@
      "tot": "9/9"
     },
     {
-     "pos": 4,
+     "pos": 5,
      "speler": "Alyssa Tirtosentono",
      "e": "–",
      "d": "5 – 0",
@@ -5207,20 +5219,12 @@
      "tot": "9/10"
     },
     {
-     "pos": 5,
-     "speler": "Ties van der Lecq",
-     "e": "–",
-     "d": "5 – 2",
-     "m": "4 – 1",
-     "tot": "9/12"
-    },
-    {
      "pos": 6,
      "speler": "Debora Jille",
      "e": "–",
      "d": "3 – 1",
-     "m": "3 – 0",
-     "tot": "6/7"
+     "m": "4 – 0",
+     "tot": "7/8"
     },
     {
      "pos": 7,
@@ -5272,24 +5276,24 @@
      "speler": "Kirsten de Wit",
      "e": "–",
      "d": "6 – 1",
-     "m": "4 – 2",
-     "tot": "10/13"
+     "m": "4 – 3",
+     "tot": "10/14"
     },
     {
      "pos": 2,
-     "speler": "Dyon van Wijlick",
-     "e": "1 – 0",
-     "d": "4 – 3",
-     "m": "4 – 1",
-     "tot": "9/13"
-    },
-    {
-     "pos": 3,
      "speler": "Alida Chen",
      "e": "3 – 2",
      "d": "1 – 0",
      "m": "5 – 2",
      "tot": "9/13"
+    },
+    {
+     "pos": 3,
+     "speler": "Dyon van Wijlick",
+     "e": "1 – 0",
+     "d": "4 – 3",
+     "m": "4 – 2",
+     "tot": "9/14"
     },
     {
      "pos": 4,
@@ -6494,7 +6498,7 @@
   {
    "round": "Speelronde 7",
    "date": "14 & 15 november",
-   "voorlopig": true,
+   "voorlopig": false,
    "speler": [
     {
      "names": [
@@ -11613,5 +11617,5 @@
    "Renske Kwakkenbos"
   ]
  },
- "updated": "15-11-2026 16:40"
+ "updated": "15-11-2026 16:55"
 }
