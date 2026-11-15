@@ -317,7 +317,7 @@
   {
    "home": "FIT Almere",
    "away": "BC Duinwijck",
-   "hs": 1,
+   "hs": 2,
    "as": 0,
    "rows": [
     {
@@ -342,7 +342,9 @@
      "away": [
       "Meerte Loos",
       "Debora Jille"
-     ]
+     ],
+     "score": "21-14 23-21",
+     "winner": "home"
     },
     {
      "code": "ME1",
@@ -1043,7 +1045,7 @@
     {
      "home": "FIT Almere",
      "away": "BC Duinwijck",
-     "hs": 1,
+     "hs": 2,
      "as": 0,
      "rows": [
       {
@@ -1068,7 +1070,9 @@
        "away": [
         "Meerte Loos",
         "Debora Jille"
-       ]
+       ],
+       "score": "21-14 23-21",
+       "winner": "home"
       },
       {
        "code": "ME1",
@@ -4001,12 +4005,21 @@
    "speler": "Meerte Loos",
    "club": "BC Duinwijck",
    "w": 10,
-   "gp": 10,
-   "games": "20 – 0",
-   "punten": "424 – 255"
+   "gp": 11,
+   "games": "20 – 2",
+   "punten": "459 – 299"
   },
   {
    "pos": 4,
+   "speler": "Kirsten de Wit",
+   "club": "FIT Almere",
+   "w": 10,
+   "gp": 13,
+   "games": "21 – 11",
+   "punten": "661 – 576"
+  },
+  {
+   "pos": 5,
    "speler": "Alyssa Tirtosentono",
    "club": "BC Duinwijck",
    "w": 9,
@@ -4015,22 +4028,13 @@
    "punten": "434 – 305"
   },
   {
-   "pos": 5,
+   "pos": 6,
    "speler": "Ties van der Lecq",
    "club": "BC Duinwijck",
    "w": 9,
    "gp": 12,
    "games": "19 – 6",
    "punten": "492 – 365"
-  },
-  {
-   "pos": 6,
-   "speler": "Kirsten de Wit",
-   "club": "FIT Almere",
-   "w": 9,
-   "gp": 12,
-   "games": "19 – 11",
-   "punten": "617 – 541"
   },
   {
    "pos": 7,
@@ -4052,6 +4056,15 @@
   },
   {
    "pos": 9,
+   "speler": "Diede Odijk",
+   "club": "FIT Almere",
+   "w": 9,
+   "gp": 15,
+   "games": "20 – 17",
+   "punten": "710 – 681"
+  },
+  {
+   "pos": 10,
    "speler": "Jaymie Laurens",
    "club": "Dunlop DKC",
    "w": 9,
@@ -4060,7 +4073,7 @@
    "punten": "587 – 620"
   },
   {
-   "pos": 10,
+   "pos": 11,
    "speler": "Chloë Mayer",
    "club": "BC Duinwijck",
    "w": 8,
@@ -4069,7 +4082,7 @@
    "punten": "353 – 215"
   },
   {
-   "pos": 11,
+   "pos": 12,
    "speler": "Ade Resky Dwicahyo",
    "club": "PK Keukens Roosterse",
    "w": 8,
@@ -4078,22 +4091,13 @@
    "punten": "390 – 293"
   },
   {
-   "pos": 12,
+   "pos": 13,
    "speler": "Mark Caljouw",
    "club": "Dunlop DKC",
    "w": 8,
    "gp": 12,
    "games": "17 – 9",
    "punten": "438 – 428"
-  },
-  {
-   "pos": 13,
-   "speler": "Diede Odijk",
-   "club": "FIT Almere",
-   "w": 8,
-   "gp": 14,
-   "games": "18 – 17",
-   "punten": "666 – 646"
   },
   {
    "pos": 14,
@@ -4142,15 +4146,6 @@
   },
   {
    "pos": 19,
-   "speler": "Debora Jille",
-   "club": "BC Duinwijck",
-   "w": 6,
-   "gp": 6,
-   "games": "12 – 0",
-   "punten": "252 – 143"
-  },
-  {
-   "pos": 20,
    "speler": "Joran Kweekel",
    "club": "Dunlop DKC",
    "w": 6,
@@ -4159,13 +4154,22 @@
    "punten": "275 – 198"
   },
   {
-   "pos": 21,
+   "pos": 20,
    "speler": "Iben Bergstein",
    "club": "BC Drop Shot",
    "w": 6,
    "gp": 6,
    "games": "12 – 1",
    "punten": "275 – 205"
+  },
+  {
+   "pos": 21,
+   "speler": "Debora Jille",
+   "club": "BC Duinwijck",
+   "w": 6,
+   "gp": 7,
+   "games": "12 – 2",
+   "punten": "287 – 187"
   },
   {
    "pos": 22,
@@ -4894,12 +4898,21 @@
    "speler": "Meerte Loos",
    "club": "BC Duinwijck",
    "w": 10,
-   "gp": 10,
-   "games": "20 – 0",
-   "punten": "424 – 255"
+   "gp": 11,
+   "games": "20 – 2",
+   "punten": "459 – 299"
   },
   {
    "pos": 4,
+   "speler": "Kirsten de Wit",
+   "club": "FIT Almere",
+   "w": 10,
+   "gp": 13,
+   "games": "21 – 11",
+   "punten": "661 – 576"
+  },
+  {
+   "pos": 5,
    "speler": "Alyssa Tirtosentono",
    "club": "BC Duinwijck",
    "w": 9,
@@ -4908,22 +4921,13 @@
    "punten": "434 – 305"
   },
   {
-   "pos": 5,
+   "pos": 6,
    "speler": "Ties van der Lecq",
    "club": "BC Duinwijck",
    "w": 9,
    "gp": 12,
    "games": "19 – 6",
    "punten": "492 – 365"
-  },
-  {
-   "pos": 6,
-   "speler": "Kirsten de Wit",
-   "club": "FIT Almere",
-   "w": 9,
-   "gp": 12,
-   "games": "19 – 11",
-   "punten": "617 – 541"
   },
   {
    "pos": 7,
@@ -4945,45 +4949,45 @@
   },
   {
    "pos": 9,
+   "speler": "Diede Odijk",
+   "club": "FIT Almere",
+   "w": 9,
+   "gp": 15,
+   "games": "20 – 17",
+   "punten": "710 – 681"
+  },
+  {
+   "pos": 10,
    "speler": "Jaymie Laurens",
    "club": "Dunlop DKC",
    "w": 9,
    "gp": 16,
    "games": "21 – 14",
    "punten": "587 – 620"
-  },
-  {
-   "pos": 10,
-   "speler": "Chloë Mayer",
-   "club": "BC Duinwijck",
-   "w": 8,
-   "gp": 8,
-   "games": "16 – 1",
-   "punten": "353 – 215"
   }
  ],
  "ids": {
   "Brian Wassink": 3971,
   "Flora Wang": 5754,
   "Meerte Loos": 3974,
+  "Kirsten de Wit": 4888,
   "Alyssa Tirtosentono": 3977,
   "Ties van der Lecq": 3966,
-  "Kirsten de Wit": 4888,
   "Alida Chen": 4878,
   "Dyon van Wijlick": 4886,
+  "Diede Odijk": 4879,
   "Jaymie Laurens": 5755,
   "Chloë Mayer": 3978,
   "Ade Resky Dwicahyo": 5335,
   "Mark Caljouw": 5756,
-  "Diede Odijk": 4879,
   "Joep Strooper": 4885,
   "Robin Tabeling": 5202,
   "Dennis Koppen": 4883,
   "Tammi van Wonterghem": 5157,
   "Iris van Leijsen": 5341,
-  "Debora Jille": 3975,
   "Joran Kweekel": 5757,
   "Iben Bergstein": 5163,
+  "Debora Jille": 3975,
   "Jasper Koppen": 5336,
   "Freek Golinski": 5201,
   "Ruben Jille": 4748,
@@ -5162,9 +5166,9 @@
      "pos": 2,
      "speler": "Meerte Loos",
      "e": "–",
-     "d": "5 – 0",
+     "d": "5 – 1",
      "m": "5 – 0",
-     "tot": "10/10"
+     "tot": "10/11"
     },
     {
      "pos": 3,
@@ -5194,9 +5198,9 @@
      "pos": 6,
      "speler": "Debora Jille",
      "e": "–",
-     "d": "3 – 0",
+     "d": "3 – 1",
      "m": "3 – 0",
-     "tot": "6/6"
+     "tot": "6/7"
     },
     {
      "pos": 7,
@@ -5247,9 +5251,9 @@
      "pos": 1,
      "speler": "Kirsten de Wit",
      "e": "–",
-     "d": "5 – 1",
+     "d": "6 – 1",
      "m": "4 – 2",
-     "tot": "9/12"
+     "tot": "10/13"
     },
     {
      "pos": 2,
@@ -5271,9 +5275,9 @@
      "pos": 4,
      "speler": "Diede Odijk",
      "e": "2 – 5",
-     "d": "6 – 1",
+     "d": "7 – 1",
      "m": "–",
-     "tot": "8/14"
+     "tot": "9/15"
     },
     {
      "pos": 5,
@@ -6801,6 +6805,30 @@
      "top": [
       {
        "names": [
+        "Kirsten de Wit",
+        "Diede Odijk"
+       ],
+       "club": "FIT Almere",
+       "w": 1,
+       "p": 1,
+       "games": "2-0",
+       "punten": "44-35",
+       "saldo": 9,
+       "res": [
+        {
+         "code": "VD",
+         "tegen": [
+          "Meerte Loos",
+          "Debora Jille"
+         ],
+         "tclub": "BC Duinwijck",
+         "w": 1,
+         "score": "21-14 23-21"
+        }
+       ]
+      },
+      {
+       "names": [
         "Kelly van Buiten",
         "Shreya Hochscheid"
        ],
@@ -6844,30 +6872,6 @@
          "tclub": "Dunlop DKC",
          "w": 1,
          "score": "18-21 21-13 21-12"
-        }
-       ]
-      },
-      {
-       "names": [
-        "Iris van Leijsen",
-        "Flore Vandenhoucke"
-       ],
-       "club": "PK Keukens Roosterse",
-       "w": 1,
-       "p": 1,
-       "games": "2-1",
-       "punten": "58-49",
-       "saldo": 9,
-       "res": [
-        {
-         "code": "VD",
-         "tegen": [
-          "Lieke Maes",
-          "Sterre Bang"
-         ],
-         "tclub": "2dA Smashing",
-         "w": 1,
-         "score": "21-14 16-21 21-14"
         }
        ]
       }
@@ -11589,5 +11593,5 @@
    "Renske Kwakkenbos"
   ]
  },
- "updated": "15-11-2026 14:40"
+ "updated": "15-11-2026 14:45"
 }
