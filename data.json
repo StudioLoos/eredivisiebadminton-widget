@@ -4168,6 +4168,15 @@
   },
   {
    "pos": 21,
+   "speler": "Noah Haase",
+   "club": "FIT Almere",
+   "w": 6,
+   "gp": 6,
+   "games": "12 – 2",
+   "punten": "280 – 192"
+  },
+  {
+   "pos": 22,
    "speler": "Debora Jille",
    "club": "BC Duinwijck",
    "w": 6,
@@ -4176,7 +4185,7 @@
    "punten": "287 – 187"
   },
   {
-   "pos": 22,
+   "pos": 23,
    "speler": "Jasper Koppen",
    "club": "PK Keukens Roosterse",
    "w": 6,
@@ -4185,7 +4194,7 @@
    "punten": "338 – 276"
   },
   {
-   "pos": 23,
+   "pos": 24,
    "speler": "Freek Golinski",
    "club": "2dA Smashing",
    "w": 6,
@@ -4194,7 +4203,7 @@
    "punten": "332 – 268"
   },
   {
-   "pos": 24,
+   "pos": 25,
    "speler": "Ruben Jille",
    "club": "Decorette Amersfoort",
    "w": 6,
@@ -4203,7 +4212,7 @@
    "punten": "448 – 418"
   },
   {
-   "pos": 25,
+   "pos": 26,
    "speler": "Inger Pothuizen",
    "club": "2dA Smashing",
    "w": 6,
@@ -4212,7 +4221,7 @@
    "punten": "491 – 470"
   },
   {
-   "pos": 26,
+   "pos": 27,
    "speler": "Timo Stoffelen",
    "club": "BC Duinwijck",
    "w": 6,
@@ -4221,7 +4230,7 @@
    "punten": "440 – 427"
   },
   {
-   "pos": 27,
+   "pos": 28,
    "speler": "Noah Jongen",
    "club": "PK Keukens Roosterse",
    "w": 6,
@@ -4230,7 +4239,7 @@
    "punten": "513 – 543"
   },
   {
-   "pos": 28,
+   "pos": 29,
    "speler": "Amy Tan",
    "club": "Velo Badminton",
    "w": 6,
@@ -4239,7 +4248,7 @@
    "punten": "655 – 685"
   },
   {
-   "pos": 29,
+   "pos": 30,
    "speler": "Veda Diemel",
    "club": "Velo Badminton",
    "w": 6,
@@ -4248,22 +4257,13 @@
    "punten": "681 – 729"
   },
   {
-   "pos": 30,
-   "speler": "Noah Haase",
-   "club": "FIT Almere",
-   "w": 5,
-   "gp": 5,
-   "games": "10 – 2",
-   "punten": "238 – 162"
-  },
-  {
    "pos": 31,
    "speler": "Aram Mahmoud",
    "club": "BC Duinwijck",
    "w": 5,
-   "gp": 6,
-   "games": "11 – 2",
-   "punten": "262 – 205"
+   "gp": 7,
+   "games": "11 – 4",
+   "punten": "292 – 247"
   },
   {
    "pos": 32,
@@ -4991,6 +4991,7 @@
   "Iris van Leijsen": 5341,
   "Joran Kweekel": 5757,
   "Iben Bergstein": 5163,
+  "Noah Haase": 4884,
   "Debora Jille": 3975,
   "Jasper Koppen": 5336,
   "Freek Golinski": 5201,
@@ -5000,7 +5001,6 @@
   "Noah Jongen": 5344,
   "Amy Tan": 5073,
   "Veda Diemel": 5075,
-  "Noah Haase": 4884,
   "Aram Mahmoud": 3952,
   "Andy Buijk": 5154,
   "Marijn Put": 5204,
@@ -11590,8 +11590,6 @@
    "Robin Tabeling",
    "Freek Golinski",
    "Ruben Jille",
-   "Noah Haase",
-   "Aram Mahmoud",
    "Ruben Wijnands",
    "Sterre Bang",
    "Kelly van Buiten",
@@ -11599,5 +11597,5 @@
    "Renske Kwakkenbos"
   ]
  },
- "updated": "15-11-2026 15:45"
+ "updated": "15-11-2026 15:50"
 }
