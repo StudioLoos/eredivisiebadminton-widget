@@ -347,28 +347,36 @@
      "home": [
       "Noah Haase"
      ],
-     "away": []
+     "away": [
+      "Aram Mahmoud"
+     ]
     },
     {
      "code": "VE1",
      "home": [
       "Hristomira Popovska"
      ],
-     "away": []
+     "away": [
+      "Novi Wieland"
+     ]
     },
     {
      "code": "ME2",
      "home": [
       "Dennis Koppen"
      ],
-     "away": []
+     "away": [
+      "Timo Stoffelen"
+     ]
     },
     {
      "code": "VE2",
      "home": [
       "Diede Odijk"
      ],
-     "away": []
+     "away": [
+      "Chloë Mayer"
+     ]
     },
     {
      "code": "GD1",
@@ -376,7 +384,10 @@
       "Dyon van Wijlick",
       "Kirsten de Wit"
      ],
-     "away": []
+     "away": [
+      "Ties van der Lecq",
+      "Debora Jille"
+     ]
     },
     {
      "code": "GD2",
@@ -384,7 +395,10 @@
       "Joep Strooper",
       "Alida Chen"
      ],
-     "away": []
+     "away": [
+      "Aram Mahmoud",
+      "Meerte Loos"
+     ]
     }
    ]
   }
@@ -1057,28 +1071,36 @@
        "home": [
         "Noah Haase"
        ],
-       "away": []
+       "away": [
+        "Aram Mahmoud"
+       ]
       },
       {
        "code": "VE1",
        "home": [
         "Hristomira Popovska"
        ],
-       "away": []
+       "away": [
+        "Novi Wieland"
+       ]
       },
       {
        "code": "ME2",
        "home": [
         "Dennis Koppen"
        ],
-       "away": []
+       "away": [
+        "Timo Stoffelen"
+       ]
       },
       {
        "code": "VE2",
        "home": [
         "Diede Odijk"
        ],
-       "away": []
+       "away": [
+        "Chloë Mayer"
+       ]
       },
       {
        "code": "GD1",
@@ -1086,7 +1108,10 @@
         "Dyon van Wijlick",
         "Kirsten de Wit"
        ],
-       "away": []
+       "away": [
+        "Ties van der Lecq",
+        "Debora Jille"
+       ]
       },
       {
        "code": "GD2",
@@ -1094,7 +1119,10 @@
         "Joep Strooper",
         "Alida Chen"
        ],
-       "away": []
+       "away": [
+        "Aram Mahmoud",
+        "Meerte Loos"
+       ]
       }
      ]
     }
@@ -11557,5 +11585,5 @@
    "Renske Kwakkenbos"
   ]
  },
- "updated": "15-11-2026 14:00"
+ "updated": "15-11-2026 14:02"
 }
