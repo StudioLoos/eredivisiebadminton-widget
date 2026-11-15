@@ -318,7 +318,7 @@
    "home": "FIT Almere",
    "away": "BC Duinwijck",
    "hs": 5,
-   "as": 1,
+   "as": 2,
    "rows": [
     {
      "code": "MD",
@@ -410,7 +410,9 @@
      "away": [
       "Aram Mahmoud",
       "Meerte Loos"
-     ]
+     ],
+     "score": "13-21 10-21",
+     "winner": "away"
     }
    ]
   }
@@ -1054,7 +1056,7 @@
      "home": "FIT Almere",
      "away": "BC Duinwijck",
      "hs": 5,
-     "as": 1,
+     "as": 2,
      "rows": [
       {
        "code": "MD",
@@ -1146,7 +1148,9 @@
        "away": [
         "Aram Mahmoud",
         "Meerte Loos"
-       ]
+       ],
+       "score": "13-21 10-21",
+       "winner": "away"
       }
      ]
     }
@@ -4009,21 +4013,21 @@
   },
   {
    "pos": 2,
+   "speler": "Meerte Loos",
+   "club": "BC Duinwijck",
+   "w": 11,
+   "gp": 12,
+   "games": "22 – 2",
+   "punten": "501 – 322"
+  },
+  {
+   "pos": 3,
    "speler": "Flora Wang",
    "club": "Dunlop DKC",
    "w": 11,
    "gp": 16,
    "games": "25 – 12",
    "punten": "726 – 616"
-  },
-  {
-   "pos": 3,
-   "speler": "Meerte Loos",
-   "club": "BC Duinwijck",
-   "w": 10,
-   "gp": 11,
-   "games": "20 – 2",
-   "punten": "459 – 299"
   },
   {
    "pos": 4,
@@ -4063,21 +4067,21 @@
   },
   {
    "pos": 8,
-   "speler": "Alida Chen",
-   "club": "FIT Almere",
-   "w": 9,
-   "gp": 12,
-   "games": "19 – 11",
-   "punten": "591 – 532"
-  },
-  {
-   "pos": 9,
    "speler": "Dyon van Wijlick",
    "club": "FIT Almere",
    "w": 9,
    "gp": 13,
    "games": "19 – 10",
    "punten": "564 – 509"
+  },
+  {
+   "pos": 9,
+   "speler": "Alida Chen",
+   "club": "FIT Almere",
+   "w": 9,
+   "gp": 13,
+   "games": "19 – 13",
+   "punten": "614 – 574"
   },
   {
    "pos": 10,
@@ -4129,9 +4133,9 @@
    "speler": "Joep Strooper",
    "club": "FIT Almere",
    "w": 8,
-   "gp": 15,
-   "games": "20 – 16",
-   "punten": "684 – 654"
+   "gp": 16,
+   "games": "20 – 18",
+   "punten": "707 – 696"
   },
   {
    "pos": 16,
@@ -4216,6 +4220,15 @@
   },
   {
    "pos": 25,
+   "speler": "Aram Mahmoud",
+   "club": "BC Duinwijck",
+   "w": 6,
+   "gp": 8,
+   "games": "13 – 4",
+   "punten": "334 – 270"
+  },
+  {
+   "pos": 26,
    "speler": "Ruben Jille",
    "club": "Decorette Amersfoort",
    "w": 6,
@@ -4224,7 +4237,7 @@
    "punten": "448 – 418"
   },
   {
-   "pos": 26,
+   "pos": 27,
    "speler": "Inger Pothuizen",
    "club": "2dA Smashing",
    "w": 6,
@@ -4233,7 +4246,7 @@
    "punten": "491 – 470"
   },
   {
-   "pos": 27,
+   "pos": 28,
    "speler": "Timo Stoffelen",
    "club": "BC Duinwijck",
    "w": 6,
@@ -4242,7 +4255,7 @@
    "punten": "490 – 488"
   },
   {
-   "pos": 28,
+   "pos": 29,
    "speler": "Noah Jongen",
    "club": "PK Keukens Roosterse",
    "w": 6,
@@ -4251,7 +4264,7 @@
    "punten": "513 – 543"
   },
   {
-   "pos": 29,
+   "pos": 30,
    "speler": "Amy Tan",
    "club": "Velo Badminton",
    "w": 6,
@@ -4260,22 +4273,13 @@
    "punten": "655 – 685"
   },
   {
-   "pos": 30,
+   "pos": 31,
    "speler": "Veda Diemel",
    "club": "Velo Badminton",
    "w": 6,
    "gp": 16,
    "games": "14 – 24",
    "punten": "681 – 729"
-  },
-  {
-   "pos": 31,
-   "speler": "Aram Mahmoud",
-   "club": "BC Duinwijck",
-   "w": 5,
-   "gp": 7,
-   "games": "11 – 4",
-   "punten": "292 – 247"
   },
   {
    "pos": 32,
@@ -4902,21 +4906,21 @@
   },
   {
    "pos": 2,
+   "speler": "Meerte Loos",
+   "club": "BC Duinwijck",
+   "w": 11,
+   "gp": 12,
+   "games": "22 – 2",
+   "punten": "501 – 322"
+  },
+  {
+   "pos": 3,
    "speler": "Flora Wang",
    "club": "Dunlop DKC",
    "w": 11,
    "gp": 16,
    "games": "25 – 12",
    "punten": "726 – 616"
-  },
-  {
-   "pos": 3,
-   "speler": "Meerte Loos",
-   "club": "BC Duinwijck",
-   "w": 10,
-   "gp": 11,
-   "games": "20 – 2",
-   "punten": "459 – 299"
   },
   {
    "pos": 4,
@@ -4956,21 +4960,21 @@
   },
   {
    "pos": 8,
-   "speler": "Alida Chen",
-   "club": "FIT Almere",
-   "w": 9,
-   "gp": 12,
-   "games": "19 – 11",
-   "punten": "591 – 532"
-  },
-  {
-   "pos": 9,
    "speler": "Dyon van Wijlick",
    "club": "FIT Almere",
    "w": 9,
    "gp": 13,
    "games": "19 – 10",
    "punten": "564 – 509"
+  },
+  {
+   "pos": 9,
+   "speler": "Alida Chen",
+   "club": "FIT Almere",
+   "w": 9,
+   "gp": 13,
+   "games": "19 – 13",
+   "punten": "614 – 574"
   },
   {
    "pos": 10,
@@ -4984,14 +4988,14 @@
  ],
  "ids": {
   "Brian Wassink": 3971,
-  "Flora Wang": 5754,
   "Meerte Loos": 3974,
+  "Flora Wang": 5754,
   "Kirsten de Wit": 4888,
   "Chloë Mayer": 3978,
   "Alyssa Tirtosentono": 3977,
   "Ties van der Lecq": 3966,
-  "Alida Chen": 4878,
   "Dyon van Wijlick": 4886,
+  "Alida Chen": 4878,
   "Jaymie Laurens": 5755,
   "Diede Odijk": 4879,
   "Ade Resky Dwicahyo": 5335,
@@ -5007,13 +5011,13 @@
   "Debora Jille": 3975,
   "Jasper Koppen": 5336,
   "Freek Golinski": 5201,
+  "Aram Mahmoud": 3952,
   "Ruben Jille": 4748,
   "Inger Pothuizen": 5196,
   "Timo Stoffelen": 3970,
   "Noah Jongen": 5344,
   "Amy Tan": 5073,
   "Veda Diemel": 5075,
-  "Aram Mahmoud": 3952,
   "Andy Buijk": 5154,
   "Marijn Put": 5204,
   "Imke van der Aar": 5159,
@@ -5183,8 +5187,8 @@
      "speler": "Meerte Loos",
      "e": "–",
      "d": "5 – 1",
-     "m": "5 – 0",
-     "tot": "10/11"
+     "m": "6 – 0",
+     "tot": "11/12"
     },
     {
      "pos": 3,
@@ -5220,19 +5224,19 @@
     },
     {
      "pos": 7,
+     "speler": "Aram Mahmoud",
+     "e": "4 – 2",
+     "d": "–",
+     "m": "2 – 0",
+     "tot": "6/8"
+    },
+    {
+     "pos": 8,
      "speler": "Timo Stoffelen",
      "e": "3 – 3",
      "d": "2 – 2",
      "m": "1 – 1",
      "tot": "6/12"
-    },
-    {
-     "pos": 8,
-     "speler": "Aram Mahmoud",
-     "e": "4 – 2",
-     "d": "–",
-     "m": "1 – 0",
-     "tot": "5/7"
     },
     {
      "pos": 9,
@@ -5273,18 +5277,18 @@
     },
     {
      "pos": 2,
-     "speler": "Alida Chen",
-     "e": "3 – 2",
-     "d": "1 – 0",
-     "m": "5 – 1",
-     "tot": "9/12"
-    },
-    {
-     "pos": 3,
      "speler": "Dyon van Wijlick",
      "e": "1 – 0",
      "d": "4 – 3",
      "m": "4 – 1",
+     "tot": "9/13"
+    },
+    {
+     "pos": 3,
+     "speler": "Alida Chen",
+     "e": "3 – 2",
+     "d": "1 – 0",
+     "m": "5 – 2",
      "tot": "9/13"
     },
     {
@@ -5308,8 +5312,8 @@
      "speler": "Joep Strooper",
      "e": "–",
      "d": "4 – 4",
-     "m": "4 – 3",
-     "tot": "8/15"
+     "m": "4 – 4",
+     "tot": "8/16"
     },
     {
      "pos": 7,
@@ -6923,6 +6927,30 @@
       },
       {
        "names": [
+        "Aram Mahmoud",
+        "Meerte Loos"
+       ],
+       "club": "BC Duinwijck",
+       "w": 1,
+       "p": 1,
+       "games": "2-0",
+       "punten": "42-23",
+       "saldo": 19,
+       "res": [
+        {
+         "code": "GD2",
+         "tegen": [
+          "Joep Strooper",
+          "Alida Chen"
+         ],
+         "tclub": "FIT Almere",
+         "w": 1,
+         "score": "21-13 21-10"
+        }
+       ]
+      },
+      {
+       "names": [
         "Ruben Jille",
         "Kelly van Buiten"
        ],
@@ -6942,30 +6970,6 @@
          "tclub": "Velo Badminton",
          "w": 1,
          "score": "21-12 21-13"
-        }
-       ]
-      },
-      {
-       "names": [
-        "Robin Tabeling",
-        "Sterre Bang"
-       ],
-       "club": "2dA Smashing",
-       "w": 1,
-       "p": 1,
-       "games": "2-0",
-       "punten": "42-29",
-       "saldo": 13,
-       "res": [
-        {
-         "code": "GD1",
-         "tegen": [
-          "Noah Jongen",
-          "Stefanie Nijsse"
-         ],
-         "tclub": "PK Keukens Roosterse",
-         "w": 1,
-         "score": "21-13 21-16"
         }
        ]
       }
@@ -11609,5 +11613,5 @@
    "Renske Kwakkenbos"
   ]
  },
- "updated": "15-11-2026 16:05"
+ "updated": "15-11-2026 16:40"
 }
