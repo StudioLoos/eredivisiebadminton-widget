@@ -318,7 +318,7 @@
    "home": "FIT Almere",
    "away": "BC Duinwijck",
    "hs": 3,
-   "as": 0,
+   "as": 1,
    "rows": [
     {
      "code": "MD",
@@ -382,7 +382,9 @@
      ],
      "away": [
       "Chloë Mayer"
-     ]
+     ],
+     "score": "10-21 14-21",
+     "winner": "away"
     },
     {
      "code": "GD1",
@@ -1048,7 +1050,7 @@
      "home": "FIT Almere",
      "away": "BC Duinwijck",
      "hs": 3,
-     "as": 0,
+     "as": 1,
      "rows": [
       {
        "code": "MD",
@@ -1112,7 +1114,9 @@
        ],
        "away": [
         "Chloë Mayer"
-       ]
+       ],
+       "score": "10-21 14-21",
+       "winner": "away"
       },
       {
        "code": "GD1",
@@ -4024,6 +4028,15 @@
   },
   {
    "pos": 5,
+   "speler": "Chloë Mayer",
+   "club": "BC Duinwijck",
+   "w": 9,
+   "gp": 9,
+   "games": "18 – 1",
+   "punten": "395 – 239"
+  },
+  {
+   "pos": 6,
    "speler": "Alyssa Tirtosentono",
    "club": "BC Duinwijck",
    "w": 9,
@@ -4032,7 +4045,7 @@
    "punten": "434 – 305"
   },
   {
-   "pos": 6,
+   "pos": 7,
    "speler": "Ties van der Lecq",
    "club": "BC Duinwijck",
    "w": 9,
@@ -4041,7 +4054,7 @@
    "punten": "492 – 365"
   },
   {
-   "pos": 7,
+   "pos": 8,
    "speler": "Alida Chen",
    "club": "FIT Almere",
    "w": 9,
@@ -4050,22 +4063,13 @@
    "punten": "591 – 532"
   },
   {
-   "pos": 8,
+   "pos": 9,
    "speler": "Dyon van Wijlick",
    "club": "FIT Almere",
    "w": 9,
    "gp": 13,
    "games": "19 – 10",
    "punten": "564 – 509"
-  },
-  {
-   "pos": 9,
-   "speler": "Diede Odijk",
-   "club": "FIT Almere",
-   "w": 9,
-   "gp": 15,
-   "games": "20 – 17",
-   "punten": "710 – 681"
   },
   {
    "pos": 10,
@@ -4078,12 +4082,12 @@
   },
   {
    "pos": 11,
-   "speler": "Chloë Mayer",
-   "club": "BC Duinwijck",
-   "w": 8,
-   "gp": 8,
-   "games": "16 – 1",
-   "punten": "353 – 215"
+   "speler": "Diede Odijk",
+   "club": "FIT Almere",
+   "w": 9,
+   "gp": 16,
+   "games": "20 – 19",
+   "punten": "734 – 723"
   },
   {
    "pos": 12,
@@ -4917,6 +4921,15 @@
   },
   {
    "pos": 5,
+   "speler": "Chloë Mayer",
+   "club": "BC Duinwijck",
+   "w": 9,
+   "gp": 9,
+   "games": "18 – 1",
+   "punten": "395 – 239"
+  },
+  {
+   "pos": 6,
    "speler": "Alyssa Tirtosentono",
    "club": "BC Duinwijck",
    "w": 9,
@@ -4925,7 +4938,7 @@
    "punten": "434 – 305"
   },
   {
-   "pos": 6,
+   "pos": 7,
    "speler": "Ties van der Lecq",
    "club": "BC Duinwijck",
    "w": 9,
@@ -4934,7 +4947,7 @@
    "punten": "492 – 365"
   },
   {
-   "pos": 7,
+   "pos": 8,
    "speler": "Alida Chen",
    "club": "FIT Almere",
    "w": 9,
@@ -4943,22 +4956,13 @@
    "punten": "591 – 532"
   },
   {
-   "pos": 8,
+   "pos": 9,
    "speler": "Dyon van Wijlick",
    "club": "FIT Almere",
    "w": 9,
    "gp": 13,
    "games": "19 – 10",
    "punten": "564 – 509"
-  },
-  {
-   "pos": 9,
-   "speler": "Diede Odijk",
-   "club": "FIT Almere",
-   "w": 9,
-   "gp": 15,
-   "games": "20 – 17",
-   "punten": "710 – 681"
   },
   {
    "pos": 10,
@@ -4975,13 +4979,13 @@
   "Flora Wang": 5754,
   "Meerte Loos": 3974,
   "Kirsten de Wit": 4888,
+  "Chloë Mayer": 3978,
   "Alyssa Tirtosentono": 3977,
   "Ties van der Lecq": 3966,
   "Alida Chen": 4878,
   "Dyon van Wijlick": 4886,
-  "Diede Odijk": 4879,
   "Jaymie Laurens": 5755,
-  "Chloë Mayer": 3978,
+  "Diede Odijk": 4879,
   "Ade Resky Dwicahyo": 5335,
   "Mark Caljouw": 5756,
   "Joep Strooper": 4885,
@@ -5176,6 +5180,14 @@
     },
     {
      "pos": 3,
+     "speler": "Chloë Mayer",
+     "e": "8 – 0",
+     "d": "1 – 0",
+     "m": "–",
+     "tot": "9/9"
+    },
+    {
+     "pos": 4,
      "speler": "Alyssa Tirtosentono",
      "e": "–",
      "d": "5 – 0",
@@ -5183,20 +5195,12 @@
      "tot": "9/10"
     },
     {
-     "pos": 4,
+     "pos": 5,
      "speler": "Ties van der Lecq",
      "e": "–",
      "d": "5 – 2",
      "m": "4 – 1",
      "tot": "9/12"
-    },
-    {
-     "pos": 5,
-     "speler": "Chloë Mayer",
-     "e": "7 – 0",
-     "d": "1 – 0",
-     "m": "–",
-     "tot": "8/8"
     },
     {
      "pos": 6,
@@ -5278,10 +5282,10 @@
     {
      "pos": 4,
      "speler": "Diede Odijk",
-     "e": "2 – 5",
+     "e": "2 – 6",
      "d": "7 – 1",
      "m": "–",
-     "tot": "9/15"
+     "tot": "9/16"
     },
     {
      "pos": 5,
@@ -6659,6 +6663,28 @@
      "top": [
       {
        "names": [
+        "Chloë Mayer"
+       ],
+       "club": "BC Duinwijck",
+       "w": 1,
+       "p": 1,
+       "games": "2-0",
+       "punten": "42-24",
+       "saldo": 18,
+       "res": [
+        {
+         "code": "VE2",
+         "tegen": [
+          "Diede Odijk"
+         ],
+         "tclub": "FIT Almere",
+         "w": 1,
+         "score": "21-10 21-14"
+        }
+       ]
+      },
+      {
+       "names": [
         "Amy Tan"
        ],
        "club": "Velo Badminton",
@@ -6698,28 +6724,6 @@
          "tclub": "Dunlop DKC",
          "w": 1,
          "score": "21-14 21-18"
-        }
-       ]
-      },
-      {
-       "names": [
-        "Clara Lassaux"
-       ],
-       "club": "BC Drop Shot",
-       "w": 1,
-       "p": 1,
-       "games": "2-0",
-       "punten": "45-37",
-       "saldo": 8,
-       "res": [
-        {
-         "code": "VE1",
-         "tegen": [
-          "Flora Wang"
-         ],
-         "tclub": "Dunlop DKC",
-         "w": 1,
-         "score": "21-15 24-22"
         }
        ]
       }
@@ -11597,5 +11601,5 @@
    "Renske Kwakkenbos"
   ]
  },
- "updated": "15-11-2026 15:50"
+ "updated": "15-11-2026 16:00"
 }
