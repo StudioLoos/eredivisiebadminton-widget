@@ -317,7 +317,7 @@
   {
    "home": "FIT Almere",
    "away": "BC Duinwijck",
-   "hs": 2,
+   "hs": 3,
    "as": 0,
    "rows": [
     {
@@ -353,7 +353,9 @@
      ],
      "away": [
       "Aram Mahmoud"
-     ]
+     ],
+     "score": "21-15 21-15",
+     "winner": "home"
     },
     {
      "code": "VE1",
@@ -1045,7 +1047,7 @@
     {
      "home": "FIT Almere",
      "away": "BC Duinwijck",
-     "hs": 2,
+     "hs": 3,
      "as": 0,
      "rows": [
       {
@@ -1081,7 +1083,9 @@
        ],
        "away": [
         "Aram Mahmoud"
-       ]
+       ],
+       "score": "21-15 21-15",
+       "winner": "home"
       },
       {
        "code": "VE1",
@@ -5213,10 +5217,10 @@
     {
      "pos": 8,
      "speler": "Aram Mahmoud",
-     "e": "4 – 1",
+     "e": "4 – 2",
      "d": "–",
      "m": "1 – 0",
-     "tot": "5/6"
+     "tot": "5/7"
     },
     {
      "pos": 9,
@@ -5298,10 +5302,10 @@
     {
      "pos": 7,
      "speler": "Noah Haase",
-     "e": "4 – 0",
+     "e": "5 – 0",
      "d": "–",
      "m": "1 – 0",
-     "tot": "5/5"
+     "tot": "6/6"
     },
     {
      "pos": 8,
@@ -11586,6 +11590,8 @@
    "Robin Tabeling",
    "Freek Golinski",
    "Ruben Jille",
+   "Noah Haase",
+   "Aram Mahmoud",
    "Ruben Wijnands",
    "Sterre Bang",
    "Kelly van Buiten",
@@ -11593,5 +11599,5 @@
    "Renske Kwakkenbos"
   ]
  },
- "updated": "15-11-2026 14:45"
+ "updated": "15-11-2026 15:45"
 }
