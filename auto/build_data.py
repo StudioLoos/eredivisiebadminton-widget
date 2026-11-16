@@ -53,7 +53,8 @@ def parse_list(item):
     if m:
         hh, mm = m.group(5).split(":")
         start = datetime.datetime(d.year, d.month, d.day, int(hh), int(mm)).isoformat()
-    return {"id": item["id"], "round": rnd, "home": home, "away": away, "date": d, "when": when, "start": start}
+    loc = re.sub(r"\s*\(\d+\)$", "", c[dash + 3]).strip() if dash and dash + 3 < len(c) else ""
+    return {"id": item["id"], "round": rnd, "home": home, "away": away, "date": d, "when": when, "start": start, "loc": loc}
 
 def round_date(ds):
     ds = sorted(set(x for x in ds if x))
@@ -211,7 +212,7 @@ def main(raw_p, old_p, out_p):
     def prog(src, r):
         ms = sorted(src, key=lambda m: (m["date"] or datetime.date.min, m["when"]))
         return {"round": "Speelronde %d" % r, "date": round_date([m["date"] for m in ms]),
-                "matches": [{"home": m["home"], "away": m["away"], "when": m["when"], "start": m.get("start"),
+                "matches": [{"home": m["home"], "away": m["away"], "when": m["when"], "start": m.get("start"), "loc": m.get("loc", ""),
                              "rows": [{"code": x["code"], "home": x["home"], "away": x["away"]} for x in m["rows"] if x["home"] and x["away"]]} for m in ms]}
     # rondes die alleen in het volledige speelschema staan (nog niet in het venster van de poulepagina)
     known = {m["id"] for m in lst}
