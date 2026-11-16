@@ -173,6 +173,14 @@ def main(raw_p, old_p, out_p):
             done_times[key] = (st + datetime.timedelta(hours=4)).isoformat(timespec="seconds") if datetime.datetime.now() - st > datetime.timedelta(hours=7) else now_iso
         lineup = any(r.get("home") and r.get("away") for r in m["rows"])
         sched.append({"start": m["start"], "home": m["home"], "away": m["away"], "lineup": lineup, "done_at": done_times.get(key)})
+    # ook wedstrijden die alleen in het volledige speelschema staan (bijv. een inhaalwedstrijd), zodat het ophaalvenster ook dan opengaat
+    bekend = {m["id"] for m in lst}
+    for x in raw.get("alle", []):
+        try: m = parse_list(x)
+        except Exception: continue
+        if m["id"] in bekend or not m.get("start") or not m["home"]: continue
+        key = "%s|%s|%s" % (m["start"], m["home"], m["away"])
+        sched.append({"start": m["start"], "home": m["home"], "away": m["away"], "lineup": False, "done_at": done_times.get(key)})
     json.dump(sorted(sched, key=lambda x: x["start"]), open(sched_p, "w"), ensure_ascii=False, indent=0)
     json.dump(done_times, open(dt_p, "w"), ensure_ascii=False)
     # rondes op datum ordenen (niet op nummer): een ronde kan vervroegd zijn, bijv. ronde 11 voor ronde 5
@@ -217,7 +225,29 @@ def main(raw_p, old_p, out_p):
         rs.setdefault(m["round"], []).append(m)
     def rdate2(r): return min((m["date"] for m in rs[r] if m["date"]), default=datetime.date.max)
     alle_later = sorted((r for r in rs if r != N and not any(m["played"] for m in rs[r]) and rdate2(r) >= rdate(N)), key=lambda r: (rdate2(r), r))
-    data["schema"] = [prog(rs[r], r) for r in alle_later]
+    blokken = [(rdate2(r), r, rs[r]) for r in alle_later]
+    # inhaalwedstrijden: nog te spelen wedstrijden uit een speelronde die verder al gespeeld is
+    # (bijv. een gestaakte wedstrijd die later wordt overgespeeld) komen op hun eigen datum in het programma
+    for r, ms in rs.items():
+        if r in alle_later: continue
+        vandaag = datetime.date.today()
+        eerder = [m["date"] for m in ms if m["date"] and m["date"] < vandaag]
+        if not eerder: continue
+        grens = max(eerder) + datetime.timedelta(days=7)
+        open_ = [m for m in ms if not m["played"] and m["date"] and m["date"] >= vandaag and m["date"] > grens]
+        for d in sorted({m["date"] for m in open_}):
+            dm = []
+            for m in open_:
+                if m["date"] == d:
+                    m2 = dict(m); m2["when"] = (m.get("when") or "") + " · inhaalwedstrijd"; dm.append(m2)
+            blokken.append((d, r, dm))
+    blokken.sort(key=lambda b: (b[0], b[1]))
+    # een wedstrijd die (opnieuw) nog gespeeld moet worden hoort niet bij de uitslagen; oude, gestaakte partijen weghalen
+    nog = {("Speelronde %d" % r, m["home"], m["away"]) for d, r, ms in blokken for m in ms}
+    for R in data["seizoen"]:
+        R["matches"] = [m for m in R["matches"] if (R["round"], m["home"], m["away"]) not in nog]
+    data["seizoen"] = [R for R in data["seizoen"] if R["matches"]]
+    data["schema"] = [prog(ms, r) for d, r, ms in blokken]
     # programma
     if nxt:
         ms = sorted(rm[nxt], key=lambda m: (m["date"] or datetime.date.min, m["when"]))
