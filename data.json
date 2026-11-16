@@ -3599,6 +3599,7 @@
      "away": "FIT Almere",
      "when": "za 28 nov · 18:30",
      "start": "2026-11-28T18:30:00",
+     "loc": "Sportcentrum Mariahoeve",
      "rows": []
     },
     {
@@ -3606,6 +3607,7 @@
      "away": "2dA Smashing",
      "when": "za 28 nov · 19:00",
      "start": "2026-11-28T19:00:00",
+     "loc": "Sporthal Hogeveld",
      "rows": []
     },
     {
@@ -3613,6 +3615,7 @@
      "away": "Velo Badminton",
      "when": "za 28 nov · 19:00",
      "start": "2026-11-28T19:00:00",
+     "loc": "DEGIRO-hal",
      "rows": []
     },
     {
@@ -3620,6 +3623,7 @@
      "away": "Decorette Amersfoort",
      "when": "za 28 nov · 19:00",
      "start": "2026-11-28T19:00:00",
+     "loc": "Albertzaal",
      "rows": []
     }
    ]
@@ -3633,6 +3637,7 @@
      "away": "BC Drop Shot",
      "when": "za 12 dec · 19:00",
      "start": "2026-12-12T19:00:00",
+     "loc": "VELO hal",
      "rows": []
     },
     {
@@ -3640,6 +3645,7 @@
      "away": "Dunlop DKC",
      "when": "za 12 dec · 19:00",
      "start": "2026-12-12T19:00:00",
+     "loc": "Sporthal Juliana van Stolberghal",
      "rows": []
     },
     {
@@ -3647,6 +3653,7 @@
      "away": "PK Keukens Roosterse",
      "when": "za 12 dec · 19:00",
      "start": "2026-12-12T19:00:00",
+     "loc": "DEGIRO-hal",
      "rows": []
     },
     {
@@ -3654,6 +3661,7 @@
      "away": "FIT Almere",
      "when": "za 12 dec · 19:00",
      "start": "2026-12-12T19:00:00",
+     "loc": "Achterlo",
      "rows": []
     }
    ]
@@ -3667,6 +3675,7 @@
      "away": "2dA Smashing",
      "when": "za 19 dec · 18:30",
      "start": "2026-12-19T18:30:00",
+     "loc": "Sportcentrum Mariahoeve",
      "rows": []
     },
     {
@@ -3674,6 +3683,7 @@
      "away": "BC Duinwijck",
      "when": "za 19 dec · 19:00",
      "start": "2026-12-19T19:00:00",
+     "loc": "Sporthal Hogeveld",
      "rows": []
     },
     {
@@ -3681,6 +3691,7 @@
      "away": "Velo Badminton",
      "when": "za 19 dec · 19:00",
      "start": "2026-12-19T19:00:00",
+     "loc": "Albertzaal",
      "rows": []
     },
     {
@@ -3688,6 +3699,7 @@
      "away": "Decorette Amersfoort",
      "when": "zo 20 dec · 14:00",
      "start": "2026-12-20T14:00:00",
+     "loc": "Sportcomplex Raggers",
      "rows": []
     }
    ]
@@ -3701,6 +3713,7 @@
      "away": "Decorette Amersfoort",
      "when": "zo 3 jan · 14:00 · inhaalwedstrijd",
      "start": "2027-01-03T14:00:00",
+     "loc": "Achterlo",
      "rows": []
     }
    ]
@@ -3714,6 +3727,7 @@
      "away": "2dA Smashing",
      "when": "za 9 jan · 19:00 · inhaalwedstrijd",
      "start": "2027-01-09T19:00:00",
+     "loc": "Sporthal Juliana van Stolberghal",
      "rows": []
     }
    ]
@@ -3727,6 +3741,7 @@
      "away": "PK Keukens Roosterse",
      "when": "za 16 jan · 18:30",
      "start": "2027-01-16T18:30:00",
+     "loc": "Sportcentrum Mariahoeve",
      "rows": []
     },
     {
@@ -3734,6 +3749,7 @@
      "away": "BC Duinwijck",
      "when": "za 16 jan · 19:00",
      "start": "2027-01-16T19:00:00",
+     "loc": "Sporthal Juliana van Stolberghal",
      "rows": []
     },
     {
@@ -3741,6 +3757,7 @@
      "away": "Velo Badminton",
      "when": "za 16 jan · 19:00",
      "start": "2027-01-16T19:00:00",
+     "loc": "Achterlo",
      "rows": []
     },
     {
@@ -3748,6 +3765,7 @@
      "away": "Dunlop DKC",
      "when": "zo 17 jan · 14:00",
      "start": "2027-01-17T14:00:00",
+     "loc": "Sportcomplex Raggers",
      "rows": []
     }
    ]
@@ -3761,6 +3779,7 @@
      "away": "Decorette Amersfoort",
      "when": "za 23 jan · 19:00",
      "start": "2027-01-23T19:00:00",
+     "loc": "VELO hal",
      "rows": []
     },
     {
@@ -3768,6 +3787,7 @@
      "away": "BC Drop Shot",
      "when": "za 23 jan · 19:00",
      "start": "2027-01-23T19:00:00",
+     "loc": "Sporthal Hogeveld",
      "rows": []
     },
     {
@@ -3775,6 +3795,7 @@
      "away": "FIT Almere",
      "when": "za 23 jan · 19:00",
      "start": "2027-01-23T19:00:00",
+     "loc": "DEGIRO-hal",
      "rows": []
     },
     {
@@ -3782,6 +3803,7 @@
      "away": "2dA Smashing",
      "when": "za 23 jan · 19:00",
      "start": "2027-01-23T19:00:00",
+     "loc": "Albertzaal",
      "rows": []
     }
    ]
@@ -3795,6 +3817,7 @@
      "away": "Velo Badminton",
      "when": "za 30 jan · 19:00",
      "start": "2027-01-30T19:00:00",
+     "loc": "Sporthal Hogeveld",
      "rows": []
     },
     {
@@ -3802,6 +3825,7 @@
      "away": "BC Duinwijck",
      "when": "za 30 jan · 19:00",
      "start": "2027-01-30T19:00:00",
+     "loc": "Achterlo",
      "rows": []
     },
     {
@@ -3809,6 +3833,7 @@
      "away": "PK Keukens Roosterse",
      "when": "za 30 jan · 19:00",
      "start": "2027-01-30T19:00:00",
+     "loc": "Sportcomplex Raggers",
      "rows": []
     },
     {
@@ -3816,6 +3841,7 @@
      "away": "Decorette Amersfoort",
      "when": "za 30 jan · 19:00",
      "start": "2027-01-30T19:00:00",
+     "loc": "Sportcentrum Mariahoeve",
      "rows": []
     }
    ]
@@ -11544,5 +11570,5 @@
  "check": {
   "afwijkingen": []
  },
- "updated": "16-11-2026 13:17"
+ "updated": "16-11-2026 13:28"
 }
